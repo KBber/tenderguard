@@ -1,1 +1,33 @@
-IiIiU3ludGhldGljIHRlc3QgZG9jdW1lbnRzIHVzZWQgYnkgdGhlIHNtb2tlIHRlc3QgYW5kIGRlbW8gcnVubmVyLiIiIgoKVEVOREVSX0RPQyA9ICIiIumhueebruWQjeensO+8muaZuuaFp+agoeWbreaVmeWtpuiuvuWkh+mHh+i0remhueebrgrpobnnm67nvJblj7fvvJpaQi0yMDI2LTAwMQrljIXlj7fvvJowMDEK5oub5qCH6ZmQ5Lu377yaNTAw5LiH5YWDCuS/neivgemHke+8mjjkuIflhYMK5pS25qy+5Lq677yaWFjlhazlhbHotYTmupDkuqTmmJPkuK3lv4MK5ZWG5Yqh5p2h5qy+77ya5LuY5qy+5p2h5Lu2IOi0qOS/neacnyDkuqTotKfmnJ8g5Z+56K6tCuW/hemhu++8muW6n+agh+adoeasvuS4gCDlv4XpobvvvJrlrp7otKjmgKflk43lupTkuIAK5Lia57up6KaB5rGC77ya6L+R5LiJ5bm05LiN5bCR5LqOM+S4quexu+S8vOmhueebru+8jOWNleS4quWQiOWQjOmHkemineS4jeS9juS6jjMwMOS4h+WFgwrmo4DmtYvmiqXlkYog6IqC6IO96K+B5LmmIDNDIOS6p+WTgeW9qemhtQoiIiIKCkJJRF9ET0MgPSAiIiLpobnnm67lkI3np7DvvJrmmbrmhafmoKHlm63mlZnlraborr7lpIfph4fotK3pobnnm64K6aG555uu57yW5Y+377yaWkItMjAyNi0wMDEK5YyF5Y+377yaMDAxCuaKleagh+S6uu+8muWMl+S6rOaZuuaVmeenkeaKgOiCoeS7veaciemZkOWFrOWPuArms5Xkurrku6PooajvvJrlvKDkuIkK5o6I5p2D5LmmIOazleS6uuS7o+ihqO+8muW8oOS4iSDooqvmjojmnYPkurrvvJrmnY7lm5sK5L+d6K+B6YeR77yaOOS4h+WFgyDmlLbmrL7kurrvvJpYWOWFrOWFsei1hOa6kOS6pOaYk+S4reW/gwrllYbliqHmnaHmrL7vvJrku5jmrL7mnaHku7Yg6LSo5L+dIOS6pOi0p+acnyDln7norq0K5Z6L5Y+3IEFCQy0xMDAg5Y2V5Lu3IDEwMDAwIOaVsOmHjyAxMCDlsI/orqEgMTAwMDAwCuWei+WPtyBBQkMtMTAwIOWNleS7tyAxMjAwMCDmlbDph48gNSDlsI/orqEgNjAwMDAK5Z6L5Y+3IFhZWi0yMDAg5Y2V5Lu3IDIwMDAwIOaVsOmHjyAzIOWwj+iuoSA2MDAwMArlkIjorqEgMjIwMDAwCuWQiOWQjCAyMDI05bm0IDYwMOS4h+WFgwrlkIjlkIwgMjAyM+W5tCA3MDDkuIflhYMK5ZCI5ZCMIDIwMjLlubQgMzAw5LiH5YWDCuWei+WPtyBBQkMtMTAwIOajgOa1i+aKpeWRiiDlrpjnvZEK5YGP56a76KGoIOajgOa1i+aKpeWRiuWQjeensO+8muafkOWei+ajgOa1i+aKpeWRiiDmiqXlkYrnvJblj7fvvJpSUFQtMDAxCuajgOa1i+aKpeWRiiDlkI3np7DvvJrmn5Dlnovmo4DmtYvmiqXlkYog57yW5Y+377yaUlBULTAwMQoiIiI=
+"""Synthetic test documents used by the smoke test and demo runner."""
+
+TENDER_DOC = """项目名称：智慧校园教学设备采购项目
+项目编号：ZB-2026-001
+包号：001
+招标限价：500万元
+保证金：8万元
+收款人：XX公共资源交易中心
+商务条款：付款条件 质保期 交货期 培训
+必须：废标条款一 必须：实质性响应一
+业绩要求：近三年不少于3个类似项目，单个合同金额不低于300万元
+检测报告 节能证书 3C 产品彩页
+"""
+
+BID_DOC = """项目名称：智慧校园教学设备采购项目
+项目编号：ZB-2026-001
+包号：001
+投标人：北京智教科技股份有限公司
+法人代表：张三
+授权书 法人代表：张三 被授权人：李四
+保证金：8万元 收款人：XX公共资源交易中心
+商务条款：付款条件 质保 交货期 培训
+型号 ABC-100 单价 10000 数量 10 小计 100000
+型号 ABC-100 单价 12000 数量 5 小计 60000
+型号 XYZ-200 单价 20000 数量 3 小计 60000
+合计 220000
+合同 2024年 600万元
+合同 2023年 700万元
+合同 2022年 300万元
+型号 ABC-100 检测报告 官网
+偏离表 检测报告名称：某型检测报告 报告编号：RPT-001
+检测报告 名称：某型检测报告 编号：RPT-001
+"""

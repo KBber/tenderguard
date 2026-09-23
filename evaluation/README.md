@@ -1,1 +1,42 @@
-IyBUZW5kZXJHdWFyZCB2MC4yIEV2YWx1YXRpb24gSGFybmVzcwoKIyMg566A5LuLCgrlrp7njrAgc3BlYyDCp+WNgeS5nSAvIMKn5LqM5Y2BIOimgeaxgu+8mgotIDgg57G75rWL6K+V55So5L6L77yIUEFTUyAvIEZBSUwgLyDmir3lj5blpLHotKUgLyDor4Hmja7kuI3otrMgLyDlkIzlnovlj7fkuI3lkIzku7cgLyDooajmoLwgLyDorqHnrpcgLyDmlbDlgLznuqbmnZ/vvIkKLSDmr4/mnaHnlKjkvovlr7npooTmnJ8gYGV4cGVjdGVkX3N0YXR1c2Ag5LiOIGBleHBlY3RlZF9ydWxlX3Bhc3NlZGAg5YGa5pat6KiACi0g5oyH5qCH77yaZGVjaXNpb24gYWNjdXJhY3kgLyBmYWxzZSBwb3NpdGl2ZSAvIGZhbHNlIG5lZ2F0aXZlIC8gcmV2aWV3IHJhdGUKCiMjIOi/kOihjAoKYGBgYmFzaApjZCBGOlxBSS1sZWFcQUktV29ya3BsYWNlXHRlbmRlcmd1YXJkX3YwXzEKcHl0aG9uIC1tIGV2YWx1YXRpb24ucnVubmVyCmBgYAoKIyMg5oyH5qCH6K+05piOCgp8IOaMh+aghyB8IOWQq+S5iSB8CnwtLS18LS0tfAp8IGBkZWNpc2lvbl9hY2N1cmFjeWAgfCBQQVNTIC8gRkFJTCAvIFJFVklFV19SRVFVSVJFRCDmlbTkvZPliKTlrprmraPnoa7nmoTmr5TkvosgfAp8IGBmYWxzZV9wb3NpdGl2ZXNgIHwg5pyf5pybIFBBU1Mg5L2G5a6e6ZmF6Z2eIFBBU1Mg55qE5p2h5pWwIHwKfCBgZmFsc2VfbmVnYXRpdmVzYCB8IOacn+acmyBGQUlMIOS9huWunumZhemdniBGQUlMIOeahOadoeaVsCB8CnwgYHJldmlld19yYXRlYCB8IOWunumZhSBSRVZJRVdfUkVRVUlSRUQg55qE5q+U5L6LIHwKCiMjIEEgLyBCIC8gQyBBYmxhdGlvbgoKLSBBIOKAlCBMTE0gT25seQotIEIg4oCUIFJBRyArIExMTQotIEMg4oCUIFJBRyArIENvZGVpZmllZCBSdWxlcyArIFZlcmlmaWNhdGlvbu+8iHYwLjIg6buY6K6k6Lev5b6E77yJCgp2MC4yIOW9k+WJjeWunuijheeahOaYryBDIOi3r+W+hOOAgioqQSDlkowgQiDot6/lvoTlsJrmnKrlrp7oo4UqKu+8iOagh+iusCBgTk9UIE1FQVNVUkVEYO+8ieOAggoK6KaB6L+95YqgIEEvQiDlrp7pqozvvIzpnIDopoHvvJoKMS4gYGV2YWx1YXRpb24vcnVubmVyX2FiLnB5YCDlop7liqAgYC0tYWJsYXRpb24gbGxtIHwgcmFnIHwgY29kZWlmaWVkYAoyLiDot5HkuInnu4Tlubblr7nmr5TmjIfmoIcKCiMjIOW3suefpemZkOWItgoKLSBldmFsdWF0aW9uIGNhc2Ug6YO95piv5ZCI5oiQ5paH5pys77yM5LiN5ZCr55yf5a6eIFBERiDlmarlo7AKLSBBIC8gQiDot6/lvoTmnKrlrp7oo4UKLSDmsqHmnIkgTExNIGtleSDml7bmiYDmnInot6/lvoTooajnjrDnm7jlkIzvvIhBPUI9Q++8jOWboOS4uiBmYWxsYmFjayDpg73mmK8gUkVWSUVXX1JFUVVJUkVE77yJ
+# TenderGuard v0.2 Evaluation Harness
+
+## 简介
+
+实现 spec §十九 / §二十 要求：
+- 8 类测试用例（PASS / FAIL / 抽取失败 / 证据不足 / 同型号不同价 / 表格 / 计算 / 数值约束）
+- 每条用例对预期 `expected_status` 与 `expected_rule_passed` 做断言
+- 指标：decision accuracy / false positive / false negative / review rate
+
+## 运行
+
+```bash
+cd F:\AI-lea\AI-Workplace\tenderguard_v0_1
+python -m evaluation.runner
+```
+
+## 指标说明
+
+| 指标 | 含义 |
+|---|---|
+| `decision_accuracy` | PASS / FAIL / REVIEW_REQUIRED 整体判定正确的比例 |
+| `false_positives` | 期望 PASS 但实际非 PASS 的条数 |
+| `false_negatives` | 期望 FAIL 但实际非 FAIL 的条数 |
+| `review_rate` | 实际 REVIEW_REQUIRED 的比例 |
+
+## A / B / C Ablation
+
+- A — LLM Only
+- B — RAG + LLM
+- C — RAG + Codeified Rules + Verification（v0.2 默认路径）
+
+v0.2 当前实装的是 C 路径。**A 和 B 路径尚未实装**（标记 `NOT MEASURED`）。
+
+要追加 A/B 实验，需要：
+1. `evaluation/runner_ab.py` 增加 `--ablation llm | rag | codeified`
+2. 跑三组并对比指标
+
+## 已知限制
+
+- evaluation case 都是合成文本，不含真实 PDF 噪声
+- A / B 路径未实装
+- 没有 LLM key 时所有路径表现相同（A=B=C，因为 fallback 都是 REVIEW_REQUIRED）

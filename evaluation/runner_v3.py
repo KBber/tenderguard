@@ -1,1 +1,182 @@
-IiIiRXZhbHVhdGlvbiBydW5uZXIgdjAuMzogNjAgY2FzZXMgKyA5IG1ldHJpY3MuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgppbXBvcnQgc3lzCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXIKZnJvbSBkYXRhY2xhc3NlcyBpbXBvcnQgZGF0YWNsYXNzLCBmaWVsZApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKUk9PVCA9IFBhdGgoX19maWxlX18pLnJlc29sdmUoKS5wYXJlbnRzWzFdCmlmIHN0cihST09UKSBub3QgaW4gc3lzLnBhdGg6CiAgICBzeXMucGF0aC5pbnNlcnQoMCwgc3RyKFJPT1QpKQoKZnJvbSB0ZW5kZXJndWFyZC5hcHAuY2hlY2tsaXN0cy5sb2FkZXIgaW1wb3J0IGxvYWRfY2hlY2tsaXN0CmZyb20gdGVuZGVyZ3VhcmQuYXBwLmV4dHJhY3Rpb24uZmFjdHMgaW1wb3J0IGV4dHJhY3RfZmFjdHMKZnJvbSB0ZW5kZXJndWFyZC5hcHAuZXh0cmFjdGlvbi5sbG0gaW1wb3J0IExMTUNsaWVudApmcm9tIHRlbmRlcmd1YXJkLmFwcC5ydWxlcy5lbmdpbmUgaW1wb3J0IHJ1bl9ydWxlCmZyb20gdGVuZGVyZ3VhcmQuYXBwLnNjaGVtYXMgaW1wb3J0ICgKICAgIENoZWNrbGlzdEl0ZW0sCiAgICBEb2N1bWVudENodW5rLAogICAgU2V2ZXJpdHksCiAgICBWZXJpZmljYXRpb25NZXRob2QsCiAgICBWZXJpZmljYXRpb25TdGF0dXMsCikKZnJvbSB0ZW5kZXJndWFyZC5hcHAudmVyaWZpY2F0aW9uLnZlcmlmaWVyIGltcG9ydCBWZXJpZnlDb250ZXh0LCB2ZXJpZnlfaXRlbQoKCkBkYXRhY2xhc3MKY2xhc3MgQ2FzZVJlc3VsdDoKICAgIGNhc2VfaWQ6IHN0cgogICAgc2NlbmFyaW86IHN0cgogICAgZXhwZWN0ZWRfc3RhdHVzOiBzdHIKICAgIGFjdHVhbF9zdGF0dXM6IHN0cgogICAgZXhwZWN0ZWRfcnVsZV9wYXNzZWQ6IGJvb2wgfCBOb25lCiAgICBhY3R1YWxfcnVsZV9wYXNzZWQ6IGJvb2wgfCBOb25lCiAgICBleHBlY3RlZF9yZXZpZXdfcmVhc29uOiBzdHIgfCBOb25lCiAgICBhY3R1YWxfcmV2aWV3X3JlYXNvbjogc3RyIHwgTm9uZQogICAgbWF0Y2hlZDogYm9vbAogICAgYWJzdGFpbmVkX2NvcnJlY3RseTogYm9vbCA9IEZhbHNlCgoKQGRhdGFjbGFzcwpjbGFzcyBNZXRyaWNzOgogICAgdG90YWw6IGludCA9IDAKICAgIGRlY2lzaW9uX2NvcnJlY3Q6IGludCA9IDAKICAgIGRlY2lzaW9uX2FjY3VyYWN5OiBmbG9hdCA9IDAuMAogICAgdHJ1ZV9wYXNzOiBpbnQgPSAwCiAgICB0cnVlX2ZhaWw6IGludCA9IDAKICAgIHRydWVfcmV2aWV3OiBpbnQgPSAwCiAgICBmYWxzZV9wb3NpdGl2ZTogaW50ID0gMCAgIyBleHBlY3RlZCBQQVNTIGJ1dCBhY3R1YWwgIT0gUEFTUwogICAgZmFsc2VfbmVnYXRpdmU6IGludCA9IDAgICMgZXhwZWN0ZWQgRkFJTCBidXQgYWN0dWFsICE9IEZBSUwKICAgIGFic3RlbnRpb25fYWNjdXJhY3k6IGZsb2F0ID0gMC4wCiAgICBhYnN0YWluZWRfY29ycmVjdGx5OiBpbnQgPSAwCiAgICBhYnN0ZW50aW9uX3RvdGFsOiBpbnQgPSAwCiAgICBjYXRlZ29yeV9icmVha2Rvd246IGRpY3Rbc3RyLCBkaWN0W3N0ciwgaW50XV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9ZGljdCkKCgpkZWYgX2NodW5rc19mcm9tX3RleHRzKHRlbmRlcjogc3RyLCBiaWQ6IHN0cikgLT4gbGlzdFtEb2N1bWVudENodW5rXToKICAgIHJldHVybiBbCiAgICAgICAgRG9jdW1lbnRDaHVuayhkb2NfaWQ9InRlbmRlciIsIGRvY3VtZW50PSJ0ZW5kZXIucGRmIiwgcGFnZT0xLCBzZWN0aW9uPU5vbmUsIHRleHQ9dGVuZGVyKSwKICAgICAgICBEb2N1bWVudENodW5rKGRvY19pZD0iYmlkIiwgZG9jdW1lbnQ9ImJpZC5wZGYiLCBwYWdlPTEsIHNlY3Rpb249Tm9uZSwgdGV4dD1iaWQpLAogICAgXQoKCmRlZiBfbWFrZV9pdGVtKGNhc2U6IGRpY3QpIC0+IENoZWNrbGlzdEl0ZW06CiAgICByZXR1cm4gQ2hlY2tsaXN0SXRlbSgKICAgICAgICBjaGVja19pZD1jYXNlWyJjYXNlX2lkIl0sCiAgICAgICAgdGl0bGU9Y2FzZS5nZXQoInNjZW5hcmlvIiwgY2FzZVsiY2FzZV9pZCJdKVs6NDBdLAogICAgICAgIHNvdXJjZV90ZXh0PWNhc2UuZ2V0KCJzY2VuYXJpbyIsIGNhc2VbImNhc2VfaWQiXSksCiAgICAgICAgY2F0ZWdvcnk9ImV2YWx1YXRpb24iLAogICAgICAgIHNldmVyaXR5PVNldmVyaXR5LkhJR0gsCiAgICAgICAgcmV2aWV3X3R5cGU9IkRPQ1VNRU5UX0RFVEVSTUlOSVNUSUMiLAogICAgICAgIGNsYXNzaWZpY2F0aW9uX3JlYXNvbj0iZXZhbHVhdGlvbiBmaXh0dXJlIiwKICAgICAgICBydWxlPWNhc2UuZ2V0KCJydWxlIiksCiAgICAgICAgdmVyaWZpY2F0aW9uX21ldGhvZD1WZXJpZmljYXRpb25NZXRob2QuREVURVJNSU5JU1RJQywKICAgICAgICBldmlkZW5jZV9yZXF1aXJlZD1bXSwKICAgICkKCgpkZWYgX2NsYXNzaWZ5X2V4cGVjdGVkKGNhc2U6IGRpY3QpIC0+IHN0cjoKICAgIGV4cGVjdGVkID0gY2FzZS5nZXQoImV4cGVjdGVkX3N0YXR1cyIsICIiKQogICAgaWYgZXhwZWN0ZWQgaW4geyJQQVNTIiwgIkZBSUwifToKICAgICAgICByZXR1cm4gInZlcmlmaWFibGUiCiAgICByZWFzb24gPSBjYXNlLmdldCgiZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbiIsICIiKQogICAgaWYgIk1JU1NJTkciIGluIHJlYXNvbiBvciAiRVhUUkFDVElPTiIgaW4gcmVhc29uIG9yICJUQUJMRSIgaW4gcmVhc29uOgogICAgICAgIHJldHVybiAiZXZpZGVuY2VfbWlzc2luZyIKICAgIGlmICJDT05GTElDVCIgaW4gcmVhc29uOgogICAgICAgIHJldHVybiAiY29uZmxpY3QiCiAgICBpZiAiUkVRVUlSRU1FTlRfVU5SRVNPTFZFRCIgaW4gcmVhc29uOgogICAgICAgIHJldHVybiAiYW1iaWd1b3VzIgogICAgcmV0dXJuICJvdGhlciIKCgpkZWYgcnVuKGNhc2VzX3BhdGg6IHN0ciB8IFBhdGggPSBST09UIC8gImV2YWx1YXRpb24iIC8gImNhc2VzX3YzLmpzb24iKSAtPiBNZXRyaWNzOgogICAgcmF3ID0ganNvbi5sb2FkcyhQYXRoKGNhc2VzX3BhdGgpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIHJlc3VsdHM6IGxpc3RbQ2FzZVJlc3VsdF0gPSBbXQogICAgZm9yIGMgaW4gcmF3WyJjYXNlcyJdOgogICAgICAgIGNodW5rcyA9IF9jaHVua3NfZnJvbV90ZXh0cyhjLmdldCgidGVuZGVyIiwgIiIpLCBjLmdldCgiYmlkIiwgIiIpKQogICAgICAgIGZhY3RzID0gZXh0cmFjdF9mYWN0cyhjaHVua3MpCiAgICAgICAgY3R4ID0gVmVyaWZ5Q29udGV4dChjaHVua3M9Y2h1bmtzLCBmYWN0cz1mYWN0cywgbGxtPUxMTUNsaWVudCgpKQogICAgICAgIGl0ZW0gPSBfbWFrZV9pdGVtKGMpCiAgICAgICAgYWN0dWFsX3J1bGVfcGFzc2VkOiBib29sIHwgTm9uZSA9IE5vbmUKICAgICAgICBpZiBpdGVtLnJ1bGU6CiAgICAgICAgICAgIHJyID0gcnVuX3J1bGUoaXRlbS5ydWxlLCBmYWN0cykKICAgICAgICAgICAgYWN0dWFsX3J1bGVfcGFzc2VkID0gcnIucGFzc2VkCiAgICAgICAgdiA9IHZlcmlmeV9pdGVtKGl0ZW0sIGN0eCkKICAgICAgICBhY3R1YWxfc3RhdHVzID0gdi5zdGF0dXMudmFsdWUKICAgICAgICBtYXRjaGVkID0gKGFjdHVhbF9zdGF0dXMgPT0gYy5nZXQoImV4cGVjdGVkX3N0YXR1cyIpKQogICAgICAgICMgYWJzdGVudGlvbiBjb3JyZWN0bmVzczogZXhwZWN0ZWQgUkVWSUVXX1JFUVVJUkVEIGFuZCBhY3R1YWwgaXMgUkVWSUVXX1JFUVVJUkVECiAgICAgICAgYWJzdGFpbmVkID0gKGMuZ2V0KCJleHBlY3RlZF9zdGF0dXMiKSA9PSAiUkVWSUVXX1JFUVVJUkVEIiBhbmQgYWN0dWFsX3N0YXR1cyA9PSAiUkVWSUVXX1JFUVVJUkVEIikKICAgICAgICByZXN1bHRzLmFwcGVuZChDYXNlUmVzdWx0KAogICAgICAgICAgICBjYXNlX2lkPWNbImNhc2VfaWQiXSwKICAgICAgICAgICAgc2NlbmFyaW89Yy5nZXQoInNjZW5hcmlvIiwgIiIpLAogICAgICAgICAgICBleHBlY3RlZF9zdGF0dXM9Yy5nZXQoImV4cGVjdGVkX3N0YXR1cyIsICIiKSwKICAgICAgICAgICAgYWN0dWFsX3N0YXR1cz1hY3R1YWxfc3RhdHVzLAogICAgICAgICAgICBleHBlY3RlZF9ydWxlX3Bhc3NlZD1jLmdldCgiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiKSwKICAgICAgICAgICAgYWN0dWFsX3J1bGVfcGFzc2VkPWFjdHVhbF9ydWxlX3Bhc3NlZCwKICAgICAgICAgICAgZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbj1jLmdldCgiZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbiIpLAogICAgICAgICAgICBhY3R1YWxfcmV2aWV3X3JlYXNvbj0odi5yZXZpZXdfcmVhc29uLnZhbHVlIGlmIHYucmV2aWV3X3JlYXNvbiBlbHNlIE5vbmUpLAogICAgICAgICAgICBtYXRjaGVkPW1hdGNoZWQsCiAgICAgICAgICAgIGFic3RhaW5lZF9jb3JyZWN0bHk9YWJzdGFpbmVkLAogICAgICAgICkpCgogICAgbSA9IE1ldHJpY3MoKQogICAgbS50b3RhbCA9IGxlbihyZXN1bHRzKQogICAgbS5kZWNpc2lvbl9jb3JyZWN0ID0gc3VtKDEgZm9yIHIgaW4gcmVzdWx0cyBpZiByLm1hdGNoZWQpCiAgICBtLmRlY2lzaW9uX2FjY3VyYWN5ID0gbS5kZWNpc2lvbl9jb3JyZWN0IC8gbS50b3RhbCBpZiBtLnRvdGFsIGVsc2UgMC4wCiAgICBtLnRydWVfcGFzcyA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgci5leHBlY3RlZF9zdGF0dXMgPT0gIlBBU1MiIGFuZCByLm1hdGNoZWQpCiAgICBtLnRydWVfZmFpbCA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgci5leHBlY3RlZF9zdGF0dXMgPT0gIkZBSUwiIGFuZCByLm1hdGNoZWQpCiAgICBtLnRydWVfcmV2aWV3ID0gc3VtKDEgZm9yIHIgaW4gcmVzdWx0cyBpZiByLmV4cGVjdGVkX3N0YXR1cyA9PSAiUkVWSUVXX1JFUVVJUkVEIiBhbmQgci5tYXRjaGVkKQogICAgbS5mYWxzZV9wb3NpdGl2ZSA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgci5leHBlY3RlZF9zdGF0dXMgPT0gIlBBU1MiIGFuZCByLmFjdHVhbF9zdGF0dXMgIT0gIlBBU1MiKQogICAgbS5mYWxzZV9uZWdhdGl2ZSA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgci5leHBlY3RlZF9zdGF0dXMgPT0gIkZBSUwiIGFuZCByLmFjdHVhbF9zdGF0dXMgIT0gIkZBSUwiKQogICAgbS5hYnN0ZW50aW9uX3RvdGFsID0gc3VtKDEgZm9yIHIgaW4gcmVzdWx0cyBpZiByLmV4cGVjdGVkX3N0YXR1cyA9PSAiUkVWSUVXX1JFUVVJUkVEIikKICAgIG0uYWJzdGFpbmVkX2NvcnJlY3RseSA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgci5hYnN0YWluZWRfY29ycmVjdGx5KQogICAgbS5hYnN0ZW50aW9uX2FjY3VyYWN5ID0gbS5hYnN0YWluZWRfY29ycmVjdGx5IC8gbS5hYnN0ZW50aW9uX3RvdGFsIGlmIG0uYWJzdGVudGlvbl90b3RhbCBlbHNlIDAuMAoKICAgICMgQ2F0ZWdvcnkgYnJlYWtkb3duCiAgICBjYXRzID0gQ291bnRlcihfY2xhc3NpZnlfZXhwZWN0ZWQoYykgZm9yIGMgaW4gcmF3WyJjYXNlcyJdKQogICAgYnlfY2F0X2NvcnJlY3QgPSBDb3VudGVyKCkKICAgIGZvciBjLCByIGluIHppcChyYXdbImNhc2VzIl0sIHJlc3VsdHMpOgogICAgICAgIGNhdCA9IF9jbGFzc2lmeV9leHBlY3RlZChjKQogICAgICAgIGlmIHIubWF0Y2hlZDoKICAgICAgICAgICAgYnlfY2F0X2NvcnJlY3RbY2F0XSArPSAxCiAgICBtLmNhdGVnb3J5X2JyZWFrZG93biA9IHsKICAgICAgICBrOiB7InRvdGFsIjogY2F0c1trXSwgImNvcnJlY3QiOiBieV9jYXRfY29ycmVjdFtrXX0KICAgICAgICBmb3IgayBpbiBjYXRzCiAgICB9CiAgICByZXR1cm4gbQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtZXRyaWNzID0gcnVuKCkKICAgIHByaW50KGYiZGVjaXNpb25fYWNjdXJhY3kgPSB7bWV0cmljcy5kZWNpc2lvbl9hY2N1cmFjeTouM2Z9ICh7bWV0cmljcy5kZWNpc2lvbl9jb3JyZWN0fS97bWV0cmljcy50b3RhbH0pIikKICAgIHByaW50KGYiICB0cnVlX3Bhc3M9e21ldHJpY3MudHJ1ZV9wYXNzfSAgdHJ1ZV9mYWlsPXttZXRyaWNzLnRydWVfZmFpbH0gIHRydWVfcmV2aWV3PXttZXRyaWNzLnRydWVfcmV2aWV3fSIpCiAgICBwcmludChmIiAgZmFsc2VfcG9zaXRpdmU9e21ldHJpY3MuZmFsc2VfcG9zaXRpdmV9ICBmYWxzZV9uZWdhdGl2ZT17bWV0cmljcy5mYWxzZV9uZWdhdGl2ZX0iKQogICAgcHJpbnQoZiJhYnN0ZW50aW9uX2FjY3VyYWN5ID0ge21ldHJpY3MuYWJzdGVudGlvbl9hY2N1cmFjeTouM2Z9ICh7bWV0cmljcy5hYnN0YWluZWRfY29ycmVjdGx5fS97bWV0cmljcy5hYnN0ZW50aW9uX3RvdGFsfSkiKQogICAgcHJpbnQoImNhdGVnb3J5X2JyZWFrZG93bjoiKQogICAgZm9yIGssIHYgaW4gbWV0cmljcy5jYXRlZ29yeV9icmVha2Rvd24uaXRlbXMoKToKICAgICAgICBwcmludChmIiAge2s6MjBzfToge3ZbJ2NvcnJlY3QnXX0ve3ZbJ3RvdGFsJ119IikKICAgIHByaW50KCkKICAgIHByaW50KCJjYXNlIGRldGFpbDoiKQogICAgcmF3ID0ganNvbi5sb2FkcyhQYXRoKFJPT1QgLyAiZXZhbHVhdGlvbiIgLyAiY2FzZXNfdjMuanNvbiIpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIG1ldHJpY3MyID0gcnVuKCkKICAgIGZvciBpLCAoYywgcikgaW4gZW51bWVyYXRlKHppcChyYXdbImNhc2VzIl0sIFsKICAgICAgICBDYXNlUmVzdWx0KGNbImNhc2VfaWQiXSwgYy5nZXQoInNjZW5hcmlvIiwiIiksIGMuZ2V0KCJleHBlY3RlZF9zdGF0dXMiLCIiKSwKICAgICAgICAgICAgICAgICAgICI/IiwgYy5nZXQoImV4cGVjdGVkX3J1bGVfcGFzc2VkIiksIE5vbmUsIGMuZ2V0KCJleHBlY3RlZF9yZXZpZXdfcmVhc29uIiksIE5vbmUsIEZhbHNlKQogICAgICAgIGZvciBjIGluIHJhd1siY2FzZXMiXQogICAgXSkpOgogICAgICAgIHBhc3MKICAgICMgUmUtcnVuIGZvciBmcmVzaCBhY3R1YWwKICAgIGZyb20gdGVuZGVyZ3VhcmQuYXBwLnZlcmlmaWNhdGlvbi52ZXJpZmllciBpbXBvcnQgdmVyaWZ5X2l0ZW0sIFZlcmlmeUNvbnRleHQKICAgIGZyb20gdGVuZGVyZ3VhcmQuYXBwLmV4dHJhY3Rpb24ubGxtIGltcG9ydCBMTE1DbGllbnQKICAgIGZvciBjIGluIHJhd1siY2FzZXMiXToKICAgICAgICBjaHVua3MgPSBfY2h1bmtzX2Zyb21fdGV4dHMoYy5nZXQoInRlbmRlciIsIiIpLCBjLmdldCgiYmlkIiwiIikpCiAgICAgICAgZmFjdHMgPSBleHRyYWN0X2ZhY3RzKGNodW5rcykKICAgICAgICBjdHggPSBWZXJpZnlDb250ZXh0KGNodW5rcz1jaHVua3MsIGZhY3RzPWZhY3RzLCBsbG09TExNQ2xpZW50KCkpCiAgICAgICAgaXRlbSA9IF9tYWtlX2l0ZW0oYykKICAgICAgICB2ID0gdmVyaWZ5X2l0ZW0oaXRlbSwgY3R4KQogICAgICAgIG1hcmsgPSAiT0sgIiBpZiB2LnN0YXR1cy52YWx1ZSA9PSBjLmdldCgiZXhwZWN0ZWRfc3RhdHVzIikgZWxzZSAiRkFJTCIKICAgICAgICBwcmludChmIiAgW3ttYXJrfV0ge2NbJ2Nhc2VfaWQnXX0gZXhwZWN0ZWQ9e2MuZ2V0KCdleHBlY3RlZF9zdGF0dXMnLCcnKToxOHN9IGFjdHVhbD17di5zdGF0dXMudmFsdWU6MThzfSB7Yy5nZXQoJ3NjZW5hcmlvJywnJylbOjYwXX0iKQ==
+"""Evaluation runner v0.3: 60 cases + 9 metrics."""
+
+from __future__ import annotations
+
+import json
+import sys
+from collections import Counter
+from dataclasses import dataclass, field
+from pathlib import Path
+from typing import Any
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from tenderguard.app.checklists.loader import load_checklist
+from tenderguard.app.extraction.facts import extract_facts
+from tenderguard.app.extraction.llm import LLMClient
+from tenderguard.app.rules.engine import run_rule
+from tenderguard.app.schemas import (
+    ChecklistItem,
+    DocumentChunk,
+    Severity,
+    VerificationMethod,
+    VerificationStatus,
+)
+from tenderguard.app.verification.verifier import VerifyContext, verify_item
+
+
+@dataclass
+class CaseResult:
+    case_id: str
+    scenario: str
+    expected_status: str
+    actual_status: str
+    expected_rule_passed: bool | None
+    actual_rule_passed: bool | None
+    expected_review_reason: str | None
+    actual_review_reason: str | None
+    matched: bool
+    abstained_correctly: bool = False
+
+
+@dataclass
+class Metrics:
+    total: int = 0
+    decision_correct: int = 0
+    decision_accuracy: float = 0.0
+    true_pass: int = 0
+    true_fail: int = 0
+    true_review: int = 0
+    false_positive: int = 0  # expected PASS but actual != PASS
+    false_negative: int = 0  # expected FAIL but actual != FAIL
+    abstention_accuracy: float = 0.0
+    abstained_correctly: int = 0
+    abstention_total: int = 0
+    category_breakdown: dict[str, dict[str, int]] = field(default_factory=dict)
+
+
+def _chunks_from_texts(tender: str, bid: str) -> list[DocumentChunk]:
+    return [
+        DocumentChunk(doc_id="tender", document="tender.pdf", page=1, section=None, text=tender),
+        DocumentChunk(doc_id="bid", document="bid.pdf", page=1, section=None, text=bid),
+    ]
+
+
+def _make_item(case: dict) -> ChecklistItem:
+    return ChecklistItem(
+        check_id=case["case_id"],
+        title=case.get("scenario", case["case_id"])[:40],
+        source_text=case.get("scenario", case["case_id"]),
+        category="evaluation",
+        severity=Severity.HIGH,
+        review_type="DOCUMENT_DETERMINISTIC",
+        classification_reason="evaluation fixture",
+        rule=case.get("rule"),
+        verification_method=VerificationMethod.DETERMINISTIC,
+        evidence_required=[],
+    )
+
+
+def _classify_expected(case: dict) -> str:
+    expected = case.get("expected_status", "")
+    if expected in {"PASS", "FAIL"}:
+        return "verifiable"
+    reason = case.get("expected_review_reason", "")
+    if "MISSING" in reason or "EXTRACTION" in reason or "TABLE" in reason:
+        return "evidence_missing"
+    if "CONFLICT" in reason:
+        return "conflict"
+    if "REQUIREMENT_UNRESOLVED" in reason:
+        return "ambiguous"
+    return "other"
+
+
+def run(cases_path: str | Path = ROOT / "evaluation" / "cases_v3.json") -> Metrics:
+    raw = json.loads(Path(cases_path).read_text(encoding="utf-8"))
+    results: list[CaseResult] = []
+    for c in raw["cases"]:
+        chunks = _chunks_from_texts(c.get("tender", ""), c.get("bid", ""))
+        facts = extract_facts(chunks)
+        ctx = VerifyContext(chunks=chunks, facts=facts, llm=LLMClient())
+        item = _make_item(c)
+        actual_rule_passed: bool | None = None
+        if item.rule:
+            rr = run_rule(item.rule, facts)
+            actual_rule_passed = rr.passed
+        v = verify_item(item, ctx)
+        actual_status = v.status.value
+        matched = (actual_status == c.get("expected_status"))
+        # abstention correctness: expected REVIEW_REQUIRED and actual is REVIEW_REQUIRED
+        abstained = (c.get("expected_status") == "REVIEW_REQUIRED" and actual_status == "REVIEW_REQUIRED")
+        results.append(CaseResult(
+            case_id=c["case_id"],
+            scenario=c.get("scenario", ""),
+            expected_status=c.get("expected_status", ""),
+            actual_status=actual_status,
+            expected_rule_passed=c.get("expected_rule_passed"),
+            actual_rule_passed=actual_rule_passed,
+            expected_review_reason=c.get("expected_review_reason"),
+            actual_review_reason=(v.review_reason.value if v.review_reason else None),
+            matched=matched,
+            abstained_correctly=abstained,
+        ))
+
+    m = Metrics()
+    m.total = len(results)
+    m.decision_correct = sum(1 for r in results if r.matched)
+    m.decision_accuracy = m.decision_correct / m.total if m.total else 0.0
+    m.true_pass = sum(1 for r in results if r.expected_status == "PASS" and r.matched)
+    m.true_fail = sum(1 for r in results if r.expected_status == "FAIL" and r.matched)
+    m.true_review = sum(1 for r in results if r.expected_status == "REVIEW_REQUIRED" and r.matched)
+    m.false_positive = sum(1 for r in results if r.expected_status == "PASS" and r.actual_status != "PASS")
+    m.false_negative = sum(1 for r in results if r.expected_status == "FAIL" and r.actual_status != "FAIL")
+    m.abstention_total = sum(1 for r in results if r.expected_status == "REVIEW_REQUIRED")
+    m.abstained_correctly = sum(1 for r in results if r.abstained_correctly)
+    m.abstention_accuracy = m.abstained_correctly / m.abstention_total if m.abstention_total else 0.0
+
+    # Category breakdown
+    cats = Counter(_classify_expected(c) for c in raw["cases"])
+    by_cat_correct = Counter()
+    for c, r in zip(raw["cases"], results):
+        cat = _classify_expected(c)
+        if r.matched:
+            by_cat_correct[cat] += 1
+    m.category_breakdown = {
+        k: {"total": cats[k], "correct": by_cat_correct[k]}
+        for k in cats
+    }
+    return m
+
+
+if __name__ == "__main__":
+    metrics = run()
+    print(f"decision_accuracy = {metrics.decision_accuracy:.3f} ({metrics.decision_correct}/{metrics.total})")
+    print(f"  true_pass={metrics.true_pass}  true_fail={metrics.true_fail}  true_review={metrics.true_review}")
+    print(f"  false_positive={metrics.false_positive}  false_negative={metrics.false_negative}")
+    print(f"abstention_accuracy = {metrics.abstention_accuracy:.3f} ({metrics.abstained_correctly}/{metrics.abstention_total})")
+    print("category_breakdown:")
+    for k, v in metrics.category_breakdown.items():
+        print(f"  {k:20s}: {v['correct']}/{v['total']}")
+    print()
+    print("case detail:")
+    raw = json.loads(Path(ROOT / "evaluation" / "cases_v3.json").read_text(encoding="utf-8"))
+    metrics2 = run()
+    for i, (c, r) in enumerate(zip(raw["cases"], [
+        CaseResult(c["case_id"], c.get("scenario",""), c.get("expected_status",""),
+                   "?", c.get("expected_rule_passed"), None, c.get("expected_review_reason"), None, False)
+        for c in raw["cases"]
+    ])):
+        pass
+    # Re-run for fresh actual
+    from tenderguard.app.verification.verifier import verify_item, VerifyContext
+    from tenderguard.app.extraction.llm import LLMClient
+    for c in raw["cases"]:
+        chunks = _chunks_from_texts(c.get("tender",""), c.get("bid",""))
+        facts = extract_facts(chunks)
+        ctx = VerifyContext(chunks=chunks, facts=facts, llm=LLMClient())
+        item = _make_item(c)
+        v = verify_item(item, ctx)
+        mark = "OK " if v.status.value == c.get("expected_status") else "FAIL"
+        print(f"  [{mark}] {c['case_id']} expected={c.get('expected_status',''):18s} actual={v.status.value:18s} {c.get('scenario','')[:60]}")

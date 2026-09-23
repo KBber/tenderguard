@@ -1,1 +1,137 @@
-IiIiQ0xJIGVudHJ5IHBvaW50OiBgcHl0aG9uIC1tIHRlbmRlcmd1YXJkLmNsaSByZXZpZXcgLi4uYC4iIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSB0ZW5kZXJndWFyZC5hcHAuY2hlY2tsaXN0cy5leGNlbF9wYXJzZXIgaW1wb3J0IHBhcnNlX3RvX2ZpbGUKZnJvbSB0ZW5kZXJndWFyZC5hcHAuY2hlY2tsaXN0cy5sb2FkZXIgaW1wb3J0IGxvYWRfY2hlY2tsaXN0CmZyb20gdGVuZGVyZ3VhcmQuYXBwLmluZ2VzdGlvbi5wZGYgaW1wb3J0IGluZ2VzdF9wZGYKZnJvbSB0ZW5kZXJndWFyZC5hcHAucmVwb3J0aW5nLnJlcG9ydCBpbXBvcnQgYnVpbGRfcmVwb3J0LCByZW5kZXJfbWFya2Rvd24KZnJvbSB0ZW5kZXJndWFyZC5hcHAudmVyaWZpY2F0aW9uLnZlcmlmaWVyIGltcG9ydCB2ZXJpZnlfYWxsCgoKZGVmIF9wcmludF9wcm9ncmVzcyhtc2c6IHN0cikgLT4gTm9uZToKICAgIHByaW50KGYiW3tfbm93KCl9XSB7bXNnfSIsIGZsdXNoPVRydWUpCgoKZGVmIF9ub3coKSAtPiBzdHI6CiAgICBpbXBvcnQgZGF0ZXRpbWUgYXMgX2R0CiAgICByZXR1cm4gX2R0LmRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlSDolTTolUyIpCgoKZGVmIGNtZF9yZXZpZXcoYXJnczogYXJncGFyc2UuTmFtZXNwYWNlKSAtPiBpbnQ6CiAgICAjIC0tLS0gcmVzb2x2ZSBjaGVja2xpc3QgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICBjaGVja2xpc3RfcGF0aCA9IFBhdGgoYXJncy5jaGVja2xpc3QpCiAgICBpZiBub3QgY2hlY2tsaXN0X3BhdGguZXhpc3RzKCkgYW5kIGFyZ3MuZXhjZWw6CiAgICAgICAgIyBCdWlsZCBub3JtYWxpemVkIGNoZWNrbGlzdCBmcm9tIEV4Y2VsIG9uIGRlbWFuZAogICAgICAgIF9wcmludF9wcm9ncmVzcyhmIuino+aekCBFeGNlbDoge2FyZ3MuZXhjZWx9IikKICAgICAgICBuID0gcGFyc2VfdG9fZmlsZShhcmdzLmV4Y2VsLCBhcmdzLmNoZWNrbGlzdCkKICAgICAgICBfcHJpbnRfcHJvZ3Jlc3MoZiLlt7LnlJ/miJAge259IOadoSBDSzoge2FyZ3MuY2hlY2tsaXN0fSIpCgogICAgX3ByaW50X3Byb2dyZXNzKGYi5Yqg6L29IGNoZWNrbGlzdDoge2NoZWNrbGlzdF9wYXRofSIpCiAgICBpdGVtcyA9IGxvYWRfY2hlY2tsaXN0KGNoZWNrbGlzdF9wYXRoKQogICAgX3ByaW50X3Byb2dyZXNzKGYi5YWxIHtsZW4oaXRlbXMpfSDmnaHmo4Dmn6XpobkiKQoKICAgICMgLS0tLSBpbmdlc3Rpb24gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogICAgX3ByaW50X3Byb2dyZXNzKGYi5pGE5YWl5oub5qCH5paH5Lu2OiB7YXJncy50ZW5kZXJ9IikKICAgIHRlbmRlcl9jaHVua3MgPSBpbmdlc3RfcGRmKGFyZ3MudGVuZGVyLCBkb2NfaWQ9InRlbmRlciIpCiAgICBfcHJpbnRfcHJvZ3Jlc3MoZiIgIOKGkiB7bGVuKHRlbmRlcl9jaHVua3MpfSBjaHVua3MiKQogICAgX3ByaW50X3Byb2dyZXNzKGYi5pGE5YWl5oqV5qCH5paH5Lu2OiB7YXJncy5iaWR9IikKICAgIGJpZF9jaHVua3MgPSBpbmdlc3RfcGRmKGFyZ3MuYmlkLCBkb2NfaWQ9ImJpZCIpCiAgICBfcHJpbnRfcHJvZ3Jlc3MoZiIgIOKGkiB7bGVuKGJpZF9jaHVua3MpfSBjaHVua3MiKQogICAgY2h1bmtzID0gdGVuZGVyX2NodW5rcyArIGJpZF9jaHVua3MKCiAgICAjIC0tLS0gdmVyaWZ5IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgICBfcHJpbnRfcHJvZ3Jlc3MoIuW8gOWni+mqjOivgeKApiIpCiAgICByZXN1bHRzLCBmYWN0cyA9IHZlcmlmeV9hbGwoaXRlbXMsIGNodW5rcykKICAgIHN1bW1hcnkgPSB7CiAgICAgICAgInRvdGFsIjogbGVuKHJlc3VsdHMpLAogICAgICAgICJQQVNTIjogc3VtKDEgZm9yIHIgaW4gcmVzdWx0cyBpZiByLnN0YXR1cy52YWx1ZSA9PSAiUEFTUyIpLAogICAgICAgICJGQUlMIjogc3VtKDEgZm9yIHIgaW4gcmVzdWx0cyBpZiByLnN0YXR1cy52YWx1ZSA9PSAiRkFJTCIpLAogICAgICAgICJSRVZJRVdfUkVRVUlSRUQiOiBzdW0oMSBmb3IgciBpbiByZXN1bHRzIGlmIHIuc3RhdHVzLnZhbHVlID09ICJSRVZJRVdfUkVRVUlSRUQiKSwKICAgICAgICAiTk9UX0FQUExJQ0FCTEUiOiBzdW0oMSBmb3IgciBpbiByZXN1bHRzIGlmIHIuc3RhdHVzLnZhbHVlID09ICJOT1RfQVBQTElDQUJMRSIpLAogICAgfQogICAgX3ByaW50X3Byb2dyZXNzKGYi6aqM6K+B5a6M5oiQ77yaUEFTUz17c3VtbWFyeVsnUEFTUyddfSBGQUlMPXtzdW1tYXJ5WydGQUlMJ119IFJFVklFV19SRVFVSVJFRD17c3VtbWFyeVsnUkVWSUVXX1JFUVVJUkVEJ119IE4vQT17c3VtbWFyeVsnTk9UX0FQUExJQ0FCTEUnXX0iKQoKICAgICMgLS0tLSByZXBvcnQgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICAgIHJlcG9ydCA9IGJ1aWxkX3JlcG9ydCgKICAgICAgICBpdGVtcywKICAgICAgICByZXN1bHRzLAogICAgICAgIHRlbmRlcl9kb2N1bWVudD1QYXRoKGFyZ3MudGVuZGVyKS5uYW1lLAogICAgICAgIGJpZF9kb2N1bWVudD1QYXRoKGFyZ3MuYmlkKS5uYW1lLAogICAgICAgIHByb2plY3Q9YXJncy5wcm9qZWN0IG9yICIiLAogICAgICAgIGNoZWNrbGlzdF92ZXJzaW9uPWFyZ3MudmVyc2lvbiwKICAgICkKCiAgICBvdXRfcGF0aCA9IFBhdGgoYXJncy5vdXRwdXQpCiAgICBvdXRfcGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgcGF5bG9hZCA9IHJlcG9ydC5tb2RlbF9kdW1wKG1vZGU9Impzb24iKQogICAgaWYgYXJncy5pbmNsdWRlX2ZhY3RzOgogICAgICAgIHBheWxvYWRbImZhY3RzIl0gPSBmYWN0cwogICAgb3V0X3BhdGgud3JpdGVfdGV4dChqc29uLmR1bXBzKHBheWxvYWQsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQoKICAgIG1kX3BhdGggPSBvdXRfcGF0aC53aXRoX3N1ZmZpeCgiLm1kIikKICAgIG1kX3BhdGgud3JpdGVfdGV4dChyZW5kZXJfbWFya2Rvd24ocmVwb3J0KSwgZW5jb2Rpbmc9InV0Zi04IikKCiAgICBwcmludCgiIikKICAgIHByaW50KCI9IiAqIDYwKQogICAgcHJpbnQoZiJbT0tdIOWuoeaguOaKpeWRiuW3suWGmeWFpToge291dF9wYXRofSIpCiAgICBwcmludChmIltPS10gTWFya2Rvd24g5oql5ZGKOiAgICB7bWRfcGF0aH0iKQogICAgcHJpbnQoIi0iICogNjApCiAgICBwcmludChmIiAg5qOA5p+l6aG55oC75pWwOiAgICAge3N1bW1hcnlbJ3RvdGFsJ119IikKICAgIHByaW50KGYiICBQQVNTOiAgICAgICAgICAge3N1bW1hcnlbJ1BBU1MnXX0iKQogICAgcHJpbnQoZiIgIEZBSUw6ICAgICAgICAgICB7c3VtbWFyeVsnRkFJTCddfSIpCiAgICBwcmludChmIiAgUkVWSUVXX1JFUVVJUkVEOntzdW1tYXJ5WydSRVZJRVdfUkVRVUlSRUQnXX0iKQogICAgcHJpbnQoZiIgIE5PVF9BUFBMSUNBQkxFOiB7c3VtbWFyeVsnTk9UX0FQUExJQ0FCTEUnXX0iKQogICAgcHJpbnQoZiIgIENSSVRJQ0FMIEZBSUw6ICB7cmVwb3J0LnN1bW1hcnlbJ2NyaXRpY2FsX2ZhaWwnXX0iKQogICAgcHJpbnQoZiIgIENSSVRJQ0FMIFJFVklFVzp7cmVwb3J0LnN1bW1hcnlbJ2NyaXRpY2FsX3JldmlldyddfSIpCiAgICBwcmludChmIiAgSElHSCBGQUlMOiAgICAgIHtyZXBvcnQuc3VtbWFyeVsnaGlnaF9mYWlsJ119IikKICAgIHByaW50KCItIiAqIDYwKQogICAgcHJpbnQoIiAg6Ieq5Yqo5YyW562J57qn5YiG5biDOiIpCiAgICBmb3IgaywgdiBpbiByZXBvcnQuYXV0b21hdGlvbl9icmVha2Rvd24uaXRlbXMoKToKICAgICAgICBwcmludChmIiAgICB7azo4c30ge3Z9IikKICAgIHByaW50KCI9IiAqIDYwKQogICAgcmV0dXJuIDAKCgpkZWYgY21kX3BhcnNlKGFyZ3M6IGFyZ3BhcnNlLk5hbWVzcGFjZSkgLT4gaW50OgogICAgbiA9IHBhcnNlX3RvX2ZpbGUoYXJncy5leGNlbCwgYXJncy5vdXRwdXQpCiAgICBwcmludChmIltPS10gd3JvdGUge259IGNoZWNrcyB0byB7YXJncy5vdXRwdXR9IikKICAgIHJldHVybiAwCgoKZGVmIGJ1aWxkX3BhcnNlcigpIC0+IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyOgogICAgcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKHByb2c9InRlbmRlcmd1YXJkIiwgZGVzY3JpcHRpb249IlRlbmRlckd1YXJkIHYwLjEgQ0xJIikKICAgIHN1YiA9IHAuYWRkX3N1YnBhcnNlcnMoZGVzdD0iY21kIiwgcmVxdWlyZWQ9VHJ1ZSkKCiAgICByZXYgPSBzdWIuYWRkX3BhcnNlcigicmV2aWV3IiwgaGVscD0iUnVuIGEgdGVuZGVyIHJldmlldyIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLXRlbmRlciIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IlBhdGggdG8gdGVuZGVyIFBERiIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLWJpZCIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IlBhdGggdG8gYmlkIFBERiIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLWNoZWNrbGlzdCIsIGRlZmF1bHQ9ImRhdGEvbm9ybWFsaXplZC9kaXJlY3RfdGVuZGVyX2NoZWNrcy5qc29uIikKICAgIHJldi5hZGRfYXJndW1lbnQoIi0tZXhjZWwiLCBkZWZhdWx0PSJkYXRhL3NvdXJjZS/llK7liY1DSy54bHN4IiwgaGVscD0iSWYgLS1jaGVja2xpc3QgbWlzc2luZywgcGFyc2UgdGhpcyBFeGNlbCBmaXJzdCIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsIGRlZmF1bHQ9Im91dHB1dC9yZXBvcnQuanNvbiIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLXByb2plY3QiLCBkZWZhdWx0PSIiKQogICAgcmV2LmFkZF9hcmd1bWVudCgiLS12ZXJzaW9uIiwgZGVmYXVsdD0idjAuMSIpCiAgICByZXYuYWRkX2FyZ3VtZW50KCItLWluY2x1ZGUtZmFjdHMiLCBhY3Rpb249InN0b3JlX3RydWUiKQogICAgcmV2LnNldF9kZWZhdWx0cyhmdW5jPWNtZF9yZXZpZXcpCgogICAgcGFyID0gc3ViLmFkZF9wYXJzZXIoInBhcnNlIiwgaGVscD0iUGFyc2Ug5ZSu5YmNQ0sueGxzeCBpbnRvIG5vcm1hbGl6ZWQgSlNPTiIpCiAgICBwYXIuYWRkX2FyZ3VtZW50KCItLWV4Y2VsIiwgZGVmYXVsdD0iZGF0YS9zb3VyY2Uv5ZSu5YmNQ0sueGxzeCIpCiAgICBwYXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsIGRlZmF1bHQ9ImRhdGEvbm9ybWFsaXplZC9kaXJlY3RfdGVuZGVyX2NoZWNrcy5qc29uIikKICAgIHBhci5zZXRfZGVmYXVsdHMoZnVuYz1jbWRfcGFyc2UpCgogICAgcmV0dXJuIHAKCgpkZWYgbWFpbihhcmd2OiBsaXN0W3N0cl0gfCBOb25lID0gTm9uZSkgLT4gaW50OgogICAgcGFyc2VyID0gYnVpbGRfcGFyc2VyKCkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncyhhcmd2KQogICAgcmV0dXJuIGFyZ3MuZnVuYyhhcmdzKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkp
+"""CLI entry point: `python -m tenderguard.cli review ...`."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+
+from tenderguard.app.checklists.excel_parser import parse_to_file
+from tenderguard.app.checklists.loader import load_checklist
+from tenderguard.app.ingestion.pdf import ingest_pdf
+from tenderguard.app.reporting.report import build_report, render_markdown
+from tenderguard.app.verification.verifier import verify_all
+
+
+def _print_progress(msg: str) -> None:
+    print(f"[{_now()}] {msg}", flush=True)
+
+
+def _now() -> str:
+    import datetime as _dt
+    return _dt.datetime.now().strftime("%H:%M:%S")
+
+
+def cmd_review(args: argparse.Namespace) -> int:
+    # ---- resolve checklist ------------------------------------------------
+    checklist_path = Path(args.checklist)
+    if not checklist_path.exists() and args.excel:
+        # Build normalized checklist from Excel on demand
+        _print_progress(f"解析 Excel: {args.excel}")
+        n = parse_to_file(args.excel, args.checklist)
+        _print_progress(f"已生成 {n} 条 CK: {args.checklist}")
+
+    _print_progress(f"加载 checklist: {checklist_path}")
+    items = load_checklist(checklist_path)
+    _print_progress(f"共 {len(items)} 条检查项")
+
+    # ---- ingestion -------------------------------------------------------
+    _print_progress(f"摄入招标文件: {args.tender}")
+    tender_chunks = ingest_pdf(args.tender, doc_id="tender")
+    _print_progress(f"  → {len(tender_chunks)} chunks")
+    _print_progress(f"摄入投标文件: {args.bid}")
+    bid_chunks = ingest_pdf(args.bid, doc_id="bid")
+    _print_progress(f"  → {len(bid_chunks)} chunks")
+    chunks = tender_chunks + bid_chunks
+
+    # ---- verify -----------------------------------------------------------
+    _print_progress("开始验证…")
+    results, facts = verify_all(items, chunks)
+    summary = {
+        "total": len(results),
+        "PASS": sum(1 for r in results if r.status.value == "PASS"),
+        "FAIL": sum(1 for r in results if r.status.value == "FAIL"),
+        "REVIEW_REQUIRED": sum(1 for r in results if r.status.value == "REVIEW_REQUIRED"),
+        "NOT_APPLICABLE": sum(1 for r in results if r.status.value == "NOT_APPLICABLE"),
+    }
+    _print_progress(f"验证完成：PASS={summary['PASS']} FAIL={summary['FAIL']} REVIEW_REQUIRED={summary['REVIEW_REQUIRED']} N/A={summary['NOT_APPLICABLE']}")
+
+    # ---- report -----------------------------------------------------------
+    report = build_report(
+        items,
+        results,
+        tender_document=Path(args.tender).name,
+        bid_document=Path(args.bid).name,
+        project=args.project or "",
+        checklist_version=args.version,
+    )
+
+    out_path = Path(args.output)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = report.model_dump(mode="json")
+    if args.include_facts:
+        payload["facts"] = facts
+    out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    md_path = out_path.with_suffix(".md")
+    md_path.write_text(render_markdown(report), encoding="utf-8")
+
+    print("")
+    print("=" * 60)
+    print(f"[OK] 审核报告已写入: {out_path}")
+    print(f"[OK] Markdown 报告:    {md_path}")
+    print("-" * 60)
+    print(f"  检查项总数:     {summary['total']}")
+    print(f"  PASS:           {summary['PASS']}")
+    print(f"  FAIL:           {summary['FAIL']}")
+    print(f"  REVIEW_REQUIRED:{summary['REVIEW_REQUIRED']}")
+    print(f"  NOT_APPLICABLE: {summary['NOT_APPLICABLE']}")
+    print(f"  CRITICAL FAIL:  {report.summary['critical_fail']}")
+    print(f"  CRITICAL REVIEW:{report.summary['critical_review']}")
+    print(f"  HIGH FAIL:      {report.summary['high_fail']}")
+    print("-" * 60)
+    print("  自动化等级分布:")
+    for k, v in report.automation_breakdown.items():
+        print(f"    {k:8s} {v}")
+    print("=" * 60)
+    return 0
+
+
+def cmd_parse(args: argparse.Namespace) -> int:
+    n = parse_to_file(args.excel, args.output)
+    print(f"[OK] wrote {n} checks to {args.output}")
+    return 0
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(prog="tenderguard", description="TenderGuard v0.1 CLI")
+    sub = p.add_subparsers(dest="cmd", required=True)
+
+    rev = sub.add_parser("review", help="Run a tender review")
+    rev.add_argument("--tender", required=True, help="Path to tender PDF")
+    rev.add_argument("--bid", required=True, help="Path to bid PDF")
+    rev.add_argument("--checklist", default="data/normalized/direct_tender_checks.json")
+    rev.add_argument("--excel", default="data/source/售前CK.xlsx", help="If --checklist missing, parse this Excel first")
+    rev.add_argument("--output", default="output/report.json")
+    rev.add_argument("--project", default="")
+    rev.add_argument("--version", default="v0.1")
+    rev.add_argument("--include-facts", action="store_true")
+    rev.set_defaults(func=cmd_review)
+
+    par = sub.add_parser("parse", help="Parse 售前CK.xlsx into normalized JSON")
+    par.add_argument("--excel", default="data/source/售前CK.xlsx")
+    par.add_argument("--output", default="data/normalized/direct_tender_checks.json")
+    par.set_defaults(func=cmd_parse)
+
+    return p
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

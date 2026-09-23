@@ -1,1 +1,1 @@
-IiIiVmVyaWZpY2F0aW9uIHBpcGVsaW5lOiBydWxlLWZpcnN0LCBldmlkZW5jZS1zdXBwb3J0ZWQuIiIi
+"""Verification pipeline: rule-first, evidence-supported."""

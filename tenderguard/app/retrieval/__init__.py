@@ -1,1 +1,1 @@
-IiIiUmV0cmlldmFsIGxheWVyOiBQMCB1c2VzIGEgZGV0ZXJtaW5pc3RpYyBrZXl3b3JkIHNjb3JlcjsgUDEgd2lsbCBhZGQgQk0yNS92ZWN0b3IuIiIi
+"""Retrieval layer: P0 uses a deterministic keyword scorer; P1 will add BM25/vector."""

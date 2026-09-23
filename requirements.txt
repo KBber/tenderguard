@@ -1,1 +1,14 @@
-cHl0aG9uPj0zLjExLDwzLjEzCnB5ZGFudGljPj0yLjcsPDMKcHl0aG9uLWRvdGVudj49MS4wLDwyCnB5bXVwZGY+PTEuMjQsPDIKcHl0aG9uLWRvY3g+PTEuMSw8MgpvcGVucHl4bD49My4xLDw0CnBhbmRhcz49Mi4yLDwzCm51bXB5Pj0xLjI2LDwzCmh0dHB4Pj0wLjI3LDwxCnRlbmFjaXR5Pj04LjIsPDEwCnB5dGVzdD49OCw8OQpweXRlc3QtYXN5bmNpbz49MC4yMyw8MQpyaWNoPj0xMyw8MTQKdHlwZXI+PTAuMTIsPDEK
+python>=3.11,<3.13
+pydantic>=2.7,<3
+python-dotenv>=1.0,<2
+pymupdf>=1.24,<2
+python-docx>=1.1,<2
+openpyxl>=3.1,<4
+pandas>=2.2,<3
+numpy>=1.26,<3
+httpx>=0.27,<1
+tenacity>=8.2,<10
+pytest>=8,<9
+pytest-asyncio>=0.23,<1
+rich>=13,<14
+typer>=0.12,<1

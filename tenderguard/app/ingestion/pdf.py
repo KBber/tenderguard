@@ -1,1 +1,79 @@
-IiIiUERGIGluZ2VzdGlvbiB1c2luZyBQeU11UERGLgoKUHJvZHVjZXMgcGFnZS1hd2FyZSBEb2N1bWVudENodW5rIHJlY29yZHMgd2l0aCBwcmVzZXJ2ZWQgcGFnZSBudW1iZXJzLgpGYWxscyBiYWNrIHRvIGEgbGlnaHR3ZWlnaHQgVFhUIHJlYWRlciB3aGVuIHRoZSBmaWxlIGlzIG5vdCBhY3R1YWxseSBhIFBERi4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgb3MKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBJdGVyYWJsZQoKZnJvbSB0ZW5kZXJndWFyZC5hcHAuc2NoZW1hcyBpbXBvcnQgRG9jdW1lbnRDaHVuawoKCmRlZiBfbG9va3NfbGlrZV9wZGYocGF0aDogUGF0aCkgLT4gYm9vbDoKICAgIHRyeToKICAgICAgICB3aXRoIG9wZW4ocGF0aCwgInJiIikgYXMgZmg6CiAgICAgICAgICAgIHJldHVybiBmaC5yZWFkKDQpID09IGIiJVBERiIKICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiBfcmVhZF9wZGYocGF0aDogUGF0aCwgZG9jX2lkOiBzdHIsIGRvY3VtZW50OiBzdHIpIC0+IGxpc3RbRG9jdW1lbnRDaHVua106CiAgICAjIFVzZSB0aGUgbW9kZXJuIGBweW11cGRmYCBuYW1lc3BhY2U7IGZhbGwgYmFjayB0byBsZWdhY3kgYGZpdHpgIGlmIGFic2VudC4KICAgIHRyeToKICAgICAgICBpbXBvcnQgcHltdXBkZiAgIyB0eXBlOiBpZ25vcmVbaW1wb3J0LW5vdC1mb3VuZF0KICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjogICMgcHJhZ21hOiBubyBjb3ZlciAtIGxlZ2FjeSBmYWxsYmFjawogICAgICAgIGltcG9ydCBmaXR6IGFzIHB5bXVwZGYgICMgdHlwZTogaWdub3JlW2ltcG9ydC1ub3QtZm91bmQsIG5vLXJlZGVmXQoKICAgIGNodW5rczogbGlzdFtEb2N1bWVudENodW5rXSA9IFtdCiAgICB3aXRoIHB5bXVwZGYub3BlbihwYXRoKSBhcyBkb2M6CiAgICAgICAgZm9yIGluZGV4LCBwYWdlIGluIGVudW1lcmF0ZShkb2MsIHN0YXJ0PTEpOgogICAgICAgICAgICB0ZXh0ID0gcGFnZS5nZXRfdGV4dCgidGV4dCIpIG9yICIiCiAgICAgICAgICAgIHRleHQgPSB0ZXh0LnN0cmlwKCkKICAgICAgICAgICAgaWYgbm90IHRleHQ6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjaHVua3MuYXBwZW5kKAogICAgICAgICAgICAgICAgRG9jdW1lbnRDaHVuaygKICAgICAgICAgICAgICAgICAgICBkb2NfaWQ9ZG9jX2lkLAogICAgICAgICAgICAgICAgICAgIGRvY3VtZW50PWRvY3VtZW50LAogICAgICAgICAgICAgICAgICAgIHBhZ2U9aW5kZXgsCiAgICAgICAgICAgICAgICAgICAgc2VjdGlvbj1Ob25lLAogICAgICAgICAgICAgICAgICAgIHRleHQ9dGV4dCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgcmV0dXJuIGNodW5rcwoKCmRlZiBfcmVhZF90ZXh0KHBhdGg6IFBhdGgsIGRvY19pZDogc3RyLCBkb2N1bWVudDogc3RyKSAtPiBsaXN0W0RvY3VtZW50Q2h1bmtdOgogICAgIiIiVHJlYXQgdGhlIGZpbGUgYXMgYSBzaW5nbGUtcGFnZSB0ZXh0IGJsb2IuIFVzZWZ1bCBmb3IgdGVzdHMgLyBUWFQgZmFsbGJhY2tzLiIiIgoKICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpLnN0cmlwKCkKICAgIGlmIG5vdCB0ZXh0OgogICAgICAgIHJldHVybiBbXQogICAgcmV0dXJuIFtEb2N1bWVudENodW5rKGRvY19pZD1kb2NfaWQsIGRvY3VtZW50PWRvY3VtZW50LCBwYWdlPTEsIHNlY3Rpb249Tm9uZSwgdGV4dD10ZXh0KV0KCgpkZWYgaW5nZXN0X3BkZihwYXRoOiBzdHIgfCBvcy5QYXRoTGlrZVtzdHJdLCBkb2NfaWQ6IHN0cikgLT4gbGlzdFtEb2N1bWVudENodW5rXToKICAgICIiIlJlYWQgYSBQREYgb3IgdGV4dC1saWtlIGZpbGUgYW5kIHJldHVybiBwYWdlLWF3YXJlIGNodW5rcy4iIiIKCiAgICBwID0gUGF0aChwYXRoKQogICAgZG9jdW1lbnQgPSBwLm5hbWUKICAgIGlmIF9sb29rc19saWtlX3BkZihwKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBfcmVhZF9wZGYocCwgZG9jX2lkLCBkb2N1bWVudCkKICAgICAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgICAgICAjIFB5TXVQREYgbWF5IGZhaWwgb24gbWFsZm9ybWVkIFBERnM7IGZhbGwgYmFjayB0byB0ZXh0IG1vZGUuCiAgICAgICAgICAgIHJldHVybiBfcmVhZF90ZXh0KHAsIGRvY19pZCwgZG9jdW1lbnQpCiAgICByZXR1cm4gX3JlYWRfdGV4dChwLCBkb2NfaWQsIGRvY3VtZW50KQoKCmRlZiBpbmdlc3RfbWFueShtYXBwaW5nOiBJdGVyYWJsZVt0dXBsZVtzdHIsIHN0cl1dKSAtPiBsaXN0W0RvY3VtZW50Q2h1bmtdOgogICAgIiIiSW5nZXN0IG11bHRpcGxlIGRvY3VtZW50cy4gbWFwcGluZyA9IFsoZG9jX2lkLCBwYXRoKSwgLi4uXSIiIgoKICAgIG91dDogbGlzdFtEb2N1bWVudENodW5rXSA9IFtdCiAgICBmb3IgZG9jX2lkLCBwYXRoIGluIG1hcHBpbmc6CiAgICAgICAgb3V0LmV4dGVuZChpbmdlc3RfcGRmKHBhdGgsIGRvY19pZCkpCiAgICByZXR1cm4gb3V0
+"""PDF ingestion using PyMuPDF.
+
+Produces page-aware DocumentChunk records with preserved page numbers.
+Falls back to a lightweight TXT reader when the file is not actually a PDF.
+"""
+
+from __future__ import annotations
+
+import os
+from pathlib import Path
+from typing import Iterable
+
+from tenderguard.app.schemas import DocumentChunk
+
+
+def _looks_like_pdf(path: Path) -> bool:
+    try:
+        with open(path, "rb") as fh:
+            return fh.read(4) == b"%PDF"
+    except OSError:
+        return False
+
+
+def _read_pdf(path: Path, doc_id: str, document: str) -> list[DocumentChunk]:
+    # Use the modern `pymupdf` namespace; fall back to legacy `fitz` if absent.
+    try:
+        import pymupdf  # type: ignore[import-not-found]
+    except ImportError:  # pragma: no cover - legacy fallback
+        import fitz as pymupdf  # type: ignore[import-not-found, no-redef]
+
+    chunks: list[DocumentChunk] = []
+    with pymupdf.open(path) as doc:
+        for index, page in enumerate(doc, start=1):
+            text = page.get_text("text") or ""
+            text = text.strip()
+            if not text:
+                continue
+            chunks.append(
+                DocumentChunk(
+                    doc_id=doc_id,
+                    document=document,
+                    page=index,
+                    section=None,
+                    text=text,
+                )
+            )
+    return chunks
+
+
+def _read_text(path: Path, doc_id: str, document: str) -> list[DocumentChunk]:
+    """Treat the file as a single-page text blob. Useful for tests / TXT fallbacks."""
+
+    text = path.read_text(encoding="utf-8", errors="ignore").strip()
+    if not text:
+        return []
+    return [DocumentChunk(doc_id=doc_id, document=document, page=1, section=None, text=text)]
+
+
+def ingest_pdf(path: str | os.PathLike[str], doc_id: str) -> list[DocumentChunk]:
+    """Read a PDF or text-like file and return page-aware chunks."""
+
+    p = Path(path)
+    document = p.name
+    if _looks_like_pdf(p):
+        try:
+            return _read_pdf(p, doc_id, document)
+        except Exception:
+            # PyMuPDF may fail on malformed PDFs; fall back to text mode.
+            return _read_text(p, doc_id, document)
+    return _read_text(p, doc_id, document)
+
+
+def ingest_many(mapping: Iterable[tuple[str, str]]) -> list[DocumentChunk]:
+    """Ingest multiple documents. mapping = [(doc_id, path), ...]"""
+
+    out: list[DocumentChunk] = []
+    for doc_id, path in mapping:
+        out.extend(ingest_pdf(path, doc_id))
+    return out

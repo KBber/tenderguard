@@ -1,1 +1,47 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi1zY2hlbWEub3JnL2RyYWZ0LzIwMjAtMTIvc2NoZW1hIiwKICAidGl0bGUiOiAiVGVuZGVyR3VhcmQgRmFpbHVyZSBUYXhvbm9teSIsCiAgImRlc2NyaXB0aW9uIjogIkFsbCBSRVZJRVdfUkVRVUlSRUQgcmVzdWx0cyBhcmUgdGFnZ2VkIHdpdGggb25lIG9mIHRoZXNlIHJlYXNvbnMgKHNwZWMgwqfljYHkuIMpLiIsCiAgInJlYXNvbnMiOiB7CiAgICAiRVhUUkFDVElPTl9GQUlMRUQiOiB7CiAgICAgICJkZXNjcmlwdGlvbiI6ICLns7vnu5/mnKrog73ku44gUERGIOaKveWPluWIsOivpeWtl+aute+8iOe8uuWkseaIliBPQ1Ig5byC5bi477yJIiwKICAgICAgInJlY29tbWVuZGVkX2FjdGlvbiI6ICLor7fkurrlt6XmoLjlr7nljp/lp4sgUERG77yM5oiW5L+u5aSN5oq95Y+W6KeE5YiZIgogICAgfSwKICAgICJSRVRSSUVWQUxfRkFJTEVEIjogewogICAgICAiZGVzY3JpcHRpb24iOiAi57O757uf5pyq6IO95Li66K+lIENLIOWPrOWbnuebuOWFs+ivgeaNriIsCiAgICAgICJyZWNvbW1lbmRlZF9hY3Rpb24iOiAi6K+35Lq65bel5qOA5p+l6K+B5o2u5omA5Zyo56ug6IqCIgogICAgfSwKICAgICJJTlNVRkZJQ0lFTlRfRVZJREVOQ0UiOiB7CiAgICAgICJkZXNjcmlwdGlvbiI6ICJSdWxlIEVuZ2luZSDmi7/kuI3liLDlrozmlbQgZmFjdHPvvIjlv4XloavlrZfmrrXnvLrlpLHvvIkiLAogICAgICAicmVjb21tZW5kZWRfYWN0aW9uIjogIuivt+S6uuW3peihpei2s+S4muWKoeadkOaWmSIKICAgIH0sCiAgICAiQ09ORkxJQ1RJTkdfRVZJREVOQ0UiOiB7CiAgICAgICJkZXNjcmlwdGlvbiI6ICLkuI3lkIzmnaXmupDlr7nlkIzkuIDkuovlrp7nu5nlh7rlhrLnqoHlgLwiLAogICAgICAicmVjb21tZW5kZWRfYWN0aW9uIjogIuivt+S6uuW3peS7suijgeWTquS7veS4uuWHhiIKICAgIH0sCiAgICAiQU1CSUdVT1VTX1JVTEUiOiB7CiAgICAgICJkZXNjcmlwdGlvbiI6ICJSdWxlIEVuZ2luZSDovpPlh7ogTm9uZe+8iOinhOWImeS4juW9k+WJjeS6i+WunuS4jeWMuemFje+8iSIsCiAgICAgICJyZWNvbW1lbmRlZF9hY3Rpb24iOiAi6K+35qOA5p+lIHJ1bGUg6YWN572uIgogICAgfSwKICAgICJIVU1BTl9PTkxZX1BST0NFU1MiOiB7CiAgICAgICJkZXNjcmlwdGlvbiI6ICLor6UgQ0sg5piv6L+H56iL5Yqo5L2cIC8g562W55Wl5Yik5patIC8g546w5Zy65pON5L2cIOKAlCBzcGVjIMKnMTcg5piO56Gu5LiN6Ieq5Yqo5YyWIiwKICAgICAgInJlY29tbWVuZGVkX2FjdGlvbiI6ICLnlLHlr7nlupTlm6LpmJ/mjIkgU09QIOaJp+ihjCIKICAgIH0sCiAgICAiRVhURVJOQUxfREFUQV9SRVFVSVJFRCI6IHsKICAgICAgImRlc2NyaXB0aW9uIjogIumcgOimgeafpeivouWklumDqOadg+WogeaVsOaNru+8iOaUv+mHh+e9keOAgeWGm+mYn+WkseS/oeWQjeWNleOAgeWumOe9keetie+8iSIsCiAgICAgICJyZWNvbW1lbmRlZF9hY3Rpb24iOiAi6K+35Lq65bel5p+l6K+i5aSW6YOo5pWw5o2uIgogICAgfSwKICAgICJET0NVTUVOVF9RVUFMSVRZX0lTU1VFIjogewogICAgICAiZGVzY3JpcHRpb24iOiAiUERGIOacrOi6q+aciei0qOmHj+mXrumimO+8iOWbvueJh+OAgeWKoOWvhuOAgeaJq+aPj++8iSIsCiAgICAgICJyZWNvbW1lbmRlZF9hY3Rpb24iOiAi6K+35o+Q5L6b5pu05riF5pmw55qEIFBERiDlkI7ph43ot5EiCiAgICB9LAogICAgIlJVTEVfVU5ERUZJTkVEIjogewogICAgICAiZGVzY3JpcHRpb24iOiAi5pqC5peg57uT5p6E5YyW6KeE5YiZIiwKICAgICAgInJlY29tbWVuZGVkX2FjdGlvbiI6ICLor7for4TlrqHmmK/lkKbooaUgcnVsZSIKICAgIH0sCiAgICAiU0VNQU5USUNfQU1CSUdVSVRZIjogewogICAgICAiZGVzY3JpcHRpb24iOiAi6K+t5LmJ5LiN5piO56Gu5oiW6ZyAIExMTSDliKTmlq3kvYbmnKrphY3nva4ga2V5IiwKICAgICAgInJlY29tbWVuZGVkX2FjdGlvbiI6ICLor7fkurrlt6Xor4TlrqEiCiAgICB9CiAgfQp9
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TenderGuard Failure Taxonomy",
+  "description": "All REVIEW_REQUIRED results are tagged with one of these reasons (spec §十七).",
+  "reasons": {
+    "EXTRACTION_FAILED": {
+      "description": "系统未能从 PDF 抽取到该字段（缺失或 OCR 异常）",
+      "recommended_action": "请人工核对原始 PDF，或修复抽取规则"
+    },
+    "RETRIEVAL_FAILED": {
+      "description": "系统未能为该 CK 召回相关证据",
+      "recommended_action": "请人工检查证据所在章节"
+    },
+    "INSUFFICIENT_EVIDENCE": {
+      "description": "Rule Engine 拿不到完整 facts（必填字段缺失）",
+      "recommended_action": "请人工补足业务材料"
+    },
+    "CONFLICTING_EVIDENCE": {
+      "description": "不同来源对同一事实给出冲突值",
+      "recommended_action": "请人工仲裁哪份为准"
+    },
+    "AMBIGUOUS_RULE": {
+      "description": "Rule Engine 输出 None（规则与当前事实不匹配）",
+      "recommended_action": "请检查 rule 配置"
+    },
+    "HUMAN_ONLY_PROCESS": {
+      "description": "该 CK 是过程动作 / 策略判断 / 现场操作 — spec §17 明确不自动化",
+      "recommended_action": "由对应团队按 SOP 执行"
+    },
+    "EXTERNAL_DATA_REQUIRED": {
+      "description": "需要查询外部权威数据（政采网、军队失信名单、官网等）",
+      "recommended_action": "请人工查询外部数据"
+    },
+    "DOCUMENT_QUALITY_ISSUE": {
+      "description": "PDF 本身有质量问题（图片、加密、扫描）",
+      "recommended_action": "请提供更清晰的 PDF 后重跑"
+    },
+    "RULE_UNDEFINED": {
+      "description": "暂无结构化规则",
+      "recommended_action": "请评审是否补 rule"
+    },
+    "SEMANTIC_AMBIGUITY": {
+      "description": "语义不明确或需 LLM 判断但未配置 key",
+      "recommended_action": "请人工评审"
+    }
+  }
+}

@@ -1,1 +1,27 @@
-IyBkYXRhLw0KDQpUaGlzIGRpcmVjdG9yeSBpcyAqKmludGVudGlvbmFsbHkgZW1wdHkgaW4gdGhlIHB1YmxpYyByZXBvc2l0b3J5KiogdG8ga2VlcA0KcmVhbCB0ZW5kZXIgZG9jdW1lbnRzIHByaXZhdGUuDQoNCiMjIFdoeSBpcyBpdCBlbXB0eT8NCg0KUmVhbCB0ZW5kZXIgLyBiaWQgUERGcyBhbmQgdGhlIGludGVybmFsIENLIEV4Y2VsIHNoZWV0IGNvbnRhaW4NCmNvbXBhbnkgbmFtZXMsIHByaWNlcywgYW5kIHByb2R1Y3QgZGV0YWlscyB0aGF0IG1heSBiZSBjb25zaWRlcmVkDQpidXNpbmVzcy1zZW5zaXRpdmUuDQoNCiMjIEhvdyB0byBvYnRhaW4gc2FtcGxlIGRhdGEgZm9yIGRlbW8gLyBlMmUgdGVzdHMNCg0KMS4gUnVuIGBweXRob24gdGVzdHMvZ2VuZXJhdGVfZml4dHVyZXMucHlgIHRvIHByb2R1Y2UgdGhlDQogICAqKnN5bnRoZXRpYyoqIGB0ZW5kZXIucGRmYCBhbmQgYGJpZC5wZGZgIGZpbGVzIHVzZWQgYnkNCiAgIGB0ZXN0cy90ZXN0X3Ntb2tlLnB5YCBhbmQgdGhlIGRlbW8gQ0xJLg0KMi4gUGxhY2UgcmVhbCBQREZzIGludG8gYGRhdGEvYCBpZiB5b3UgaGF2ZSBsZWdhbCBwZXJtaXNzaW9uIHRvIHNoYXJlIHRoZW0uDQoNCiMjIFJlZ2VuZXJhdGUgdGhlIGNoZWNrbGlzdA0KDQpUaGUgNjEtcm93IOebtOaKlSBDSyB0YWJsZSBpcyByZWdlbmVyYXRlZCBmcm9tIHRoZSBzb3VyY2UgRXhjZWwgb24gZXZlcnkgcnVuOg0KDQpgYGANCnB5dGhvbiAtbSB0ZW5kZXJndWFyZC5jbGkgcGFyc2UgICAtLWV4Y2VsIGRhdGEvc291cmNlL+WUruWJjUNLLnhsc3ggICAtLW91dHB1dCBkYXRhL25vcm1hbGl6ZWQvZGlyZWN0X3RlbmRlcl9jaGVja3NfdjMuanNvbg0KYGBgDQoNCihZb3UgbmVlZCB0byBvYnRhaW4gdGhlIEV4Y2VsIGZyb20geW91ciBvd24gYnVzaW5lc3Mgc291cmNlLikNCg==
+# data/
+
+This directory is **intentionally empty in the public repository** to keep
+real tender documents private.
+
+## Why is it empty?
+
+Real tender / bid PDFs and the internal CK Excel sheet contain
+company names, prices, and product details that may be considered
+business-sensitive.
+
+## How to obtain sample data for demo / e2e tests
+
+1. Run `python tests/generate_fixtures.py` to produce the
+   **synthetic** `tender.pdf` and `bid.pdf` files used by
+   `tests/test_smoke.py` and the demo CLI.
+2. Place real PDFs into `data/` if you have legal permission to share them.
+
+## Regenerate the checklist
+
+The 61-row 直投 CK table is regenerated from the source Excel on every run:
+
+```
+python -m tenderguard.cli parse   --excel data/source/售前CK.xlsx   --output data/normalized/direct_tender_checks_v3.json
+```
+
+(You need to obtain the Excel from your own business source.)

@@ -1,1 +1,1 @@
-IiIiRGV0ZXJtaW5pc3RpYyBydWxlIGVuZ2luZSBmb3IgVGVuZGVyR3VhcmQgY2hlY2tzLiIiIg==
+"""Deterministic rule engine for TenderGuard checks."""

@@ -1,1 +1,1 @@
-IiIiUmVxdWlyZW1lbnQgZXh0cmFjdGlvbiArIGZhY3QgZXh0cmFjdGlvbiBhZGFwdGVycy4iIiI=
+"""Requirement extraction + fact extraction adapters."""

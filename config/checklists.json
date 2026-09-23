@@ -1,1 +1,381 @@
-WwogIHsKICAgICJjaGVja19pZCI6ICJDT05TSVNULTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5pW05L2T5qOA5p+lIiwKICAgICJuYW1lIjogIumhueebruWQjeensOS4gOiHtOaApyIsCiAgICAiZGVzY3JpcHRpb24iOiAi5qCH5Lmm5YWo5paH5raJ5Y+K55qE6aG555uu5ZCN56ew5bqU5LiO5oub5qCH5paH5Lu25LiA6Ie044CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJydWxlIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuaLm+agh+aWh+S7tumhueebruWQjeensCIsCiAgICAgICLmipXmoIfmlofku7bpobnnm67lkI3np7AiCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJlcXVhbCIsCiAgICAgICJmaWVsZHMiOiBbCiAgICAgICAgInRlbmRlci5wcm9qZWN0X25hbWUiLAogICAgICAgICJiaWQucHJvamVjdF9uYW1lIgogICAgICBdCiAgICB9LAogICAgInNvdXJjZV9jayI6ICLnm7TmipVDSy/mlbTkvZPmo4Dmn6Uv5LiA6Ie05oCn5qOA5p+lIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIkNPTlNJU1QtMDAyIiwKICAgICJjYXRlZ29yeSI6ICLmlbTkvZPmo4Dmn6UiLAogICAgIm5hbWUiOiAi6aG555uu57yW5Y+35LiA6Ie05oCnIiwKICAgICJkZXNjcmlwdGlvbiI6ICLpobnnm67nvJblj7flupTkuI7mi5vmoIfmlofku7bkv53mjIHkuIDoh7TjgIIiLAogICAgInNldmVyaXR5IjogIkNSSVRJQ0FMIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogInJ1bGUiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu26aG555uu57yW5Y+3IiwKICAgICAgIuaKleagh+aWh+S7tumhueebrue8luWPtyIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImVxdWFsIiwKICAgICAgImZpZWxkcyI6IFsKICAgICAgICAidGVuZGVyLnByb2plY3RfaWQiLAogICAgICAgICJiaWQucHJvamVjdF9pZCIKICAgICAgXQogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5pW05L2T5qOA5p+lL+S4gOiHtOaAp+ajgOafpSIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJDT05TSVNULTAwMyIsCiAgICAiY2F0ZWdvcnkiOiAi5pW05L2T5qOA5p+lIiwKICAgICJuYW1lIjogIumhueebruWMheWPt+S4gOiHtOaApyIsCiAgICAiZGVzY3JpcHRpb24iOiAi5aSa5YyF6aG555uu5b+F6aG75q2j56Gu5Yy65YiG6aG555uu5oC757yW5Y+35LiO5YyF5Y+344CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJydWxlIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuaLm+agh+aWh+S7tuWMheWPtyIsCiAgICAgICLmipXmoIfmlofku7bljIXlj7ciCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJlcXVhbCIsCiAgICAgICJmaWVsZHMiOiBbCiAgICAgICAgInRlbmRlci5wYWNrYWdlX2lkIiwKICAgICAgICAiYmlkLnBhY2thZ2VfaWQiCiAgICAgIF0KICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+aVtOS9k+ajgOafpS/kuIDoh7TmgKfmo4Dmn6UiCiAgfSwKICB7CiAgICAiY2hlY2tfaWQiOiAiQ09OU0lTVC0wMDQiLAogICAgImNhdGVnb3J5IjogIuaVtOS9k+ajgOafpSIsCiAgICAibmFtZSI6ICLmipXmoIfkurrlkI3np7DkuIDoh7TmgKciLAogICAgImRlc2NyaXB0aW9uIjogIuaKleagh+S6uuWQjeensOW6lOS4juaLm+agh+imgeaxguWPiuiQpeS4muaJp+eFp+etieadkOaWmeS4gOiHtOOAgiIsCiAgICAic2V2ZXJpdHkiOiAiQ1JJVElDQUwiLAogICAgInZlcmlmaWNhdGlvbl9tZXRob2QiOiAicnVsZSIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLmi5vmoIfmlofku7bmipXmoIfkurropoHmsYIiLAogICAgICAi5oqV5qCH5paH5Lu25oqV5qCH5Lq65ZCN56ewIiwKICAgICAgIuiQpeS4muaJp+eFpyIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImVxdWFsIiwKICAgICAgImZpZWxkcyI6IFsKICAgICAgICAiYmlkLmJpZGRlcl9uYW1lIiwKICAgICAgICAibGljZW5zZS5jb21wYW55X25hbWUiCiAgICAgIF0KICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+aKleagh+S6uuOAgeWIhumhueaKpeS7t+ihqOOAgei1hOi0qOadkOaWmSIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJBVVRILTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5o6I5p2DIiwKICAgICJuYW1lIjogIuazleS6uuS7o+ihqC/ooqvmjojmnYPkurrkv6Hmga8iLAogICAgImRlc2NyaXB0aW9uIjogIuaOiOadg+aWh+S7tuS4reeahOazleS6uuS7o+ihqOOAgeiiq+aOiOadg+S6uuetieWFs+mUruS/oeaBr+W6lOa7oei2s+aLm+agh+aWh+S7tuimgeaxguW5tuS/neaMgeS4gOiHtOOAgiIsCiAgICAic2V2ZXJpdHkiOiAiQ1JJVElDQUwiLAogICAgInZlcmlmaWNhdGlvbl9tZXRob2QiOiAiaHlicmlkIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuaLm+agh+aWh+S7tuaOiOadg+imgeaxgiIsCiAgICAgICLms5Xkurrku6PooajmjojmnYPkuaYiLAogICAgICAi5oqV5qCH5Lq65L+h5oGv6KGoIgogICAgXSwKICAgICJydWxlIjogewogICAgICAib3BlcmF0b3IiOiAiZmllbGRfY29uc2lzdGVuY3kiLAogICAgICAicGFpcnMiOiBbCiAgICAgICAgWwogICAgICAgICAgImF1dGhvcml6YXRpb24ubGVnYWxfcmVwcmVzZW50YXRpdmUiLAogICAgICAgICAgImJpZC5sZWdhbF9yZXByZXNlbnRhdGl2ZSIKICAgICAgICBdCiAgICAgIF0KICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+aOiOadgyIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJCT05ELTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5L+d6K+B6YeRIiwKICAgICJuYW1lIjogIuS/neivgemHkemHkeminSIsCiAgICAiZGVzY3JpcHRpb24iOiAi5L+d6K+B6YeR6YeR6aKd5bqU5ruh6Laz5oub5qCH5paH5Lu26KaB5rGC44CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJoeWJyaWQiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu25L+d6K+B6YeR6KaB5rGCIiwKICAgICAgIumTtuihjOWbnuWNlS/mlLbmja4iCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJndGUiLAogICAgICAiYWN0dWFsX2ZpZWxkIjogImJvbmQuYW1vdW50IiwKICAgICAgInJlcXVpcmVkX2ZpZWxkIjogInJlcXVpcmVtZW50LmJvbmRfYW1vdW50IgogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5L+d6K+B6YeRIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIkJPTkQtMDAyIiwKICAgICJjYXRlZ29yeSI6ICLkv53or4Hph5EiLAogICAgIm5hbWUiOiAi5L+d6K+B6YeR5pS25qy+6LSm5oi3IiwKICAgICJkZXNjcmlwdGlvbiI6ICLkv53or4Hph5HmlLbmrL7mlrkv6LSm5oi35bqU5LiO5oub5qCH5paH5Lu25LiA6Ie044CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJydWxlIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuaLm+agh+aWh+S7tuaUtuasvuaWuSIsCiAgICAgICLpk7booYzlm57ljZUiCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJlcXVhbCIsCiAgICAgICJmaWVsZHMiOiBbCiAgICAgICAgImJvbmQucGF5ZWUiLAogICAgICAgICJyZXF1aXJlbWVudC5ib25kX3BheWVlIgogICAgICBdCiAgICB9LAogICAgInNvdXJjZV9jayI6ICLnm7TmipVDSy/mlbTkvZPmo4Dmn6Uv5oqV5qCH5L+d6K+B6YeR5YaF5a655qOA5p+lIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIkNPTU0tMDAxIiwKICAgICJjYXRlZ29yeSI6ICLllYbliqHlgY/nprvooagiLAogICAgIm5hbWUiOiAi5ZWG5Yqh6KaB5rGC5a6M5pW05ZON5bqUIiwKICAgICJkZXNjcmlwdGlvbiI6ICLmi5vmoIfmlofku7blhajpg6jllYbliqHopoHmsYLlupTmnInlr7nlupTlk43lupTvvIzkuI3lvpfpgZfmvI/jgIIiLAogICAgInNldmVyaXR5IjogIkNSSVRJQ0FMIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogImh5YnJpZCIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLmi5vmoIfmlofku7bllYbliqHopoHmsYIiLAogICAgICAi5ZWG5Yqh5YGP56a76KGoIiwKICAgICAgIuaKleagh+aWh+S7tuWvueW6lOeroOiKgiIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImNvdmVyYWdlIiwKICAgICAgInNvdXJjZSI6ICJ0ZW5kZXIuY29tbWVyY2lhbF9yZXF1aXJlbWVudHMiLAogICAgICAidGFyZ2V0IjogImJpZC5jb21tZXJjaWFsX3Jlc3BvbnNlcyIsCiAgICAgICJtaW5fY292ZXJhZ2UiOiAxLjAKICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+WVhuWKoeWBj+emu+ihqCIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJDT01NLTAwMiIsCiAgICAiY2F0ZWdvcnkiOiAi5ZWG5Yqh5YGP56a76KGoIiwKICAgICJuYW1lIjogIuWVhuWKoeWBj+emu+mhueS4jeW+l+mBl+a8jyIsCiAgICAiZGVzY3JpcHRpb24iOiAi5Y2z5L2/5oub5qCH5paH5Lu25pyq5o+Q5L6b5ZWG5Yqh5YGP56a76KGo5qC85byP77yM5Lmf5bqU5Zyo5oqV5qCH5paH5Lu25Lit5a6M5pW05ZON5bqU5ZWG5Yqh6KaB5rGC44CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJoeWJyaWQiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu25ZWG5Yqh5p2h5qy+IiwKICAgICAgIuaKleagh+aWh+S7tuWVhuWKoeWTjeW6lCIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImNvdmVyYWdlIiwKICAgICAgInNvdXJjZSI6ICJ0ZW5kZXIuY29tbWVyY2lhbF9yZXF1aXJlbWVudHMiLAogICAgICAidGFyZ2V0IjogImJpZC5jb21tZXJjaWFsX3Jlc3BvbnNlcyIsCiAgICAgICJtaW5fY292ZXJhZ2UiOiAxLjAKICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+WVhuWKoeWBj+emu+ihqCIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJURUNILTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5oqV5qCH5riF5Y2VIiwKICAgICJuYW1lIjogIuS6p+WTgeWPguaVsOWTjeW6lCIsCiAgICAiZGVzY3JpcHRpb24iOiAi5oqV5qCH5Lqn5ZOB5Y+C5pWw5LiN5b6X5L2O5LqO5oub5qCH5paH5Lu255qE5a6e6LSo5oCn6KaB5rGC44CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJoeWJyaWQiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu25oqA5pyv5Y+C5pWwIiwKICAgICAgIuaKleagh+aKgOacr+WPguaVsOihqCIsCiAgICAgICLkuqflk4Hor4HmmI7mnZDmlpkiCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJwYXJhbWV0ZXJfY29tcGFyZSIsCiAgICAgICJkaXJlY3Rpb24iOiAiYmlkX21lZXRzX29yX2V4Y2VlZHMiCiAgICB9LAogICAgInNvdXJjZV9jayI6ICLnm7TmipVDSy/mipXmoIfmuIXljZUv6K6+5aSH6YCJ5Z6LIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIlRFQ0gtMDAyIiwKICAgICJjYXRlZ29yeSI6ICLkuqflk4HotYTotKgiLAogICAgIm5hbWUiOiAi5Lqn5ZOB6LWE6LSo5a6M5pW05oCnIiwKICAgICJkZXNjcmlwdGlvbiI6ICLmo4DmtYvmiqXlkYrjgIHoioLog73jgIEzQ+OAgeS6p+WTgeW9qemhteetieadkOaWmeW6lOaMieaLm+agh+imgeaxguWHhuWkh+OAgiIsCiAgICAic2V2ZXJpdHkiOiAiSElHSCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJoeWJyaWQiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu26LWE6LSo6KaB5rGCIiwKICAgICAgIuS6p+WTgei1hOi0qOadkOaWmSIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImNvdmVyYWdlIiwKICAgICAgInNvdXJjZSI6ICJ0ZW5kZXIucHJvZHVjdF9jZXJ0X3JlcXVpcmVtZW50cyIsCiAgICAgICJ0YXJnZXQiOiAiYmlkLnByb2R1Y3RfY2VydGlmaWNhdGVzIiwKICAgICAgIm1pbl9jb3ZlcmFnZSI6IDEuMAogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5Lqn5ZOB6LWE6LSoIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIkVYUC0wMDEiLAogICAgImNhdGVnb3J5IjogIuS4mue7qSIsCiAgICAibmFtZSI6ICLkuJrnu6nmlbDph4/kuI7ml7bpl7QiLAogICAgImRlc2NyaXB0aW9uIjogIuS4mue7qeW6lOa7oei2s+aLm+agh+aWh+S7tuimgeaxgueahOaVsOmHj+WPiuaXtumXtOiMg+WbtOOAgiIsCiAgICAic2V2ZXJpdHkiOiAiSElHSCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJoeWJyaWQiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi6K+E5YiG6KGoL+S4mue7qeimgeaxgiIsCiAgICAgICLkuJrnu6nmsYfmgLvooagiLAogICAgICAi5ZCI5ZCML+mqjOaUtuadkOaWmSIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImNvdW50X2FuZF9kYXRlX3dpbmRvdyIKICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+S4mue7qSIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJFWFAtMDAyIiwKICAgICJjYXRlZ29yeSI6ICLkuJrnu6kiLAogICAgIm5hbWUiOiAi5Lia57up5ZCI5ZCM6YeR6aKdIiwKICAgICJkZXNjcmlwdGlvbiI6ICLoi6Xmi5vmoIfmlofku7bop4TlrprljZXkuKrlkIjlkIzph5Hpop3kuIvpmZDvvIzlupTpgJDpobnpqozor4HjgIIiLAogICAgInNldmVyaXR5IjogIkhJR0giLAogICAgInZlcmlmaWNhdGlvbl9tZXRob2QiOiAiaHlicmlkIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuaLm+agh+aWh+S7tuS4mue7qeimgeaxgiIsCiAgICAgICLlkIjlkIwiCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJndGUiLAogICAgICAiYWN0dWFsX2ZpZWxkIjogImV4cGVyaWVuY2UuY29udHJhY3RfYW1vdW50IiwKICAgICAgInJlcXVpcmVkX2ZpZWxkIjogInJlcXVpcmVtZW50LmV4cGVyaWVuY2VfY29udHJhY3RfYW1vdW50IgogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5Lia57upIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIlBSSUNFLTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5YiG6aG55oql5Lu36KGoIiwKICAgICJuYW1lIjogIuWQjOWei+WPt+S7t+agvOS4gOiHtCIsCiAgICAiZGVzY3JpcHRpb24iOiAi5ZCM5LiA5Z6L5Y+35Lqn5ZOB5LiN5b6X5Ye6546w5LiN5ZCM5oql5Lu344CCIiwKICAgICJzZXZlcml0eSI6ICJISUdIIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogInJ1bGUiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5YiG6aG55oql5Lu36KGoIgogICAgXSwKICAgICJydWxlIjogewogICAgICAib3BlcmF0b3IiOiAic2FtZV92YWx1ZV9ieV9rZXkiLAogICAgICAia2V5IjogInByb2R1Y3QubW9kZWwiLAogICAgICAidmFsdWUiOiAicHJvZHVjdC51bml0X3ByaWNlIgogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5YiG6aG55oql5Lu36KGoIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIlBSSUNFLTAwMiIsCiAgICAiY2F0ZWdvcnkiOiAi5YiG6aG55oql5Lu36KGoIiwKICAgICJuYW1lIjogIuWwj+iuoeWPiuWQiOiuoeWFrOW8jyIsCiAgICAiZGVzY3JpcHRpb24iOiAi5YiG6aG55bCP6K6h5ZKM5oC76K6h5bqU6K6h566X5q2j56Gu44CCIiwKICAgICJzZXZlcml0eSI6ICJDUklUSUNBTCIsCiAgICAidmVyaWZpY2F0aW9uX21ldGhvZCI6ICJydWxlIiwKICAgICJldmlkZW5jZV9yZXF1aXJlZCI6IFsKICAgICAgIuWIhumhueaKpeS7t+ihqCIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogInJlY2FsY3VsYXRlX3RvdGFscyIKICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+aKleagh+aKpeS7tyIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJQUklDRS0wMDMiLAogICAgImNhdGVnb3J5IjogIuaKleagh+aKpeS7tyIsCiAgICAibmFtZSI6ICLmiqXku7fkuI3otoXov4fpmZDku7ciLAogICAgImRlc2NyaXB0aW9uIjogIuaKpeS7t+S4jeW+l+i2hei/h+aLm+agh+aWh+S7tuinhOWumueahOaKleagh+mZkOS7ty/mi6bmoIfku7fjgIIiLAogICAgInNldmVyaXR5IjogIkNSSVRJQ0FMIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogInJ1bGUiLAogICAgImV2aWRlbmNlX3JlcXVpcmVkIjogWwogICAgICAi5oub5qCH5paH5Lu26ZmQ5Lu3IiwKICAgICAgIuaKleagh+aKpeS7t+ihqCIKICAgIF0sCiAgICAicnVsZSI6IHsKICAgICAgIm9wZXJhdG9yIjogImx0ZSIsCiAgICAgICJhY3R1YWxfZmllbGQiOiAiYmlkLnRvdGFsX3ByaWNlIiwKICAgICAgInJlcXVpcmVkX2ZpZWxkIjogInRlbmRlci5wcmljZV9jZWlsaW5nIgogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5pW05L2T5qOA5p+lIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIk1PREVMLTAwMSIsCiAgICAiY2F0ZWdvcnkiOiAi5Lqn5ZOB5Y+C5pWwIiwKICAgICJuYW1lIjogIuaKleagh+Wei+WPt+WPr+i/vea6ryIsCiAgICAiZGVzY3JpcHRpb24iOiAi5Y+C5pWw6Jma6auY5oiW5L2/55So5qOA5rWL5oql5ZGK5Z6L5Y+35pe277yM5bqU6IO956Gu6K6k5oqV5qCH5Z6L5Y+355yf5a6e5a2Y5Zyo5bm25Y+v6L+95rqv44CCIiwKICAgICJzZXZlcml0eSI6ICJISUdIIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogImh5YnJpZCIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLmipXmoIflnovlj7ciLAogICAgICAi5Lqn5ZOB5qOA5rWL5oql5ZGKIiwKICAgICAgIuS6p+WTgei1hOaWmS/lrpjmlrnotYTmlpkiCiAgICBdLAogICAgInJ1bGUiOiB7CiAgICAgICJvcGVyYXRvciI6ICJldmlkZW5jZV9wcmVzZW5jZSIKICAgIH0sCiAgICAic291cmNlX2NrIjogIuebtOaKlUNLL+S6p+WTgeWPguaVsCIKICB9LAogIHsKICAgICJjaGVja19pZCI6ICJET0MtMDAxIiwKICAgICJjYXRlZ29yeSI6ICLmlbTkvZPmo4Dmn6UiLAogICAgIm5hbWUiOiAi5bqf5qCH6aG56YCQ5p2h5ZON5bqUIiwKICAgICJkZXNjcmlwdGlvbiI6ICLmi5vmoIfmlofku7bkuK3nmoTlup/moIcv5peg5pWIL+W/hemhuy/lrp7otKjmgKfnrYnopoHmsYLlupTpgJDmnaHmo4Dmn6XlubbokL3lrp7jgIIiLAogICAgInNldmVyaXR5IjogIkNSSVRJQ0FMIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogImh5YnJpZCIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLmi5vmoIfmlofku7blup/moIfmnaHmrL4iLAogICAgICAi5oqV5qCH5paH5Lu25a+55bqU5ZON5bqUIgogICAgXSwKICAgICJydWxlIjogewogICAgICAib3BlcmF0b3IiOiAiY292ZXJhZ2UiLAogICAgICAic291cmNlIjogInRlbmRlci5yZWplY3Rpb25fcmVxdWlyZW1lbnRzIiwKICAgICAgInRhcmdldCI6ICJiaWQucmVzcG9uc2VzIiwKICAgICAgIm1pbl9jb3ZlcmFnZSI6IDEuMAogICAgfSwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5pW05L2T5qOA5p+lIgogIH0sCiAgewogICAgImNoZWNrX2lkIjogIkNPTlNJU1QtMDA1IiwKICAgICJjYXRlZ29yeSI6ICLkuIDoh7TmgKfmo4Dmn6UiLAogICAgIm5hbWUiOiAi5qOA5rWL5oql5ZGK5L+h5oGv5LiA6Ie0IiwKICAgICJkZXNjcmlwdGlvbiI6ICLlgY/nprvooajkuK3nmoTmo4DmtYvmiqXlkYrlkI3np7DjgIHnvJblj7fjgIHmnaHnm67lupTkuI7lrp7pmYXmo4DmtYvmiqXlkYrkuIDoh7TjgIIiLAogICAgInNldmVyaXR5IjogIkhJR0giLAogICAgInZlcmlmaWNhdGlvbl9tZXRob2QiOiAicnVsZSIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLlgY/nprvooagiLAogICAgICAi5qOA5rWL5oql5ZGKIgogICAgXSwKICAgICJydWxlIjogewogICAgICAib3BlcmF0b3IiOiAiZmllbGRfY29uc2lzdGVuY3kiLAogICAgICAicGFpcnMiOiBbCiAgICAgICAgWwogICAgICAgICAgImRldmlhdGlvbi50ZXN0X3JlcG9ydF9uYW1lIiwKICAgICAgICAgICJyZXBvcnQubmFtZSIKICAgICAgICBdLAogICAgICAgIFsKICAgICAgICAgICJkZXZpYXRpb24udGVzdF9yZXBvcnRfbm8iLAogICAgICAgICAgInJlcG9ydC5udW1iZXIiCiAgICAgICAgXQogICAgICBdCiAgICB9LAogICAgInNvdXJjZV9jayI6ICLnm7TmipVDSy/kuIDoh7TmgKfmo4Dmn6UiCiAgfSwKICB7CiAgICAiY2hlY2tfaWQiOiAiQ09OU0lTVC0wMDYiLAogICAgImNhdGVnb3J5IjogIuS4gOiHtOaAp+ajgOafpSIsCiAgICAibmFtZSI6ICLmioDmnK/mlrnmoYjkuI3lvpflh7rnjrDlhbbku5bpobnnm67lkI3np7AiLAogICAgImRlc2NyaXB0aW9uIjogIuaKleagh+aWh+S7tuaKgOacr+aWueahiOS4reS4jeW6lOWHuueOsOWFtuS7lumhueebruWQjeensOetieaYjuaYvuS4suaghy/plJnpobnpo47pmankv6Hmga/jgIIiLAogICAgInNldmVyaXR5IjogIkNSSVRJQ0FMIiwKICAgICJ2ZXJpZmljYXRpb25fbWV0aG9kIjogImxsbSIsCiAgICAiZXZpZGVuY2VfcmVxdWlyZWQiOiBbCiAgICAgICLmipXmoIfmlofku7blhajmlociLAogICAgICAi5oub5qCH6aG555uu5ZCN56ewIgogICAgXSwKICAgICJydWxlIjogbnVsbCwKICAgICJzb3VyY2VfY2siOiAi55u05oqVQ0sv5pW05L2T5qOA5p+lIgogIH0KXQ==
+[
+  {
+    "check_id": "CONSIST-001",
+    "category": "整体检查",
+    "name": "项目名称一致性",
+    "description": "标书全文涉及的项目名称应与招标文件一致。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件项目名称",
+      "投标文件项目名称"
+    ],
+    "rule": {
+      "operator": "equal",
+      "fields": [
+        "tender.project_name",
+        "bid.project_name"
+      ]
+    },
+    "source_ck": "直投CK/整体检查/一致性检查"
+  },
+  {
+    "check_id": "CONSIST-002",
+    "category": "整体检查",
+    "name": "项目编号一致性",
+    "description": "项目编号应与招标文件保持一致。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件项目编号",
+      "投标文件项目编号"
+    ],
+    "rule": {
+      "operator": "equal",
+      "fields": [
+        "tender.project_id",
+        "bid.project_id"
+      ]
+    },
+    "source_ck": "直投CK/整体检查/一致性检查"
+  },
+  {
+    "check_id": "CONSIST-003",
+    "category": "整体检查",
+    "name": "项目包号一致性",
+    "description": "多包项目必须正确区分项目总编号与包号。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件包号",
+      "投标文件包号"
+    ],
+    "rule": {
+      "operator": "equal",
+      "fields": [
+        "tender.package_id",
+        "bid.package_id"
+      ]
+    },
+    "source_ck": "直投CK/整体检查/一致性检查"
+  },
+  {
+    "check_id": "CONSIST-004",
+    "category": "整体检查",
+    "name": "投标人名称一致性",
+    "description": "投标人名称应与招标要求及营业执照等材料一致。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件投标人要求",
+      "投标文件投标人名称",
+      "营业执照"
+    ],
+    "rule": {
+      "operator": "equal",
+      "fields": [
+        "bid.bidder_name",
+        "license.company_name"
+      ]
+    },
+    "source_ck": "直投CK/投标人、分项报价表、资质材料"
+  },
+  {
+    "check_id": "AUTH-001",
+    "category": "授权",
+    "name": "法人代表/被授权人信息",
+    "description": "授权文件中的法人代表、被授权人等关键信息应满足招标文件要求并保持一致。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件授权要求",
+      "法人代表授权书",
+      "投标人信息表"
+    ],
+    "rule": {
+      "operator": "field_consistency",
+      "pairs": [
+        [
+          "authorization.legal_representative",
+          "bid.legal_representative"
+        ]
+      ]
+    },
+    "source_ck": "直投CK/授权"
+  },
+  {
+    "check_id": "BOND-001",
+    "category": "保证金",
+    "name": "保证金金额",
+    "description": "保证金金额应满足招标文件要求。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件保证金要求",
+      "银行回单/收据"
+    ],
+    "rule": {
+      "operator": "gte",
+      "actual_field": "bond.amount",
+      "required_field": "requirement.bond_amount"
+    },
+    "source_ck": "直投CK/保证金"
+  },
+  {
+    "check_id": "BOND-002",
+    "category": "保证金",
+    "name": "保证金收款账户",
+    "description": "保证金收款方/账户应与招标文件一致。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件收款方",
+      "银行回单"
+    ],
+    "rule": {
+      "operator": "equal",
+      "fields": [
+        "bond.payee",
+        "requirement.bond_payee"
+      ]
+    },
+    "source_ck": "直投CK/整体检查/投标保证金内容检查"
+  },
+  {
+    "check_id": "COMM-001",
+    "category": "商务偏离表",
+    "name": "商务要求完整响应",
+    "description": "招标文件全部商务要求应有对应响应，不得遗漏。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件商务要求",
+      "商务偏离表",
+      "投标文件对应章节"
+    ],
+    "rule": {
+      "operator": "coverage",
+      "source": "tender.commercial_requirements",
+      "target": "bid.commercial_responses",
+      "min_coverage": 1.0
+    },
+    "source_ck": "直投CK/商务偏离表"
+  },
+  {
+    "check_id": "COMM-002",
+    "category": "商务偏离表",
+    "name": "商务偏离项不得遗漏",
+    "description": "即使招标文件未提供商务偏离表格式，也应在投标文件中完整响应商务要求。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件商务条款",
+      "投标文件商务响应"
+    ],
+    "rule": {
+      "operator": "coverage",
+      "source": "tender.commercial_requirements",
+      "target": "bid.commercial_responses",
+      "min_coverage": 1.0
+    },
+    "source_ck": "直投CK/商务偏离表"
+  },
+  {
+    "check_id": "TECH-001",
+    "category": "投标清单",
+    "name": "产品参数响应",
+    "description": "投标产品参数不得低于招标文件的实质性要求。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件技术参数",
+      "投标技术参数表",
+      "产品证明材料"
+    ],
+    "rule": {
+      "operator": "parameter_compare",
+      "direction": "bid_meets_or_exceeds"
+    },
+    "source_ck": "直投CK/投标清单/设备选型"
+  },
+  {
+    "check_id": "TECH-002",
+    "category": "产品资质",
+    "name": "产品资质完整性",
+    "description": "检测报告、节能、3C、产品彩页等材料应按招标要求准备。",
+    "severity": "HIGH",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件资质要求",
+      "产品资质材料"
+    ],
+    "rule": {
+      "operator": "coverage",
+      "source": "tender.product_cert_requirements",
+      "target": "bid.product_certificates",
+      "min_coverage": 1.0
+    },
+    "source_ck": "直投CK/产品资质"
+  },
+  {
+    "check_id": "EXP-001",
+    "category": "业绩",
+    "name": "业绩数量与时间",
+    "description": "业绩应满足招标文件要求的数量及时间范围。",
+    "severity": "HIGH",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "评分表/业绩要求",
+      "业绩汇总表",
+      "合同/验收材料"
+    ],
+    "rule": {
+      "operator": "count_and_date_window"
+    },
+    "source_ck": "直投CK/业绩"
+  },
+  {
+    "check_id": "EXP-002",
+    "category": "业绩",
+    "name": "业绩合同金额",
+    "description": "若招标文件规定单个合同金额下限，应逐项验证。",
+    "severity": "HIGH",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件业绩要求",
+      "合同"
+    ],
+    "rule": {
+      "operator": "gte",
+      "actual_field": "experience.contract_amount",
+      "required_field": "requirement.experience_contract_amount"
+    },
+    "source_ck": "直投CK/业绩"
+  },
+  {
+    "check_id": "PRICE-001",
+    "category": "分项报价表",
+    "name": "同型号价格一致",
+    "description": "同一型号产品不得出现不同报价。",
+    "severity": "HIGH",
+    "verification_method": "rule",
+    "evidence_required": [
+      "分项报价表"
+    ],
+    "rule": {
+      "operator": "same_value_by_key",
+      "key": "product.model",
+      "value": "product.unit_price"
+    },
+    "source_ck": "直投CK/分项报价表"
+  },
+  {
+    "check_id": "PRICE-002",
+    "category": "分项报价表",
+    "name": "小计及合计公式",
+    "description": "分项小计和总计应计算正确。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "分项报价表"
+    ],
+    "rule": {
+      "operator": "recalculate_totals"
+    },
+    "source_ck": "直投CK/投标报价"
+  },
+  {
+    "check_id": "PRICE-003",
+    "category": "投标报价",
+    "name": "报价不超过限价",
+    "description": "报价不得超过招标文件规定的投标限价/拦标价。",
+    "severity": "CRITICAL",
+    "verification_method": "rule",
+    "evidence_required": [
+      "招标文件限价",
+      "投标报价表"
+    ],
+    "rule": {
+      "operator": "lte",
+      "actual_field": "bid.total_price",
+      "required_field": "tender.price_ceiling"
+    },
+    "source_ck": "直投CK/整体检查"
+  },
+  {
+    "check_id": "MODEL-001",
+    "category": "产品参数",
+    "name": "投标型号可追溯",
+    "description": "参数虚高或使用检测报告型号时，应能确认投标型号真实存在并可追溯。",
+    "severity": "HIGH",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "投标型号",
+      "产品检测报告",
+      "产品资料/官方资料"
+    ],
+    "rule": {
+      "operator": "evidence_presence"
+    },
+    "source_ck": "直投CK/产品参数"
+  },
+  {
+    "check_id": "DOC-001",
+    "category": "整体检查",
+    "name": "废标项逐条响应",
+    "description": "招标文件中的废标/无效/必须/实质性等要求应逐条检查并落实。",
+    "severity": "CRITICAL",
+    "verification_method": "hybrid",
+    "evidence_required": [
+      "招标文件废标条款",
+      "投标文件对应响应"
+    ],
+    "rule": {
+      "operator": "coverage",
+      "source": "tender.rejection_requirements",
+      "target": "bid.responses",
+      "min_coverage": 1.0
+    },
+    "source_ck": "直投CK/整体检查"
+  },
+  {
+    "check_id": "CONSIST-005",
+    "category": "一致性检查",
+    "name": "检测报告信息一致",
+    "description": "偏离表中的检测报告名称、编号、条目应与实际检测报告一致。",
+    "severity": "HIGH",
+    "verification_method": "rule",
+    "evidence_required": [
+      "偏离表",
+      "检测报告"
+    ],
+    "rule": {
+      "operator": "field_consistency",
+      "pairs": [
+        [
+          "deviation.test_report_name",
+          "report.name"
+        ],
+        [
+          "deviation.test_report_no",
+          "report.number"
+        ]
+      ]
+    },
+    "source_ck": "直投CK/一致性检查"
+  },
+  {
+    "check_id": "CONSIST-006",
+    "category": "一致性检查",
+    "name": "技术方案不得出现其他项目名称",
+    "description": "投标文件技术方案中不应出现其他项目名称等明显串标/错项风险信息。",
+    "severity": "CRITICAL",
+    "verification_method": "llm",
+    "evidence_required": [
+      "投标文件全文",
+      "招标项目名称"
+    ],
+    "rule": null,
+    "source_ck": "直投CK/整体检查"
+  }
+]

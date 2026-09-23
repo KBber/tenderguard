@@ -1,1 +1,556 @@
-IiIiSGV1cmlzdGljIGZhY3QgZXh0cmFjdGlvbiBmb3IgVGVuZGVyR3VhcmQgdjAuMi4KCnYwLjIgaW1wcm92ZW1lbnRzIHZzIHYwLjE6Ci0gYmlkZGVyX25hbWU6IOaUr+aMgSDmipXmoIfkurov5L6b5bqU5ZWGL+aKleagh+WNleS9jSDnrYnlkIzkuYnor43kuI7kuK3mloflhazlj7jlkI3vvIjogqHku70v5pyJ6ZmQL+enkeaKgC/pm4blm6LnrYnvvIkKLSByZXNwb25zZXM6IOeroOiKguagh+mimOivhuWIqyArICLlk43lupQv5bqU562UL+a7oei2sy/lgY/nprsiIOWFs+mUruivjQotIGRldmlhdGlvbi50ZXN0X3JlcG9ydF9uYW1lOiDlrZfmrrXnuqfmi4bliIbvvIzpgb/lhY3miorlpJrkuKrlrZfmrrXmi7zlnKjkuIDotbcKLSDmr4/kuKogZmFjdCDlop7liqAgY29uZmlkZW5jZSArIHBhZ2Ug5a2X5q61CgpFeHRyYWN0aW9uIExheWVyIChTcGVjIMKn5LqMKTog6LSf6LSjIuaWh+S7tumHjOWIsOW6leWGmeS6huS7gOS5iCLvvIwqKuS4jSoq5Yik5pat5ZCI6KeE44CCCiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHJlCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcywgZmllbGQKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSB0ZW5kZXJndWFyZC5hcHAuc2NoZW1hcyBpbXBvcnQgRG9jdW1lbnRDaHVuawoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUGF0dGVybnMKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCl9NT05FWV9SRSA9IHJlLmNvbXBpbGUoCiAgICByIig/UDxudW0+XGRbXGQsXC5dKilccyooP1A8dW5pdD7kuId85Lq/fOWFg3zlnIZ8Uk1CfHJtYik/IiwgcmUuSUdOT1JFQ0FTRQopCl9EQVRFX1JFID0gcmUuY29tcGlsZShyIihcZHs0fSlccypbLS/lubQuXVxzKihcZHsxLDJ9KVxzKlstL+aciC5dXHMqKFxkezEsMn0pIikKX1lFQVJfUkUgPSByZS5jb21waWxlKHIiKFxkezR9KVxzKuW5tCIpCl9ZRUFSX09OTFlfUkUgPSByZS5jb21waWxlKHIiKD88IVswLTkuXSkoMTlcZHsyfXwyMFxkezJ9KSg/IVswLTkuXSkiKQoKIyBDaGluZXNlIGNvbXBhbnktbmFtZSBkZXRlY3RvcjogZW5kcyB3aXRoIOiCoeS7vSAvIOaciemZkCAvIOenkeaKgCAvIOWFrOWPuCAvIOmbhuWboiAvIOS4reW/gyAvIOWOgiAvIOWtpumZoiAvIOWtpuagoSAvIOWMu+mZoiAvIOWxgCAvIOmDqCAvIOWkhApfQ09NUEFOWV9FTkQgPSAoCiAgICAi6IKh5Lu95pyJ6ZmQ5YWs5Y+4IiwgIuaciemZkOi0o+S7u+WFrOWPuCIsICLmnInpmZDlhazlj7giLCAi6IKh5Lu95YWs5Y+4IiwgIumbhuWbouWFrOWPuCIsICLpm4blm6LmnInpmZDlhazlj7giLAogICAgIuenkeaKgOWFrOWPuCIsICLnp5HmioDmnInpmZDlhazlj7giLCAi5oqA5pyv5YWs5Y+4IiwgIuaKgOacr+aciemZkOWFrOWPuCIsCiAgICAi5YWs5Y+4IiwgIumbhuWboiIsICLkuK3lv4MiLCAi5Y6CIiwgIuWtpumZoiIsICLlrabmoKEiLCAi5Yy76ZmiIiwgIuWxgCIsICLpg6giLCAi5aSEIiwKICAgICLkuovliqHmiYAiLCAi56CU56m26ZmiIiwgIueglOeptuaJgCIsCikKX0NPTVBBTllfUkUgPSByZS5jb21waWxlKAogICAgciIoW+S4gC3pv79dezIsMzB9KD86IiArICJ8Ii5qb2luKF9DT01QQU5ZX0VORCkgKyByIikpIgopCgoKZGVmIF9sb29rc19saWtlX3llYXJfdG9rZW4odG9rZW46IHN0cikgLT4gYm9vbDoKICAgIHJldHVybiBib29sKHRva2VuKSBhbmQgbGVuKHRva2VuKSA9PSA0IGFuZCB0b2tlbi5pc2RpZ2l0KCkgYW5kIDE5MDAgPD0gaW50KHRva2VuKSA8PSAyMTAwCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBGYWN0IGRhdGEgY2xhc3MKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpAZGF0YWNsYXNzCmNsYXNzIEZhY3Q6CiAgICBmaWVsZDogc3RyCiAgICB2YWx1ZTogQW55CiAgICBkb2N1bWVudDogc3RyCiAgICBwYWdlOiBpbnQKICAgIGV2aWRlbmNlOiBzdHIgPSAiIgogICAgY29uZmlkZW5jZTogZmxvYXQgPSAxLjAKICAgIGV4dHJhOiBkaWN0W3N0ciwgQW55XSA9IGZpZWxkKGRlZmF1bHRfZmFjdG9yeT1kaWN0KQoKICAgIGRlZiB0b19kaWN0KHNlbGYpIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgICAgIG91dCA9IHsKICAgICAgICAgICAgImZpZWxkIjogc2VsZi5maWVsZCwKICAgICAgICAgICAgInZhbHVlIjogc2VsZi52YWx1ZSwKICAgICAgICAgICAgImRvY3VtZW50Ijogc2VsZi5kb2N1bWVudCwKICAgICAgICAgICAgInBhZ2UiOiBzZWxmLnBhZ2UsCiAgICAgICAgICAgICJldmlkZW5jZSI6IHNlbGYuZXZpZGVuY2UsCiAgICAgICAgICAgICJjb25maWRlbmNlIjogcm91bmQoc2VsZi5jb25maWRlbmNlLCAzKSwKICAgICAgICB9CiAgICAgICAgb3V0LnVwZGF0ZShzZWxmLmV4dHJhKQogICAgICAgIHJldHVybiBvdXQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIEhlbHBlcnMKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpkZWYgX2NodW5rc19ieV9kb2MoY2h1bmtzOiBsaXN0W0RvY3VtZW50Q2h1bmtdKSAtPiBkaWN0W3N0ciwgbGlzdFtEb2N1bWVudENodW5rXV06CiAgICBvdXQ6IGRpY3Rbc3RyLCBsaXN0W0RvY3VtZW50Q2h1bmtdXSA9IHt9CiAgICBmb3IgYyBpbiBjaHVua3M6CiAgICAgICAgb3V0LnNldGRlZmF1bHQoYy5kb2NfaWQsIFtdKS5hcHBlbmQoYykKICAgIHJldHVybiBvdXQKCgpkZWYgX2pvaW5fdGV4dChjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10pIC0+IHN0cjoKICAgIHJldHVybiAiXG4iLmpvaW4oYy50ZXh0IGZvciBjIGluIGNodW5rcykKCgpkZWYgX2NodW5rc19wYWdlcyhjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10pIC0+IGRpY3Rbc3RyLCBsaXN0W2ludF1dOgogICAgb3V0OiBkaWN0W3N0ciwgbGlzdFtpbnRdXSA9IHt9CiAgICBmb3IgYyBpbiBjaHVua3M6CiAgICAgICAgb3V0LnNldGRlZmF1bHQoYy5kb2N1bWVudCwgW10pLmFwcGVuZChjLnBhZ2UpCiAgICByZXR1cm4gb3V0CgoKZGVmIF9maXJzdF9tYXRjaChwYXR0ZXJuOiByZS5QYXR0ZXJuW3N0cl0sIHRleHQ6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgIG0gPSBwYXR0ZXJuLnNlYXJjaCh0ZXh0KQogICAgaWYgbm90IG06CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIGlmIG0ubGFzdGluZGV4OgogICAgICAgIHYgPSBtLmdyb3VwKDEpIG9yICIiCiAgICBlbHNlOgogICAgICAgIHYgPSBtLmdyb3VwKDApIG9yICIiCiAgICB2ID0gdi5zdHJpcCgpCiAgICByZXR1cm4gdiBvciBOb25lCgoKZGVmIF9uZWFyKHRleHQ6IHN0ciwgYW5jaG9yOiBzdHIsIHdpbmRvdzogaW50ID0gODApIC0+IHN0cjoKICAgIGlkeCA9IHRleHQuZmluZChhbmNob3IpCiAgICBpZiBpZHggPT0gLTE6CiAgICAgICAgcmV0dXJuICIiCiAgICByZXR1cm4gdGV4dFtpZHggOiBpZHggKyBsZW4oYW5jaG9yKSArIHdpbmRvd10KCgpkZWYgX3NlZ21lbnQodGV4dDogc3RyLCBhbmNob3I6IHN0ciwgc3RvcF9hbmNob3JzOiBsaXN0W3N0cl0gfCBOb25lID0gTm9uZSwgbWF4X2xlbjogaW50ID0gNjApIC0+IHN0cjoKICAgIGlkeCA9IHRleHQuZmluZChhbmNob3IpCiAgICBpZiBpZHggPT0gLTE6CiAgICAgICAgcmV0dXJuICIiCiAgICBzdGFydCA9IGlkeAogICAgZW5kID0gbWluKGxlbih0ZXh0KSwgc3RhcnQgKyBtYXhfbGVuKQogICAgaWYgc3RvcF9hbmNob3JzOgogICAgICAgIGNhbmRpZGF0ZXMgPSBbXQogICAgICAgIGZvciBzIGluIHN0b3BfYW5jaG9yczoKICAgICAgICAgICAgaiA9IHRleHQuZmluZChzLCBzdGFydCArIGxlbihhbmNob3IpKQogICAgICAgICAgICBpZiBqICE9IC0xOgogICAgICAgICAgICAgICAgY2FuZGlkYXRlcy5hcHBlbmQoaikKICAgICAgICBpZiBjYW5kaWRhdGVzOgogICAgICAgICAgICBlbmQgPSBtaW4oZW5kLCBtaW4oY2FuZGlkYXRlcykpCiAgICByZXR1cm4gdGV4dFtzdGFydDplbmRdCgoKZGVmIF9tb25leV9mcm9tX21hdGNoKG06IHJlLk1hdGNoW3N0cl0pIC0+IGZsb2F0IHwgTm9uZToKICAgIHJhdyA9IG0uZ3JvdXAoIm51bSIpCiAgICB1bml0ID0gKG0uZ3JvdXAoInVuaXQiKSBvciAiIikubG93ZXIoKQogICAgY2xlYW5lZCA9IHJhdy5yZXBsYWNlKCIsIiwgIiIpCiAgICB0cnk6CiAgICAgICAgbiA9IGZsb2F0KGNsZWFuZWQpCiAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICByZXR1cm4gTm9uZQogICAgaWYgdW5pdCA9PSAiIiBhbmQgX2xvb2tzX2xpa2VfeWVhcl90b2tlbihjbGVhbmVkKToKICAgICAgICByZXR1cm4gTm9uZQogICAgaWYgdW5pdCA9PSAi5LiHIjoKICAgICAgICBuICo9IDEwXzAwMAogICAgZWxpZiB1bml0ID09ICLkur8iOgogICAgICAgIG4gKj0gMTAwXzAwMF8wMDAKICAgIHJldHVybiBuCgoKZGVmIF9leHRyYWN0X21vbmV5KHRleHQ6IHN0cikgLT4gZmxvYXQgfCBOb25lOgogICAgZm9yIG0gaW4gX01PTkVZX1JFLmZpbmRpdGVyKHRleHQpOgogICAgICAgIHZhbCA9IF9tb25leV9mcm9tX21hdGNoKG0pCiAgICAgICAgaWYgdmFsIGFuZCB2YWwgPiAxOgogICAgICAgICAgICByZXR1cm4gdmFsCiAgICByZXR1cm4gTm9uZQoKCmRlZiBfZmlyc3RfYW1vdW50X3dpdGhfdW5pdCh0ZXh0OiBzdHIpIC0+IGZsb2F0IHwgTm9uZToKICAgIG0gPSByZS5zZWFyY2gociIoXGRbXGQsXC5dKilccyoo5LiHfOS6v3zlhYN8Uk1CfHJtYikiLCB0ZXh0KQogICAgaWYgbm90IG06CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHRyeToKICAgICAgICB2ID0gZmxvYXQobS5ncm91cCgxKS5yZXBsYWNlKCIsIiwgIiIpKQogICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHVuaXQgPSBtLmdyb3VwKDIpLmxvd2VyKCkKICAgIGlmIHVuaXQgPT0gIuS4hyI6CiAgICAgICAgdiAqPSAxMF8wMDAKICAgIGVsaWYgdW5pdCA9PSAi5Lq/IjoKICAgICAgICB2ICo9IDEwMF8wMDBfMDAwCiAgICByZXR1cm4gdgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgQmlkZGVyLW5hbWUgZXh0cmFjdG9yIChQaGFzZSAxLjEpCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpfQklEREVSX0xBQkVMUyA9ICgKICAgICLmipXmoIfkurrlkI3np7AiLCAi5oqV5qCH5Lq6IiwgIuS+m+W6lOWVhiIsICLmipXmoIfljZXkvY0iLCAi5oqV5qCH5pa5IiwgIuaKleagh+S4u+S9kyIsCiAgICAi5LmZ5pa5IiwgIuernuS5sOS6uiIsICLkvpvlupTllYblkI3np7AiLCAi55Sz5oql5Y2V5L2N5ZCN56ewIiwKKQoKCmRlZiBfZXh0cmFjdF9iaWRkZXJfbmFtZSh0ZXh0OiBzdHIpIC0+IHR1cGxlW3N0ciB8IE5vbmUsIGZsb2F0XToKICAgICIiIlRyeSBsYWJlbC1hbmNob3JlZCBwYXR0ZXJucyBmaXJzdCwgdGhlbiBjb21wYW55LW5hbWUgcmVnZXguIiIiCgogICAgIyAxLiBMYWJlbC1hbmNob3JlZDogIuaKleagh+S6uu+8muWMl+S6rOaZuuaVmeenkeaKgOiCoeS7veaciemZkOWFrOWPuCIKICAgIGZvciBsYWJlbCBpbiBfQklEREVSX0xBQkVMUzoKICAgICAgICBtID0gcmUuc2VhcmNoKGxhYmVsICsgciJbOu+8ml0/XHMqKFteXG5ccl0rPykoPz1cc3syLH186aG555uu5ZCN56ewfOazleS6unwkKSIsIHRleHQpCiAgICAgICAgaWYgbToKICAgICAgICAgICAgcmF3ID0gbS5ncm91cCgxKS5zdHJpcCgpCiAgICAgICAgICAgICMgVHJ5IHRvIGNsaXAgdG8gdGhlIGxvbmdlc3QgQ2hpbmVzZSBjb21wYW55IG5hbWUgaW5zaWRlCiAgICAgICAgICAgIGNtID0gX0NPTVBBTllfUkUuc2VhcmNoKHJhdykKICAgICAgICAgICAgaWYgY206CiAgICAgICAgICAgICAgICByZXR1cm4gY20uZ3JvdXAoMSksIDAuOTUKICAgICAgICAgICAgIyBPdGhlcndpc2Uga2VlcCByYXcgaWYgaXQgbG9va3MgbGlrZSBhIG5hbWUKICAgICAgICAgICAgY2xlYW5lZCA9IHJlLnN1YihyIlxzKyIsICIiLCByYXcpCiAgICAgICAgICAgIGlmIDQgPD0gbGVuKGNsZWFuZWQpIDw9IDYwOgogICAgICAgICAgICAgICAgcmV0dXJuIHJhdy5zdHJpcCgpLCAwLjcKICAgICMgMi4gQ29tcGFueS1uYW1lIHJlZ2V4IGFueXdoZXJlIChsb3dlciBjb25maWRlbmNlKQogICAgY20gPSBfQ09NUEFOWV9SRS5zZWFyY2godGV4dCkKICAgIGlmIGNtOgogICAgICAgIHJldHVybiBjbS5ncm91cCgxKSwgMC42CiAgICByZXR1cm4gTm9uZSwgMC4wCgoKZGVmIF9leHRyYWN0X2JpZGRlcl9uYW1lX3BhZ2VzKHRleHQ6IHN0cikgLT4gdHVwbGVbc3RyIHwgTm9uZSwgZmxvYXQsIGludF06CiAgICAiIiJTYW1lIGFzIF9leHRyYWN0X2JpZGRlcl9uYW1lIGJ1dCByZXR1cm5zIHRoZSBwYWdlIHRoZSBtYXRjaCB3YXMgb24uIiIiCgogICAgY2h1bmtzID0gW10KICAgIGZvciBjaHVua190ZXh0IGluIHRleHQuc3BsaXQoIlxmIik6CiAgICAgICAgY2h1bmtzLmFwcGVuZChjaHVua190ZXh0KQogICAgaWYgbGVuKGNodW5rcykgPT0gMToKICAgICAgICAjIGZhbGwgYmFjazogbm8gZm9ybS1mZWVkLCB0cmVhdCBhcyBvbmUgcGFnZQogICAgICAgIHJldHVybiAoKl9leHRyYWN0X2JpZGRlcl9uYW1lKHRleHQpLCAxKQogICAgZm9yIHBhZ2Vfbm8sIHBhZ2VfdGV4dCBpbiBlbnVtZXJhdGUoY2h1bmtzLCBzdGFydD0xKToKICAgICAgICBuYW1lLCBjb25mID0gX2V4dHJhY3RfYmlkZGVyX25hbWUocGFnZV90ZXh0KQogICAgICAgIGlmIG5hbWU6CiAgICAgICAgICAgIHJldHVybiBuYW1lLCBjb25mLCBwYWdlX25vCiAgICByZXR1cm4gKl9leHRyYWN0X2JpZGRlcl9uYW1lKHRleHQpLCAxCgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBTZWN0aW9uL3Jlc3BvbnNlIGV4dHJhY3RvciAoUGhhc2UgMS4yKQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKX1JFU1BPTlNFX0tFWVdPUkRTID0gKAogICAgIuWTjeW6lCIsICLlupTnrZQiLCAi5ruh6LazIiwgIuWBj+emuyIsICLmib/or7oiLCAi5bqU562U5paH5Lu2IiwgIuW6lOetlOWGheWuuSIsCiAgICAi562U5aSNIiwgIuWbnuWkjSIsCikKCl9SRVNQT05TRV9IRUFERVJTID0gKAogICAgIuWTjeW6lOaWuSIsICLllYbliqHlk43lupQiLCAi5oqA5pyv5ZON5bqUIiwgIuWVhuWKoeWBj+emu+ihqCIsICLmioDmnK/lgY/nprvooagiLAogICAgIuWTjeW6lOihqCIsICLlk43lupTmlofku7YiLCAi5bqU562U6KGoIiwgIuW6lOetlOaWh+S7tiIsICLlupTnrZTor7TmmI4iLAogICAgIuW6lOetlOaWueahiCIsICLlupTnrZTmg4XlhrUiLAopCgoKZGVmIF9leHRyYWN0X3Jlc3BvbnNlX3NlY3Rpb25zKHRleHQ6IHN0cikgLT4gbGlzdFtzdHJdOgogICAgIiIiRmluZCBjaGFwdGVyIC8gaGVhZGluZy1saWtlIHJlc3BvbnNlcy4KCiAgICBSZXR1cm5zIGxpc3Qgb2Ygc2VjdGlvbiBuYW1lcyB0aGF0IGxvb2sgbGlrZSBleHBsaWNpdCByZXNwb25zZXMuCiAgICAiIiIKCiAgICBvdXQ6IGxpc3Rbc3RyXSA9IFtdCiAgICBzZWVuOiBzZXRbc3RyXSA9IHNldCgpCiAgICAjIDEuIOeroOiKguagh+mimCBsaWtlICIxLjIuMyDllYbliqHlk43lupQiIC8gIuesrOS4ieeroCDllYbliqHlk43lupQiCiAgICBmb3IgbSBpbiByZS5maW5kaXRlcigKICAgICAgICByIig/Ol58XG4pXHMqKD86W1xk5LiA5LqM5LiJ5Zub5LqU5YWt5LiD5YWr5Lmd5Y2BXStbLlxz44CB56ugXSspezEsM30iCiAgICAgICAgciIoW+S4gC3pv79BLVphLXpdezIsMjB9KD86IiArICJ8Ii5qb2luKF9SRVNQT05TRV9IRUFERVJTKSArIHIiKVvkuIAt6b+/QS1aYS16XSopIiwKICAgICAgICB0ZXh0LAogICAgKToKICAgICAgICB2ID0gbS5ncm91cCgxKS5zdHJpcCgpCiAgICAgICAgaWYgdiBhbmQgdiBub3QgaW4gc2VlbjoKICAgICAgICAgICAgb3V0LmFwcGVuZCh2KQogICAgICAgICAgICBzZWVuLmFkZCh2KQogICAgIyAyLiBHZW5lcmljIGtleXdvcmRzCiAgICBmb3Iga3cgaW4gX1JFU1BPTlNFX0tFWVdPUkRTOgogICAgICAgIGlmIGt3IGluIHRleHQgYW5kIGt3IG5vdCBpbiBzZWVuOgogICAgICAgICAgICBvdXQuYXBwZW5kKGt3KQogICAgICAgICAgICBzZWVuLmFkZChrdykKICAgIHJldHVybiBvdXQKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIERldmlhdGlvbiAvIHJlcG9ydCBmaWVsZHMgKFBoYXNlIDEuMykKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpkZWYgX2V4dHJhY3RfcmVwb3J0X2ZpZWxkX3ZhbHVlKHRleHQ6IHN0ciwgZmllbGRfbGFiZWw6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgICIiIlB1bGwgYSBsYWJlbGxlZCB2YWx1ZSB0aGF0IEVORFMgYXQgdGhlIG5leHQgZmllbGQtbGFiZWwgb3IgcHVuY3R1YXRpb24uIiIiCgogICAgbSA9IHJlLnNlYXJjaChmaWVsZF9sYWJlbCArIHIiWzrvvJpdP1xzKihbXlxuXHJdKykiLCB0ZXh0KQogICAgaWYgbm90IG06CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJhdyA9IG0uZ3JvdXAoMSkuc3RyaXAoKQogICAgIyBJZiByYXcgY29udGFpbnMgYW5vdGhlciBrbm93biBmaWVsZCBsYWJlbCwgY3V0IGF0IGl0CiAgICBmb3Igc3RvcCBpbiAoIuaKpeWRiue8luWPtyIsICLlkI3np7AiLCAi57yW5Y+3IiwgIuWei+WPtyIsICLop4TmoLwiLCAi5pWw6YePIiwgIumHkeminSIsICLml6XmnJ8iLCAi5Y6C5a62Iik6CiAgICAgICAgaWR4ID0gcmF3LmZpbmQoc3RvcCwgMSkKICAgICAgICBpZiBpZHggPiAwIGFuZCBpZHggPCBsZW4ocmF3KToKICAgICAgICAgICAgcmF3ID0gcmF3WzppZHhdLnN0cmlwKCkKICAgICAgICAgICAgYnJlYWsKICAgICMgRHJvcCB0cmFpbGluZyAiOiIgLyAi77yaIiAvIHB1bmN0dWF0aW9uCiAgICByYXcgPSByZS5zdWIociJbXHM677yaXSskIiwgIiIsIHJhdykKICAgIHJldHVybiByYXcgb3IgTm9uZQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUGVyLWRvYyBleHRyYWN0aW9uCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgoKZGVmIF9leHRyYWN0X2NvbXBhbnkodGV4dDogc3RyKSAtPiB0dXBsZVtzdHIgfCBOb25lLCBmbG9hdCwgaW50XToKICAgIGNodW5rcyA9IHRleHQuc3BsaXQoIlxmIikKICAgIGlmIGxlbihjaHVua3MpIDw9IDE6CiAgICAgICAgcmV0dXJuICgqX2V4dHJhY3RfYmlkZGVyX25hbWUodGV4dCksIDEpCiAgICBmb3IgaSwgcGFnZV90ZXh0IGluIGVudW1lcmF0ZShjaHVua3MsIHN0YXJ0PTEpOgogICAgICAgIG5hbWUsIGNvbmYgPSBfZXh0cmFjdF9iaWRkZXJfbmFtZShwYWdlX3RleHQpCiAgICAgICAgaWYgbmFtZToKICAgICAgICAgICAgcmV0dXJuIG5hbWUsIGNvbmYsIGkKICAgIHJldHVybiAqX2V4dHJhY3RfYmlkZGVyX25hbWUodGV4dCksIDEKCgpkZWYgZXh0cmFjdF9mYWN0cyhjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10pIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgYnlfZG9jID0gX2NodW5rc19ieV9kb2MoY2h1bmtzKQogICAgdGVuZGVyX3RleHQgPSBfam9pbl90ZXh0KGJ5X2RvYy5nZXQoInRlbmRlciIsIFtdKSkKICAgIGJpZF90ZXh0ID0gX2pvaW5fdGV4dChieV9kb2MuZ2V0KCJiaWQiLCBbXSkpCiAgICBmYWN0czogZGljdFtzdHIsIEFueV0gPSB7fQoKICAgICMgLS0tLSBQaGFzZSAyOiBzdHJ1Y3R1cmVkIHRhYmxlcyAtLS0tCiAgICBmcm9tIHRlbmRlcmd1YXJkLmFwcC5leHRyYWN0aW9uLnRhYmxlcyBpbXBvcnQgKAogICAgICAgIGV4dHJhY3RfY2VydGlmaWNhdGVfbGlzdHMsCiAgICAgICAgZXh0cmFjdF9leHBlcmllbmNlX3Jvd3MsCiAgICAgICAgZXh0cmFjdF9yZXNwb25zZV9zZWN0aW9ucywKICAgICAgICBiZXN0X3ByaWNlX3RhYmxlLAogICAgKQogICAgYmlkX2NodW5rcyA9IGJ5X2RvYy5nZXQoImJpZCIsIFtdKQogICAgdGVuZGVyX2NodW5rcyA9IGJ5X2RvYy5nZXQoInRlbmRlciIsIFtdKQoKICAgIHByaWNlX3Jvd3MgPSBiZXN0X3ByaWNlX3RhYmxlKGJpZF9jaHVua3MpIGlmIGJpZF9jaHVua3MgZWxzZSBfZXh0cmFjdF9wcmljZV9yb3dzKGJpZF90ZXh0KQogICAgaWYgcHJpY2Vfcm93czoKICAgICAgICBmYWN0c1siYmlkLnByaWNlX3Jvd3MiXSA9IHByaWNlX3Jvd3MKICAgIGV4cGVyaWVuY2VzID0gZXh0cmFjdF9leHBlcmllbmNlX3Jvd3MoYmlkX2NodW5rcykgaWYgYmlkX2NodW5rcyBlbHNlIF9leHRyYWN0X2V4cGVyaWVuY2VzKGJpZF90ZXh0KQogICAgaWYgZXhwZXJpZW5jZXM6CiAgICAgICAgZmFjdHNbImJpZC5leHBlcmllbmNlcyJdID0gZXhwZXJpZW5jZXMKICAgIGZhY3RzWyJiaWQucHJvZHVjdF9jZXJ0aWZpY2F0ZXMiXSA9ICgKICAgICAgICBleHRyYWN0X2NlcnRpZmljYXRlX2xpc3RzKGJpZF9jaHVua3MpIGlmIGJpZF9jaHVua3MgZWxzZSBbXQogICAgKSBvciBfZXh0cmFjdF9saXN0KGJpZF90ZXh0LCBbIuajgOa1i+aKpeWRiiIsICLoioLog73or4HkuaYiLCAiM0MiLCAi5Lqn5ZOB5b2p6aG1IiwgIkNDQyIsICLnjq/looPmoIflv5ciLCAi546v5L+d5Lqn5ZOBIl0pCiAgICBmYWN0c1siYmlkLnJlc3BvbnNlcyJdID0gKAogICAgICAgIFtoWyJzZWN0aW9uIl0gZm9yIGggaW4gZXh0cmFjdF9yZXNwb25zZV9zZWN0aW9ucyhiaWRfY2h1bmtzKV0gaWYgYmlkX2NodW5rcyBlbHNlIFtdCiAgICApIG9yIF9leHRyYWN0X3Jlc3BvbnNlX3NlY3Rpb25zKGJpZF90ZXh0KQogICAgZmFjdHNbInRlbmRlci5wcm9kdWN0X2NlcnRfcmVxdWlyZW1lbnRzIl0gPSAoCiAgICAgICAgZXh0cmFjdF9jZXJ0aWZpY2F0ZV9saXN0cyh0ZW5kZXJfY2h1bmtzKSBpZiB0ZW5kZXJfY2h1bmtzIGVsc2UgW10KICAgICkgb3IgX2V4dHJhY3RfbGlzdCh0ZW5kZXJfdGV4dCwgWyLmo4DmtYvmiqXlkYoiLCAi6IqC6IO96K+B5LmmIiwgIjNDIiwgIuS6p+WTgeW9qemhtSIsICJDQ0MiLCAi546v5aKD5qCH5b+XIl0pCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tIHRlbmRlciBtZXRhZGF0YSAtLS0tLS0tLS0tLS0tLS0tCiAgICBmYWN0c1sidGVuZGVyLnByb2plY3RfbmFtZSJdID0gX2ZpcnN0X21hdGNoKAogICAgICAgIHJlLmNvbXBpbGUociLpobnnm67lkI3np7BbOu+8ml1ccyooW15cblxyXSs/KVxzKumhueebrue8luWPtyIpLCB0ZW5kZXJfdGV4dAogICAgKQogICAgZmFjdHNbInRlbmRlci5wcm9qZWN0X2lkIl0gPSBfZmlyc3RfbWF0Y2goCiAgICAgICAgcmUuY29tcGlsZShyIumhueebrue8luWPt1s677yaXVxzKihbQS1aYS16MC05XC1fL10rKSIpLCB0ZW5kZXJfdGV4dAogICAgKQogICAgZmFjdHNbInRlbmRlci5wYWNrYWdlX2lkIl0gPSBfZmlyc3RfbWF0Y2goCiAgICAgICAgcmUuY29tcGlsZShyIuWMheWPt1s677yaXVxzKihbQS1aYS16MC05XC1fL10rKSIpLCB0ZW5kZXJfdGV4dAogICAgKQoKICAgIGNlaWxpbmdfc2VnID0gX3NlZ21lbnQodGVuZGVyX3RleHQsICLpmZDku7ciLCBzdG9wX2FuY2hvcnM9WyLkv53or4Hph5EiLCAi5pS25qy+IiwgIuWVhuWKoSIsICLkuJrnu6kiXSkKICAgIGZhY3RzWyJ0ZW5kZXIucHJpY2VfY2VpbGluZyJdID0gX2ZpcnN0X2Ftb3VudF93aXRoX3VuaXQoY2VpbGluZ19zZWcpCiAgICBpZiBmYWN0c1sidGVuZGVyLnByaWNlX2NlaWxpbmciXSBpcyBOb25lOgogICAgICAgIHNlZzIgPSBfc2VnbWVudCh0ZW5kZXJfdGV4dCwgIuaLpuagh+S7tyIsIHN0b3BfYW5jaG9ycz1bIuS/neivgemHkSIsICLmlLbmrL4iLCAi5ZWG5YqhIiwgIuS4mue7qSJdKQogICAgICAgIGZhY3RzWyJ0ZW5kZXIucHJpY2VfY2VpbGluZyJdID0gX2ZpcnN0X2Ftb3VudF93aXRoX3VuaXQoc2VnMikKICAgIGlmIGZhY3RzWyJ0ZW5kZXIucHJpY2VfY2VpbGluZyJdIGlzIE5vbmU6CiAgICAgICAgIyBSZWFsIGdvdmVybm1lbnQgUERGcyBvZnRlbiBzYXkgIumhueebrumihOeul+mHkeminSIgLyAi6aKE566X6YeR6aKdIiAvICLmnIDpq5jpmZDku7ciCiAgICAgICAgc2VnMyA9IF9zZWdtZW50KHRlbmRlcl90ZXh0LCAi6aKE566X6YeR6aKdIiwgc3RvcF9hbmNob3JzPVsi5L+d6K+B6YeRIiwgIumHh+i0remcgOaxgiIsICLmioDmnK/pnIDmsYIiLCAi5ZWG5Yqh5p2h5qy+Il0pCiAgICAgICAgZmFjdHNbInRlbmRlci5wcmljZV9jZWlsaW5nIl0gPSBfZmlyc3RfYW1vdW50X3dpdGhfdW5pdChzZWczKQogICAgaWYgZmFjdHNbInRlbmRlci5wcmljZV9jZWlsaW5nIl0gaXMgTm9uZToKICAgICAgICBzZWc0ID0gX3NlZ21lbnQodGVuZGVyX3RleHQsICLmnIDpq5jpmZDku7ciLCBzdG9wX2FuY2hvcnM9WyLkv53or4Hph5EiLCAi6YeH6LSt6ZyA5rGCIl0pCiAgICAgICAgZmFjdHNbInRlbmRlci5wcmljZV9jZWlsaW5nIl0gPSBfZmlyc3RfYW1vdW50X3dpdGhfdW5pdChzZWc0KQoKICAgICMgLS0tLS0tLS0tLS0tLS0tLSBiaWQgbWV0YWRhdGEgLS0tLS0tLS0tLS0tLS0tLQogICAgZmFjdHNbImJpZC5wcm9qZWN0X25hbWUiXSA9IF9maXJzdF9tYXRjaCgKICAgICAgICByZS5jb21waWxlKHIi6aG555uu5ZCN56ewWzrvvJpdXHMqKC4rPykoPz1ccyrpobnnm67nvJblj7d8XG58JCkiKSwgYmlkX3RleHQKICAgICkKICAgIGZhY3RzWyJiaWQucHJvamVjdF9pZCJdID0gX2ZpcnN0X21hdGNoKAogICAgICAgIHJlLmNvbXBpbGUociLpobnnm67nvJblj7dbOu+8ml1ccyooW0EtWmEtejAtOVwtXy9dKykiKSwgYmlkX3RleHQKICAgICkKICAgIGZhY3RzWyJiaWQucGFja2FnZV9pZCJdID0gX2ZpcnN0X21hdGNoKAogICAgICAgIHJlLmNvbXBpbGUociLljIXlj7dbOu+8ml1ccyooW0EtWmEtejAtOVwtXy9dKykiKSwgYmlkX3RleHQKICAgICkKCiAgICAjIGJpZGRlcl9uYW1lIChQaGFzZSAxLjEpCiAgICBuYW1lLCBjb25mLCBfcGFnZSA9IF9leHRyYWN0X2NvbXBhbnkoYmlkX3RleHQpCiAgICBpZiBuYW1lOgogICAgICAgIGZhY3RzWyJiaWQuYmlkZGVyX25hbWUiXSA9IG5hbWUKICAgICAgICBmYWN0cy5zZXRkZWZhdWx0KCJfY29uZmlkZW5jZSIsIHt9KVsiYmlkLmJpZGRlcl9uYW1lIl0gPSBjb25mCgogICAgZmFjdHNbImJpZC5sZWdhbF9yZXByZXNlbnRhdGl2ZSJdID0gX2ZpcnN0X21hdGNoKAogICAgICAgIHJlLmNvbXBpbGUociLms5Xkurrku6PooagoPzrlp5PlkI0pP1s677yaXVxzKihcU1teXG5ccl0qPykoPz1cc3syLH185o6I5p2D5LmmfOiiq+aOiOadg3xcbikiKSwKICAgICAgICBiaWRfdGV4dCwKICAgICkKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0gYXV0aG9yaXphdGlvbiAtLS0tLS0tLS0tLS0tLS0tCiAgICBhdXRoX2Jsb2NrID0gX3NlZ21lbnQoYmlkX3RleHQsICLmjojmnYPkuaYiLCBzdG9wX2FuY2hvcnM9WyLllYbliqEiLCAi5Z6L5Y+3IiwgIuWQiOWQjCIsICLlgY/nprsiXSkKICAgIGZhY3RzWyJhdXRob3JpemF0aW9uLmxlZ2FsX3JlcHJlc2VudGF0aXZlIl0gPSAoCiAgICAgICAgX2ZpcnN0X21hdGNoKHJlLmNvbXBpbGUociLms5Xkurrku6PooahbOu+8ml0/XHMqKFxTW15cblxyXSo/KSg/PVxzezIsfXzooqvmjojmnYN8JCkiKSwgYXV0aF9ibG9jaykKICAgICAgICBvciBmYWN0c1siYmlkLmxlZ2FsX3JlcHJlc2VudGF0aXZlIl0KICAgICkKICAgIGZhY3RzWyJhdXRob3JpemF0aW9uLmF1dGhvcml6ZWRfcGVyc29uIl0gPSBfZmlyc3RfbWF0Y2goCiAgICAgICAgcmUuY29tcGlsZShyIuiiq+aOiOadg+S6uls677yaXT9ccyooW15cblxyXSspIiksIGF1dGhfYmxvY2sKICAgICkKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0gYm9uZCAtLS0tLS0tLS0tLS0tLS0tCiAgICBib25kX2Jsb2NrID0gX3NlZ21lbnQoYmlkX3RleHQsICLkv53or4Hph5EiLCBzdG9wX2FuY2hvcnM9WyLllYbliqEiLCAi5Z6L5Y+3IiwgIuWQiOWQjCIsICLlgY/nprvooagiXSkKICAgIGJvbmRfYW1vdW50ID0gX2ZpcnN0X2Ftb3VudF93aXRoX3VuaXQoYm9uZF9ibG9jaykKICAgIGlmIGJvbmRfYW1vdW50OgogICAgICAgIGZhY3RzWyJib25kLmFtb3VudCJdID0gYm9uZF9hbW91bnQKICAgIGZhY3RzWyJib25kLnBheWVlIl0gPSBfZmlyc3RfbWF0Y2goCiAgICAgICAgcmUuY29tcGlsZShyIuaUtuasvig/OuaWuXzljZXkvY185Lq6KVs677yaXT9ccyooW15cblxyXSspIiksIGJvbmRfYmxvY2sKICAgICkKCiAgICByZXFfYm9uZF9ibG9jayA9IF9zZWdtZW50KHRlbmRlcl90ZXh0LCAi5L+d6K+B6YeRIiwgc3RvcF9hbmNob3JzPVsi5ZWG5YqhIiwgIuS4mue7qSIsICLmo4DmtYvmiqXlkYoiXSkKICAgIHJlcV9ib25kID0gX2ZpcnN0X2Ftb3VudF93aXRoX3VuaXQocmVxX2JvbmRfYmxvY2spCiAgICBpZiByZXFfYm9uZDoKICAgICAgICBmYWN0c1sicmVxdWlyZW1lbnQuYm9uZF9hbW91bnQiXSA9IHJlcV9ib25kCiAgICBmYWN0c1sicmVxdWlyZW1lbnQuYm9uZF9wYXllZSJdID0gX2ZpcnN0X21hdGNoKAogICAgICAgIHJlLmNvbXBpbGUociLmlLbmrL4oPzrmlrl85Y2V5L2NfOS6uilbOu+8ml0/XHMqKFteXG5ccl0rKSIpLAogICAgICAgIHJlcV9ib25kX2Jsb2NrLAogICAgKQoKICAgICMgLS0tLS0tLS0tLS0tLS0tLSBwcmljaW5nIC0tLS0tLS0tLS0tLS0tLS0KICAgIGlmICJiaWQucHJpY2Vfcm93cyIgbm90IGluIGZhY3RzOgogICAgICAgIGZhY3RzWyJiaWQucHJpY2Vfcm93cyJdID0gX2V4dHJhY3RfcHJpY2Vfcm93cyhiaWRfdGV4dCkKICAgIHNlZyA9IF9zZWdtZW50KGJpZF90ZXh0LCAi5ZCI6K6hIiwgc3RvcF9hbmNob3JzPVsi5ZCI5ZCMIiwgIuS4mue7qSIsICLlgY/nprvooagiLCAi5qOA5rWL5oql5ZGKIl0pCiAgICB0b3RhbCA9IF9maXJzdF9hbW91bnRfd2l0aF91bml0KHNlZykKICAgIGlmIHRvdGFsIGlzIE5vbmU6CiAgICAgICAgbSA9IHJlLnNlYXJjaChyIihcZFtcZCxcLl0rKSIsIHNlZykKICAgICAgICBpZiBtOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB0b3RhbCA9IGZsb2F0KG0uZ3JvdXAoMSkucmVwbGFjZSgiLCIsICIiKSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICB0b3RhbCA9IE5vbmUKICAgIGlmIHRvdGFsOgogICAgICAgIGZhY3RzWyJiaWQudG90YWxfcHJpY2UiXSA9IHRvdGFsCiAgICBpZiBmYWN0cy5nZXQoImJpZC50b3RhbF9wcmljZSIpIGlzIE5vbmU6CiAgICAgICAgIyBGYWxsYmFjazogcmVhbCBnb3Zlcm5tZW50IGJpZDIgaGFzICLlvIDmoIfkuIDop4jooagiIC8gIuaKleagh+aKpeS7tzoiIC8gIuaAu+aKpeS7tyIKICAgICAgICBmb3Iga3cgaW4gKCLmipXmoIfmiqXku7ciLCAi5oC75oql5Lu3IiwgIuaKpeS7t+WQiOiuoSIsICLmipXmoIfmgLvmiqXku7ciKToKICAgICAgICAgICAgbSA9IHJlLnNlYXJjaChrdyArIHIiWzrvvJpdP1xzKihbXGQsXC5dKylccyoo5LiHfOS6v3zlhYMpPyIsIGJpZF90ZXh0KQogICAgICAgICAgICBpZiBtOgogICAgICAgICAgICAgICAgdiA9IF9maXJzdF9hbW91bnRfd2l0aF91bml0KG0uZ3JvdXAoMCkpCiAgICAgICAgICAgICAgICBpZiB2OgogICAgICAgICAgICAgICAgICAgIGZhY3RzWyJiaWQudG90YWxfcHJpY2UiXSA9IHYKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgaWYgZmFjdHMuZ2V0KCJiaWQudG90YWxfcHJpY2UiKSBpcyBOb25lIGFuZCBmYWN0cy5nZXQoImJpZC5wcmljZV9yb3dzIik6CiAgICAgICAgIyBMYXN0IHJlc29ydDogc3VtIHF0eSDDlyB1bml0X3ByaWNlIGZyb20gcm93czsgYnV0IHVuaXRfcHJpY2UgbWF5IGJlIG1pc3NpbmcKICAgICAgICAjIGluIHZlcnRpY2FsIHRhYmxlcy4gVHJ5IGNvbXB1dGluZyBvbmx5IGlmIGF0IGxlYXN0IG9uZSByb3cgaGFzIHVuaXRfcHJpY2UuCiAgICAgICAgcm93cyA9IGZhY3RzWyJiaWQucHJpY2Vfcm93cyJdCiAgICAgICAgaWYgYW55KHIuZ2V0KCJ1bml0X3ByaWNlIikgZm9yIHIgaW4gcm93cyk6CiAgICAgICAgICAgIGZhY3RzWyJiaWQudG90YWxfcHJpY2UiXSA9IHN1bSgKICAgICAgICAgICAgICAgIChyLmdldCgidW5pdF9wcmljZSIpIG9yIDApICogKHIuZ2V0KCJxdHkiKSBvciAwKSBmb3IgciBpbiByb3dzCiAgICAgICAgICAgICkKCiAgICAjIC0tLS0tLS0tLS0tLS0tLS0gZXhwZXJpZW5jZXMgLS0tLS0tLS0tLS0tLS0tLQogICAgaWYgImJpZC5leHBlcmllbmNlcyIgbm90IGluIGZhY3RzOgogICAgICAgIGZhY3RzWyJiaWQuZXhwZXJpZW5jZXMiXSA9IF9leHRyYWN0X2V4cGVyaWVuY2VzKGJpZF90ZXh0KQogICAgZXhwX2Jsb2NrID0gX3NlZ21lbnQodGVuZGVyX3RleHQsICLkuJrnu6kiLCBzdG9wX2FuY2hvcnM9WyLmo4DmtYsiLCAi5bqf5qCHIl0pCiAgICBtID0gcmUuc2VhcmNoKHIiKFxkW1xkLFwuXSopXHMqKOS4h3zkur985YWDKSIsIGV4cF9ibG9jaykKICAgIGlmIG06CiAgICAgICAgdHJ5OgogICAgICAgICAgICB2ID0gZmxvYXQobS5ncm91cCgxKS5yZXBsYWNlKCIsIiwgIiIpKQogICAgICAgICAgICB1bml0ID0gbS5ncm91cCgyKQogICAgICAgICAgICBpZiB1bml0ID09ICLkuIciOgogICAgICAgICAgICAgICAgdiAqPSAxMF8wMDAKICAgICAgICAgICAgZWxpZiB1bml0ID09ICLkur8iOgogICAgICAgICAgICAgICAgdiAqPSAxMDBfMDAwXzAwMAogICAgICAgICAgICBmYWN0c1sicmVxdWlyZW1lbnQuZXhwZXJpZW5jZV9jb250cmFjdF9hbW91bnQiXSA9IHYKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgcGFzcwoKICAgICMgLS0tLS0tLS0tLS0tLS0tLSByZXNwb25zZXMgKFBoYXNlIDEuMikgLS0tLS0tLS0tLS0tLS0tLQogICAgaWYgImJpZC5yZXNwb25zZXMiIG5vdCBpbiBmYWN0czoKICAgICAgICBmYWN0c1siYmlkLnJlc3BvbnNlcyJdID0gX2V4dHJhY3RfcmVzcG9uc2Vfc2VjdGlvbnMoYmlkX3RleHQpCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tIGNlcnRzIC0tLS0tLS0tLS0tLS0tLS0KICAgIGlmICJiaWQucHJvZHVjdF9jZXJ0aWZpY2F0ZXMiIG5vdCBpbiBmYWN0czoKICAgICAgICBmYWN0c1siYmlkLnByb2R1Y3RfY2VydGlmaWNhdGVzIl0gPSBfZXh0cmFjdF9saXN0KAogICAgICAgICAgICBiaWRfdGV4dCwgWyLmo4DmtYvmiqXlkYoiLCAi6IqC6IO96K+B5LmmIiwgIjNDIiwgIuS6p+WTgeW9qemhtSIsICJDQ0MiLCAi546v5aKD5qCH5b+XIiwgIueOr+S/neS6p+WTgSJdCiAgICAgICAgKQogICAgaWYgInRlbmRlci5wcm9kdWN0X2NlcnRfcmVxdWlyZW1lbnRzIiBub3QgaW4gZmFjdHM6CiAgICAgICAgZmFjdHNbInRlbmRlci5wcm9kdWN0X2NlcnRfcmVxdWlyZW1lbnRzIl0gPSBfZXh0cmFjdF9saXN0KAogICAgICAgICAgICB0ZW5kZXJfdGV4dCwgWyLmo4DmtYvmiqXlkYoiLCAi6IqC6IO96K+B5LmmIiwgIjNDIiwgIuS6p+WTgeW9qemhtSIsICJDQ0MiLCAi546v5aKD5qCH5b+XIl0KICAgICAgICApCgogICAgIyAtLS0tLS0tLS0tLS0tLS0tIGRldmlhdGlvbiAvIHJlcG9ydCBmaWVsZHMgKFBoYXNlIDEuMykgLS0tLS0tLS0tLS0tLS0tLQogICAgZGV2X2Jsb2NrID0gX3NlZ21lbnQoYmlkX3RleHQsICLlgY/nprvooagiLCBzdG9wX2FuY2hvcnM9WyLmjojmnYPkuaYiLCAi5ZCI5ZCMIiwgIuWVhuWKoeadoeasviJdKQogICAgZmFjdHNbImRldmlhdGlvbi50ZXN0X3JlcG9ydF9uYW1lIl0gPSBfZXh0cmFjdF9yZXBvcnRfZmllbGRfdmFsdWUoZGV2X2Jsb2NrLCAi5qOA5rWL5oql5ZGKKD865ZCN56ewfOWFqOensCk/IikKICAgIGZhY3RzWyJkZXZpYXRpb24udGVzdF9yZXBvcnRfbm8iXSA9IF9leHRyYWN0X3JlcG9ydF9maWVsZF92YWx1ZShkZXZfYmxvY2ssICLmiqXlkYrnvJblj7ciKQogICAgcmVwX2Jsb2NrID0gX3NlZ21lbnQoYmlkX3RleHQsICLmo4DmtYvmiqXlkYoiLCBzdG9wX2FuY2hvcnM9WyLlnovlj7ciLCAi5o6I5p2D5LmmIiwgIuWQiOWQjCJdKQogICAgZmFjdHNbInJlcG9ydC5uYW1lIl0gPSBfZXh0cmFjdF9yZXBvcnRfZmllbGRfdmFsdWUocmVwX2Jsb2NrLCAi5qOA5rWL5oql5ZGKKD865ZCN56ewKT8iKQogICAgZmFjdHNbInJlcG9ydC5udW1iZXIiXSA9IF9leHRyYWN0X3JlcG9ydF9maWVsZF92YWx1ZShyZXBfYmxvY2ssICLmiqXlkYrnvJblj7ciKQoKICAgIHJldHVybiBmYWN0cwoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgU3RydWN0dXJhbCBoZWxwZXJzIChwcmljZSByb3dzLCBleHBlcmllbmNlcywgZXRjLikKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpkZWYgX2V4dHJhY3RfbGlzdCh0ZXh0OiBzdHIsIGFuY2hvcnM6IGxpc3Rbc3RyXSkgLT4gbGlzdFtzdHJdOgogICAgcmV0dXJuIFthIGZvciBhIGluIGFuY2hvcnMgaWYgYSBpbiB0ZXh0XQoKCmRlZiBfZXh0cmFjdF9wcmljZV9yb3dzKHRleHQ6IHN0cikgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICByb3dzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSA9IFtdCiAgICBmb3IgbGluZSBpbiB0ZXh0LnNwbGl0bGluZXMoKToKICAgICAgICBpZiBub3QgbGluZS5zdHJpcCgpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmICLlnovlj7ciIG5vdCBpbiBsaW5lIGFuZCAibW9kZWwiIG5vdCBpbiBsaW5lLmxvd2VyKCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgc3RyaWN0ID0gcmUuc2VhcmNoKAogICAgICAgICAgICByIuWei+WPt1xzKihbQS1aYS16MC05XC1fL10rKS4qP+WNleS7t1xzKihcZFtcZCxcLl0qKVxzKijkuId85YWDfFJNQnwpPyIKICAgICAgICAgICAgciIoPzouKj/mlbDph49ccyooXGQrKSk/KD86Lio/5bCP6K6hXHMqKFxkW1xkLFwuXSopXHMqKOS4h3zlhYN8Uk1CfCk/KT8iLAogICAgICAgICAgICBsaW5lLAogICAgICAgICAgICByZS5JR05PUkVDQVNFLAogICAgICAgICkKICAgICAgICBpZiBub3Qgc3RyaWN0OgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIG1vZGVsID0gc3RyaWN0Lmdyb3VwKDEpCiAgICAgICAgdHJ5OgogICAgICAgICAgICB1bml0X3ByaWNlID0gZmxvYXQoc3RyaWN0Lmdyb3VwKDIpLnJlcGxhY2UoIiwiLCAiIikpICogKAogICAgICAgICAgICAgICAgMTAwMDAgaWYgc3RyaWN0Lmdyb3VwKDMpID09ICLkuIciIGVsc2UgMQogICAgICAgICAgICApCiAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgcm93OiBkaWN0W3N0ciwgQW55XSA9IHsibW9kZWwiOiBtb2RlbCwgInVuaXRfcHJpY2UiOiB1bml0X3ByaWNlfQogICAgICAgIGlmIHN0cmljdC5ncm91cCg0KToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcm93WyJxdHkiXSA9IGludChzdHJpY3QuZ3JvdXAoNCkpCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIGlmIHN0cmljdC5ncm91cCg1KToKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc3ViX3ZhbCA9IGZsb2F0KHN0cmljdC5ncm91cCg1KS5yZXBsYWNlKCIsIiwgIiIpKSAqICgKICAgICAgICAgICAgICAgICAgICAxMDAwMCBpZiBzdHJpY3QuZ3JvdXAoNikgPT0gIuS4hyIgZWxzZSAxCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICByb3dbInN1YnRvdGFsIl0gPSBzdWJfdmFsCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgcGFzcwogICAgICAgIHJvd3MuYXBwZW5kKHJvdykKICAgIHJldHVybiByb3dzCgoKZGVmIF9leHRyYWN0X2V4cGVyaWVuY2VzKHRleHQ6IHN0cikgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICByb3dzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSA9IFtdCiAgICBmb3IgbGluZSBpbiB0ZXh0LnNwbGl0bGluZXMoKToKICAgICAgICBpZiAi5ZCI5ZCMIiBub3QgaW4gbGluZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB5ZWFyID0gX1lFQVJfUkUuc2VhcmNoKGxpbmUpCiAgICAgICAgYW1vdW50OiBmbG9hdCB8IE5vbmUgPSBOb25lCiAgICAgICAgbSA9IHJlLnNlYXJjaChyIihcZFtcZCxcLl0qKVxzKijkuId85Lq/fOWFg3xSTUIpIiwgbGluZSkKICAgICAgICBpZiBtOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB2ID0gZmxvYXQobS5ncm91cCgxKS5yZXBsYWNlKCIsIiwgIiIpKQogICAgICAgICAgICAgICAgdW5pdCA9IG0uZ3JvdXAoMikKICAgICAgICAgICAgICAgIGlmIHVuaXQgPT0gIuS4hyI6CiAgICAgICAgICAgICAgICAgICAgdiAqPSAxMF8wMDAKICAgICAgICAgICAgICAgIGVsaWYgdW5pdCA9PSAi5Lq/IjoKICAgICAgICAgICAgICAgICAgICB2ICo9IDEwMF8wMDBfMDAwCiAgICAgICAgICAgICAgICBhbW91bnQgPSB2CiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgYW1vdW50ID0gTm9uZQogICAgICAgIGlmIHllYXIgb3IgYW1vdW50OgogICAgICAgICAgICByb3dzLmFwcGVuZCh7ImRhdGUiOiB5ZWFyLmdyb3VwKDApIGlmIHllYXIgZWxzZSBOb25lLCAiYW1vdW50IjogYW1vdW50fSkKICAgIHJldHVybiByb3dz
+"""Heuristic fact extraction for TenderGuard v0.2.
+
+v0.2 improvements vs v0.1:
+- bidder_name: 支持 投标人/供应商/投标单位 等同义词与中文公司名（股份/有限/科技/集团等）
+- responses: 章节标题识别 + "响应/应答/满足/偏离" 关键词
+- deviation.test_report_name: 字段级拆分，避免把多个字段拼在一起
+- 每个 fact 增加 confidence + page 字段
+
+Extraction Layer (Spec §二): 负责"文件里到底写了什么"，**不**判断合规。
+"""
+
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass, field
+from typing import Any
+
+from tenderguard.app.schemas import DocumentChunk
+
+
+# ---------------------------------------------------------------------------
+# Patterns
+# ---------------------------------------------------------------------------
+
+_MONEY_RE = re.compile(
+    r"(?P<num>\d[\d,\.]*)\s*(?P<unit>万|亿|元|圆|RMB|rmb)?", re.IGNORECASE
+)
+_DATE_RE = re.compile(r"(\d{4})\s*[-/年.]\s*(\d{1,2})\s*[-/月.]\s*(\d{1,2})")
+_YEAR_RE = re.compile(r"(\d{4})\s*年")
+_YEAR_ONLY_RE = re.compile(r"(?<![0-9.])(19\d{2}|20\d{2})(?![0-9.])")
+
+# Chinese company-name detector: ends with 股份 / 有限 / 科技 / 公司 / 集团 / 中心 / 厂 / 学院 / 学校 / 医院 / 局 / 部 / 处
+_COMPANY_END = (
+    "股份有限公司", "有限责任公司", "有限公司", "股份公司", "集团公司", "集团有限公司",
+    "科技公司", "科技有限公司", "技术公司", "技术有限公司",
+    "公司", "集团", "中心", "厂", "学院", "学校", "医院", "局", "部", "处",
+    "事务所", "研究院", "研究所",
+)
+_COMPANY_RE = re.compile(
+    r"([一-鿿]{2,30}(?:" + "|".join(_COMPANY_END) + r"))"
+)
+
+
+def _looks_like_year_token(token: str) -> bool:
+    return bool(token) and len(token) == 4 and token.isdigit() and 1900 <= int(token) <= 2100
+
+
+# ---------------------------------------------------------------------------
+# Fact data class
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class Fact:
+    field: str
+    value: Any
+    document: str
+    page: int
+    evidence: str = ""
+    confidence: float = 1.0
+    extra: dict[str, Any] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        out = {
+            "field": self.field,
+            "value": self.value,
+            "document": self.document,
+            "page": self.page,
+            "evidence": self.evidence,
+            "confidence": round(self.confidence, 3),
+        }
+        out.update(self.extra)
+        return out
+
+
+# ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+
+
+def _chunks_by_doc(chunks: list[DocumentChunk]) -> dict[str, list[DocumentChunk]]:
+    out: dict[str, list[DocumentChunk]] = {}
+    for c in chunks:
+        out.setdefault(c.doc_id, []).append(c)
+    return out
+
+
+def _join_text(chunks: list[DocumentChunk]) -> str:
+    return "\n".join(c.text for c in chunks)
+
+
+def _chunks_pages(chunks: list[DocumentChunk]) -> dict[str, list[int]]:
+    out: dict[str, list[int]] = {}
+    for c in chunks:
+        out.setdefault(c.document, []).append(c.page)
+    return out
+
+
+def _first_match(pattern: re.Pattern[str], text: str) -> str | None:
+    m = pattern.search(text)
+    if not m:
+        return None
+    if m.lastindex:
+        v = m.group(1) or ""
+    else:
+        v = m.group(0) or ""
+    v = v.strip()
+    return v or None
+
+
+def _near(text: str, anchor: str, window: int = 80) -> str:
+    idx = text.find(anchor)
+    if idx == -1:
+        return ""
+    return text[idx : idx + len(anchor) + window]
+
+
+def _segment(text: str, anchor: str, stop_anchors: list[str] | None = None, max_len: int = 60) -> str:
+    idx = text.find(anchor)
+    if idx == -1:
+        return ""
+    start = idx
+    end = min(len(text), start + max_len)
+    if stop_anchors:
+        candidates = []
+        for s in stop_anchors:
+            j = text.find(s, start + len(anchor))
+            if j != -1:
+                candidates.append(j)
+        if candidates:
+            end = min(end, min(candidates))
+    return text[start:end]
+
+
+def _money_from_match(m: re.Match[str]) -> float | None:
+    raw = m.group("num")
+    unit = (m.group("unit") or "").lower()
+    cleaned = raw.replace(",", "")
+    try:
+        n = float(cleaned)
+    except ValueError:
+        return None
+    if unit == "" and _looks_like_year_token(cleaned):
+        return None
+    if unit == "万":
+        n *= 10_000
+    elif unit == "亿":
+        n *= 100_000_000
+    return n
+
+
+def _extract_money(text: str) -> float | None:
+    for m in _MONEY_RE.finditer(text):
+        val = _money_from_match(m)
+        if val and val > 1:
+            return val
+    return None
+
+
+def _first_amount_with_unit(text: str) -> float | None:
+    m = re.search(r"(\d[\d,\.]*)\s*(万|亿|元|RMB|rmb)", text)
+    if not m:
+        return None
+    try:
+        v = float(m.group(1).replace(",", ""))
+    except ValueError:
+        return None
+    unit = m.group(2).lower()
+    if unit == "万":
+        v *= 10_000
+    elif unit == "亿":
+        v *= 100_000_000
+    return v
+
+
+# ---------------------------------------------------------------------------
+# Bidder-name extractor (Phase 1.1)
+# ---------------------------------------------------------------------------
+
+_BIDDER_LABELS = (
+    "投标人名称", "投标人", "供应商", "投标单位", "投标方", "投标主体",
+    "乙方", "竞买人", "供应商名称", "申报单位名称",
+)
+
+
+def _extract_bidder_name(text: str) -> tuple[str | None, float]:
+    """Try label-anchored patterns first, then company-name regex."""
+
+    # 1. Label-anchored: "投标人：北京智教科技股份有限公司"
+    for label in _BIDDER_LABELS:
+        m = re.search(label + r"[:：]?\s*([^\n\r]+?)(?=\s{2,}|项目名称|法人|$)", text)
+        if m:
+            raw = m.group(1).strip()
+            # Try to clip to the longest Chinese company name inside
+            cm = _COMPANY_RE.search(raw)
+            if cm:
+                return cm.group(1), 0.95
+            # Otherwise keep raw if it looks like a name
+            cleaned = re.sub(r"\s+", "", raw)
+            if 4 <= len(cleaned) <= 60:
+                return raw.strip(), 0.7
+    # 2. Company-name regex anywhere (lower confidence)
+    cm = _COMPANY_RE.search(text)
+    if cm:
+        return cm.group(1), 0.6
+    return None, 0.0
+
+
+def _extract_bidder_name_pages(text: str) -> tuple[str | None, float, int]:
+    """Same as _extract_bidder_name but returns the page the match was on."""
+
+    chunks = []
+    for chunk_text in text.split("\f"):
+        chunks.append(chunk_text)
+    if len(chunks) == 1:
+        # fall back: no form-feed, treat as one page
+        return (*_extract_bidder_name(text), 1)
+    for page_no, page_text in enumerate(chunks, start=1):
+        name, conf = _extract_bidder_name(page_text)
+        if name:
+            return name, conf, page_no
+    return *_extract_bidder_name(text), 1
+
+
+# ---------------------------------------------------------------------------
+# Section/response extractor (Phase 1.2)
+# ---------------------------------------------------------------------------
+
+_RESPONSE_KEYWORDS = (
+    "响应", "应答", "满足", "偏离", "承诺", "应答文件", "应答内容",
+    "答复", "回复",
+)
+
+_RESPONSE_HEADERS = (
+    "响应方", "商务响应", "技术响应", "商务偏离表", "技术偏离表",
+    "响应表", "响应文件", "应答表", "应答文件", "应答说明",
+    "应答方案", "应答情况",
+)
+
+
+def _extract_response_sections(text: str) -> list[str]:
+    """Find chapter / heading-like responses.
+
+    Returns list of section names that look like explicit responses.
+    """
+
+    out: list[str] = []
+    seen: set[str] = set()
+    # 1. 章节标题 like "1.2.3 商务响应" / "第三章 商务响应"
+    for m in re.finditer(
+        r"(?:^|\n)\s*(?:[\d一二三四五六七八九十]+[.\s、章]+){1,3}"
+        r"([一-鿿A-Za-z]{2,20}(?:" + "|".join(_RESPONSE_HEADERS) + r")[一-鿿A-Za-z]*)",
+        text,
+    ):
+        v = m.group(1).strip()
+        if v and v not in seen:
+            out.append(v)
+            seen.add(v)
+    # 2. Generic keywords
+    for kw in _RESPONSE_KEYWORDS:
+        if kw in text and kw not in seen:
+            out.append(kw)
+            seen.add(kw)
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Deviation / report fields (Phase 1.3)
+# ---------------------------------------------------------------------------
+
+
+def _extract_report_field_value(text: str, field_label: str) -> str | None:
+    """Pull a labelled value that ENDS at the next field-label or punctuation."""
+
+    m = re.search(field_label + r"[:：]?\s*([^\n\r]+)", text)
+    if not m:
+        return None
+    raw = m.group(1).strip()
+    # If raw contains another known field label, cut at it
+    for stop in ("报告编号", "名称", "编号", "型号", "规格", "数量", "金额", "日期", "厂家"):
+        idx = raw.find(stop, 1)
+        if idx > 0 and idx < len(raw):
+            raw = raw[:idx].strip()
+            break
+    # Drop trailing ":" / "：" / punctuation
+    raw = re.sub(r"[\s:：]+$", "", raw)
+    return raw or None
+
+
+# ---------------------------------------------------------------------------
+# Per-doc extraction
+# ---------------------------------------------------------------------------
+
+
+def _extract_company(text: str) -> tuple[str | None, float, int]:
+    chunks = text.split("\f")
+    if len(chunks) <= 1:
+        return (*_extract_bidder_name(text), 1)
+    for i, page_text in enumerate(chunks, start=1):
+        name, conf = _extract_bidder_name(page_text)
+        if name:
+            return name, conf, i
+    return *_extract_bidder_name(text), 1
+
+
+def extract_facts(chunks: list[DocumentChunk]) -> dict[str, Any]:
+    by_doc = _chunks_by_doc(chunks)
+    tender_text = _join_text(by_doc.get("tender", []))
+    bid_text = _join_text(by_doc.get("bid", []))
+    facts: dict[str, Any] = {}
+
+    # ---- Phase 2: structured tables ----
+    from tenderguard.app.extraction.tables import (
+        extract_certificate_lists,
+        extract_experience_rows,
+        extract_response_sections,
+        best_price_table,
+    )
+    bid_chunks = by_doc.get("bid", [])
+    tender_chunks = by_doc.get("tender", [])
+
+    price_rows = best_price_table(bid_chunks) if bid_chunks else _extract_price_rows(bid_text)
+    if price_rows:
+        facts["bid.price_rows"] = price_rows
+    experiences = extract_experience_rows(bid_chunks) if bid_chunks else _extract_experiences(bid_text)
+    if experiences:
+        facts["bid.experiences"] = experiences
+    facts["bid.product_certificates"] = (
+        extract_certificate_lists(bid_chunks) if bid_chunks else []
+    ) or _extract_list(bid_text, ["检测报告", "节能证书", "3C", "产品彩页", "CCC", "环境标志", "环保产品"])
+    facts["bid.responses"] = (
+        [h["section"] for h in extract_response_sections(bid_chunks)] if bid_chunks else []
+    ) or _extract_response_sections(bid_text)
+    facts["tender.product_cert_requirements"] = (
+        extract_certificate_lists(tender_chunks) if tender_chunks else []
+    ) or _extract_list(tender_text, ["检测报告", "节能证书", "3C", "产品彩页", "CCC", "环境标志"])
+
+    # ---------------- tender metadata ----------------
+    facts["tender.project_name"] = _first_match(
+        re.compile(r"项目名称[:：]\s*([^\n\r]+?)\s*项目编号"), tender_text
+    )
+    facts["tender.project_id"] = _first_match(
+        re.compile(r"项目编号[:：]\s*([A-Za-z0-9\-_/]+)"), tender_text
+    )
+    facts["tender.package_id"] = _first_match(
+        re.compile(r"包号[:：]\s*([A-Za-z0-9\-_/]+)"), tender_text
+    )
+
+    ceiling_seg = _segment(tender_text, "限价", stop_anchors=["保证金", "收款", "商务", "业绩"])
+    facts["tender.price_ceiling"] = _first_amount_with_unit(ceiling_seg)
+    if facts["tender.price_ceiling"] is None:
+        seg2 = _segment(tender_text, "拦标价", stop_anchors=["保证金", "收款", "商务", "业绩"])
+        facts["tender.price_ceiling"] = _first_amount_with_unit(seg2)
+    if facts["tender.price_ceiling"] is None:
+        # Real government PDFs often say "项目预算金额" / "预算金额" / "最高限价"
+        seg3 = _segment(tender_text, "预算金额", stop_anchors=["保证金", "采购需求", "技术需求", "商务条款"])
+        facts["tender.price_ceiling"] = _first_amount_with_unit(seg3)
+    if facts["tender.price_ceiling"] is None:
+        seg4 = _segment(tender_text, "最高限价", stop_anchors=["保证金", "采购需求"])
+        facts["tender.price_ceiling"] = _first_amount_with_unit(seg4)
+
+    # ---------------- bid metadata ----------------
+    facts["bid.project_name"] = _first_match(
+        re.compile(r"项目名称[:：]\s*(.+?)(?=\s*项目编号|\n|$)"), bid_text
+    )
+    facts["bid.project_id"] = _first_match(
+        re.compile(r"项目编号[:：]\s*([A-Za-z0-9\-_/]+)"), bid_text
+    )
+    facts["bid.package_id"] = _first_match(
+        re.compile(r"包号[:：]\s*([A-Za-z0-9\-_/]+)"), bid_text
+    )
+
+    # bidder_name (Phase 1.1)
+    name, conf, _page = _extract_company(bid_text)
+    if name:
+        facts["bid.bidder_name"] = name
+        facts.setdefault("_confidence", {})["bid.bidder_name"] = conf
+
+    facts["bid.legal_representative"] = _first_match(
+        re.compile(r"法人代表(?:姓名)?[:：]\s*(\S[^\n\r]*?)(?=\s{2,}|授权书|被授权|\n)"),
+        bid_text,
+    )
+
+    # ---------------- authorization ----------------
+    auth_block = _segment(bid_text, "授权书", stop_anchors=["商务", "型号", "合同", "偏离"])
+    facts["authorization.legal_representative"] = (
+        _first_match(re.compile(r"法人代表[:：]?\s*(\S[^\n\r]*?)(?=\s{2,}|被授权|$)"), auth_block)
+        or facts["bid.legal_representative"]
+    )
+    facts["authorization.authorized_person"] = _first_match(
+        re.compile(r"被授权人[:：]?\s*([^\n\r]+)"), auth_block
+    )
+
+    # ---------------- bond ----------------
+    bond_block = _segment(bid_text, "保证金", stop_anchors=["商务", "型号", "合同", "偏离表"])
+    bond_amount = _first_amount_with_unit(bond_block)
+    if bond_amount:
+        facts["bond.amount"] = bond_amount
+    facts["bond.payee"] = _first_match(
+        re.compile(r"收款(?:方|单位|人)[:：]?\s*([^\n\r]+)"), bond_block
+    )
+
+    req_bond_block = _segment(tender_text, "保证金", stop_anchors=["商务", "业绩", "检测报告"])
+    req_bond = _first_amount_with_unit(req_bond_block)
+    if req_bond:
+        facts["requirement.bond_amount"] = req_bond
+    facts["requirement.bond_payee"] = _first_match(
+        re.compile(r"收款(?:方|单位|人)[:：]?\s*([^\n\r]+)"),
+        req_bond_block,
+    )
+
+    # ---------------- pricing ----------------
+    if "bid.price_rows" not in facts:
+        facts["bid.price_rows"] = _extract_price_rows(bid_text)
+    seg = _segment(bid_text, "合计", stop_anchors=["合同", "业绩", "偏离表", "检测报告"])
+    total = _first_amount_with_unit(seg)
+    if total is None:
+        m = re.search(r"(\d[\d,\.]+)", seg)
+        if m:
+            try:
+                total = float(m.group(1).replace(",", ""))
+            except ValueError:
+                total = None
+    if total:
+        facts["bid.total_price"] = total
+    if facts.get("bid.total_price") is None:
+        # Fallback: real government bid2 has "开标一览表" / "投标报价:" / "总报价"
+        for kw in ("投标报价", "总报价", "报价合计", "投标总报价"):
+            m = re.search(kw + r"[:：]?\s*([\d,\.]+)\s*(万|亿|元)?", bid_text)
+            if m:
+                v = _first_amount_with_unit(m.group(0))
+                if v:
+                    facts["bid.total_price"] = v
+                    break
+    if facts.get("bid.total_price") is None and facts.get("bid.price_rows"):
+        # Last resort: sum qty × unit_price from rows; but unit_price may be missing
+        # in vertical tables. Try computing only if at least one row has unit_price.
+        rows = facts["bid.price_rows"]
+        if any(r.get("unit_price") for r in rows):
+            facts["bid.total_price"] = sum(
+                (r.get("unit_price") or 0) * (r.get("qty") or 0) for r in rows
+            )
+
+    # ---------------- experiences ----------------
+    if "bid.experiences" not in facts:
+        facts["bid.experiences"] = _extract_experiences(bid_text)
+    exp_block = _segment(tender_text, "业绩", stop_anchors=["检测", "废标"])
+    m = re.search(r"(\d[\d,\.]*)\s*(万|亿|元)", exp_block)
+    if m:
+        try:
+            v = float(m.group(1).replace(",", ""))
+            unit = m.group(2)
+            if unit == "万":
+                v *= 10_000
+            elif unit == "亿":
+                v *= 100_000_000
+            facts["requirement.experience_contract_amount"] = v
+        except ValueError:
+            pass
+
+    # ---------------- responses (Phase 1.2) ----------------
+    if "bid.responses" not in facts:
+        facts["bid.responses"] = _extract_response_sections(bid_text)
+
+    # ---------------- certs ----------------
+    if "bid.product_certificates" not in facts:
+        facts["bid.product_certificates"] = _extract_list(
+            bid_text, ["检测报告", "节能证书", "3C", "产品彩页", "CCC", "环境标志", "环保产品"]
+        )
+    if "tender.product_cert_requirements" not in facts:
+        facts["tender.product_cert_requirements"] = _extract_list(
+            tender_text, ["检测报告", "节能证书", "3C", "产品彩页", "CCC", "环境标志"]
+        )
+
+    # ---------------- deviation / report fields (Phase 1.3) ----------------
+    dev_block = _segment(bid_text, "偏离表", stop_anchors=["授权书", "合同", "商务条款"])
+    facts["deviation.test_report_name"] = _extract_report_field_value(dev_block, "检测报告(?:名称|全称)?")
+    facts["deviation.test_report_no"] = _extract_report_field_value(dev_block, "报告编号")
+    rep_block = _segment(bid_text, "检测报告", stop_anchors=["型号", "授权书", "合同"])
+    facts["report.name"] = _extract_report_field_value(rep_block, "检测报告(?:名称)?")
+    facts["report.number"] = _extract_report_field_value(rep_block, "报告编号")
+
+    return facts
+
+
+# ---------------------------------------------------------------------------
+# Structural helpers (price rows, experiences, etc.)
+# ---------------------------------------------------------------------------
+
+
+def _extract_list(text: str, anchors: list[str]) -> list[str]:
+    return [a for a in anchors if a in text]
+
+
+def _extract_price_rows(text: str) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for line in text.splitlines():
+        if not line.strip():
+            continue
+        if "型号" not in line and "model" not in line.lower():
+            continue
+        strict = re.search(
+            r"型号\s*([A-Za-z0-9\-_/]+).*?单价\s*(\d[\d,\.]*)\s*(万|元|RMB|)?"
+            r"(?:.*?数量\s*(\d+))?(?:.*?小计\s*(\d[\d,\.]*)\s*(万|元|RMB|)?)?",
+            line,
+            re.IGNORECASE,
+        )
+        if not strict:
+            continue
+        model = strict.group(1)
+        try:
+            unit_price = float(strict.group(2).replace(",", "")) * (
+                10000 if strict.group(3) == "万" else 1
+            )
+        except ValueError:
+            continue
+        row: dict[str, Any] = {"model": model, "unit_price": unit_price}
+        if strict.group(4):
+            try:
+                row["qty"] = int(strict.group(4))
+            except ValueError:
+                pass
+        if strict.group(5):
+            try:
+                sub_val = float(strict.group(5).replace(",", "")) * (
+                    10000 if strict.group(6) == "万" else 1
+                )
+                row["subtotal"] = sub_val
+            except ValueError:
+                pass
+        rows.append(row)
+    return rows
+
+
+def _extract_experiences(text: str) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for line in text.splitlines():
+        if "合同" not in line:
+            continue
+        year = _YEAR_RE.search(line)
+        amount: float | None = None
+        m = re.search(r"(\d[\d,\.]*)\s*(万|亿|元|RMB)", line)
+        if m:
+            try:
+                v = float(m.group(1).replace(",", ""))
+                unit = m.group(2)
+                if unit == "万":
+                    v *= 10_000
+                elif unit == "亿":
+                    v *= 100_000_000
+                amount = v
+            except ValueError:
+                amount = None
+        if year or amount:
+            rows.append({"date": year.group(0) if year else None, "amount": amount})
+    return rows

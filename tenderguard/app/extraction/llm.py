@@ -1,1 +1,62 @@
-IiIiVGhpbiBPcGVuQUktY29tcGF0aWJsZSBMTE0gY2xpZW50LgoKUmVhZHMgY29uZmlndXJhdGlvbiBmcm9tIGVudmlyb25tZW50IChMTE1fQkFTRV9VUkwsIExMTV9BUElfS0VZLCBMTE1fTU9ERUwpLgpSZXR1cm5zIGBgTm9uZWBgIG9uIGFueSBmYWlsdXJlIHNvIGNhbGxlcnMgY2FuIGZhbGwgYmFjayB0byBkZXRlcm1pbmlzdGljIGxvZ2ljLgoiIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmltcG9ydCBvcwpmcm9tIHR5cGluZyBpbXBvcnQgQW55CgppbXBvcnQgaHR0cHgKCgpjbGFzcyBMTE1VbmF2YWlsYWJsZShSdW50aW1lRXJyb3IpOgogICAgIiIiUmFpc2VkIHdoZW4gdGhlIExMTSBlbmRwb2ludCBpcyBub3QgY29uZmlndXJlZCBvciB1bnJlYWNoYWJsZS4iIiIKCgpjbGFzcyBMTE1DbGllbnQ6CiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBiYXNlX3VybDogc3RyIHwgTm9uZSA9IE5vbmUsCiAgICAgICAgYXBpX2tleTogc3RyIHwgTm9uZSA9IE5vbmUsCiAgICAgICAgbW9kZWw6IHN0ciB8IE5vbmUgPSBOb25lLAogICAgICAgIHRpbWVvdXQ6IGZsb2F0ID0gMzAuMCwKICAgICkgLT4gTm9uZToKICAgICAgICBzZWxmLmJhc2VfdXJsID0gKGJhc2VfdXJsIG9yIG9zLmVudmlyb24uZ2V0KCJMTE1fQkFTRV9VUkwiKSBvciAiIikucnN0cmlwKCIvIikKICAgICAgICBzZWxmLmFwaV9rZXkgPSBhcGlfa2V5IG9yIG9zLmVudmlyb24uZ2V0KCJMTE1fQVBJX0tFWSIpIG9yICIiCiAgICAgICAgc2VsZi5tb2RlbCA9IG1vZGVsIG9yIG9zLmVudmlyb24uZ2V0KCJMTE1fTU9ERUwiKSBvciAiIgogICAgICAgIHNlbGYudGltZW91dCA9IHRpbWVvdXQKCiAgICBAcHJvcGVydHkKICAgIGRlZiBjb25maWd1cmVkKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgcmV0dXJuIGJvb2woc2VsZi5iYXNlX3VybCBhbmQgc2VsZi5hcGlfa2V5IGFuZCBzZWxmLmFwaV9rZXkgIT0gInJlcGxhY2VfbWUiIGFuZCBzZWxmLm1vZGVsIGFuZCBzZWxmLm1vZGVsICE9ICJyZXBsYWNlX21lIikKCiAgICBkZWYgY29tcGxldGVfanNvbihzZWxmLCBzeXN0ZW06IHN0ciwgdXNlcjogc3RyKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICBpZiBub3Qgc2VsZi5jb25maWd1cmVkOgogICAgICAgICAgICByYWlzZSBMTE1VbmF2YWlsYWJsZSgiTExNIG5vdCBjb25maWd1cmVkIikKICAgICAgICB1cmwgPSBmIntzZWxmLmJhc2VfdXJsfS9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgIHBheWxvYWQgPSB7CiAgICAgICAgICAgICJtb2RlbCI6IHNlbGYubW9kZWwsCiAgICAgICAgICAgICJtZXNzYWdlcyI6IFsKICAgICAgICAgICAgICAgIHsicm9sZSI6ICJzeXN0ZW0iLCAiY29udGVudCI6IHN5c3RlbX0sCiAgICAgICAgICAgICAgICB7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogdXNlcn0sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJ0ZW1wZXJhdHVyZSI6IDAuMCwKICAgICAgICAgICAgInJlc3BvbnNlX2Zvcm1hdCI6IHsidHlwZSI6ICJqc29uX29iamVjdCJ9LAogICAgICAgIH0KICAgICAgICBoZWFkZXJzID0geyJBdXRob3JpemF0aW9uIjogZiJCZWFyZXIge3NlbGYuYXBpX2tleX0iLCAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24ifQogICAgICAgIHdpdGggaHR0cHguQ2xpZW50KHRpbWVvdXQ9c2VsZi50aW1lb3V0KSBhcyBjbGllbnQ6CiAgICAgICAgICAgIHIgPSBjbGllbnQucG9zdCh1cmwsIGpzb249cGF5bG9hZCwgaGVhZGVycz1oZWFkZXJzKQogICAgICAgIHIucmFpc2VfZm9yX3N0YXR1cygpCiAgICAgICAgZGF0YSA9IHIuanNvbigpCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjb250ZW50ID0gZGF0YVsiY2hvaWNlcyJdWzBdWyJtZXNzYWdlIl1bImNvbnRlbnQiXQogICAgICAgIGV4Y2VwdCAoS2V5RXJyb3IsIEluZGV4RXJyb3IpIGFzIGV4YzoKICAgICAgICAgICAgcmFpc2UgTExNVW5hdmFpbGFibGUoZiJ1bmV4cGVjdGVkIHJlc3BvbnNlOiB7ZGF0YX0iKSBmcm9tIGV4YwogICAgICAgIHRyeToKICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMoY29udGVudCkKICAgICAgICBleGNlcHQganNvbi5KU09ORGVjb2RlRXJyb3IgYXMgZXhjOgogICAgICAgICAgICByYWlzZSBMTE1VbmF2YWlsYWJsZShmIm5vbi1KU09OIHJlc3BvbnNlOiB7Y29udGVudFs6MjAwXX0iKSBmcm9tIGV4Yw==
+"""Thin OpenAI-compatible LLM client.
+
+Reads configuration from environment (LLM_BASE_URL, LLM_API_KEY, LLM_MODEL).
+Returns ``None`` on any failure so callers can fall back to deterministic logic.
+"""
+
+from __future__ import annotations
+
+import json
+import os
+from typing import Any
+
+import httpx
+
+
+class LLMUnavailable(RuntimeError):
+    """Raised when the LLM endpoint is not configured or unreachable."""
+
+
+class LLMClient:
+    def __init__(
+        self,
+        base_url: str | None = None,
+        api_key: str | None = None,
+        model: str | None = None,
+        timeout: float = 30.0,
+    ) -> None:
+        self.base_url = (base_url or os.environ.get("LLM_BASE_URL") or "").rstrip("/")
+        self.api_key = api_key or os.environ.get("LLM_API_KEY") or ""
+        self.model = model or os.environ.get("LLM_MODEL") or ""
+        self.timeout = timeout
+
+    @property
+    def configured(self) -> bool:
+        return bool(self.base_url and self.api_key and self.api_key != "replace_me" and self.model and self.model != "replace_me")
+
+    def complete_json(self, system: str, user: str) -> dict[str, Any]:
+        if not self.configured:
+            raise LLMUnavailable("LLM not configured")
+        url = f"{self.base_url}/chat/completions"
+        payload = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            "temperature": 0.0,
+            "response_format": {"type": "json_object"},
+        }
+        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
+        with httpx.Client(timeout=self.timeout) as client:
+            r = client.post(url, json=payload, headers=headers)
+        r.raise_for_status()
+        data = r.json()
+        try:
+            content = data["choices"][0]["message"]["content"]
+        except (KeyError, IndexError) as exc:
+            raise LLMUnavailable(f"unexpected response: {data}") from exc
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError as exc:
+            raise LLMUnavailable(f"non-JSON response: {content[:200]}") from exc

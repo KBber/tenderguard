@@ -1,1 +1,133 @@
-IiIiUGVyLUNLLXR5cGUgcmV2aWV3IHF1ZXN0aW9ucyBhbmQgcmVjb21tZW5kZWQgYWN0aW9ucyAoc3BlYyDCp+WNgeS6jCkuDQoNCkVhY2ggZW50cnkgaXMga2V5ZWQgYnkgYSAocmV2aWV3X3R5cGUsIGNhdGVnb3J5KSBwYWlyIHdoZW4gcG9zc2libGUuDQpGYWxscyBiYWNrIHRvIHBlci1yZXZpZXdfdHlwZSBkZWZhdWx0cy4NCiIiIg0KDQpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zDQoNCmZyb20gdGVuZGVyZ3VhcmQuYXBwLnNjaGVtYXMgaW1wb3J0IFJldmlld1R5cGUNCg0KDQojIEJ5IENLIHRpdGxlIGtleXdvcmQgKGJlc3QgZWZmb3J0LCBkZXRlcm1pbmlzdGljKQ0KX1RJVExFX1FVRVNUSU9OUzogbGlzdFt0dXBsZVtzdHIsIHN0ciwgc3RyXV0gPSBbDQogICAgIyAodGl0bGUga2V5d29yZCwgcmV2aWV3X3F1ZXN0aW9uLCByZWNvbW1lbmRlZF9hY3Rpb24pDQogICAgKCLpobnnm67lkI3np7AiLCAi5oqV5qCH5paH5Lu25YWo5paH5L2/55So55qE6aG555uu5ZCN56ew5piv5ZCm5LiO5oub5qCH5paH5Lu25LiA6Ie077yf6K+36YCQ5aSE5qC45a+544CCIiwNCiAgICAgIuWcqOaKleagh+aWh+S7tuWwgemdoiArIOaKleagh+WHvSArIOaKpeS7t+ihqOS4reehruiupOmhueebruWQjeensCIpLA0KICAgICgi6aG555uu57yW5Y+3IiwgIuaKleagh+aWh+S7tueahOmhueebrue8luWPt+aYr+WQpuS4juaLm+agh+aWh+S7tuWujOWFqOS4gOiHtO+8iOWQq+i/nuWtl+espiAvIOWkp+Wwj+WGme+8ie+8nyIsDQogICAgICLkvb/nlKggZ3JlcCDlhajmlofmkJzntKLpobnnm67nvJblj7fvvJvkuI3ljLnphY3lpITop4bkuLrlvILluLgiKSwNCiAgICAoIuWMheWPtyIsICLmipXmoIfmlofku7bnmoTljIXlj7fmmK/lkKbkuI7mi5vmoIfmlofku7bkuIDoh7TvvJ/lpJrljIXpobnnm67kuI3lvpfplJnloavljIXlj7fjgIIiLA0KICAgICAi5Zyo5bCB55quICsg5oqV5qCH5Ye9ICsg5oql5Lu36KGo5qC45a+5IiksDQogICAgKCLmipXmoIfkuroiLCAi5oqV5qCH5Lq65Li75L2T5ZCN56ew5piv5ZCm5LiO6JCl5Lia5omn54Wn44CB5L+h55So5Luj56CB5LiA6Ie077yfIiwNCiAgICAgIuWvueavlOiQpeS4muaJp+eFp+aJq+aPj+S7tu+8jOWQjeensOW3ruW8guS4gOW+iyBGQUlMIiksDQogICAgKCLmjojmnYMiLCAi5o6I5p2D5Lmm5piv5ZCm55Sx5rOV5Lq65Luj6KGo562+5a2X77yf6KKr5o6I5p2D5Lq65L+h5oGv5piv5ZCm5a6M5pW077yfIiwNCiAgICAgIuWcqCBVSSDkuK3mn6XnnIvmjojmnYPkuabmiavmj4/ku7bpobXnoIEiKSwNCiAgICAoIuaKleagh+aKpeS7tyIsICLmipXmoIfmiqXku7fmmK/lkKbnu4/ov4fplIDllK7nu4/nkIblrqHmoLjvvJ/mmK/lkKblnKjmipXmoIfmnIDlkI7kuKTlkajlhoXmm7TmlrDov4fvvJ8iLA0KICAgICAi6K+i6Zeu6ZSA5ZSu57uP55CG5oql5Lu35Yaz562W77yb6KaB5rGC5o+Q5L6b5Lmm6Z2i5a6h5qC46K6w5b2VIiksDQogICAgKCLkv53or4Hph5EiLCAi5L+d6K+B6YeR5piv5ZCm5oyJ5oub5qCH6KaB5rGC5rGH5Ye677yf5pS25qy+5pa5L+i0puaIty/miKrmraLml7bpl7TmmK/lkKbkuIDoh7TvvJ8iLA0KICAgICAi5qC45a+56ZO26KGM5Zue5Y2V77yM6YeR6aKdL+aUtuasvuS6ui/miKrmraLml7bpl7TkuInpobnpgJDpobnmoKHpqowiKSwNCiAgICAoIuaKpeS7t+ihqCIsICLliIbpobnmiqXku7fooajkuK3lkIzlnovlj7fkuqflk4HnmoTljZXku7fmmK/lkKbkuIDoh7TvvJ8iLA0KICAgICAi5q+U5a+5IEV4Y2VsIOaKpeS7t+ihqO+8iEdST1VQIEJZIG1vZGVs77yJ77yM5Y2V5Lu35LiN5ZCM5Y2zIEZBSUwiKSwNCiAgICAoIuWBj+emu+ihqCIsICLllYbliqHlgY/nprvooajmmK/lkKbopobnm5blhajpg6jllYbliqHopoHmsYLvvIjku5jmrL7jgIHotKjkv53jgIHkuqTotKfjgIHln7norq3nrYnvvInvvJ8iLA0KICAgICAi6YCQ5p2h5qC45a+55LuY5qy+5p2h5Lu2L+i0qOS/neacny/kuqTotKfmnJ8v5Z+56K6t6K6h5YiSIiksDQogICAgKCLllYbliqHlk43lupQiLCAi5oqV5qCH5paH5Lu25piv5ZCm5a+55ZWG5Yqh5p2h5qy+6YCQ5p2h5ZON5bqU77yf5piv5ZCm5ZCr6LSf5YGP56a777yfIiwNCiAgICAgIuafpeeci+WVhuWKoeWTjeW6lOeroOiKgu+8m+agh+iusOS7u+S9leaXoOWTjeW6lC/otJ/lgY/nprvpobkiKSwNCiAgICAoIuaKgOacr+WTjeW6lCIsICLmioDmnK/lj4LmlbDmmK/lkKblhajpg6jmu6HotrPmiJbotoXov4fmi5vmoIfopoHmsYLvvJ/mmK/lkKblkKvotJ/lgY/nprvvvJ8iLA0KICAgICAi5a+554Wn5Y+C5pWw6KGo6YCQ6aG55omT6ZKp77yb5Lu75L2V5LiN5ruh6Laz5Y2zIEZBSUwiKSwNCiAgICAoIui1hOi0qOadkOaWmSIsICLotYTotKjmnZDmlpnmmK/lkKbmjInmiZPliIbooajlh4blpIfpvZDlhajvvJ/miYDmnInotYTotKjmmK/lkKblnKjmnInmlYjmnJ/lhoXvvJ8iLA0KICAgICAi5YiX5Ye66LWE6LSo5riF5Y2V5bm25qC45a+55pyJ5pWI5pyfIC8g5YWs5Y+45ZCNIC8g55uW56ugIiksDQogICAgKCLkuqflk4HotYTotKgiLCAi5qOA5rWL5oql5ZGKIC8g6IqC6IO96K+B5LmmIC8gM0MgLyDkuqflk4HlvanpobXmmK/lkKbpvZDlhajvvJ/mmK/lkKblnKjmnInmlYjmnJ/lhoXvvJ8iLA0KICAgICAi5ZyoIFVJIOS4reafpeeci+i1hOi0qOaJq+aPj+S7tu+8m+mAkOmhueaJk+mSqSIpLA0KICAgICgi5Lia57upIiwgIuS4mue7qeaYr+WQpua7oei2s+aLm+agh+imgeaxgueahOaVsOmHj+OAgeW5tOmZkOOAgeWQiOWQjOmHkemine+8n+aXtumXtOWtl+auteaYr+WQpuWujOaVtO+8nyIsDQogICAgICLlr7nnhafkuJrnu6nmsYfmgLvooaggKyDlkIjlkIzmiavmj4/ku7bvvJvnvLrkuIDpobnljbMgRkFJTCIpLA0KICAgICgi5YWs56ugIiwgIuaKleagh+aWh+S7tuaJgOaciemcgOeblueroOWkhO+8iOWwgeeari/miqXku7fooagv5o6I5p2D5LmmL+i1hOi0qC/mo4DmtYvmiqXlkYov54K55a+554K55bqU562U77yJ5piv5ZCm5bey55uW56ug77yfIiwNCiAgICAgIumAkOeroOiKguaJq+aPj+eblueroO+8m+e8uueroOS4gOW+iyBGQUlMIiksDQogICAgKCLmiZPljbDjgIHlsIHmoIciLCAi5oqV5qCH5paH5Lu25piv5ZCm5oyJ5oub5qCH6KaB5rGC5omT5Y2w44CB6KOF6K6i44CB5a+G5bCB77yfIiwNCiAgICAgIuaJk+WNsOWJjea4heWNle+8m+WwgeijheWJjeehruiupCIpLA0KICAgICgi6K6y5qCHIiwgIuiusuaghyBQUFQg5piv5ZCm5YeG5aSH5aW977yf6K6y5qCH5Lq65ZGY5piv5ZCm54af5oKJ5YaF5a6577yfIiwNCiAgICAgIueUseiusuagh+S6uuWRmCArIOWVhuWKoeWkjeaguCIpLA0KICAgICgi5aSx5L+h5ZCN5Y2VIiwgIuaJgOaKleS6p+WTgeWOguWutuaYr+WQpuWcqOWGm+mYn+mHh+i0reWkseS/oeWQjeWNle+8nyIsDQogICAgICLmn6Xor6IgaHR0cDovL3BsYXAubWlsLmNuL2ZyZWVjbXMtZ2xodC9zaXRlL2p1bmNhaS8vamRqYy9pbmRleC5odG1sIiksDQogICAgKCLoioLog73njq/kv50iLCAi5oqV5qCH5Lqn5ZOB5piv5ZCm5Zyo6IqC6IO95Lqn5ZOB5pS/5bqc6YeH6LSt55uu5b2V77yf5piv5ZCm5Zyo5pyJ5pWI5pyf5YaF77yfIiwNCiAgICAgIuafpeivouaUv+W6nOmHh+i0ree9keiKguiDveS6p+WTgeebruW9lSArIOW8uuWItuiKguiDveagh+ivhiIpLA0KICAgICgi5pW05L2T5ZCI6KeEIiwgIumhueebruaguOW/g+S/oeaBr++8iOWQjeensC/nvJblj7cv5rOV5Lq65Luj6KGoL+aKpeS7ty/lup/moIfmnaHmrL7vvInmmK/lkKblhajpg6jmraPnoa7vvJ8iLA0KICAgICAi55Sx5ZWG5Yqh6LSf6LSj5Lq66YCQ6aG55qC45a+5IiksDQogICAgKCLkuIDoh7TmgKciLCAi6Leo5paH5qGj77yI5oqV5qCH5Ye9IHZzIOiQpeS4muaJp+eFpyB2cyDmo4DmtYvmiqXlkYogdnMg5Lia57up5rGH5oC777yJ5a2X5q615piv5ZCm5a6M5YWo5LiA6Ie077yfIiwNCiAgICAgIuWcqCBVSSDkuK3mn6XnnIsgQ292ZXJhZ2UgTWF0cml477yM6YCQ5a2X5q615omT6ZKpIiksDQogICAgKCLmoIfkuabnu5PmnoQiLCAi5oqV5qCH5paH5Lu255uu5b2V5piv5ZCm5YyF5ZCr5oub5qCH6KaB5rGC55qE5omA5pyJ56ug6IqC77yfIiwNCiAgICAgIuWvueeFp+aLm+agh+aWh+S7tueahCByZXF1aXJlZF9zZWN0aW9ucyDliJfooajvvIzpgJDnq6DoioLnoa7orqTlrZjlnKgiKSwNCiAgICAoIuWkjeebmCIsICLpobnnm67mipXmoIfmmK/lkKbov5vooYzkuoblpI3nm5jvvJ/lpI3nm5jnu5PorrrmmK/lkKborrDlvZXvvJ8iLA0KICAgICAi55Sx6aG555uu57uP55CG57uE57uH77yb6L6T5Ye65aSN55uY5paH5qGjIiksDQogICAgKCLkuInnuqflrqHmn6UiLCAi5LiJ57qn5a6h5p+l77yI6Ieq5a6hIC8g5LqS5a6hIC8g57uI5a6h77yJ5piv5ZCm5a6M5oiQ77yf5a6h5p+l5Lq65piv5ZCm5Zyo5pel5oql5Lit55WZ5ZCN77yfIiwNCiAgICAgIuafpeaKleagh+aXpeaKpemCruS7tiAvIOmjnuS5pua2iOaBryAvIOaWh+aho+eJiOacrOWOhuWPsiIpLA0KICAgICgi546w5Zy65oqV5qCHIiwgIueOsOWcuuaKleagh+aOiOadg+S7o+ihqOaYr+WQpueGn+aCieWFtuWug+WutuaKleagh+aWh+S7tuWvhuWwgeaDheWGte+8n+etvuWtl+ehruiupOeOr+iKguaYr+WQpuWvueS4jeaYjuehruS4ouWIhumhueaPkOWHuui0qOeWke+8nyIsDQogICAgICLnlLHnjrDlnLrotJ/otKPkurogLyDllYbliqHnu4/nkIbmiafooYwiKSwNCiAgICAoIuagt+WTgSIsICLmoLflk4HmmK/lkKblh4blpIflpb3lubblt7Loh6rmtYvpgJrov4fvvJ/njrDlnLrmtYvor5Xnjq/looPmmK/lkKblronmjpLvvJ8iLA0KICAgICAi55Sx5oqA5pyv6YOoICsg5ZWG5Yqh6YOo5YWx5ZCM56Gu6K6kIiksDQogICAgKCLlkK/liqjkvJoiLCAi6aG555uu5ZCv5Yqo5Lya5piv5ZCm5Y+s5byA77yf6YCa6K+75oub5qCH5paH5Lu2IC8g5Lu75Yqh5YiG5bel5piv5ZCm5a6M5oiQ77yfIiwNCiAgICAgIuajgOafpeWQr+WKqOS8muS8muiurue6quimgSArIOS7u+WKoeWIhuW3peihqCIpLA0KICAgICgi5aSV5LyaIiwgIumhueebruaKleagh+i/h+eoi+S4reaYr+WQpuavj+aXpeWPrOW8gOWkleS8mu+8n+i/m+W6piAvIOmjjumZqeaYr+WQpumAmuaKpe+8nyIsDQogICAgICLmo4Dmn6Xml6XmiqUgLyDpo57kuabnvqQgLyDpgq7ku7blrZjmoaMiKSwNCiAgICAoIumjjumZqeeCueivhOWuoSIsICLmipXmoIfov4fnqIvkuK3nmoTpo47pmanngrnvvIjmioDmnK8gLyDllYbliqHvvInmmK/lkKbor4TlrqHvvJ8iLA0KICAgICAi5p+l6K+E5a6h5Lya6K6u57qq6KaBIiksDQogICAgKCLmqKHmi5/miZPliIYiLCAi5pa55qGI6K+E5a6h5ZCO5piv5ZCm5YGa5LqG5qih5ouf5omT5YiG77yf5pel5oql6YKu5Lu25piv5ZCm5YWs56S65YiG5YC85Y+K5Lii5YiG6aG577yfIiwNCiAgICAgIuafpeaXpeaKpemCruS7tiIpLA0KICAgICgi562W55WlIiwgIuaKleagh+etlueVpe+8iOebtOaKlSAvIOWAn+i1hCAvIFdC77yJ5piv5ZCm56Gu5a6a77yfIiwNCiAgICAgIueUseWVhuWKoei0n+i0o+S6uiAvIOWKnuS6i+WkhOWGs+etliIpLA0KICAgICgi5bqU562U44CB562+5Yiw44CB6Kej5a+GIiwgIueUteWtkOaKleagh+W6lOetlCAvIOetvuWIsCAvIOino+WvhuaYr+WQpuaMieaXtuWujOaIkO+8n+aYr+WQpumBv+WFjeWQjCBJUCAvIOWQjOeUteiEkeWkmui0puWPt++8nyIsDQogICAgICLnlLHnlLXlrZDmipXmoIfotJ/otKPkurrmk43kvZwiKSwNCiAgICAoIuWklumHh+iuvuWkhyIsICLlpJbph4forr7lpIfmuIXljZXmmK/lkKblt7Lmj5DkuqQgUEQg5rWB56iL77yf6K+i5Lu35piv5ZCm5ZCr6LCD6K+V6LS577yfIiwNCiAgICAgIuajgOafpSBQRCDns7vnu58gKyDor6Lku7fpgq7ku7YiKSwNCiAgICAoIuWFrOWPuOabtOWQjSIsICLmiYDpmYTotYTotKjkuIrnmoTlhazlj7jlkI3mmK/lkKbkuLrmm7TlkI3liY3vvJ/mmK/lkKbpmYTlj5jmm7Tlh70gLyDmlrDmiafnhacgLyDnvZHpobXmiKrlm77vvJ8iLA0KICAgICAi55Sx5ZWG5Yqh5qC45a+5ICsg6LWE5paZ5ZGY55uW56ugIiksDQpdDQoNCg0KZGVmIF9xdWVzdGlvbl9mb3JfdGl0bGUodGl0bGU6IHN0cikgLT4gdHVwbGVbc3RyLCBzdHJdIHwgTm9uZToNCiAgICAiIiJSZXR1cm4gKHJldmlld19xdWVzdGlvbiwgcmVjb21tZW5kZWRfYWN0aW9uKSB0YWlsb3JlZCB0byB0aGUgQ0sgdGl0bGUuIiIiDQoNCiAgICBmb3Iga3csIHEsIGEgaW4gX1RJVExFX1FVRVNUSU9OUzoNCiAgICAgICAgaWYga3cgaW4gdGl0bGU6DQogICAgICAgICAgICByZXR1cm4gcSwgYQ0KICAgIHJldHVybiBOb25lDQoNCg0KIyBQZXItcmV2aWV3LXR5cGUgZmFsbGJhY2sgcXVlc3Rpb25zIC8gYWN0aW9ucw0KX1RZUEVfUVVFU1RJT05TOiBkaWN0W1Jldmlld1R5cGUsIHR1cGxlW3N0ciwgc3RyXV0gPSB7DQogICAgUmV2aWV3VHlwZS5ET0NVTUVOVF9ERVRFUk1JTklTVElDOiAoDQogICAgICAgICLor7fnoa7orqTmir3lj5bnmoTkuovlrp7vvIjpobnnm67lkI3np7Av57yW5Y+3L+WMheWPty/ph5Hpop0v5Z6L5Y+3L+mhteegge+8ieato+ehruaXoOivr+OAgiIsDQogICAgICAgICLlnKggVUkg5Lit54K55Ye75p+l55yLIHJ1bGVfdHJhY2XvvIzpgJDlrZfmrrXmr5Tlr7kiLA0KICAgICksDQogICAgUmV2aWV3VHlwZS5ET0NVTUVOVF9IWUJSSUQ6ICgNCiAgICAgICAgIuivt+S6uuW3peaguOWvuSBMTE0g5oq95Y+W55qE5LqL5a6e5LiO5Y6f5paH5piv5ZCm5LiA6Ie044CCIiwNCiAgICAgICAgIuWcqCBVSSDkuK3mn6XnnIsgZXZpZGVuY2Ug6KGo77yM5a+55q+UIFBERiDljp/mlociLA0KICAgICksDQogICAgUmV2aWV3VHlwZS5ET0NVTUVOVF9TRU1BTlRJQzogKA0KICAgICAgICAi6K+35Lq65bel6K+E5a6h6K+t5LmJ5Yy56YWN57uT5p6c77yIY292ZXJhZ2UgbWF0cml477yJ44CCIiwNCiAgICAgICAgIuWcqCBVSSDkuK3lsZXlvIAgUmVxdWlyZW1lbnQgQ292ZXJhZ2UgTWF0cml477yM6YCQ6aG556Gu6K6kIiwNCiAgICApLA0KICAgIFJldmlld1R5cGUuRVhURVJOQUxfREFUQTogKA0KICAgICAgICAi6K+35p+l6K+i5aSW6YOo5p2D5aiB57O757uf5bm25bCG57uT5p6c5aGr5YWl44CCIiwNCiAgICAgICAgIuafpeivouWklumDqOaVsOaNru+8iOWGm+mYn+e9kS/mlL/ph4fnvZEv5Lqn5ZOB5a6Y572R77yJ5ZCO5Zue5aGrIiwNCiAgICApLA0KICAgIFJldmlld1R5cGUuUFJPQ0VTU19IVU1BTjogKA0KICAgICAgICAi6K+35oyJ5YWs5Y+4IFNPUCDmjqjov5vor6XmtYHnqIvkuovpobnlubbnlZnnl5XjgIIiLA0KICAgICAgICAi5ZyoIFNPUCDns7vnu5/kuK3li77pgIkv55WZ55eVIiwNCiAgICApLA0KICAgIFJldmlld1R5cGUuU1RSQVRFR1lfSFVNQU46ICgNCiAgICAgICAgIuivt+S4muWKoei0n+i0o+S6uuWfuuS6juW4guWcuuWIpOaWreWBmuacgOe7iOWGs+etluOAgiIsDQogICAgICAgICLlnKjkuJrliqHlhrPnrZbkvJrkuIrnoa7lrprmlrnmoYgiLA0KICAgICksDQp9DQoNCg0KZGVmIGRlcml2ZV9yZXZpZXdfcWEodGl0bGU6IHN0ciwgcmV2aWV3X3R5cGU6IFJldmlld1R5cGUpIC0+IHR1cGxlW3N0ciwgc3RyXToNCiAgICAiIiJSZXR1cm4gKHJldmlld19xdWVzdGlvbiwgcmVjb21tZW5kZWRfYWN0aW9uKSB0YWlsb3JlZCB0byB0aXRsZSArIHJldmlld190eXBlLiIiIg0KDQogICAgdGFpbG9yZWQgPSBfcXVlc3Rpb25fZm9yX3RpdGxlKHRpdGxlKQ0KICAgIGlmIHRhaWxvcmVkOg0KICAgICAgICByZXR1cm4gdGFpbG9yZWQNCiAgICByZXR1cm4gX1RZUEVfUVVFU1RJT05TLmdldCgNCiAgICAgICAgcmV2aWV3X3R5cGUsDQogICAgICAgIChmIuivt+S6uuW3peWkjeaguCB7dGl0bGV9IiwgIuWcqCBVSSDkuK3mn6XnnIsgZXZpZGVuY2Ug5LiOIHJ1bGVfdHJhY2UiKSwNCiAgICAp
+"""Per-CK-type review questions and recommended actions (spec §十二).
+
+Each entry is keyed by a (review_type, category) pair when possible.
+Falls back to per-review_type defaults.
+"""
+
+from __future__ import annotations
+
+from tenderguard.app.schemas import ReviewType
+
+
+# By CK title keyword (best effort, deterministic)
+_TITLE_QUESTIONS: list[tuple[str, str, str]] = [
+    # (title keyword, review_question, recommended_action)
+    ("项目名称", "投标文件全文使用的项目名称是否与招标文件一致？请逐处核对。",
+     "在投标文件封面 + 投标函 + 报价表中确认项目名称"),
+    ("项目编号", "投标文件的项目编号是否与招标文件完全一致（含连字符 / 大小写）？",
+     "使用 grep 全文搜索项目编号；不匹配处视为异常"),
+    ("包号", "投标文件的包号是否与招标文件一致？多包项目不得错填包号。",
+     "在封皮 + 投标函 + 报价表核对"),
+    ("投标人", "投标人主体名称是否与营业执照、信用代码一致？",
+     "对比营业执照扫描件，名称差异一律 FAIL"),
+    ("授权", "授权书是否由法人代表签字？被授权人信息是否完整？",
+     "在 UI 中查看授权书扫描件页码"),
+    ("投标报价", "投标报价是否经过销售经理审核？是否在投标最后两周内更新过？",
+     "询问销售经理报价决策；要求提供书面审核记录"),
+    ("保证金", "保证金是否按招标要求汇出？收款方/账户/截止时间是否一致？",
+     "核对银行回单，金额/收款人/截止时间三项逐项校验"),
+    ("报价表", "分项报价表中同型号产品的单价是否一致？",
+     "比对 Excel 报价表（GROUP BY model），单价不同即 FAIL"),
+    ("偏离表", "商务偏离表是否覆盖全部商务要求（付款、质保、交货、培训等）？",
+     "逐条核对付款条件/质保期/交货期/培训计划"),
+    ("商务响应", "投标文件是否对商务条款逐条响应？是否含负偏离？",
+     "查看商务响应章节；标记任何无响应/负偏离项"),
+    ("技术响应", "技术参数是否全部满足或超过招标要求？是否含负偏离？",
+     "对照参数表逐项打钩；任何不满足即 FAIL"),
+    ("资质材料", "资质材料是否按打分表准备齐全？所有资质是否在有效期内？",
+     "列出资质清单并核对有效期 / 公司名 / 盖章"),
+    ("产品资质", "检测报告 / 节能证书 / 3C / 产品彩页是否齐全？是否在有效期内？",
+     "在 UI 中查看资质扫描件；逐项打钩"),
+    ("业绩", "业绩是否满足招标要求的数量、年限、合同金额？时间字段是否完整？",
+     "对照业绩汇总表 + 合同扫描件；缺一项即 FAIL"),
+    ("公章", "投标文件所有需盖章处（封皮/报价表/授权书/资质/检测报告/点对点应答）是否已盖章？",
+     "逐章节扫描盖章；缺章一律 FAIL"),
+    ("打印、封标", "投标文件是否按招标要求打印、装订、密封？",
+     "打印前清单；封装前确认"),
+    ("讲标", "讲标 PPT 是否准备好？讲标人员是否熟悉内容？",
+     "由讲标人员 + 商务复核"),
+    ("失信名单", "所投产品厂家是否在军队采购失信名单？",
+     "查询 http://plap.mil.cn/freecms-glht/site/juncai//jdjc/index.html"),
+    ("节能环保", "投标产品是否在节能产品政府采购目录？是否在有效期内？",
+     "查询政府采购网节能产品目录 + 强制节能标识"),
+    ("整体合规", "项目核心信息（名称/编号/法人代表/报价/废标条款）是否全部正确？",
+     "由商务负责人逐项核对"),
+    ("一致性", "跨文档（投标函 vs 营业执照 vs 检测报告 vs 业绩汇总）字段是否完全一致？",
+     "在 UI 中查看 Coverage Matrix，逐字段打钩"),
+    ("标书结构", "投标文件目录是否包含招标要求的所有章节？",
+     "对照招标文件的 required_sections 列表，逐章节确认存在"),
+    ("复盘", "项目投标是否进行了复盘？复盘结论是否记录？",
+     "由项目经理组织；输出复盘文档"),
+    ("三级审查", "三级审查（自审 / 互审 / 终审）是否完成？审查人是否在日报中留名？",
+     "查投标日报邮件 / 飞书消息 / 文档版本历史"),
+    ("现场投标", "现场投标授权代表是否熟悉其它家投标文件密封情况？签字确认环节是否对不明确丢分项提出质疑？",
+     "由现场负责人 / 商务经理执行"),
+    ("样品", "样品是否准备好并已自测通过？现场测试环境是否安排？",
+     "由技术部 + 商务部共同确认"),
+    ("启动会", "项目启动会是否召开？通读招标文件 / 任务分工是否完成？",
+     "检查启动会会议纪要 + 任务分工表"),
+    ("夕会", "项目投标过程中是否每日召开夕会？进度 / 风险是否通报？",
+     "检查日报 / 飞书群 / 邮件存档"),
+    ("风险点评审", "投标过程中的风险点（技术 / 商务）是否评审？",
+     "查评审会议纪要"),
+    ("模拟打分", "方案评审后是否做了模拟打分？日报邮件是否公示分值及丢分项？",
+     "查日报邮件"),
+    ("策略", "投标策略（直投 / 借资 / WB）是否确定？",
+     "由商务负责人 / 办事处决策"),
+    ("应答、签到、解密", "电子投标应答 / 签到 / 解密是否按时完成？是否避免同 IP / 同电脑多账号？",
+     "由电子投标负责人操作"),
+    ("外采设备", "外采设备清单是否已提交 PD 流程？询价是否含调试费？",
+     "检查 PD 系统 + 询价邮件"),
+    ("公司更名", "所附资质上的公司名是否为更名前？是否附变更函 / 新执照 / 网页截图？",
+     "由商务核对 + 资料员盖章"),
+]
+
+
+def _question_for_title(title: str) -> tuple[str, str] | None:
+    """Return (review_question, recommended_action) tailored to the CK title."""
+
+    for kw, q, a in _TITLE_QUESTIONS:
+        if kw in title:
+            return q, a
+    return None
+
+
+# Per-review-type fallback questions / actions
+_TYPE_QUESTIONS: dict[ReviewType, tuple[str, str]] = {
+    ReviewType.DOCUMENT_DETERMINISTIC: (
+        "请确认抽取的事实（项目名称/编号/包号/金额/型号/页码）正确无误。",
+        "在 UI 中点击查看 rule_trace，逐字段比对",
+    ),
+    ReviewType.DOCUMENT_HYBRID: (
+        "请人工核对 LLM 抽取的事实与原文是否一致。",
+        "在 UI 中查看 evidence 表，对比 PDF 原文",
+    ),
+    ReviewType.DOCUMENT_SEMANTIC: (
+        "请人工评审语义匹配结果（coverage matrix）。",
+        "在 UI 中展开 Requirement Coverage Matrix，逐项确认",
+    ),
+    ReviewType.EXTERNAL_DATA: (
+        "请查询外部权威系统并将结果填入。",
+        "查询外部数据（军队网/政采网/产品官网）后回填",
+    ),
+    ReviewType.PROCESS_HUMAN: (
+        "请按公司 SOP 推进该流程事项并留痕。",
+        "在 SOP 系统中勾选/留痕",
+    ),
+    ReviewType.STRATEGY_HUMAN: (
+        "请业务负责人基于市场判断做最终决策。",
+        "在业务决策会上确定方案",
+    ),
+}
+
+
+def derive_review_qa(title: str, review_type: ReviewType) -> tuple[str, str]:
+    """Return (review_question, recommended_action) tailored to title + review_type."""
+
+    tailored = _question_for_title(title)
+    if tailored:
+        return tailored
+    return _TYPE_QUESTIONS.get(
+        review_type,
+        (f"请人工复核 {title}", "在 UI 中查看 evidence 与 rule_trace"),
+    )

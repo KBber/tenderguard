@@ -1,1 +1,376 @@
-IiIiVGFibGUgZXh0cmFjdGlvbiBmb3IgVGVuZGVyR3VhcmQgdjAuMiAoUGhhc2UgMikuCgpVbmlmaWVkIHBpcGVsaW5lIChzcGVjIMKn5YWrKToKICBEb2N1bWVudCDihpIgQmxvY2tzIOKGkiBUYWJsZXMg4oaSIEZhY3RzCgpDdXJyZW50bHkgYSBibG9jayBpcyBhIHNpbmdsZSBsaW5lIG9mIHRleHQgZnJvbSBQeU11UERGLiBBICpUYWJsZSogaXMgYSBsaXN0IG9mCnJvd3Mgc2hhcmluZyBhIGhlYWRlciB0aGF0IG1hdGNoZXMgYSBrbm93biBzY2hlbWEuIEVhY2ggdGFibGUgaXMgYW5jaG9yZWQgYnkKYSBoZWFkZXIga2V5d29yZCAoZS5nLiAi5Z6L5Y+3IOWNleS7tyDmlbDph48iKSBhbmQgYSBib2R5IG9mICJ8Ii1zZXBhcmF0ZWQgb3IKd2hpdGVzcGFjZS1zZXBhcmF0ZWQgY2VsbHMuCgp2MC4yIHNoaXBzIHRhYmxlIGV4dHJhY3RvcnMgZm9yIHRoZSBjYXRlZ29yaWVzIHRoZSDnm7TmipVDSyBjYXJlcyBhYm91dDoKICAtIHByaWNlX3Jvd3MgICjliIbpobnmiqXku7fooagpCiAgLSBleHBlcmllbmNlcyAo5Lia57upKQogIC0gY2VydGlmaWNhdGVzIC8gcXVhbGlmaWNhdGlvbnMgKOi1hOi0qCkKICAtIHRlbmRlciByZXF1aXJlbWVudHMgKOaLm+agh+imgeaxgikKICAtIGJpZCByZXNwb25zZXMgKOWVhuWKoS/mioDmnK/lk43lupQpCiAgLSBwYXJhbXMgKOaKgOacr+WPguaVsOihqCkKClRoZSByZXN1bHQgb2YgZWFjaCBleHRyYWN0b3IgaXMgYSBgVGFibGVgIHdpdGggYSBkZXRlcm1pbmlzdGljIHNjaGVtYTsgZG93bnN0cmVhbQpydWxlcyBjYW4gcmVseSBvbiBmaWVsZCBuYW1lcyB3aXRob3V0IHJlLXBhcnNpbmcgdGhlIHJhdyBQREYuCiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHJlCmZyb20gZGF0YWNsYXNzZXMgaW1wb3J0IGRhdGFjbGFzcywgZmllbGQKZnJvbSB0eXBpbmcgaW1wb3J0IEFueSwgQ2FsbGFibGUKCmZyb20gdGVuZGVyZ3VhcmQuYXBwLnNjaGVtYXMgaW1wb3J0IERvY3VtZW50Q2h1bmsKCgpAZGF0YWNsYXNzCmNsYXNzIFRhYmxlOgogICAgc2NoZW1hOiBzdHIKICAgIGRvY3VtZW50OiBzdHIKICAgIHBhZ2U6IGludAogICAgcm93czogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBmaWVsZChkZWZhdWx0X2ZhY3Rvcnk9bGlzdCkKICAgIHJhdzogc3RyID0gIiIKCiAgICBkZWYgdG9fZGljdChzZWxmKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAic2NoZW1hIjogc2VsZi5zY2hlbWEsCiAgICAgICAgICAgICJkb2N1bWVudCI6IHNlbGYuZG9jdW1lbnQsCiAgICAgICAgICAgICJwYWdlIjogc2VsZi5wYWdlLAogICAgICAgICAgICAicm93cyI6IHNlbGYucm93cywKICAgICAgICB9CgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBDZWxsIHBhcnNpbmcgaGVscGVycwojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKX05VTSA9IHJlLmNvbXBpbGUociJcZFtcZCxcLl0qIikKCgpkZWYgX3RvX251bShzOiBzdHIpIC0+IGZsb2F0IHwgTm9uZToKICAgIGlmIG5vdCBzOgogICAgICAgIHJldHVybiBOb25lCiAgICBzID0gcy5zdHJpcCgpCiAgICBtdWx0ID0gMS4wCiAgICBpZiAi5LiHIiBpbiBzOgogICAgICAgIG11bHQgPSAxMF8wMDAuMAogICAgZWxpZiAi5Lq/IiBpbiBzOgogICAgICAgIG11bHQgPSAxMDBfMDAwXzAwMC4wCiAgICBzID0gcy5yZXBsYWNlKCIsIiwgIiIpCiAgICBtID0gX05VTS5zZWFyY2gocykKICAgIGlmIG5vdCBtOgogICAgICAgIHJldHVybiBOb25lCiAgICB0cnk6CiAgICAgICAgcmV0dXJuIGZsb2F0KG0uZ3JvdXAoMCkpICogbXVsdAogICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgcmV0dXJuIE5vbmUKCgpkZWYgX3NwbGl0X2NlbGxzKGxpbmU6IHN0cikgLT4gbGlzdFtzdHJdOgogICAgIiIiU3BsaXQgYSBsaW5lIGludG8gY2VsbHMgb24gd2hpdGVzcGFjZSBydW5zLCB0YWJzIG9yIHBpcGVzLiIiIgoKICAgIGlmICJ8IiBpbiBsaW5lOgogICAgICAgIGNlbGxzID0gW2Muc3RyaXAoKSBmb3IgYyBpbiBsaW5lLnNwbGl0KCJ8IikgaWYgYy5zdHJpcCgpXQogICAgZWxzZToKICAgICAgICBjZWxscyA9IHJlLnNwbGl0KHIiXHN7Mix9fFx0IiwgbGluZS5zdHJpcCgpKQogICAgICAgIGNlbGxzID0gW2Muc3RyaXAoKSBmb3IgYyBpbiBjZWxscyBpZiBjLnN0cmlwKCldCiAgICByZXR1cm4gY2VsbHMKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIEdlbmVyaWMgaGVhZGVyIGRldGVjdG9yCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgoKZGVmIF9sb29rc19saWtlX2hlYWRlcihjZWxsczogbGlzdFtzdHJdLCBtdXN0X2hhdmU6IGxpc3Rbc3RyXSkgLT4gYm9vbDoKICAgIGpvaW5lZCA9ICIgIi5qb2luKGNlbGxzKQogICAgcmV0dXJuIGFsbChrdyBpbiBqb2luZWQgZm9yIGt3IGluIG11c3RfaGF2ZSkKCgpkZWYgX2xpbmVzX2ZvcihjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10pIC0+IGxpc3RbdHVwbGVbRG9jdW1lbnRDaHVuaywgc3RyXV06CiAgICBvdXQ6IGxpc3RbdHVwbGVbRG9jdW1lbnRDaHVuaywgc3RyXV0gPSBbXQogICAgZm9yIGMgaW4gY2h1bmtzOgogICAgICAgIGZvciBsaW5lIGluIGMudGV4dC5zcGxpdGxpbmVzKCk6CiAgICAgICAgICAgIG91dC5hcHBlbmQoKGMsIGxpbmUpKQogICAgcmV0dXJuIG91dAoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUHJpY2UtdGFibGUgZXh0cmFjdG9yCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgoKZGVmIGV4dHJhY3RfcHJpY2VfdGFibGVzKGNodW5rczogbGlzdFtEb2N1bWVudENodW5rXSkgLT4gbGlzdFtUYWJsZV06CiAgICAiIiJGaW5kIGxpbmVzIHdob3NlIGhlYWRlciByb3cgbWF0Y2hlcyBhIOaKpeS7t+ihqCBzY2hlbWEuCgogICAgUmVjb2duaXNlZCBoZWFkZXJzOiDlnovlj7cgLyDljZXku7cgLyDmlbDph48gLyDlsI/orqEuCiAgICBGYWxscyBiYWNrIHRvIGtleXdvcmQtYW5jaG9yZWQgc2luZ2xlLWxpbmUgZXh0cmFjdGlvbiBpZiBubyBleHBsaWNpdCBoZWFkZXIuCiAgICAiIiIKCiAgICB0YWJsZXM6IGxpc3RbVGFibGVdID0gW10KICAgIGN1cnJlbnQ6IFRhYmxlIHwgTm9uZSA9IE5vbmUKICAgIGhlYWRlcl9yZXF1aXJlZCA9ICgi5Z6L5Y+3IiwgIuWNleS7tyIpCgogICAgZm9yIGNodW5rLCBsaW5lIGluIF9saW5lc19mb3IoY2h1bmtzKToKICAgICAgICBjZWxscyA9IF9zcGxpdF9jZWxscyhsaW5lKQogICAgICAgIGlmIG5vdCBjZWxsczoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBfbG9va3NfbGlrZV9oZWFkZXIoY2VsbHMsIGxpc3QoaGVhZGVyX3JlcXVpcmVkKSk6CiAgICAgICAgICAgIGlmIGN1cnJlbnQgYW5kIGN1cnJlbnQucm93czoKICAgICAgICAgICAgICAgIHRhYmxlcy5hcHBlbmQoY3VycmVudCkKICAgICAgICAgICAgY3VycmVudCA9IFRhYmxlKHNjaGVtYT0icHJpY2Vfcm93cyIsIGRvY3VtZW50PWNodW5rLmRvY3VtZW50LCBwYWdlPWNodW5rLnBhZ2UsIHJhdz1saW5lKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIGN1cnJlbnQgYW5kIGFueSgi5Z6L5Y+3IiBpbiBjIGZvciBjIGluIGNlbGxzKToKICAgICAgICAgICAgbW9kZWwgPSBuZXh0KChjIGZvciBjIGluIGNlbGxzIGlmIHJlLm1hdGNoKHIiXltBLVphLXowLTlcLV8vXSskIiwgYykgYW5kIG5vdCBjLmlzZGlnaXQoKSksIE5vbmUpCiAgICAgICAgICAgIGlmIG5vdCBtb2RlbDoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHJvdzogZGljdFtzdHIsIEFueV0gPSB7Im1vZGVsIjogbW9kZWwsICJwYWdlIjogY2h1bmsucGFnZSwgImRvY3VtZW50IjogY2h1bmsuZG9jdW1lbnR9CiAgICAgICAgICAgIG51bWJlcnMgPSBbX3RvX251bShjKSBmb3IgYyBpbiBjZWxscyBpZiBfdG9fbnVtKGMpIGlzIG5vdCBOb25lXQogICAgICAgICAgICBpZiBudW1iZXJzOgogICAgICAgICAgICAgICAgcm93WyJ1bml0X3ByaWNlIl0gPSBudW1iZXJzWzBdCiAgICAgICAgICAgIGlmIGxlbihudW1iZXJzKSA+PSAyOgogICAgICAgICAgICAgICAgcm93WyJxdHkiXSA9IGludChudW1iZXJzWzFdKSBpZiBudW1iZXJzWzFdID09IGludChudW1iZXJzWzFdKSBlbHNlIG51bWJlcnNbMV0KICAgICAgICAgICAgaWYgbGVuKG51bWJlcnMpID49IDM6CiAgICAgICAgICAgICAgICByb3dbInN1YnRvdGFsIl0gPSBudW1iZXJzWzJdCiAgICAgICAgICAgIGN1cnJlbnQucm93cy5hcHBlbmQocm93KQoKICAgICMgRmFsbGJhY2s6IG5vIGhlYWRlciB3YXMgZGV0ZWN0ZWQsIGJ1dCBsaW5lcyB3aXRoIOWei+WPtyBYIOWNleS7tyBZIGFyZSBwcmVzZW50CiAgICBpZiBub3QgdGFibGVzOgogICAgICAgIGZhbGxiYWNrID0gVGFibGUoc2NoZW1hPSJwcmljZV9yb3dzIiwgZG9jdW1lbnQ9Y2h1bmtzWzBdLmRvY3VtZW50IGlmIGNodW5rcyBlbHNlICJiaWQucGRmIiwgcGFnZT0xKQogICAgICAgIGZvciBjaHVuaywgbGluZSBpbiBfbGluZXNfZm9yKGNodW5rcyk6CiAgICAgICAgICAgIGlmICLlnovlj7ciIG5vdCBpbiBsaW5lIG9yICLljZXku7ciIG5vdCBpbiBsaW5lOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgbSA9IHJlLnNlYXJjaCgKICAgICAgICAgICAgICAgIHIi5Z6L5Y+3XHMqKFtBLVphLXowLTlcLV8vXSspLio/5Y2V5Lu3XHMqKFxkW1xkLFwuXSopXHMqKOS4h3zlhYN8Uk1CfCk/IgogICAgICAgICAgICAgICAgciIoPzouKj/mlbDph49ccyooXGQrKSk/KD86Lio/5bCP6K6hXHMqKFxkW1xkLFwuXSopXHMqKOS4h3zlhYN8Uk1CfCk/KT8iLAogICAgICAgICAgICAgICAgbGluZSwKICAgICAgICAgICAgICAgIHJlLklHTk9SRUNBU0UsCiAgICAgICAgICAgICkKICAgICAgICAgICAgaWYgbm90IG06CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBtb2RlbCA9IG0uZ3JvdXAoMSkKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgdW5pdF9wcmljZSA9IGZsb2F0KG0uZ3JvdXAoMikucmVwbGFjZSgiLCIsICIiKSkgKiAoMTAwMDAgaWYgbS5ncm91cCgzKSA9PSAi5LiHIiBlbHNlIDEpCiAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgcm93OiBkaWN0W3N0ciwgQW55XSA9IHsibW9kZWwiOiBtb2RlbCwgInVuaXRfcHJpY2UiOiB1bml0X3ByaWNlLCAicGFnZSI6IGNodW5rLnBhZ2UsICJkb2N1bWVudCI6IGNodW5rLmRvY3VtZW50fQogICAgICAgICAgICBpZiBtLmdyb3VwKDQpOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIHJvd1sicXR5Il0gPSBpbnQobS5ncm91cCg0KSkKICAgICAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgICAgIHBhc3MKICAgICAgICAgICAgaWYgbS5ncm91cCg1KToKICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICByb3dbInN1YnRvdGFsIl0gPSBmbG9hdChtLmdyb3VwKDUpLnJlcGxhY2UoIiwiLCAiIikpICogKDEwMDAwIGlmIG0uZ3JvdXAoNikgPT0gIuS4hyIgZWxzZSAxKQogICAgICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgcGFzcwogICAgICAgICAgICBmYWxsYmFjay5yb3dzLmFwcGVuZChyb3cpCiAgICAgICAgaWYgZmFsbGJhY2sucm93czoKICAgICAgICAgICAgdGFibGVzLmFwcGVuZChmYWxsYmFjaykKCiAgICBpZiBjdXJyZW50IGFuZCBjdXJyZW50LnJvd3M6CiAgICAgICAgdGFibGVzLmFwcGVuZChjdXJyZW50KQogICAgcmV0dXJuIHRhYmxlcwoKCmRlZiBiZXN0X3ByaWNlX3RhYmxlKGNodW5rczogbGlzdFtEb2N1bWVudENodW5rXSkgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICAiIiJUcnkgc2luZ2xlLWxpbmUgaGVhZGVyIGRldGVjdGlvbiBmaXJzdDsgZmFsbCBiYWNrIHRvIHZlcnRpY2FsLWhlYWRlciBtdWx0aS1wYWdlLiIiIgogICAgdGFibGVzID0gZXh0cmFjdF9wcmljZV90YWJsZXMoY2h1bmtzKQogICAgaWYgdGFibGVzOgogICAgICAgIHRhYmxlcy5zb3J0KGtleT1sYW1iZGEgdDogbGVuKHQucm93cyksIHJldmVyc2U9VHJ1ZSkKICAgICAgICByZXR1cm4gdGFibGVzWzBdLnJvd3MKICAgIHJldHVybiBleHRyYWN0X3ZlcnRpY2FsX3ByaWNlX3RhYmxlKGNodW5rcykKCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIEV4cGVyaWVuY2UgLyBjZXJ0aWZpY2F0ZSAvIHJlc3BvbnNlIGV4dHJhY3RvcnMKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpkZWYgZXh0cmFjdF9leHBlcmllbmNlX3Jvd3MoY2h1bmtzOiBsaXN0W0RvY3VtZW50Q2h1bmtdKSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICIiIlBpY2sgdXAgIuWQiOWQjCBZWVlZ5bm0IEFNT1VOVOS4hyIgbGluZXMgYXMgZXhwZXJpZW5jZXMuIiIiCgogICAgcm93czogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBbXQogICAgZm9yIGNodW5rLCBsaW5lIGluIF9saW5lc19mb3IoY2h1bmtzKToKICAgICAgICBpZiAi5ZCI5ZCMIiBub3QgaW4gbGluZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB5ZWFyID0gcmUuc2VhcmNoKHIiKFxkezR9KVxzKuW5tCIsIGxpbmUpCiAgICAgICAgbSA9IHJlLnNlYXJjaChyIihcZFtcZCxcLl0qKVxzKijkuId85Lq/fOWFg3xSTUIpIiwgbGluZSkKICAgICAgICBhbW91bnQgPSBOb25lCiAgICAgICAgaWYgbToKICAgICAgICAgICAgdiA9IF90b19udW0obS5ncm91cCgwKSkKICAgICAgICAgICAgYW1vdW50ID0gdgogICAgICAgIGlmIHllYXIgb3IgYW1vdW50OgogICAgICAgICAgICByb3dzLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAiZGF0ZSI6IHllYXIuZ3JvdXAoMCkgaWYgeWVhciBlbHNlIE5vbmUsCiAgICAgICAgICAgICAgICAiYW1vdW50IjogYW1vdW50LAogICAgICAgICAgICAgICAgImRvY3VtZW50IjogY2h1bmsuZG9jdW1lbnQsCiAgICAgICAgICAgICAgICAicGFnZSI6IGNodW5rLnBhZ2UsCiAgICAgICAgICAgIH0pCiAgICByZXR1cm4gcm93cwoKCl9DRVJUX0xBQkVMUyA9ICgi5qOA5rWL5oql5ZGKIiwgIuiKguiDveivgeS5piIsICIzQyIsICJDQ0MiLCAi5Lqn5ZOB5b2p6aG1IiwgIueOr+Wig+agh+W/lyIsICLnjq/kv53kuqflk4EiLCAi6LSo6YeP566h55CG5L2T57O7IiwgIueuoeeQhuS9k+ezu+iupOivgSIpCgoKZGVmIGV4dHJhY3RfY2VydGlmaWNhdGVfbGlzdHMoY2h1bmtzOiBsaXN0W0RvY3VtZW50Q2h1bmtdKSAtPiBsaXN0W3N0cl06CiAgICAiIiJMaXN0IG9mIGNlcnRpZmljYXRlIGtpbmRzIG1lbnRpb25lZCBpbiB0aGUgZG9jdW1lbnQuIiIiCgogICAgam9pbmVkID0gIlxuIi5qb2luKGMudGV4dCBmb3IgYyBpbiBjaHVua3MpCiAgICByZXR1cm4gW2xhYmVsIGZvciBsYWJlbCBpbiBfQ0VSVF9MQUJFTFMgaWYgbGFiZWwgaW4gam9pbmVkXQoKCmRlZiBleHRyYWN0X3Jlc3BvbnNlX3NlY3Rpb25zKGNodW5rczogbGlzdFtEb2N1bWVudENodW5rXSkgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICAiIiJGaW5kIGNoYXB0ZXIgaGVhZGluZ3MgdGhhdCByZWFkIGxpa2Ug5ZWG5Yqh5ZON5bqUIC8g5oqA5pyv5ZON5bqUIC8g5YGP56a7LiIiIgoKICAgIGhlYWRpbmdzOiBsaXN0W2RpY3Rbc3RyLCBBbnldXSA9IFtdCiAgICBrZXl3b3JkcyA9ICgi5ZWG5Yqh5ZON5bqUIiwgIuaKgOacr+WTjeW6lCIsICLllYbliqHlgY/nprsiLCAi5oqA5pyv5YGP56a7IiwgIuWTjeW6lOaWuSIsICLlupTnrZQiLCAi5ZON5bqU6KGoIiwgIuWTjeW6lOaWh+S7tiIpCiAgICBmb3IgY2h1bmssIGxpbmUgaW4gX2xpbmVzX2ZvcihjaHVua3MpOgogICAgICAgIGlmIG5vdCBhbnkoayBpbiBsaW5lIGZvciBrIGluIGtleXdvcmRzKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICAjIFNraXAgcHVyZSBoZWFkZXIgLyBmb290ZXIKICAgICAgICBpZiBsZW4obGluZSkgPiAyMDA6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgbm90IHJlLnNlYXJjaChyIlvkuIDkuozkuInlm5vkupTlha3kuIPlhavkuZ3ljYEwLTldIiwgbGluZSk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaGVhZGluZ3MuYXBwZW5kKHsic2VjdGlvbiI6IGxpbmUuc3RyaXAoKSwgImRvY3VtZW50IjogY2h1bmsuZG9jdW1lbnQsICJwYWdlIjogY2h1bmsucGFnZX0pCiAgICByZXR1cm4gaGVhZGluZ3MKCgpkZWYgZXh0cmFjdF9hbGxfdGFibGVzKGNodW5rczogbGlzdFtEb2N1bWVudENodW5rXSkgLT4gZGljdFtzdHIsIGxpc3RbZGljdFtzdHIsIEFueV1dXToKICAgICIiIlRvcC1sZXZlbCBlbnRyeTogZXZlcnkgdGFibGUgc2NoZW1hIOKGkiBsaXN0IG9mIHN0cnVjdHVyZWQgcmVjb3Jkcy4iIiIKCiAgICByb3dzID0gYmVzdF9wcmljZV90YWJsZShjaHVua3MpCiAgICBpZiBub3Qgcm93czoKICAgICAgICByb3dzID0gZXh0cmFjdF92ZXJ0aWNhbF9wcmljZV90YWJsZShjaHVua3MpCiAgICByZXR1cm4gewogICAgICAgICJwcmljZV9yb3dzIjogcm93cywKICAgICAgICAiZXhwZXJpZW5jZXMiOiBleHRyYWN0X2V4cGVyaWVuY2Vfcm93cyhjaHVua3MpLAogICAgICAgICJjZXJ0aWZpY2F0ZXMiOiBbeyJuYW1lIjogbn0gZm9yIG4gaW4gZXh0cmFjdF9jZXJ0aWZpY2F0ZV9saXN0cyhjaHVua3MpXSwKICAgICAgICAicmVzcG9uc2VzIjogZXh0cmFjdF9yZXNwb25zZV9zZWN0aW9ucyhjaHVua3MpLAogICAgfQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgTXVsdGktbGluZSDliIbpobnmiqXku7fooaggKHZlcnRpY2FsLWhlYWRlciArIG11bHRpLXBhZ2Ugcm93cykKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyBNYW55IHJlYWwtd29ybGQgZ292ZXJubWVudCB0ZW5kZXIgUERGcyBmb3JtYXQg5YiG6aG55oql5Lu36KGoIHdpdGggYSB2ZXJ0aWNhbAojIGhlYWRlciBjb2x1bW4gYW5kIHJvd3MgdGhhdCBzcGFuIG11bHRpcGxlIHBhZ2VzIChoZWFkZXIgcm93IHByaW50ZWQgb25jZSwKIyB0aGVuIDEgcm93IHBlciBwYWdlKS4gRWFjaCByb3cgY29udGFpbnM6CiMgICDluo/lj7cgfCDliIbpobnlkI3np7AgfCAuLi4gfCDlk4HniYwg6KeE5qC85Z6L5Y+3IHwg5Y2V5Lu3IHwg5pWw6YePIHwg5ZCI5Lu3CiMgYnV0IGJlY2F1c2UgdGhlIGhlYWRlciBpcyB2ZXJ0aWNhbCwgaGVhZGVyIGRldGVjdGlvbiBmYWlscy4KIwojIFN0cmF0ZWd5OgojICAgMS4gRmluZCBhbmNob3IgcGFnZXMgdGhhdCBjb250YWluICLliIbpobnmiqXku7fooagiIC8gIuW8gOagh+S4gOiniOihqCIuCiMgICAyLiBGcm9tIHRoZSBhbmNob3IgcGFnZSBvbndhcmQgKG5leHQgTiBwYWdlcyksIHBhcnNlIGVhY2ggbm9uLWVtcHR5IGxpbmUuCiMgICAzLiBBIHJvdyBpcyByZWNvZ25pc2VkIGJ5IGEgbGVhZGluZyAi5bqP5Y+3IiBkaWdpdCBPUiBhIG1vZGVsLWNvZGUgZnJhZ21lbnQKIyAgICAgIChlLmcuICJUQy1YWFhYIiAvICLlnovlj7cgWFhYIikuICBRdWFudGl0eSBpcyB0aGUgbGFzdCBzbWFsbCBpbnRlZ2VyCiMgICAgICAoPD0gOTk5OSkgb24gdGhlIGxpbmUuCiMKIyBSZXR1cm5zOiBsaXN0IG9mIHsibW9kZWwiOiAiPHNwZWM+IiwgInF0eSI6IDxpbnQ+LCAicGFnZSI6IGludH0KIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCl9NT0RFTF9QQVRURVJOUyA9IFsKICAgIHJlLmNvbXBpbGUociJcYlRDWy1BLVowLTldKyIpLAogICAgcmUuY29tcGlsZShyIlxiW0EtWl17MSw0fS0/XGR7Myx9W0EtWjAtOS1dKiIpLCAgIyBnZW5lcmljIG1vZGVsIGNvZGUKXQoKX0FOQ0hPUl9LRVlXT1JEUyA9ICgi5YiG6aG55oql5Lu36KGoIiwgIuaKpeS7t+S4gOiniOihqCIpICAjIG5vdGU6IOW8gOagh+S4gOiniOihqCDmmK/lj6bkuIDlvKDooajvvIzkuI3opoHmt7flhaUKCgpkZWYgX2lzX21vZGVsX3Rva2VuKHRvazogc3RyKSAtPiBib29sOgogICAgdG9rID0gdG9rLnN0cmlwKCkKICAgIGlmIG5vdCB0b2sgb3IgbGVuKHRvaykgPCA0OgogICAgICAgIHJldHVybiBGYWxzZQogICAgcmV0dXJuIGFueShwLnNlYXJjaCh0b2spIGZvciBwIGluIF9NT0RFTF9QQVRURVJOUykKCgpkZWYgZXh0cmFjdF92ZXJ0aWNhbF9wcmljZV90YWJsZShjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10sIG1heF9wYWdlczogaW50ID0gOCkgLT4gbGlzdFtkaWN0W3N0ciwgQW55XV06CiAgICAiIiJQYXJzZSBhIG11bHRpLXBhZ2Ug5YiG6aG55oql5Lu36KGoIHdpdGggdmVydGljYWwgaGVhZGVyLgoKICAgIEVhY2ggUERGIHJvdyBpcyBzcGxpdCBpbnRvIDMgdmlzdWFsIGxpbmVzIChQeU11UERGIGNvbHVtbiBleHRyYWN0aW9uKToKICAgICAgbGluZSAxOiDluo/lj7cgKD0gbikKICAgICAgbGluZSAyOiDliIbpobnlkI3np7AgIOWItumAoOWVhiAg5Lqn5ZywICDkv6HnlKjku6PnoIEgIOinhOaooSAg5ZOB54mMICDop4TmoLzlnovlj7cg6YWN572uOi4uLgogICAgICBsaW5lIDM6IOWNleS7tyAo5YWDKSAg5pWw6YePICg9IG4pCgogICAgQWxnb3JpdGhtOiA1IHN0YXRlcywgZGlzdGluZ3Vpc2hlZCBieSB3aGF0IHdlIGhhdmUgc2VlbiBzbyBmYXIgZm9yIHRoZQogICAgQ1VSUkVOVCByb3cuICBXaGVuIGEgbmV3IHNlcSBhcnJpdmVzIHdlIGZsdXNoLgoKICAgIFN0YXRlIG1hY2hpbmU6CiAgICAgIElOSVQgICAgICAtPiB3YWl0aW5nIGZvciBzZXEKICAgICAgSEFWRV9TRVEgIC0+IHdhaXRpbmcgZm9yIG1vZGVsCiAgICAgIEhBVkVfTU9ERUwgLT4gd2FpdGluZyBmb3IgcXR5ICh0aGUgcXR5IGlzIHRoZSBuZXh0IHNpbmdsZS1pbnRlZ2VyIGxpbmUpCiAgICAgIEhBVkVfUVRZICAtPiByb3cgY29tcGxldGU7IHRoZSBORVhUIGludGVnZXIgc3RhcnRzIHRoZSBuZXh0IHJvdydzIHNlcQogICAgICAoYW55IG5vaXNlIGxpbmUgaXMgaWdub3JlZCkKICAgICIiIgoKICAgIG91dDogbGlzdFtkaWN0W3N0ciwgQW55XV0gPSBbXQogICAgaW5fdGFibGUgPSBGYWxzZQogICAgYW5jaG9yX3BhZ2UgPSAtMQogICAgY3VyX3NlcTogaW50IHwgTm9uZSA9IE5vbmUKICAgIGN1cl9tb2RlbDogc3RyIHwgTm9uZSA9IE5vbmUKICAgIGN1cl9xdHk6IGludCB8IE5vbmUgPSBOb25lCgogICAgZGVmIF9mbHVzaCgpOgogICAgICAgIG5vbmxvY2FsIGN1cl9zZXEsIGN1cl9tb2RlbCwgY3VyX3F0eQogICAgICAgIGlmIGN1cl9zZXEgaXMgbm90IE5vbmUgYW5kIGN1cl9tb2RlbCBpcyBub3QgTm9uZToKICAgICAgICAgICAgb3V0LmFwcGVuZCh7CiAgICAgICAgICAgICAgICAic2VxIjogY3VyX3NlcSwKICAgICAgICAgICAgICAgICJtb2RlbCI6IGN1cl9tb2RlbCwKICAgICAgICAgICAgICAgICJxdHkiOiBjdXJfcXR5LAogICAgICAgICAgICB9KQogICAgICAgIGN1cl9zZXEgPSBOb25lCiAgICAgICAgY3VyX21vZGVsID0gTm9uZQogICAgICAgIGN1cl9xdHkgPSBOb25lCgogICAgZm9yIGNodW5rIGluIGNodW5rczoKICAgICAgICB0ZXh0ID0gY2h1bmsudGV4dCBvciAiIgogICAgICAgIGlmIG5vdCBpbl90YWJsZToKICAgICAgICAgICAgaWYgYW55KGsgaW4gdGV4dCBmb3IgayBpbiBfQU5DSE9SX0tFWVdPUkRTKToKICAgICAgICAgICAgICAgIGluX3RhYmxlID0gVHJ1ZQogICAgICAgICAgICAgICAgYW5jaG9yX3BhZ2UgPSBjaHVuay5wYWdlCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIGNodW5rLnBhZ2UgLSBhbmNob3JfcGFnZSA+IG1heF9wYWdlczoKICAgICAgICAgICAgX2ZsdXNoKCkKICAgICAgICAgICAgYnJlYWsKICAgICAgICBpZiBhbnkoayBpbiB0ZXh0IGZvciBrIGluICgi5ZCI5ZCM5p2h5qy+5YGP56a76KGoIiwgIuaKgOacr+aWueahiCIsICLllYbliqHmnaHmrL4iKSkgYW5kIGNodW5rLnBhZ2UgPiBhbmNob3JfcGFnZSArIDE6CiAgICAgICAgICAgIF9mbHVzaCgpCiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgZm9yIHJhd19saW5lIGluIHRleHQuc3BsaXRsaW5lcygpOgogICAgICAgICAgICBsaW5lID0gcmF3X2xpbmUuc3RyaXAoKQogICAgICAgICAgICBpZiBub3QgbGluZToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHRva2VucyA9IHJlLnNwbGl0KHIiXHMrIiwgbGluZSkKICAgICAgICAgICAgaWYgbGVuKHRva2VucykgPT0gMSBhbmQgdG9rZW5zWzBdLmlzZGlnaXQoKToKICAgICAgICAgICAgICAgIHYgPSBpbnQodG9rZW5zWzBdKQogICAgICAgICAgICAgICAgaWYgdiA+PSAxMDAwMDoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgaWYgY3VyX3F0eSBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICAjIHByZXZpb3VzIHJvdyBoYWQgc2VxK21vZGVsK3F0eTsgdGhpcyBpbnQgaXMgdGhlIG5leHQgcm93J3Mgc2VxCiAgICAgICAgICAgICAgICAgICAgX2ZsdXNoKCkKICAgICAgICAgICAgICAgICAgICBjdXJfc2VxID0gdgogICAgICAgICAgICAgICAgZWxpZiBjdXJfbW9kZWwgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgIyBzZXErbW9kZWwgc2VlbjsgdGhpcyBpbnQgaXMgdGhlIHF0eQogICAgICAgICAgICAgICAgICAgIGN1cl9xdHkgPSB2CiAgICAgICAgICAgICAgICBlbGlmIGN1cl9zZXEgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgIyBzZXEgc2VlbiBidXQgbm8gbW9kZWwgKGUuZy4gaGVhZGVyIHRleHQgY29uc3VtZWQgYmVmb3JlIG1vZGVsKTsKICAgICAgICAgICAgICAgICAgICAjIHRyZWF0IGFzIG5leHQgcm93J3Mgc2VxCiAgICAgICAgICAgICAgICAgICAgX2ZsdXNoKCkKICAgICAgICAgICAgICAgICAgICBjdXJfc2VxID0gdgogICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAjIG5vIHNlcSB5ZXQgLT4gdGhpcyBpbnQgc3RhcnRzIHRoZSBmaXJzdCByb3cKICAgICAgICAgICAgICAgICAgICBjdXJfc2VxID0gdgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgbSA9IHJlLnNlYXJjaChyIlRDWy1BLVowLTldKyIsIGxpbmUpCiAgICAgICAgICAgIGlmIG06CiAgICAgICAgICAgICAgICBjdXJfbW9kZWwgPSBtLmdyb3VwKDApCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgX2ZsdXNoKCkKICAgIHJldHVybiBvdXQ=
+"""Table extraction for TenderGuard v0.2 (Phase 2).
+
+Unified pipeline (spec §八):
+  Document → Blocks → Tables → Facts
+
+Currently a block is a single line of text from PyMuPDF. A *Table* is a list of
+rows sharing a header that matches a known schema. Each table is anchored by
+a header keyword (e.g. "型号 单价 数量") and a body of "|"-separated or
+whitespace-separated cells.
+
+v0.2 ships table extractors for the categories the 直投CK cares about:
+  - price_rows  (分项报价表)
+  - experiences (业绩)
+  - certificates / qualifications (资质)
+  - tender requirements (招标要求)
+  - bid responses (商务/技术响应)
+  - params (技术参数表)
+
+The result of each extractor is a `Table` with a deterministic schema; downstream
+rules can rely on field names without re-parsing the raw PDF.
+"""
+
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass, field
+from typing import Any, Callable
+
+from tenderguard.app.schemas import DocumentChunk
+
+
+@dataclass
+class Table:
+    schema: str
+    document: str
+    page: int
+    rows: list[dict[str, Any]] = field(default_factory=list)
+    raw: str = ""
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "schema": self.schema,
+            "document": self.document,
+            "page": self.page,
+            "rows": self.rows,
+        }
+
+
+# ---------------------------------------------------------------------------
+# Cell parsing helpers
+# ---------------------------------------------------------------------------
+
+_NUM = re.compile(r"\d[\d,\.]*")
+
+
+def _to_num(s: str) -> float | None:
+    if not s:
+        return None
+    s = s.strip()
+    mult = 1.0
+    if "万" in s:
+        mult = 10_000.0
+    elif "亿" in s:
+        mult = 100_000_000.0
+    s = s.replace(",", "")
+    m = _NUM.search(s)
+    if not m:
+        return None
+    try:
+        return float(m.group(0)) * mult
+    except ValueError:
+        return None
+
+
+def _split_cells(line: str) -> list[str]:
+    """Split a line into cells on whitespace runs, tabs or pipes."""
+
+    if "|" in line:
+        cells = [c.strip() for c in line.split("|") if c.strip()]
+    else:
+        cells = re.split(r"\s{2,}|\t", line.strip())
+        cells = [c.strip() for c in cells if c.strip()]
+    return cells
+
+
+# ---------------------------------------------------------------------------
+# Generic header detector
+# ---------------------------------------------------------------------------
+
+
+def _looks_like_header(cells: list[str], must_have: list[str]) -> bool:
+    joined = " ".join(cells)
+    return all(kw in joined for kw in must_have)
+
+
+def _lines_for(chunks: list[DocumentChunk]) -> list[tuple[DocumentChunk, str]]:
+    out: list[tuple[DocumentChunk, str]] = []
+    for c in chunks:
+        for line in c.text.splitlines():
+            out.append((c, line))
+    return out
+
+
+# ---------------------------------------------------------------------------
+# Price-table extractor
+# ---------------------------------------------------------------------------
+
+
+def extract_price_tables(chunks: list[DocumentChunk]) -> list[Table]:
+    """Find lines whose header row matches a 报价表 schema.
+
+    Recognised headers: 型号 / 单价 / 数量 / 小计.
+    Falls back to keyword-anchored single-line extraction if no explicit header.
+    """
+
+    tables: list[Table] = []
+    current: Table | None = None
+    header_required = ("型号", "单价")
+
+    for chunk, line in _lines_for(chunks):
+        cells = _split_cells(line)
+        if not cells:
+            continue
+        if _looks_like_header(cells, list(header_required)):
+            if current and current.rows:
+                tables.append(current)
+            current = Table(schema="price_rows", document=chunk.document, page=chunk.page, raw=line)
+            continue
+        if current and any("型号" in c for c in cells):
+            model = next((c for c in cells if re.match(r"^[A-Za-z0-9\-_/]+$", c) and not c.isdigit()), None)
+            if not model:
+                continue
+            row: dict[str, Any] = {"model": model, "page": chunk.page, "document": chunk.document}
+            numbers = [_to_num(c) for c in cells if _to_num(c) is not None]
+            if numbers:
+                row["unit_price"] = numbers[0]
+            if len(numbers) >= 2:
+                row["qty"] = int(numbers[1]) if numbers[1] == int(numbers[1]) else numbers[1]
+            if len(numbers) >= 3:
+                row["subtotal"] = numbers[2]
+            current.rows.append(row)
+
+    # Fallback: no header was detected, but lines with 型号 X 单价 Y are present
+    if not tables:
+        fallback = Table(schema="price_rows", document=chunks[0].document if chunks else "bid.pdf", page=1)
+        for chunk, line in _lines_for(chunks):
+            if "型号" not in line or "单价" not in line:
+                continue
+            m = re.search(
+                r"型号\s*([A-Za-z0-9\-_/]+).*?单价\s*(\d[\d,\.]*)\s*(万|元|RMB|)?"
+                r"(?:.*?数量\s*(\d+))?(?:.*?小计\s*(\d[\d,\.]*)\s*(万|元|RMB|)?)?",
+                line,
+                re.IGNORECASE,
+            )
+            if not m:
+                continue
+            model = m.group(1)
+            try:
+                unit_price = float(m.group(2).replace(",", "")) * (10000 if m.group(3) == "万" else 1)
+            except ValueError:
+                continue
+            row: dict[str, Any] = {"model": model, "unit_price": unit_price, "page": chunk.page, "document": chunk.document}
+            if m.group(4):
+                try:
+                    row["qty"] = int(m.group(4))
+                except ValueError:
+                    pass
+            if m.group(5):
+                try:
+                    row["subtotal"] = float(m.group(5).replace(",", "")) * (10000 if m.group(6) == "万" else 1)
+                except ValueError:
+                    pass
+            fallback.rows.append(row)
+        if fallback.rows:
+            tables.append(fallback)
+
+    if current and current.rows:
+        tables.append(current)
+    return tables
+
+
+def best_price_table(chunks: list[DocumentChunk]) -> list[dict[str, Any]]:
+    """Try single-line header detection first; fall back to vertical-header multi-page."""
+    tables = extract_price_tables(chunks)
+    if tables:
+        tables.sort(key=lambda t: len(t.rows), reverse=True)
+        return tables[0].rows
+    return extract_vertical_price_table(chunks)
+
+
+# ---------------------------------------------------------------------------
+# Experience / certificate / response extractors
+# ---------------------------------------------------------------------------
+
+
+def extract_experience_rows(chunks: list[DocumentChunk]) -> list[dict[str, Any]]:
+    """Pick up "合同 YYYY年 AMOUNT万" lines as experiences."""
+
+    rows: list[dict[str, Any]] = []
+    for chunk, line in _lines_for(chunks):
+        if "合同" not in line:
+            continue
+        year = re.search(r"(\d{4})\s*年", line)
+        m = re.search(r"(\d[\d,\.]*)\s*(万|亿|元|RMB)", line)
+        amount = None
+        if m:
+            v = _to_num(m.group(0))
+            amount = v
+        if year or amount:
+            rows.append({
+                "date": year.group(0) if year else None,
+                "amount": amount,
+                "document": chunk.document,
+                "page": chunk.page,
+            })
+    return rows
+
+
+_CERT_LABELS = ("检测报告", "节能证书", "3C", "CCC", "产品彩页", "环境标志", "环保产品", "质量管理体系", "管理体系认证")
+
+
+def extract_certificate_lists(chunks: list[DocumentChunk]) -> list[str]:
+    """List of certificate kinds mentioned in the document."""
+
+    joined = "\n".join(c.text for c in chunks)
+    return [label for label in _CERT_LABELS if label in joined]
+
+
+def extract_response_sections(chunks: list[DocumentChunk]) -> list[dict[str, Any]]:
+    """Find chapter headings that read like 商务响应 / 技术响应 / 偏离."""
+
+    headings: list[dict[str, Any]] = []
+    keywords = ("商务响应", "技术响应", "商务偏离", "技术偏离", "响应方", "应答", "响应表", "响应文件")
+    for chunk, line in _lines_for(chunks):
+        if not any(k in line for k in keywords):
+            continue
+        # Skip pure header / footer
+        if len(line) > 200:
+            continue
+        if not re.search(r"[一二三四五六七八九十0-9]", line):
+            continue
+        headings.append({"section": line.strip(), "document": chunk.document, "page": chunk.page})
+    return headings
+
+
+def extract_all_tables(chunks: list[DocumentChunk]) -> dict[str, list[dict[str, Any]]]:
+    """Top-level entry: every table schema → list of structured records."""
+
+    rows = best_price_table(chunks)
+    if not rows:
+        rows = extract_vertical_price_table(chunks)
+    return {
+        "price_rows": rows,
+        "experiences": extract_experience_rows(chunks),
+        "certificates": [{"name": n} for n in extract_certificate_lists(chunks)],
+        "responses": extract_response_sections(chunks),
+    }
+
+
+# ---------------------------------------------------------------------------
+# Multi-line 分项报价表 (vertical-header + multi-page rows)
+# ---------------------------------------------------------------------------
+# Many real-world government tender PDFs format 分项报价表 with a vertical
+# header column and rows that span multiple pages (header row printed once,
+# then 1 row per page). Each row contains:
+#   序号 | 分项名称 | ... | 品牌 规格型号 | 单价 | 数量 | 合价
+# but because the header is vertical, header detection fails.
+#
+# Strategy:
+#   1. Find anchor pages that contain "分项报价表" / "开标一览表".
+#   2. From the anchor page onward (next N pages), parse each non-empty line.
+#   3. A row is recognised by a leading "序号" digit OR a model-code fragment
+#      (e.g. "TC-XXXX" / "型号 XXX").  Quantity is the last small integer
+#      (<= 9999) on the line.
+#
+# Returns: list of {"model": "<spec>", "qty": <int>, "page": int}
+# ---------------------------------------------------------------------------
+
+_MODEL_PATTERNS = [
+    re.compile(r"\bTC[-A-Z0-9]+"),
+    re.compile(r"\b[A-Z]{1,4}-?\d{3,}[A-Z0-9-]*"),  # generic model code
+]
+
+_ANCHOR_KEYWORDS = ("分项报价表", "报价一览表")  # note: 开标一览表 是另一张表，不要混入
+
+
+def _is_model_token(tok: str) -> bool:
+    tok = tok.strip()
+    if not tok or len(tok) < 4:
+        return False
+    return any(p.search(tok) for p in _MODEL_PATTERNS)
+
+
+def extract_vertical_price_table(chunks: list[DocumentChunk], max_pages: int = 8) -> list[dict[str, Any]]:
+    """Parse a multi-page 分项报价表 with vertical header.
+
+    Each PDF row is split into 3 visual lines (PyMuPDF column extraction):
+      line 1: 序号 (= n)
+      line 2: 分项名称  制造商  产地  信用代码  规模  品牌  规格型号 配置:...
+      line 3: 单价 (元)  数量 (= n)
+
+    Algorithm: 5 states, distinguished by what we have seen so far for the
+    CURRENT row.  When a new seq arrives we flush.
+
+    State machine:
+      INIT      -> waiting for seq
+      HAVE_SEQ  -> waiting for model
+      HAVE_MODEL -> waiting for qty (the qty is the next single-integer line)
+      HAVE_QTY  -> row complete; the NEXT integer starts the next row's seq
+      (any noise line is ignored)
+    """
+
+    out: list[dict[str, Any]] = []
+    in_table = False
+    anchor_page = -1
+    cur_seq: int | None = None
+    cur_model: str | None = None
+    cur_qty: int | None = None
+
+    def _flush():
+        nonlocal cur_seq, cur_model, cur_qty
+        if cur_seq is not None and cur_model is not None:
+            out.append({
+                "seq": cur_seq,
+                "model": cur_model,
+                "qty": cur_qty,
+            })
+        cur_seq = None
+        cur_model = None
+        cur_qty = None
+
+    for chunk in chunks:
+        text = chunk.text or ""
+        if not in_table:
+            if any(k in text for k in _ANCHOR_KEYWORDS):
+                in_table = True
+                anchor_page = chunk.page
+                continue
+            continue
+        if chunk.page - anchor_page > max_pages:
+            _flush()
+            break
+        if any(k in text for k in ("合同条款偏离表", "技术方案", "商务条款")) and chunk.page > anchor_page + 1:
+            _flush()
+            break
+        for raw_line in text.splitlines():
+            line = raw_line.strip()
+            if not line:
+                continue
+            tokens = re.split(r"\s+", line)
+            if len(tokens) == 1 and tokens[0].isdigit():
+                v = int(tokens[0])
+                if v >= 10000:
+                    continue
+                if cur_qty is not None:
+                    # previous row had seq+model+qty; this int is the next row's seq
+                    _flush()
+                    cur_seq = v
+                elif cur_model is not None:
+                    # seq+model seen; this int is the qty
+                    cur_qty = v
+                elif cur_seq is not None:
+                    # seq seen but no model (e.g. header text consumed before model);
+                    # treat as next row's seq
+                    _flush()
+                    cur_seq = v
+                else:
+                    # no seq yet -> this int starts the first row
+                    cur_seq = v
+                continue
+            m = re.search(r"TC[-A-Z0-9]+", line)
+            if m:
+                cur_model = m.group(0)
+                continue
+    _flush()
+    return out

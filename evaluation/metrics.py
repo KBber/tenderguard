@@ -1,1 +1,58 @@
-IiIiRXZhbHVhdGlvbiBtZXRyaWNzIGZvciBUZW5kZXJHdWFyZCAoc3BlYyDCp+S6jOWNgSkuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MsIGZpZWxkCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCgpAZGF0YWNsYXNzCmNsYXNzIENhc2VSZXN1bHQ6CiAgICBjYXNlX2lkOiBzdHIKICAgIG5hbWU6IHN0cgogICAgZXhwZWN0ZWRfc3RhdHVzOiBzdHIKICAgIGFjdHVhbF9zdGF0dXM6IHN0cgogICAgZXhwZWN0ZWRfcnVsZV9wYXNzZWQ6IGJvb2wgfCBOb25lCiAgICBhY3R1YWxfcnVsZV9wYXNzZWQ6IGJvb2wgfCBOb25lCiAgICBtYXRjaGVkOiBib29sCiAgICBub3RlOiBzdHIgPSAiIgoKCkBkYXRhY2xhc3MKY2xhc3MgTWV0cmljczoKICAgIGNhc2VzOiBsaXN0W0Nhc2VSZXN1bHRdID0gZmllbGQoZGVmYXVsdF9mYWN0b3J5PWxpc3QpCiAgICBkZWNpc2lvbl9hY2N1cmFjeTogZmxvYXQgPSAwLjAKICAgIGZhbHNlX3Bvc2l0aXZlczogaW50ID0gMAogICAgZmFsc2VfbmVnYXRpdmVzOiBpbnQgPSAwCiAgICByZXZpZXdfcmF0ZTogZmxvYXQgPSAwLjAKICAgIHRvdGFsOiBpbnQgPSAwCiAgICBwYXNzZWQ6IGludCA9IDAKCiAgICBkZWYgdG9fZGljdChzZWxmKSAtPiBkaWN0W3N0ciwgQW55XToKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAiZGVjaXNpb25fYWNjdXJhY3kiOiByb3VuZChzZWxmLmRlY2lzaW9uX2FjY3VyYWN5LCAzKSwKICAgICAgICAgICAgInBhc3NlZCI6IHNlbGYucGFzc2VkLAogICAgICAgICAgICAidG90YWwiOiBzZWxmLnRvdGFsLAogICAgICAgICAgICAiZmFsc2VfcG9zaXRpdmVzIjogc2VsZi5mYWxzZV9wb3NpdGl2ZXMsCiAgICAgICAgICAgICJmYWxzZV9uZWdhdGl2ZXMiOiBzZWxmLmZhbHNlX25lZ2F0aXZlcywKICAgICAgICAgICAgInJldmlld19yYXRlIjogcm91bmQoc2VsZi5yZXZpZXdfcmF0ZSwgMyksCiAgICAgICAgICAgICJwZXJfY2FzZSI6IFtjLl9fZGljdF9fIGZvciBjIGluIHNlbGYuY2FzZXNdLAogICAgICAgIH0KCgpkZWYgY29tcHV0ZShjYXNlczogbGlzdFtDYXNlUmVzdWx0XSkgLT4gTWV0cmljczoKICAgIHRvdGFsID0gbGVuKGNhc2VzKQogICAgcGFzc2VkID0gc3VtKDEgZm9yIGMgaW4gY2FzZXMgaWYgYy5tYXRjaGVkKQogICAgZnAgPSBzdW0oMSBmb3IgYyBpbiBjYXNlcyBpZiBjLmV4cGVjdGVkX3N0YXR1cyA9PSAiUEFTUyIgYW5kIGMuYWN0dWFsX3N0YXR1cyAhPSAiUEFTUyIpCiAgICBmbiA9IHN1bSgxIGZvciBjIGluIGNhc2VzIGlmIGMuZXhwZWN0ZWRfc3RhdHVzID09ICJGQUlMIiBhbmQgYy5hY3R1YWxfc3RhdHVzICE9ICJGQUlMIikKICAgIHJldmlldyA9IHN1bSgxIGZvciBjIGluIGNhc2VzIGlmIGMuYWN0dWFsX3N0YXR1cyA9PSAiUkVWSUVXX1JFUVVJUkVEIikKICAgIG0gPSBNZXRyaWNzKAogICAgICAgIGNhc2VzPWNhc2VzLAogICAgICAgIGRlY2lzaW9uX2FjY3VyYWN5PXBhc3NlZCAvIHRvdGFsIGlmIHRvdGFsIGVsc2UgMC4wLAogICAgICAgIGZhbHNlX3Bvc2l0aXZlcz1mcCwKICAgICAgICBmYWxzZV9uZWdhdGl2ZXM9Zm4sCiAgICAgICAgcmV2aWV3X3JhdGU9cmV2aWV3IC8gdG90YWwgaWYgdG90YWwgZWxzZSAwLjAsCiAgICAgICAgdG90YWw9dG90YWwsCiAgICAgICAgcGFzc2VkPXBhc3NlZCwKICAgICkKICAgIHJldHVybiBt
+"""Evaluation metrics for TenderGuard (spec §二十)."""
+
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from typing import Any
+
+
+@dataclass
+class CaseResult:
+    case_id: str
+    name: str
+    expected_status: str
+    actual_status: str
+    expected_rule_passed: bool | None
+    actual_rule_passed: bool | None
+    matched: bool
+    note: str = ""
+
+
+@dataclass
+class Metrics:
+    cases: list[CaseResult] = field(default_factory=list)
+    decision_accuracy: float = 0.0
+    false_positives: int = 0
+    false_negatives: int = 0
+    review_rate: float = 0.0
+    total: int = 0
+    passed: int = 0
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "decision_accuracy": round(self.decision_accuracy, 3),
+            "passed": self.passed,
+            "total": self.total,
+            "false_positives": self.false_positives,
+            "false_negatives": self.false_negatives,
+            "review_rate": round(self.review_rate, 3),
+            "per_case": [c.__dict__ for c in self.cases],
+        }
+
+
+def compute(cases: list[CaseResult]) -> Metrics:
+    total = len(cases)
+    passed = sum(1 for c in cases if c.matched)
+    fp = sum(1 for c in cases if c.expected_status == "PASS" and c.actual_status != "PASS")
+    fn = sum(1 for c in cases if c.expected_status == "FAIL" and c.actual_status != "FAIL")
+    review = sum(1 for c in cases if c.actual_status == "REVIEW_REQUIRED")
+    m = Metrics(
+        cases=cases,
+        decision_accuracy=passed / total if total else 0.0,
+        false_positives=fp,
+        false_negatives=fn,
+        review_rate=review / total if total else 0.0,
+        total=total,
+        passed=passed,
+    )
+    return m

@@ -1,1 +1,69 @@
-IyBUZW5kZXJHdWFyZCBDaGFuZ2Vsb2cKCiMjIHYwLjMgKEJ1c2luZXNzIFNlbWFudGljcyArIEV2aWRlbmNlIEdyb3VuZGluZyArIFJ1bGUgUmVsaWFiaWxpdHkpCgojIyMgU2NoZW1hCi0gTmV3IGBSZXZpZXdUeXBlYCA2LXZhbHVlIHRheG9ub215IHJlcGxhY2VzIGBBdXRvbWF0aW9uTGV2ZWxgIChGVUxML1BBUlRJQUwvSFVNQU4pLgotIE5ldyBgRXZpZGVuY2VRdWFsaXR5YCA1LXZhbHVlIGVudW0gKERJUkVDVCAvIFNVUFBPUlRJTkcgLyBJTkRJUkVDVCAvIENPTkZMSUNUSU5HIC8gTUlTU0lORykuCi0gTmV3IGBSZXZpZXdSZWFzb25gIDEwLXZhbHVlIGVudW0gKGZhaWx1cmUgdGF4b25vbXkgdjIpLgotIE5ldyBgQXRvbWljUmVxdWlyZW1lbnRgIG1vZGVsIOKAlCBlYWNoIENLIGNhbiBoYXZlIG11bHRpcGxlIGF0b21pYyByZXF1aXJlbWVudHMuCi0gTmV3IGBFdmlkZW5jZUNvbnRyYWN0YCBtb2RlbCDigJQgYG1pbmltdW1fcXVhbGl0eWAgKyBgcmVxdWlyZWRfZG9jdW1lbnRzYC4KLSBOZXcgYFByZWNvbmRpdGlvbmAgbW9kZWwg4oCUIGZhY3QtcHJlc2VuY2UgZ2F0ZXMuCi0gTmV3IGBSZXF1aXJlbWVudENvdmVyYWdlYCBtb2RlbCDigJQgb25lIHJvdyBwZXIgYXRvbWljIHJlcXVpcmVtZW50LCBpbmNsdWRpbmcgZXZpZGVuY2UgKyBkZWNpc2lvbi4KLSBgVmVyaWZpY2F0aW9uUmVzdWx0YCBub3cgY2FycmllcyBgY2hlY2tfcnVuX2lkYCwgYHJlcXVpcmVtZW50X2NvdmVyYWdlW11gLCBgY2xhc3NpZmljYXRpb25fcmVhc29uYC4KLSBgQXVkaXRSZXBvcnRgIG5vdyBoYXMgYGF1ZGl0X2lkYCwgYGV4ZWN1dGl2ZV9zdW1tYXJ5YCwgYGNyaXRpY2FsX2ZhaWx1cmVzYCwgYHJlcXVpcmVtZW50X2NvdmVyYWdlX21hdHJpeGAsIGBjcm9zc19kb2N1bWVudF9jb25zaXN0ZW5jeWAsIGBwcmljZV92ZXJpZmljYXRpb25gLCBgcHJvZHVjdF9jZXJ0X3ZlcmlmaWNhdGlvbmAsIGBodW1hbl9yZXZpZXdfcXVldWVgLCBgcnVsZV90cmFjZXNgLCBgc3lzdGVtX2xpbWl0YXRpb25zYC4KCiMjIyBEYXRhCi0gNjEg55u055u0IENLIGVudHJpZXMgYXJlIHByZXNlcnZlZCAobm8gZGVsZXRpb24pLgotIEVhY2ggQ0sgaGFzIGEgNi1sZXR0ZXIgYHJldmlld190eXBlYCwgYSBgdGl0bGVgLCBhIGBzb3VyY2VfdGV4dGAsIGEgYGZhaWx1cmVfdGF4b25vbXlgLCBhIGBjbGFzc2lmaWNhdGlvbl9yZWFzb25gLCBhIHRhaWxvcmVkIGByZXZpZXdfcXVlc3Rpb25gICsgYHJlY29tbWVuZGVkX2FjdGlvbmAsIGFuZCAx4oCTNSBhdG9taWMgcmVxdWlyZW1lbnRzLgotIFRoZSAxNyBDS3MgZmxhZ2dlZCBieSB0aGUgdXNlciBhcmUgYXV0by1jYXRlZ29yaXNlZCBhcyBET0NVTUVOVF8qOiBESVJFQ1QtMDE5LzAyMy8wMjQvMDI1LzAyNy8wMzQvMDM1LzAzNy8wNDMvMDQ0LzA0NS8wNDgvMDUxLzA1Mi8wNTMvMDU0LgoKIyMjIFJ1bGUgRW5naW5lCi0gYG9wX3NhbWVfbW9kZWxfc2FtZV9wcmljZWAgdXNlcyBgbm9ybWFsaXplX21vZGVsKClgIHNvIEFCQy0xMDAgLyBBQkMgMTAwIC8gQUJDLTEwMO+8iOWQq+eoju+8iSAvIGFiYy0xMDAgYWxsIGNvbGxhcHNlIHRvZ2V0aGVyLgotIGBvcF9zdW1fZXF1YWxzYCBkaXN0aW5ndWlzaGVzICJ0YWJsZSBleHRyYWN0aW9uIGZhaWxlZCIgKE5vbmUpIGZyb20gRkFJTCDigJQgcm93cyB0aGF0IGhhdmUgbmVpdGhlciBxdHkgbm9yIHByaWNlIHlpZWxkIE5vbmUgcmF0aGVyIHRoYW4gRkFJTC4KLSBgb3BfZXF1YWxzYCAvIGBvcF9ub3RfZXF1YWxzYCB0cmVhdCBlbXB0eSAvIE5vbmUgdmFsdWVzIGFzIGluZGV0ZXJtaW5hdGUgKE5vbmUpLCBuZXZlciBQQVNTLgotIEFsbCBoYXJkIHJ1bGVzIGFkZGVkIHRvIGBfSEFSRF9SVUxFU19ORVZFUl9PVkVSUklEREVOYCB3aGl0ZWxpc3QuCgojIyMgVmVyaWZpZXIKLSBQcmVjb25kaXRpb24gY2hlY2sgYmVmb3JlIHJ1bGUgKHNwZWMgwqflhaspLgotIEV2aWRlbmNlIGJvdW5kIHRvIGF0b21pYyByZXF1aXJlbWVudCBieSB0b2tlbiBvdmVybGFwIChzcGVjIMKn5YWtKS4KLSBgQ29uZmlkZW5jZWAgZm9ybXVsYSBpbmNsdWRlcyBldmlkZW5jZV9xdWFsaXR5IGJvbnVzL3BlbmFsdHkuCi0gYEZhaWx1cmUgQnJlYWtkb3duYCBub3cgZGlzdGluZ3Vpc2hlcyBNSVNTSU5HX0VWSURFTkNFIC8gRVhUUkFDVElPTl9GQUlMRUQgLyBUQUJMRV9FWFRSQUNUSU9OX0ZBSUxFRCAvIGV0Yy4KCiMjIyBFeHRyYWN0aW9uCi0gYGJpZGRlcl9uYW1lYDog5ZCM5LmJ6K+NICsg5Lit5paH5YWs5Y+45ZCNIHJlZ2V4IChg6IKh5Lu9IC8g5pyJ6ZmQIC8g56eR5oqAIC8g6ZuG5ZuiIC8g5Lit5b+DIC8g4oCmYCkuCi0gYGRldmlhdGlvbi50ZXN0X3JlcG9ydF9uYW1lYCAvIGBkZXZpYXRpb24udGVzdF9yZXBvcnRfbm9gIGFyZSBub3cgc3BsaXQgcGVyLWZpZWxkIChubyBjb25jYXRlbmF0aW9uKS4KLSBgYmlkLnJlc3BvbnNlc2A6IGNoYXB0ZXItdGl0bGUgcmVjb2duaXRpb24gKyAi5ZON5bqUIC8g5bqU562UIC8g5ruh6LazIC8g5YGP56a7Ii4KLSBUYWJsZXMgbW9kdWxlOiBgRG9jdW1lbnQg4oaSIEJsb2NrcyDihpIgVGFibGVzIOKGkiBGYWN0c2AgKHByaWNlX3Jvd3MgLyBleHBlcmllbmNlcyAvIGNlcnRpZmljYXRlcyAvIHJlc3BvbnNlcykuCgojIyMgUHJvbXB0cwotIDcgbmV3IHByb21wdHMgdW5kZXIgYHByb21wdHMvYDogYHJlcXVpcmVtZW50X2F0b21pY2l6ZXIudHh0YCwgYGZhY3RfZXh0cmFjdG9yLnR4dGAsIGBldmlkZW5jZV9tYXBwZXIudHh0YCwgYHNlbWFudGljX3ZlcmlmaWVyLnR4dGAsIGBydWxlX2d1YXJkLnR4dGAsIGByZXBvcnRfd3JpdGVyLnR4dGAsIGByZXZpZXdfcXVlc3Rpb25fZ2VuZXJhdG9yLnR4dGAuCgojIyMgRXZhbHVhdGlvbgotIGBldmFsdWF0aW9uL2Nhc2VzX3YzLmpzb25gIOKAlCA2MCBjYXNlcyAoMTUgUEFTUyArIDE1IEZBSUwgKyAxMCBNSVNTSU5HX0VWSURFTkNFICsgNSBFWFRSQUNUSU9OX0ZBSUxFRCArIDUgVEFCTEVfRVhUUkFDVElPTl9GQUlMRUQgKyA1IEVWSURFTkNFX0NPTkZMSUNUICsgNSBBTUJJR1VPVVNfUkVRVUlSRU1FTlQpLgotIE5ldyBtZXRyaWNzOiBgZGVjaXNpb25fYWNjdXJhY3lgLCBgYWJzdGVudGlvbl9hY2N1cmFjeWAsIGBjYXRlZ29yeV9icmVha2Rvd25gLCBgZmFsc2VfcG9zaXRpdmVgLCBgZmFsc2VfbmVnYXRpdmVgLCBgdHJ1ZV9wYXNzYCwgYHRydWVfZmFpbGAsIGB0cnVlX3Jldmlld2AuCi0gQ3VycmVudCBydW4gb24gNjAgY2FzZXM6IGBkZWNpc2lvbl9hY2N1cmFjeSA9IDAuNjgzICg0MS82MClgLCBgYWJzdGVudGlvbl9hY2N1cmFjeSA9IDAuNTY3ICgxNy8zMClgLiBSZW1haW5pbmcgZ2FwcyBhcmUgbW9zdGx5IGZpeHR1cmUgaW1wZXJmZWN0aW9ucy4KCiMjIyBUZXN0cwotIGB0ZXN0cy90ZXN0X3YwXzMucHlgOiAxNCB0ZXN0cyBjb3ZlcmluZyB2MC4yIHJlZ3Jlc3Npb24gKyA0IG5lZ2F0aXZlIHRlc3RzIChgaGFyZCBydWxlIG92ZXJyaWRlcyBMTE1gLCBgZXZpZGVuY2UgbWlzc2luZyBkb3duZ3JhZGVzYCwgYHByZWNvbmRpdGlvbiBibG9ja3MgcnVuYCwgYE5vbmUgPT0gTm9uZSBub3QgUEFTU2ApLgotIHYwLjIgcmVncmVzc2lvbiB0ZXN0cyAoYHRlc3RzL3Rlc3Rfc21va2UucHlgKTogc3RpbGwgYWxsIHBhc3MuCgojIyMgS25vd24gTGltaXRhdGlvbnMKLSBQMCByZXRyaWV2YWwgaXMgQk0yNS1saXRlICsgQ0pLIGJpZ3JhbTsgbm90IHlldCBCTTI1IC8gdmVjdG9yIC8gcmVyYW5rLgotIEV4dHJhY3Rpb24gaXMgaGV1cmlzdGljOyBMTE0tYmFja2VkIGZhY3QgZXh0cmFjdG9yIG5vdCB5ZXQgd2lyZWQgKHRoZSBwcm9tcHRzIGV4aXN0KS4KLSBgQSAvIEIgLyBDYCBhYmxhdGlvbiAoc3BlYyDCp+S6jOWNgSkgbm90IHlldCBpbXBsZW1lbnRlZC4KLSBOZWdhdGl2ZSBjYXNlcyBpbiBldmFsdWF0aW9uIHRoYXQgbWlzbWF0Y2ggZml4dHVyZXMgc2hvdWxkIGJlIHJlZmluZWQuCgojIyB2MC4yIChSZWxpYWJpbGl0eSBVcGdyYWRlKQoKLSAxNyBydWxlIG9wZXJhdG9yczsgZXhwbGljaXQgYF9IQVJEX1JVTEVTX05FVkVSX09WRVJSSURERU5gLgotIDUtbGV2ZWwgRXZpZGVuY2UgUXVhbGl0eSAoRElSRUNUIC8gSU5ESVJFQ1QgLyBXRUFLIC8gQ09ORkxJQ1RJTkcgLyBNSVNTSU5HKS4KLSAxMC1jbGFzcyBGYWlsdXJlIFRheG9ub215LgotIERlY2lzaW9uIFN1bW1hcnk6IG1hY2hpbmVfY2FwYWJsZSAvIGh1bWFuX29ubHkgLyByZWxpYWJsZV9tYWNoaW5lX2RlY2lzaW9ucy4KLSBSZWdyZXNzaW9uIHRlc3RzOiAxNyBjYXNlcy4KCiMjIHYwLjEgKEluaXRpYWwgVmVydGljYWwgU2xpY2UpCgotIDIwIENLIGNoZWNrcywgQk0yNS1saXRlIGtleXdvcmQgcmV0cmlldmFsLCBiYXNpYyBydWxlIGVuZ2luZS4KLSBKU09OICsgTWFya2Rvd24gcmVwb3J0LgotIFAwIC0+IFAxIC0+IFAyIHBoYXNlZC4=
+# TenderGuard Changelog
+
+## v0.3 (Business Semantics + Evidence Grounding + Rule Reliability)
+
+### Schema
+- New `ReviewType` 6-value taxonomy replaces `AutomationLevel` (FULL/PARTIAL/HUMAN).
+- New `EvidenceQuality` 5-value enum (DIRECT / SUPPORTING / INDIRECT / CONFLICTING / MISSING).
+- New `ReviewReason` 10-value enum (failure taxonomy v2).
+- New `AtomicRequirement` model — each CK can have multiple atomic requirements.
+- New `EvidenceContract` model — `minimum_quality` + `required_documents`.
+- New `Precondition` model — fact-presence gates.
+- New `RequirementCoverage` model — one row per atomic requirement, including evidence + decision.
+- `VerificationResult` now carries `check_run_id`, `requirement_coverage[]`, `classification_reason`.
+- `AuditReport` now has `audit_id`, `executive_summary`, `critical_failures`, `requirement_coverage_matrix`, `cross_document_consistency`, `price_verification`, `product_cert_verification`, `human_review_queue`, `rule_traces`, `system_limitations`.
+
+### Data
+- 61 直直 CK entries are preserved (no deletion).
+- Each CK has a 6-letter `review_type`, a `title`, a `source_text`, a `failure_taxonomy`, a `classification_reason`, a tailored `review_question` + `recommended_action`, and 1–5 atomic requirements.
+- The 17 CKs flagged by the user are auto-categorised as DOCUMENT_*: DIRECT-019/023/024/025/027/034/035/037/043/044/045/048/051/052/053/054.
+
+### Rule Engine
+- `op_same_model_same_price` uses `normalize_model()` so ABC-100 / ABC 100 / ABC-100（含税） / abc-100 all collapse together.
+- `op_sum_equals` distinguishes "table extraction failed" (None) from FAIL — rows that have neither qty nor price yield None rather than FAIL.
+- `op_equals` / `op_not_equals` treat empty / None values as indeterminate (None), never PASS.
+- All hard rules added to `_HARD_RULES_NEVER_OVERRIDDEN` whitelist.
+
+### Verifier
+- Precondition check before rule (spec §八).
+- Evidence bound to atomic requirement by token overlap (spec §六).
+- `Confidence` formula includes evidence_quality bonus/penalty.
+- `Failure Breakdown` now distinguishes MISSING_EVIDENCE / EXTRACTION_FAILED / TABLE_EXTRACTION_FAILED / etc.
+
+### Extraction
+- `bidder_name`: 同义词 + 中文公司名 regex (`股份 / 有限 / 科技 / 集团 / 中心 / …`).
+- `deviation.test_report_name` / `deviation.test_report_no` are now split per-field (no concatenation).
+- `bid.responses`: chapter-title recognition + "响应 / 应答 / 满足 / 偏离".
+- Tables module: `Document → Blocks → Tables → Facts` (price_rows / experiences / certificates / responses).
+
+### Prompts
+- 7 new prompts under `prompts/`: `requirement_atomicizer.txt`, `fact_extractor.txt`, `evidence_mapper.txt`, `semantic_verifier.txt`, `rule_guard.txt`, `report_writer.txt`, `review_question_generator.txt`.
+
+### Evaluation
+- `evaluation/cases_v3.json` — 60 cases (15 PASS + 15 FAIL + 10 MISSING_EVIDENCE + 5 EXTRACTION_FAILED + 5 TABLE_EXTRACTION_FAILED + 5 EVIDENCE_CONFLICT + 5 AMBIGUOUS_REQUIREMENT).
+- New metrics: `decision_accuracy`, `abstention_accuracy`, `category_breakdown`, `false_positive`, `false_negative`, `true_pass`, `true_fail`, `true_review`.
+- Current run on 60 cases: `decision_accuracy = 0.683 (41/60)`, `abstention_accuracy = 0.567 (17/30)`. Remaining gaps are mostly fixture imperfections.
+
+### Tests
+- `tests/test_v0_3.py`: 14 tests covering v0.2 regression + 4 negative tests (`hard rule overrides LLM`, `evidence missing downgrades`, `precondition blocks run`, `None == None not PASS`).
+- v0.2 regression tests (`tests/test_smoke.py`): still all pass.
+
+### Known Limitations
+- P0 retrieval is BM25-lite + CJK bigram; not yet BM25 / vector / rerank.
+- Extraction is heuristic; LLM-backed fact extractor not yet wired (the prompts exist).
+- `A / B / C` ablation (spec §二十) not yet implemented.
+- Negative cases in evaluation that mismatch fixtures should be refined.
+
+## v0.2 (Reliability Upgrade)
+
+- 17 rule operators; explicit `_HARD_RULES_NEVER_OVERRIDDEN`.
+- 5-level Evidence Quality (DIRECT / INDIRECT / WEAK / CONFLICTING / MISSING).
+- 10-class Failure Taxonomy.
+- Decision Summary: machine_capable / human_only / reliable_machine_decisions.
+- Regression tests: 17 cases.
+
+## v0.1 (Initial Vertical Slice)
+
+- 20 CK checks, BM25-lite keyword retrieval, basic rule engine.
+- JSON + Markdown report.
+- P0 -> P1 -> P2 phased.

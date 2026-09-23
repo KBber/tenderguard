@@ -1,1 +1,8 @@
-IiIiTWFrZSBgcHl0aG9uIC1tIHRlbmRlcmd1YXJkYCB3b3JrLiIiIgoKaW1wb3J0IHN5cwoKZnJvbSB0ZW5kZXJndWFyZC5jbGkgaW1wb3J0IG1haW4KCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkp
+"""Make `python -m tenderguard` work."""
+
+import sys
+
+from tenderguard.cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,1 +1,52 @@
-IiIiQ2hlY2tsaXN0IGxvYWRlciBmb3IgdjAuMyAoQ2hlY2tsaXN0SXRlbSBWMykuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQganNvbgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gdGVuZGVyZ3VhcmQuYXBwLnNjaGVtYXMgaW1wb3J0IENoZWNrbGlzdEl0ZW0KCgpkZWYgbG9hZF9jaGVja2xpc3QocGF0aDogc3RyIHwgUGF0aCkgLT4gbGlzdFtDaGVja2xpc3RJdGVtXToKICAgICIiIkxvYWQgYSBjaGVja2xpc3QgSlNPTiBmaWxlIChWMyBzY2hlbWEgb3IgbGVnYWN5IHYwLjIgc2NoZW1hKS4iIiIKCiAgICBwID0gUGF0aChwYXRoKQogICAgcmF3ID0ganNvbi5sb2FkcyhwLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGlmIGlzaW5zdGFuY2UocmF3LCBkaWN0KSBhbmQgImNoZWNrcyIgaW4gcmF3OgogICAgICAgIHJhdyA9IHJhd1siY2hlY2tzIl0KICAgIGlmIG5vdCBpc2luc3RhbmNlKHJhdywgbGlzdCk6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiY2hlY2tsaXN0IG11c3QgYmUgYSBsaXN0IG9mIGl0ZW1zIChvciBhIGRpY3Qgd2l0aCAnY2hlY2tzJykiKQogICAgcmV0dXJuIFtfY29lcmNlKG8pIGZvciBvIGluIHJhd10KCgpkZWYgX2NvZXJjZShvYmo6IGRpY3QpIC0+IENoZWNrbGlzdEl0ZW06CiAgICAiIiJWMyBsb2FkZXIgd2l0aCBiYWNrd2FyZC1jb21wYXQgZm9yIHYwLjIgaXRlbXMuIiIiCgogICAgaWYgInJldmlld190eXBlIiBpbiBvYmo6CiAgICAgICAgcmV0dXJuIENoZWNrbGlzdEl0ZW0ubW9kZWxfdmFsaWRhdGUob2JqKQoKICAgICMgTGVnYWN5IHYwLjIgbWFwcGluZwogICAgbWV0aG9kX21hcCA9IHsKICAgICAgICAiREVURVJNSU5JU1RJQyI6ICJERVRFUk1JTklTVElDIiwKICAgICAgICAiU0VNQU5USUMiOiAiU0VNQU5USUMiLAogICAgICAgICJIWUJSSUQiOiAiSFlCUklEIiwKICAgICAgICAiSFVNQU5fUkVWSUVXIjogIkhVTUFOX1JFVklFVyIsCiAgICB9CiAgICByZXR1cm4gQ2hlY2tsaXN0SXRlbSgKICAgICAgICBjaGVja19pZD1vYmpbImNoZWNrX2lkIl0sCiAgICAgICAgdGl0bGU9b2JqLmdldCgibmFtZSIpIG9yIG9iai5nZXQoIm9yaWdpbmFsX3JlcXVpcmVtZW50Iikgb3Igb2JqWyJjaGVja19pZCJdLAogICAgICAgIHNvdXJjZV90ZXh0PW9iai5nZXQoIm9yaWdpbmFsX3RleHQiKSBvciBvYmouZ2V0KCJkZXNjcmlwdGlvbiIpIG9yICIiLAogICAgICAgIGNhdGVnb3J5PW9iai5nZXQoImNhdGVnb3J5IiwgIuacquWIhuexuyIpLAogICAgICAgIHNldmVyaXR5PW9iai5nZXQoInNldmVyaXR5IiwgIk1FRElVTSIpLAogICAgICAgIHJldmlld190eXBlPW9iai5nZXQoInJldmlld190eXBlIiwgIlBST0NFU1NfSFVNQU4iKSwKICAgICAgICBjbGFzc2lmaWNhdGlvbl9yZWFzb249b2JqLmdldCgiY2xhc3NpZmljYXRpb25fcmVhc29uIiwgIihsZWdhY3kgaW1wb3J0KSIpLAogICAgICAgIGF0b21pY19yZXF1aXJlbWVudHM9b2JqLmdldCgiYXRvbWljX3JlcXVpcmVtZW50cyIsIFtdKSwKICAgICAgICByZXF1aXJlZF9ldmlkZW5jZT1vYmouZ2V0KCJyZXF1aXJlZF9ldmlkZW5jZSIsIFtdKSBvciBbXSwKICAgICAgICBydWxlPW9iai5nZXQoInJ1bGUiKSwKICAgICAgICB2ZXJpZmljYXRpb25fbWV0aG9kPW1ldGhvZF9tYXAuZ2V0KG9iai5nZXQoInZlcmlmaWNhdGlvbl9tZXRob2QiLCAiREVURVJNSU5JU1RJQyIpLCAiREVURVJNSU5JU1RJQyIpLAogICAgICAgIHNvdXJjZV9zaGVldD1vYmouZ2V0KCJzb3VyY2Vfc2hlZXQiKSwKICAgICAgICBzb3VyY2Vfcm93PW9iai5nZXQoInNvdXJjZV9yb3ciKSwKICAgICAgICBvcmlnaW5hbF9yZXF1aXJlbWVudD1vYmouZ2V0KCJvcmlnaW5hbF9yZXF1aXJlbWVudCIpLAogICAgICAgIG5vdGVzPW9iai5nZXQoIm5vdGVzIiksCiAgICAp
+"""Checklist loader for v0.3 (ChecklistItem V3)."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from tenderguard.app.schemas import ChecklistItem
+
+
+def load_checklist(path: str | Path) -> list[ChecklistItem]:
+    """Load a checklist JSON file (V3 schema or legacy v0.2 schema)."""
+
+    p = Path(path)
+    raw = json.loads(p.read_text(encoding="utf-8"))
+    if isinstance(raw, dict) and "checks" in raw:
+        raw = raw["checks"]
+    if not isinstance(raw, list):
+        raise ValueError("checklist must be a list of items (or a dict with 'checks')")
+    return [_coerce(o) for o in raw]
+
+
+def _coerce(obj: dict) -> ChecklistItem:
+    """V3 loader with backward-compat for v0.2 items."""
+
+    if "review_type" in obj:
+        return ChecklistItem.model_validate(obj)
+
+    # Legacy v0.2 mapping
+    method_map = {
+        "DETERMINISTIC": "DETERMINISTIC",
+        "SEMANTIC": "SEMANTIC",
+        "HYBRID": "HYBRID",
+        "HUMAN_REVIEW": "HUMAN_REVIEW",
+    }
+    return ChecklistItem(
+        check_id=obj["check_id"],
+        title=obj.get("name") or obj.get("original_requirement") or obj["check_id"],
+        source_text=obj.get("original_text") or obj.get("description") or "",
+        category=obj.get("category", "未分类"),
+        severity=obj.get("severity", "MEDIUM"),
+        review_type=obj.get("review_type", "PROCESS_HUMAN"),
+        classification_reason=obj.get("classification_reason", "(legacy import)"),
+        atomic_requirements=obj.get("atomic_requirements", []),
+        required_evidence=obj.get("required_evidence", []) or [],
+        rule=obj.get("rule"),
+        verification_method=method_map.get(obj.get("verification_method", "DETERMINISTIC"), "DETERMINISTIC"),
+        source_sheet=obj.get("source_sheet"),
+        source_row=obj.get("source_row"),
+        original_requirement=obj.get("original_requirement"),
+        notes=obj.get("notes"),
+    )

@@ -1,1 +1,189 @@
-ewogICJ2ZXJzaW9uIjogInYwLjIiLAogICJkZXNjcmlwdGlvbiI6ICJUZW5kZXJHdWFyZCBldmFsdWF0aW9uIGhhcm5lc3MgKHNwZWMgwqfljYHkuZ0pLiBFYWNoIGNhc2UgcGlucyBvbmUgZXhwZWN0ZWQgb3V0Y29tZSB0aGF0IHRoZSBzeXN0ZW0gbXVzdCByZXByb2R1Y2UuIiwKICAiY2FzZXMiOiBbCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMDEiLAogICAgICAibmFtZSI6ICLmmI7noa4gUEFTUyAtIOmhueebruWQjeensOWujOWFqOS4gOiHtCIsCiAgICAgICJ0ZW5kZXIiOiAi6aG555uu5ZCN56ew77ya5pm65oWn5qCh5Zut5pWZ5a2m6K6+5aSH6YeH6LSt6aG555uuXG7pobnnm67nvJblj7fvvJpaQi0yMDI2LTAwMVxu5YyF5Y+377yaMDAxXG4iLAogICAgICAiYmlkIjogIumhueebruWQjeensO+8muaZuuaFp+agoeWbreaVmeWtpuiuvuWkh+mHh+i0remhueebrlxu6aG555uu57yW5Y+377yaWkItMjAyNi0wMDFcbuWMheWPt++8mjAwMVxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImVxdWFscyIsICJmaWVsZHMiOiBbInRlbmRlci5wcm9qZWN0X25hbWUiLCAiYmlkLnByb2plY3RfbmFtZSJdfSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAwMiIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g6aG555uu5ZCN56ew5LiN5LiA6Ie0IiwKICAgICAgInRlbmRlciI6ICLpobnnm67lkI3np7DvvJrmmbrmhafmoKHlm63mlZnlraborr7lpIfph4fotK3pobnnm65cbiIsCiAgICAgICJiaWQiOiAi6aG555uu5ZCN56ew77ya5Y+m5LiA5Liq6aG555uuXG4iLAogICAgICAicnVsZSI6IHsib3BlcmF0b3IiOiAiZXF1YWxzIiwgImZpZWxkcyI6IFsidGVuZGVyLnByb2plY3RfbmFtZSIsICJiaWQucHJvamVjdF9uYW1lIl19LAogICAgICAiZXhwZWN0ZWRfc3RhdHVzIjogIkZBSUwiLAogICAgICAiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAwMyIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g5ZCM5Z6L5Y+35LiN5ZCM5Lu35qC877yI5b+F6aG7IEZBSUzvvIzkuI3mmK8gUkVWSUVX77yJIiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIuWei+WPtyBBQkMtMTAwIOWNleS7tyAxMDAwMCDmlbDph48gNVxu5Z6L5Y+3IEFCQy0xMDAg5Y2V5Lu3IDEyMDAwIOaVsOmHjyA1XG4iLAogICAgICAicnVsZSI6IHsib3BlcmF0b3IiOiAic2FtZV9tb2RlbF9zYW1lX3ByaWNlIiwgImtleSI6ICJtb2RlbCIsICJ2YWx1ZSI6ICJ1bml0X3ByaWNlIn0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiRkFJTCIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDA0IiwKICAgICAgIm5hbWUiOiAi5piO56GuIFBBU1MgLSDlsI/orqEv5ZCI6K6h6K6h566X5q2j56GuIiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIuWei+WPtyBBIOWNleS7tyAxMDAg5pWw6YePIDJcbuWei+WPtyBCIOWNleS7tyA1MCDmlbDph48gNFxu5ZCI6K6hIDQwMFxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogInN1bV9lcXVhbHMiLCAicm93cyI6ICJiaWQucHJpY2Vfcm93cyIsICJ0b3RhbF9maWVsZCI6ICJiaWQudG90YWxfcHJpY2UifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAwNSIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g5bCP6K6h6K6h566X6ZSZ6K+vIiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIuWei+WPtyBBIOWNleS7tyAxMDAg5pWw6YePIDJcbuWei+WPtyBCIOWNleS7tyA1MCDmlbDph48gNFxu5ZCI6K6hIDk5OVxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogInN1bV9lcXVhbHMiLCAicm93cyI6ICJiaWQucHJpY2Vfcm93cyIsICJ0b3RhbF9maWVsZCI6ICJiaWQudG90YWxfcHJpY2UifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJGQUlMIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMDYiLAogICAgICAibmFtZSI6ICLmmI7noa4gUEFTUyAtIOaKpeS7t+S4jei2hei/h+mZkOS7tyIsCiAgICAgICJ0ZW5kZXIiOiAi5oub5qCH6ZmQ5Lu377yaMTAw5LiH5YWDXG4iLAogICAgICAiYmlkIjogIuWQiOiuoSA4MOS4h+WFg1xuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogIm51bWVyaWNfbHRlIiwgImFjdHVhbF9maWVsZCI6ICJiaWQudG90YWxfcHJpY2UiLCAicmVxdWlyZWRfZmllbGQiOiAidGVuZGVyLnByaWNlX2NlaWxpbmcifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAwNyIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g5oql5Lu36LaF6L+H6ZmQ5Lu3IiwKICAgICAgInRlbmRlciI6ICLmi5vmoIfpmZDku7fvvJo1MOS4h+WFg1xuIiwKICAgICAgImJpZCI6ICLlkIjorqEgODDkuIflhYNcbiIsCiAgICAgICJydWxlIjogeyJvcGVyYXRvciI6ICJudW1lcmljX2x0ZSIsICJhY3R1YWxfZmllbGQiOiAiYmlkLnRvdGFsX3ByaWNlIiwgInJlcXVpcmVkX2ZpZWxkIjogInRlbmRlci5wcmljZV9jZWlsaW5nIn0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiRkFJTCIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDA4IiwKICAgICAgIm5hbWUiOiAiUkVWSUVXX1JFUVVJUkVEIC0g5oq95Y+W5aSx6LSl77yI6ZmQ5Lu35pyq6K+G5Yir77yJIiwKICAgICAgInRlbmRlciI6ICLmnKzmrKHmi5vmoIfml6DlhbfkvZPpmZDku7dcbiIsCiAgICAgICJiaWQiOiAi5ZCI6K6hIDEwMOS4h+WFg1xuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogIm51bWVyaWNfbHRlIiwgImFjdHVhbF9maWVsZCI6ICJiaWQudG90YWxfcHJpY2UiLCAicmVxdWlyZWRfZmllbGQiOiAidGVuZGVyLnByaWNlX2NlaWxpbmcifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJSRVZJRVdfUkVRVUlSRUQiLAogICAgICAiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiOiBudWxsLAogICAgICAiZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbiI6ICJJTlNVRkZJQ0lFTlRfRVZJREVOQ0UiCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDA5IiwKICAgICAgIm5hbWUiOiAi5piO56GuIFBBU1MgLSDotYTotKjopobnm5bovr7moIfvvIhydWxlIOmAmui/h++8m2V2aWRlbmNlIOaegeefreS8muiiq+mZjee6p++8jHNwZWMgwqfkuIPvvIkiLAogICAgICAidGVuZGVyIjogIuajgOa1i+aKpeWRiiDoioLog73or4HkuaYgM0Mg5Lqn5ZOB5b2p6aG1XG4iLAogICAgICAiYmlkIjogIuajgOa1i+aKpeWRiiDoioLog73or4HkuaYgM0Mg5Lqn5ZOB5b2p6aG1XG4iLAogICAgICAicnVsZSI6IHsib3BlcmF0b3IiOiAiY292ZXJhZ2UiLCAic291cmNlIjogInRlbmRlci5wcm9kdWN0X2NlcnRfcmVxdWlyZW1lbnRzIiwgInRhcmdldCI6ICJiaWQucHJvZHVjdF9jZXJ0aWZpY2F0ZXMiLCAibWluX2NvdmVyYWdlIjogMC44fSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJSRVZJRVdfUkVRVUlSRUQiLAogICAgICAiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiOiB0cnVlLAogICAgICAiZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbiI6ICJJTlNVRkZJQ0lFTlRfRVZJREVOQ0UiCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDEwIiwKICAgICAgIm5hbWUiOiAi5piO56GuIEZBSUwgLSDotYTotKjkuKXph43kuI3otrMiLAogICAgICAidGVuZGVyIjogIuajgOa1i+aKpeWRiiDoioLog73or4HkuaYgM0Mg5Lqn5ZOB5b2p6aG1XG4iLAogICAgICAiYmlkIjogIuajgOa1i+aKpeWRilxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImNvdmVyYWdlIiwgInNvdXJjZSI6ICJ0ZW5kZXIucHJvZHVjdF9jZXJ0X3JlcXVpcmVtZW50cyIsICJ0YXJnZXQiOiAiYmlkLnByb2R1Y3RfY2VydGlmaWNhdGVzIiwgIm1pbl9jb3ZlcmFnZSI6IDAuOH0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiRkFJTCIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDExIiwKICAgICAgIm5hbWUiOiAi5piO56GuIFBBU1MgLSDkuJrnu6nmlbDph4/ovr7moIciLAogICAgICAidGVuZGVyIjogIui/keS4ieW5tOS4jeWwkeS6jiAzIOS4quexu+S8vOmhueebrlxuIiwKICAgICAgImJpZCI6ICLlkIjlkIwgMjAyNOW5tCA1MDDkuIflhYNcbuWQiOWQjCAyMDIz5bm0IDYwMOS4h+WFg1xu5ZCI5ZCMIDIwMjLlubQgNzAw5LiH5YWDXG7lkIjlkIwgMjAyMeW5tCA4MDDkuIflhYNcbiIsCiAgICAgICJydWxlIjogeyJvcGVyYXRvciI6ICJjb3VudF9ndGUiLCAicm93cyI6ICJiaWQuZXhwZXJpZW5jZXMiLCAiY291bnRfbWluIjogM30sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiUEFTUyIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMTIiLAogICAgICAibmFtZSI6ICLmmI7noa4gRkFJTCAtIOS4mue7qeaVsOmHj+S4jei2syIsCiAgICAgICJ0ZW5kZXIiOiAi6L+R5LiJ5bm05LiN5bCR5LqOIDMg5Liq57G75Ly86aG555uuXG4iLAogICAgICAiYmlkIjogIuWQiOWQjCAyMDI05bm0IDUwMOS4h+WFg1xuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImNvdW50X2d0ZSIsICJyb3dzIjogImJpZC5leHBlcmllbmNlcyIsICJjb3VudF9taW4iOiAzfSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJGQUlMIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogZmFsc2UKICAgIH0sCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMTMiLAogICAgICAibmFtZSI6ICLmmI7noa4gUEFTUyAtIOaVsOWtl+ato+WImSIsCiAgICAgICJ0ZW5kZXIiOiAiIiwKICAgICAgImJpZCI6ICLpobnnm67nvJblj7fvvJpaQi0yMDI2LTAwMVxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogInJlZ2V4IiwgImZpZWxkIjogImJpZC5wcm9qZWN0X2lkIiwgInBhdHRlcm4iOiAiXlpCLVxcZHs0fS1cXGR7M30kIn0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiUEFTUyIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMTQiLAogICAgICAibmFtZSI6ICLmmI7noa4gUEFTUyAtIOW/heWhq+Wtl+auteWtmOWcqCIsCiAgICAgICJ0ZW5kZXIiOiAiIiwKICAgICAgImJpZCI6ICLmipXmoIfkurrvvJrljJfkuqzmmbrmlZnnp5HmioDogqHku73mnInpmZDlhazlj7hcbiIsCiAgICAgICJydWxlIjogeyJvcGVyYXRvciI6ICJyZXF1aXJlZCIsICJmaWVsZCI6ICJiaWQuYmlkZGVyX25hbWUifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAxNSIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g5b+F5aGr5a2X5q615Li656m6IiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIumhueebrue8luWPt++8mlpCLTIwMjYtMDAxXG4iLAogICAgICAicnVsZSI6IHsib3BlcmF0b3IiOiAicmVxdWlyZWQiLCAiZmllbGQiOiAiYmlkLmJpZGRlcl9uYW1lIn0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiRkFJTCIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAiY2FzZV9pZCI6ICJFMDE2IiwKICAgICAgIm5hbWUiOiAi5piO56GuIFBBU1MgLSDlrZfmrrXkuIDoh7TmgKfvvIhwYWlyIOetie+8iSIsCiAgICAgICJ0ZW5kZXIiOiAiIiwKICAgICAgImJpZCI6ICLms5Xkurrku6PooajvvJrlvKDkuIlcbiIsCiAgICAgICJydWxlIjogeyJvcGVyYXRvciI6ICJmaWVsZF9jb25zaXN0ZW5jeSIsICJwYWlycyI6IFtbImJpZC5sZWdhbF9yZXByZXNlbnRhdGl2ZSIsICJhdXRob3JpemF0aW9uLmxlZ2FsX3JlcHJlc2VudGF0aXZlIl1dfSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAxNyIsCiAgICAgICJuYW1lIjogIuaYjuehriBGQUlMIC0g5a2X5q615Yay56qB77yIYmlkIOS4reazleS6uuS7o+ihqCB2cyDmjojmnYPkuabms5Xkurrku6PooajkuI3lkIzvvIkiLAogICAgICAidGVuZGVyIjogIiIsCiAgICAgICJiaWQiOiAi5rOV5Lq65Luj6KGo77ya5byg5LiJXG7mjojmnYPkuaYg5rOV5Lq65Luj6KGo77ya5p2O5ZubIOiiq+aOiOadg+S6uu+8mueOi+S6lFxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImZpZWxkX2NvbnNpc3RlbmN5IiwgInBhaXJzIjogW1siYmlkLmxlZ2FsX3JlcHJlc2VudGF0aXZlIiwgImF1dGhvcml6YXRpb24ubGVnYWxfcmVwcmVzZW50YXRpdmUiXV19LAogICAgICAiZXhwZWN0ZWRfc3RhdHVzIjogIkZBSUwiLAogICAgICAiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAxOCIsCiAgICAgICJuYW1lIjogIuaYjuehriBQQVNTIC0g5paH5pys5YyF5ZCrIiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIuaKleagh+S6uuWQjeensO+8muWMl+S6rOaZuuaVmeenkeaKgOiCoeS7veaciemZkOWFrOWPuFxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImNvbnRhaW5zIiwgImZpZWxkIjogImJpZC5iaWRkZXJfbmFtZSIsICJ2YWx1ZSI6ICLmmbrmlZkifSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJQQVNTIiwKICAgICAgImV4cGVjdGVkX3J1bGVfcGFzc2VkIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgImNhc2VfaWQiOiAiRTAxOSIsCiAgICAgICJuYW1lIjogIuaYjuehriBQQVNTIC0gbm90X2NvbnRhaW5z77yI5YWz6ZSu6K+N5LiN5a2Y5Zyo77yJIiwKICAgICAgInRlbmRlciI6ICIiLAogICAgICAiYmlkIjogIuaKleagh+S6uuWQjeensO+8muWMl+S6rOaZuuaVmeenkeaKgOiCoeS7veaciemZkOWFrOWPuFxuIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogIm5vdF9jb250YWlucyIsICJmaWVsZCI6ICJiaWQuYmlkZGVyX25hbWUiLCAidmFsdWUiOiAi56ue5LqJ5a+55omLIn0sCiAgICAgICJleHBlY3RlZF9zdGF0dXMiOiAiUEFTUyIsCiAgICAgICJleHBlY3RlZF9ydWxlX3Bhc3NlZCI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJjYXNlX2lkIjogIkUwMjAiLAogICAgICAibmFtZSI6ICJSRVZJRVdfUkVRVUlSRUQgLSDkuJrnu6nml7bpl7TlrZfmrrXnvLrlpLEiLAogICAgICAidGVuZGVyIjogIiIsCiAgICAgICJiaWQiOiAiIiwKICAgICAgInJ1bGUiOiB7Im9wZXJhdG9yIjogImNvdW50X2d0ZSIsICJyb3dzIjogImJpZC5leHBlcmllbmNlcyIsICJjb3VudF9taW4iOiAxfSwKICAgICAgImV4cGVjdGVkX3N0YXR1cyI6ICJSRVZJRVdfUkVRVUlSRUQiLAogICAgICAiZXhwZWN0ZWRfcnVsZV9wYXNzZWQiOiBudWxsLAogICAgICAiZXhwZWN0ZWRfcmV2aWV3X3JlYXNvbiI6ICJJTlNVRkZJQ0lFTlRfRVZJREVOQ0UiCiAgICB9CiAgXQp9
+{
+  "version": "v0.2",
+  "description": "TenderGuard evaluation harness (spec §十九). Each case pins one expected outcome that the system must reproduce.",
+  "cases": [
+    {
+      "case_id": "E001",
+      "name": "明确 PASS - 项目名称完全一致",
+      "tender": "项目名称：智慧校园教学设备采购项目\n项目编号：ZB-2026-001\n包号：001\n",
+      "bid": "项目名称：智慧校园教学设备采购项目\n项目编号：ZB-2026-001\n包号：001\n",
+      "rule": {"operator": "equals", "fields": ["tender.project_name", "bid.project_name"]},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E002",
+      "name": "明确 FAIL - 项目名称不一致",
+      "tender": "项目名称：智慧校园教学设备采购项目\n",
+      "bid": "项目名称：另一个项目\n",
+      "rule": {"operator": "equals", "fields": ["tender.project_name", "bid.project_name"]},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E003",
+      "name": "明确 FAIL - 同型号不同价格（必须 FAIL，不是 REVIEW）",
+      "tender": "",
+      "bid": "型号 ABC-100 单价 10000 数量 5\n型号 ABC-100 单价 12000 数量 5\n",
+      "rule": {"operator": "same_model_same_price", "key": "model", "value": "unit_price"},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E004",
+      "name": "明确 PASS - 小计/合计计算正确",
+      "tender": "",
+      "bid": "型号 A 单价 100 数量 2\n型号 B 单价 50 数量 4\n合计 400\n",
+      "rule": {"operator": "sum_equals", "rows": "bid.price_rows", "total_field": "bid.total_price"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E005",
+      "name": "明确 FAIL - 小计计算错误",
+      "tender": "",
+      "bid": "型号 A 单价 100 数量 2\n型号 B 单价 50 数量 4\n合计 999\n",
+      "rule": {"operator": "sum_equals", "rows": "bid.price_rows", "total_field": "bid.total_price"},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E006",
+      "name": "明确 PASS - 报价不超过限价",
+      "tender": "招标限价：100万元\n",
+      "bid": "合计 80万元\n",
+      "rule": {"operator": "numeric_lte", "actual_field": "bid.total_price", "required_field": "tender.price_ceiling"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E007",
+      "name": "明确 FAIL - 报价超过限价",
+      "tender": "招标限价：50万元\n",
+      "bid": "合计 80万元\n",
+      "rule": {"operator": "numeric_lte", "actual_field": "bid.total_price", "required_field": "tender.price_ceiling"},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E008",
+      "name": "REVIEW_REQUIRED - 抽取失败（限价未识别）",
+      "tender": "本次招标无具体限价\n",
+      "bid": "合计 100万元\n",
+      "rule": {"operator": "numeric_lte", "actual_field": "bid.total_price", "required_field": "tender.price_ceiling"},
+      "expected_status": "REVIEW_REQUIRED",
+      "expected_rule_passed": null,
+      "expected_review_reason": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "case_id": "E009",
+      "name": "明确 PASS - 资质覆盖达标（rule 通过；evidence 极短会被降级，spec §七）",
+      "tender": "检测报告 节能证书 3C 产品彩页\n",
+      "bid": "检测报告 节能证书 3C 产品彩页\n",
+      "rule": {"operator": "coverage", "source": "tender.product_cert_requirements", "target": "bid.product_certificates", "min_coverage": 0.8},
+      "expected_status": "REVIEW_REQUIRED",
+      "expected_rule_passed": true,
+      "expected_review_reason": "INSUFFICIENT_EVIDENCE"
+    },
+    {
+      "case_id": "E010",
+      "name": "明确 FAIL - 资质严重不足",
+      "tender": "检测报告 节能证书 3C 产品彩页\n",
+      "bid": "检测报告\n",
+      "rule": {"operator": "coverage", "source": "tender.product_cert_requirements", "target": "bid.product_certificates", "min_coverage": 0.8},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E011",
+      "name": "明确 PASS - 业绩数量达标",
+      "tender": "近三年不少于 3 个类似项目\n",
+      "bid": "合同 2024年 500万元\n合同 2023年 600万元\n合同 2022年 700万元\n合同 2021年 800万元\n",
+      "rule": {"operator": "count_gte", "rows": "bid.experiences", "count_min": 3},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E012",
+      "name": "明确 FAIL - 业绩数量不足",
+      "tender": "近三年不少于 3 个类似项目\n",
+      "bid": "合同 2024年 500万元\n",
+      "rule": {"operator": "count_gte", "rows": "bid.experiences", "count_min": 3},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E013",
+      "name": "明确 PASS - 数字正则",
+      "tender": "",
+      "bid": "项目编号：ZB-2026-001\n",
+      "rule": {"operator": "regex", "field": "bid.project_id", "pattern": "^ZB-\\d{4}-\\d{3}$"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E014",
+      "name": "明确 PASS - 必填字段存在",
+      "tender": "",
+      "bid": "投标人：北京智教科技股份有限公司\n",
+      "rule": {"operator": "required", "field": "bid.bidder_name"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E015",
+      "name": "明确 FAIL - 必填字段为空",
+      "tender": "",
+      "bid": "项目编号：ZB-2026-001\n",
+      "rule": {"operator": "required", "field": "bid.bidder_name"},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E016",
+      "name": "明确 PASS - 字段一致性（pair 等）",
+      "tender": "",
+      "bid": "法人代表：张三\n",
+      "rule": {"operator": "field_consistency", "pairs": [["bid.legal_representative", "authorization.legal_representative"]]},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E017",
+      "name": "明确 FAIL - 字段冲突（bid 中法人代表 vs 授权书法人代表不同）",
+      "tender": "",
+      "bid": "法人代表：张三\n授权书 法人代表：李四 被授权人：王五\n",
+      "rule": {"operator": "field_consistency", "pairs": [["bid.legal_representative", "authorization.legal_representative"]]},
+      "expected_status": "FAIL",
+      "expected_rule_passed": false
+    },
+    {
+      "case_id": "E018",
+      "name": "明确 PASS - 文本包含",
+      "tender": "",
+      "bid": "投标人名称：北京智教科技股份有限公司\n",
+      "rule": {"operator": "contains", "field": "bid.bidder_name", "value": "智教"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E019",
+      "name": "明确 PASS - not_contains（关键词不存在）",
+      "tender": "",
+      "bid": "投标人名称：北京智教科技股份有限公司\n",
+      "rule": {"operator": "not_contains", "field": "bid.bidder_name", "value": "竞争对手"},
+      "expected_status": "PASS",
+      "expected_rule_passed": true
+    },
+    {
+      "case_id": "E020",
+      "name": "REVIEW_REQUIRED - 业绩时间字段缺失",
+      "tender": "",
+      "bid": "",
+      "rule": {"operator": "count_gte", "rows": "bid.experiences", "count_min": 1},
+      "expected_status": "REVIEW_REQUIRED",
+      "expected_rule_passed": null,
+      "expected_review_reason": "INSUFFICIENT_EVIDENCE"
+    }
+  ]
+}

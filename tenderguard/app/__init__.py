@@ -1,1 +1,1 @@
-IiIiVGVuZGVyR3VhcmQgYXBwbGljYXRpb24gbW9kdWxlcy4iIiI=
+"""TenderGuard application modules."""

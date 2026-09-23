@@ -1,1 +1,163 @@
-IyBUZW5kZXJHdWFyZCB2MC4zCgpFdmlkZW5jZS1Hcm91bmRlZCwgUnVsZS1Hb3Zlcm5lZCBUZW5kZXIgQ29tcGxpYW5jZSBTeXN0ZW0uCgo+ICoq5qC45b+D5oCd5oOzKio6TExNIOeQhuino+aLm+agh+aWh+S7tuWSjOaKleagh+aWh+S7tjtSZXRyaWV2YWwg5a+75om+6K+B5o2uOwo+IENvZGVpZmllZCBSdWxlcyDmiafooYznoa7lrprmgKfnmoTkuJrliqHop4TliJk7VmVyaWZpY2F0aW9uIOe7vOWQiOWIpOaWrTsKPiBIdW1hbiBSZXZpZXcg5aSE55CG6K+B5o2u5LiN6Laz44CB5Yay56qB5ZKM5peg5rOV6Ieq5Yqo5Yik5pat55qE5oOF5Ya144CCCj4KPiAqKnYwLjMg5a6a5L2NKio6QnVzaW5lc3MgU2VtYW50aWNzICsgRXZpZGVuY2UgR3JvdW5kaW5nICsgUnVsZSBSZWxpYWJpbGl0eeOAggo+IOWujOaVtOinhOiMg+ingSBbYEFSQ0hJVEVDVFVSRV92MC4zLm1kYF0oQVJDSElURUNUVVJFX3YwLjMubWQpLOWPmOabtOe7huiKguingSBbYENIQU5HRUxPRy5tZGBdKENIQU5HRUxPRy5tZCnjgIIKCmDllK7liY1DSy54bHN4YCAoYGRhdGEvc291cmNlL2ApIOaYryBTT1VSQ0UgT0YgVFJVVEg7YOebtOaKlUNLYCDmmK8gdjAuMyDnmoTkuJrliqHojIPlm7TjgIIK5omA5pyJ5Y6f5aeLIENLIOadoeebruWdh+iiq+S/neeVmeOAgei/vea6ryzkuI3mk4Xoh6rliKDpmaTjgIIKCi0tLQoKIyMg5b+r6YCf5byA5aeLCgpgYGBiYXNoCiMgMSkg5a6J6KOF5L6d6LWWCnBpcCBpbnN0YWxsIC1yIHJlcXVpcmVtZW50cy50eHQKCiMgMikg5LuOIEV4Y2VsIOS4gOasoeaAp+eUn+aIkCBub3JtYWxpemVkIGNoZWNrbGlzdApweXRob24gLW0gdGVuZGVyZ3VhcmQuY2xpIHBhcnNlCgojIDMpIOWvueecn+WuniBQREYg6LeR5a6h5qC4CnB5dGhvbiAtbSB0ZW5kZXJndWFyZC5jbGkgcmV2aWV3IFwKICAgIC0tdGVuZGVyIGRhdGEvdGVuZGVyLnBkZiBcCiAgICAtLWJpZCAgICBkYXRhL2JpZC5wZGYgXAogICAgLS1pbmNsdWRlLWZhY3RzIFwKICAgIC0tcHJvamVjdCAi6aG555uu5ZCN56ewIgoKIyA0KSDnnIvmiqXlkYoKY2F0IG91dHB1dC9yZXBvcnQuanNvbiAgICAgIyDnu5PmnoTljJYKY2F0IG91dHB1dC9yZXBvcnQubWQgICAgICAgIyDkurrnsbvlj6/or7sKYGBgCgpDTEkg5Lya6Ieq5YqoOuino+aekCBFeGNlbCDihpIg5Yqg6L29IDYxIOadoSBDSyDihpIg5pGE5YWlIFBERiDihpIg6LeR6aqM6K+BIOKGkiDovpPlh7ogYHJlcG9ydC5qc29uYCArIGByZXBvcnQubWRg44CCCgo+IOacrOS7k+W6k+eahCBgcHVibGlzaC9gIOW/q+eFp+S4uuWvueWkluWPkeW4g+eJiOacrCwqKuS4jeWQqyoqIGB0ZXN0cy9gIOS4jiBgZGF0YS9zb3VyY2UvYAo+ICjmlY/mhJ/mlbDmja4p44CC5a6M5pW05rqQ56CB6KeB5pys5Zyw5bel5L2c5Yy644CCCgotLS0KCiMjIHYwLjMg5qC45b+D54m55oCnCgp8IOe7tOW6piB8IHYwLjMg5a6e546wIHwKfCAtLS0gfCAtLS0gfAp8IFJldmlldyBUeXBlICg2IOWAvCkgfCBgRE9DVU1FTlRfREVURVJNSU5JU1RJQ2AgLyBgRE9DVU1FTlRfSFlCUklEYCAvIGBET0NVTUVOVF9TRU1BTlRJQ2AgLyBgRVhURVJOQUxfREFUQWAgLyBgUFJPQ0VTU19IVU1BTmAgLyBgU1RSQVRFR1lfSFVNQU5gIHwKfCBFdmlkZW5jZSBRdWFsaXR5ICg1IOe6pykgfCBgRElSRUNUYCAvIGBTVVBQT1JUSU5HYCAvIGBJTkRJUkVDVGAgLyBgQ09ORkxJQ1RJTkdgIC8gYE1JU1NJTkdgIHwKfCBGYWlsdXJlIFRheG9ub215ICgxMCDnsbspIHwgYE1JU1NJTkdfRVZJREVOQ0VgIC8gYEVYVFJBQ1RJT05fRkFJTEVEYCAvIGBUQUJMRV9FWFRSQUNUSU9OX0ZBSUxFRGAgLyBgUkVUUklFVkFMX0ZBSUxFRGAgLyBgUkVRVUlSRU1FTlRfVU5SRVNPTFZFRGAgLyBgUlVMRV9VTlJFU09MVkVEYCAvIGBFVklERU5DRV9DT05GTElDVGAgLyBgRVhURVJOQUxfREFUQV9SRVFVSVJFRGAgLyBgSFVNQU5fUFJPQ0VTU19SRVFVSVJFRGAgLyBgU1RSQVRFR1lfUkVRVUlSRURgIHwKfCBBdG9taWMgUmVxdWlyZW1lbnQgfCDmr4/kuKogQ0sg5ouG5YiG5Li6IDHigJM1IOS4quWOn+WtkOimgeaxgizlkIToh6rnu5HlrpogZXZpZGVuY2UgKyBkZWNpc2lvbiB8CnwgRXZpZGVuY2UgQ29udHJhY3QgfCBgbWluaW11bV9xdWFsaXR5YCArIGByZXF1aXJlZF9kb2N1bWVudHNgIOWPjOmHjemXqOaOpyB8CnwgUHJlY29uZGl0aW9uIHwgZmFjdC1wcmVzZW5jZSDliY3nva7pl6ggKHNwZWMgwqflhaspIHwKfCBDb25maWRlbmNlIOWFrOW8jyB8IOWQqyBldmlkZW5jZV9xdWFsaXR5IGJvbnVzL3BlbmFsdHkgfAp8IEhhcmQtUnVsZSDnmb3lkI3ljZUgfCBgc2FtZV9tb2RlbF9zYW1lX3ByaWNlYCAvIGBzdW1fZXF1YWxzYCAvIGBlcXVhbHNgIC8gYG51bWVyaWNfKmAgLyBgZGF0ZV8qYCAvIGBjb3VudF9ndGVgIC8gYHJlcXVpcmVkYCAvIGBleGlzdHNgIC8gYGNvbnRhaW5zYCAvIGByZWdleGAgLyBgc2FtZV92YWx1ZWAgLyBgZmllbGRfY29uc2lzdGVuY3lgIOetiSDigJQgTExNIOS4jeWPr+imhuebliB8CnwgVHJhY2UgfCBgYXVkaXRfaWRgIC8gYGNoZWNrX3J1bl9pZGAgLyBgZXZpZGVuY2VfaWRgIOS4iee6pyB8CgoqKnYwLjMg5YWz6ZSu6KeE5YiZKiooc3BlYyDCp+S4gy/Cp+WFqyk6CgotIGBOb25lID09IE5vbmVgIOawuOi/nOS4jeS6pyBQQVNT44CCCi0gQ1JJVElDQUwgLyBISUdIIOe8uiBESVJFQ1Qg6K+B5o2u5pe26ZmN57qn5Li6IFJFVklFV19SRVFVSVJFROOAggotIENPTkZMSUNUSU5HIOivgeaNruS4gOW+iyBSRVZJRVdfUkVRVUlSRUTjgIIKLSBSdWxlIEVuZ2luZSDlhrPnrZbkuI4gTExNIOWGsueqgeaXtizku6UgUnVsZSBFbmdpbmUg5Li65YeG44CCCgotLS0KCiMjIOW3peeoi+e7k+aehAoKYGBgCnRlbmRlcmd1YXJkLwrilJzilIDilIAgYXBwLwrilIIgICDilJzilIDilIAgaW5nZXN0aW9uLyAgICAgIFB5TXVQREYgcGFnZS1hd2FyZSDmkYTlhaUsQ0pLIOWtl+S9kwrilIIgICDilJzilIDilIAgcmV0cmlldmFsLyAgICAgIEJNMjUtbGl0ZSArIENKSyBiaWdyYW0gKFAxOiBCTTI1IC8g5ZCR6YePIC8gcmVyYW5rKQrilIIgICDilJzilIDilIAgZXh0cmFjdGlvbi8gICAgIOWQr+WPkeW8j+S6i+WunuaKveWPliArIERvY3VtZW50IOKGkiBCbG9ja3Mg4oaSIFRhYmxlcyDihpIgRmFjdHMK4pSCICAg4pSc4pSA4pSAIHJ1bGVzLyAgICAgICAgICAxNyDkuKrnoa7lrprmgKfnrpflrZAgKOWQqyBoYXJkLXJ1bGUg55m95ZCN5Y2VKQrilIIgICDilJzilIDilIAgdmVyaWZpY2F0aW9uLyAgIFByZWNvbmRpdGlvbiDihpIgUnVsZSDihpIgTExNIGZhbGxiYWNrIOKGkiBFdmlkZW5jZSBib3VuZCDihpIgQ29uZmlkZW5jZQrilIIgICDilJzilIDilIAgcmVwb3J0aW5nLyAgICAgIEpTT04gKyBNYXJrZG93biDmiqXlkYogKGF1ZGl0X2lkIC8gZXhlY3V0aXZlX3N1bW1hcnkgLyByZXF1aXJlbWVudF9jb3ZlcmFnZV9tYXRyaXggLyDigKYpCuKUgiAgIOKUnOKUgOKUgCBjaGVja2xpc3RzLyAgICAgZXhjZWxfcGFyc2VyIC8gbG9hZGVyIC8gcmV2aWV3X3FhCuKUgiAgIOKUlOKUgOKUgCBzY2hlbWFzLyAgICAgICAgUHlkYW50aWMgdjIgKENoZWNrbGlzdEl0ZW0gVjMgLyBBdG9taWNSZXF1aXJlbWVudCAvIEV2aWRlbmNlQ29udHJhY3QgLyBQcmVjb25kaXRpb24gLyBWZXJpZmljYXRpb25SZXN1bHQgLyBBdWRpdFJlcG9ydCkK4pSc4pSA4pSAIGNsaS5weSAgICAgICAgICAgICAgcHl0aG9uIC1tIHRlbmRlcmd1YXJkLmNsaSB7cmV2aWV3fHBhcnNlfQrilJzilIDilIAgX19tYWluX18ucHkKY29uZmlnLyAgICAgICAgICAgICAgICAgY2hlY2tsaXN0X3NjaGVtYSAvIGNoZWNrbGlzdHMgLyBmYWlsdXJlX3RheG9ub215IC8gc2V2ZXJpdHlfcG9saWN5CnByb21wdHMvICAgICAgICAgICAgICAgIDcg5LiqIHByb21wdDpyZXF1aXJlbWVudF9hdG9taWNpemVyIC8gZmFjdF9leHRyYWN0b3IgLyBldmlkZW5jZV9tYXBwZXIgLwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VtYW50aWNfdmVyaWZpZXIgLyBydWxlX2d1YXJkIC8gcmVwb3J0X3dyaXRlciAvIHJldmlld19xdWVzdGlvbl9nZW5lcmF0b3IKZXZhbHVhdGlvbi8gICAgICAgICAgICAgY2FzZXMuanNvbiArIGNhc2VzX3YzLmpzb24gKDYwIGNhc2VzKSArIG1ldHJpY3MucHkgKyBydW5uZXIgLyBydW5uZXJfdjMKcmVxdWlyZW1lbnRzLnR4dApgYGAKCi0tLQoKIyMgUGlwZWxpbmUKCmBgYApFeGNlbCAo5ZSu5YmNQ0sueGxzeCDnm7TmipVDSyBzaGVldCkKICAgIOKGkyBwYXJzZV9leGNlbCAoZGV0ZXJtaW5pc3RpYyBrZXl3b3JkIGNsYXNzaWZpZXIpCkNoZWNrbGlzdEl0ZW0gVjMgKDYxIGl0ZW1zLCBzb3VyY2Vfc2hlZXQvc291cmNlX3JvdyBwcmVzZXJ2ZWQpCiAgICDihpMgbG9hZF9jaGVja2xpc3QKSU5HRVNUICAg4oaSICBEb2N1bWVudENodW5rW10gICAoUHlNdVBERiwgcGFnZS1hd2FyZSwgQ0pLIGZvbnQpCkVYVFJBQ1QgIOKGkiAgRmFjdHMgICAgICAgICAgICAgKGhldXJpc3RpYyArIHN0cnVjdHVyZWQgdGFibGVzKQpSRVRSSUVWRSDihpIgIEV2aWRlbmNlW10gICAgICAgIChCTTI1LWxpdGUgKyBDSksgYmlncmFtLCA1IHF1YWxpdHkgbGV2ZWxzKQpWRVJJRlkgICDihpIgIFZlcmlmaWNhdGlvblJlc3VsdFtdIChydWxlLWZpcnN0LCBldmlkZW5jZS1ib3VuZCkKICAgIOKUnOKUgCBwcmVjb25kaXRpb24gY2hlY2sgKHNwZWMgwqflhaspICAgICAgICDigJQgaWYgZmFpbCDihpIgUkVWSUVXX1JFUVVJUkVEICsgTUlTU0lOR19FVklERU5DRQogICAg4pSc4pSAIHJ1biBydWxlIOKGkiBSdWxlUmVzdWx0IChvcGVyYXRvciArIHRyYWNlKQogICAg4pSc4pSAIHJ1bGUgZGVjaXNpb24gKyBMTE0gZmFsbGJhY2sgKEhZQlJJRC9TRU1BTlRJQyBvbmx5KQogICAg4pSc4pSAIGV2aWRlbmNlX3F1YWxpdHkgYWdncmVnYXRpb24KICAgIOKUnOKUgCBDUklUSUNBTC9ISUdIIGRvd25ncmFkZSBpZiBxdWFsaXR5IDwgRElSRUNUIChzcGVjIMKn5LiDKQogICAg4pSc4pSAIGhhcmQtcnVsZSB3aGl0ZWxpc3QgKHJ1bGUgcGFzc2VzIGV2ZW4gd2l0aG91dCBESVJFQ1QpCiAgICDilJzilIAgQ09ORkxJQ1RJTkcg4oaSIFJFVklFV19SRVFVSVJFRCAoc3BlYyDCp+S4gykKICAgIOKUlOKUgCBiaW5kIGVhY2ggZXZpZGVuY2UgdG8gdGhlIG1hdGNoaW5nIEF0b21pY1JlcXVpcmVtZW50IChzcGVjIMKn5YWtKQpSRVBPUlQgICDihpIgIEF1ZGl0UmVwb3J0ICgxMCBzZWN0aW9ucywgSlNPTiArIE1hcmtkb3duKQpgYGAKCi0tLQoKIyMgUnVsZSBFbmdpbmUgKHNwZWMgwqc1KQoKfCDnrpflrZAgfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8CnwgYGVxdWFsc2AgLyBgbm90X2VxdWFsc2AgfCDlrZfmrrXlgLznm7jnrYkgLyDkuI3nrYko56m65YC8L05vbmUg4oaSIOS4jeWumiznu53kuI0gUEFTUykgfAp8IGBjb250YWluc2AgLyBgbm90X2NvbnRhaW5zYCB8IOaWh+acrOWMheWQqyB8CnwgYHJlZ2V4YCB8IOato+WImeWMuemFjSB8CnwgYG51bWVyaWNfZ3QvZ3RlL2x0L2x0ZWAgfCDmlbDlgLzmr5TovoMo6Ieq5Yqo5aSE55CGIOS4hy/kur8v5YWDL1JNQikgfAp8IGBkYXRlX2JlZm9yZWAgLyBgZGF0ZV9hZnRlcmAgfCDml6XmnJ/mr5TovoMgfAp8IGBzYW1lX3ZhbHVlYCB8IOWkmuWtl+auteetieS7tyB8CnwgYHNhbWVfbW9kZWxfc2FtZV9wcmljZWAgfCDlkIzlnovlj7flv4XpobvlkIzku7coQUJDLTEwMCAvIEFCQyAxMDAgLyBBQkMtMTAwKOWQq+eojikgLyBhYmMtMTAwIOS4gOiHtOW9kuS4gCkgfAp8IGBzdW1fZXF1YWxzYCB8IOWwj+iuoS/lkIjorqHph43nrpco6KGo5oq95Y+W5aSx6LSlIOKGkiBOb25lLOmdniBGQUlMKSB8CnwgYGNvdW50X2d0ZWAgfCDmlbDph4/pmIjlgLwgfAp8IGByZXF1aXJlZGAgLyBgZXhpc3RzYCB8IOW/heWhqyAvIOWtmOWcqOaApyB8CnwgYGZpZWxkX2NvbnNpc3RlbmN5YCB8IOWtl+auteS4gOiHtOaApyB8CgotLS0KCiMjIOivhOS8sAoKLSBgZXZhbHVhdGlvbi9jYXNlc192My5qc29uYCDigJTigJQgNjAgY2FzZXMgKDE1IFBBU1MgKyAxNSBGQUlMICsgMTAgTUlTU0lOR19FVklERU5DRSArIDUgRVhUUkFDVElPTl9GQUlMRUQgKyA1IFRBQkxFX0VYVFJBQ1RJT05fRkFJTEVEICsgNSBFVklERU5DRV9DT05GTElDVCArIDUgQU1CSUdVT1VTX1JFUVVJUkVNRU5UKeOAggotIOaWsOaMh+aghzpgZGVjaXNpb25fYWNjdXJhY3lg44CBYGFic3RlbnRpb25fYWNjdXJhY3lg44CBYGNhdGVnb3J5X2JyZWFrZG93bmDjgIFgZmFsc2VfcG9zaXRpdmVg44CBYGZhbHNlX25lZ2F0aXZlYOOAgWB0cnVlX3Bhc3Ng44CBYHRydWVfZmFpbGDjgIFgdHJ1ZV9yZXZpZXdg44CCCi0g5b2T5YmN6LeR5YiGOmBkZWNpc2lvbl9hY2N1cmFjeSA9IDAuNjgzICg0MS82MClgLGBhYnN0ZW50aW9uX2FjY3VyYWN5ID0gMC41NjcgKDE3LzMwKWAs5Ymp5L2Z5beu6Led5Li76KaB5Li6IGZpeHR1cmUg57K+5bqm6Zeu6aKY44CCCgotLS0KCiMjIOS4peagvOmBteWuiOeahOW3peeoi+WOn+WImSAoc3BlYyDCpzE2KQoKMS4gUHl0aG9uIDMuMTErIC8gUHlkYW50aWMgMiDinJMKMi4gUnVsZSBFbmdpbmUg5LiOIExMTSDop6PogKYo5pegIGtleSDkuZ/og73ot5EpCjMuICoqTExNIOWIpOaWreS4jiBSdWxlIOWGsueqgeaXtixSdWxlIEVuZ2luZSDkvJjlhYgqKiAoc3BlYyDCpzEwKQo0LiAqKkNSSVRJQ0FMIC8gSElHSCDnvLror4Hmja7ml7bpmY3nuqcgUkVWSUVXX1JFUVVJUkVEKiogKHNwZWMgwqfkuIMpCjUuICoq5peg6K+B5o2u56aB5q2iIEZBSUwqKiAoc3BlYyDCp+S4gy/Cp+WFqykKNi4g5omA5pyJ57uT6K665Y+v6L+95rqv5Yiw5Y6f5aeLIEV4Y2VsIOihjCAoYHNvdXJjZV9zaGVldGAgKyBgc291cmNlX3Jvd2ApCjcuIOWNleWQkSBQaXBlbGluZSzml6AgTExNLXRvLUxMTSDoh6rlvqrnjq8gKHNwZWMgwqcxMSkKOC4gdjAuMyAqKuS4jSoq5YGaOuiHquWKqOaKleaghyAvIOaPkOS6pCAvIOeZu+W9leaUv+W6nOermSAvIOWVhuS4muetlueVpSAvIOWklumDqOWkseS/oeWQjeWNlSAoc3BlYyDCp+WNgeS4gykKCi0tLQoKIyMg5b2T5YmN5bey55+l6ZmQ5Yi2IChQMSAvIFAyIGJhY2tsb2cpCgoxLiAqKlAxIHJldHJpZXZhbCoqOuW9k+WJjSBrZXl3b3JkICsgQ0pLIGJpZ3JhbSxQMSDljYfnuqcgQk0yNSAvIOWQkemHjyAvIHJlcmFua+OAggoyLiAqKlAxIOS6i+WunuaKveWPlioqOkxMTS1iYWNrZWQgZmFjdCBleHRyYWN0b3Ig5pqC5pyq5o6l5YWlKHByb21wdHMg5bey5bCx57uqKeOAggozLiAqKlAxIOS4muWKoeivreS5iSoqOuS4mue7qemXqOanmyjlubTpmZAgLyDkuKrmlbAgLyDph5Hpop0p6ZiI5YC86ZyA55SxIExMTSDku44gQ0sg5paH5pys5oq95Y+W5bm25rOo5YWl5YiwIHJ1bGXjgIIKNC4gKipQMSBDSyDooajlpJbkuJrliqHop4TliJkqKjrlpI3mnYLlkIjlkIzmnaHmrL4o6aqM5pS2IC8g5LuY5qy+IC8g5Z+56K6tKemcgOimgSBMTE0g5oq95Y+W44CCCjUuICoqUDEg5aSn5paH5Lu25oCn6IO9Kio6MjBNQisgUERGIOWNlSBjaHVuayxQMSDmrrXokL3nuqcgY2h1bmtpbmfjgIIKNi4gKipQMSBhYmxhdGlvbioqOkEgLyBCIC8gQyBhYmxhdGlvbiAoc3BlYyDCp+S6jOWNgSkg5pyq5a6e546w44CCCjcuICoqUDIgZml4dHVyZSDlrozlloQqKjpldmFsdWF0aW9uIOS4reS4jiBmaXh0dXJlIOS4jeWMuemFjeeahOi0n+agt+acrOmcgOimgee7huWMluOAgg==
+# TenderGuard v0.3
+
+Evidence-Grounded, Rule-Governed Tender Compliance System.
+
+> **核心思想**:LLM 理解招标文件和投标文件;Retrieval 寻找证据;
+> Codeified Rules 执行确定性的业务规则;Verification 综合判断;
+> Human Review 处理证据不足、冲突和无法自动判断的情况。
+>
+> **v0.3 定位**:Business Semantics + Evidence Grounding + Rule Reliability。
+> 完整规范见 [`ARCHITECTURE_v0.3.md`](ARCHITECTURE_v0.3.md),变更细节见 [`CHANGELOG.md`](CHANGELOG.md)。
+
+`售前CK.xlsx` (`data/source/`) 是 SOURCE OF TRUTH;`直投CK` 是 v0.3 的业务范围。
+所有原始 CK 条目均被保留、追溯,不擅自删除。
+
+---
+
+## 快速开始
+
+```bash
+# 1) 安装依赖
+pip install -r requirements.txt
+
+# 2) 从 Excel 一次性生成 normalized checklist
+python -m tenderguard.cli parse
+
+# 3) 对真实 PDF 跑审核
+python -m tenderguard.cli review \
+    --tender data/tender.pdf \
+    --bid    data/bid.pdf \
+    --include-facts \
+    --project "项目名称"
+
+# 4) 看报告
+cat output/report.json     # 结构化
+cat output/report.md       # 人类可读
+```
+
+CLI 会自动:解析 Excel → 加载 61 条 CK → 摄入 PDF → 跑验证 → 输出 `report.json` + `report.md`。
+
+> 本仓库的 `publish/` 快照为对外发布版本,**不含** `tests/` 与 `data/source/`
+> (敏感数据)。完整源码见本地工作区。
+
+---
+
+## v0.3 核心特性
+
+| 维度 | v0.3 实现 |
+| --- | --- |
+| Review Type (6 值) | `DOCUMENT_DETERMINISTIC` / `DOCUMENT_HYBRID` / `DOCUMENT_SEMANTIC` / `EXTERNAL_DATA` / `PROCESS_HUMAN` / `STRATEGY_HUMAN` |
+| Evidence Quality (5 级) | `DIRECT` / `SUPPORTING` / `INDIRECT` / `CONFLICTING` / `MISSING` |
+| Failure Taxonomy (10 类) | `MISSING_EVIDENCE` / `EXTRACTION_FAILED` / `TABLE_EXTRACTION_FAILED` / `RETRIEVAL_FAILED` / `REQUIREMENT_UNRESOLVED` / `RULE_UNRESOLVED` / `EVIDENCE_CONFLICT` / `EXTERNAL_DATA_REQUIRED` / `HUMAN_PROCESS_REQUIRED` / `STRATEGY_REQUIRED` |
+| Atomic Requirement | 每个 CK 拆分为 1–5 个原子要求,各自绑定 evidence + decision |
+| Evidence Contract | `minimum_quality` + `required_documents` 双重门控 |
+| Precondition | fact-presence 前置门 (spec §八) |
+| Confidence 公式 | 含 evidence_quality bonus/penalty |
+| Hard-Rule 白名单 | `same_model_same_price` / `sum_equals` / `equals` / `numeric_*` / `date_*` / `count_gte` / `required` / `exists` / `contains` / `regex` / `same_value` / `field_consistency` 等 — LLM 不可覆盖 |
+| Trace | `audit_id` / `check_run_id` / `evidence_id` 三级 |
+
+**v0.3 关键规则**(spec §七/§八):
+
+- `None == None` 永远不产 PASS。
+- CRITICAL / HIGH 缺 DIRECT 证据时降级为 REVIEW_REQUIRED。
+- CONFLICTING 证据一律 REVIEW_REQUIRED。
+- Rule Engine 决策与 LLM 冲突时,以 Rule Engine 为准。
+
+---
+
+## 工程结构
+
+```
+tenderguard/
+├── app/
+│   ├── ingestion/      PyMuPDF page-aware 摄入,CJK 字体
+│   ├── retrieval/      BM25-lite + CJK bigram (P1: BM25 / 向量 / rerank)
+│   ├── extraction/     启发式事实抽取 + Document → Blocks → Tables → Facts
+│   ├── rules/          17 个确定性算子 (含 hard-rule 白名单)
+│   ├── verification/   Precondition → Rule → LLM fallback → Evidence bound → Confidence
+│   ├── reporting/      JSON + Markdown 报告 (audit_id / executive_summary / requirement_coverage_matrix / …)
+│   ├── checklists/     excel_parser / loader / review_qa
+│   └── schemas/        Pydantic v2 (ChecklistItem V3 / AtomicRequirement / EvidenceContract / Precondition / VerificationResult / AuditReport)
+├── cli.py              python -m tenderguard.cli {review|parse}
+├── __main__.py
+config/                 checklist_schema / checklists / failure_taxonomy / severity_policy
+prompts/                7 个 prompt:requirement_atomicizer / fact_extractor / evidence_mapper /
+                                     semantic_verifier / rule_guard / report_writer / review_question_generator
+evaluation/             cases.json + cases_v3.json (60 cases) + metrics.py + runner / runner_v3
+requirements.txt
+```
+
+---
+
+## Pipeline
+
+```
+Excel (售前CK.xlsx 直投CK sheet)
+    ↓ parse_excel (deterministic keyword classifier)
+ChecklistItem V3 (61 items, source_sheet/source_row preserved)
+    ↓ load_checklist
+INGEST   →  DocumentChunk[]   (PyMuPDF, page-aware, CJK font)
+EXTRACT  →  Facts             (heuristic + structured tables)
+RETRIEVE →  Evidence[]        (BM25-lite + CJK bigram, 5 quality levels)
+VERIFY   →  VerificationResult[] (rule-first, evidence-bound)
+    ├─ precondition check (spec §八)        — if fail → REVIEW_REQUIRED + MISSING_EVIDENCE
+    ├─ run rule → RuleResult (operator + trace)
+    ├─ rule decision + LLM fallback (HYBRID/SEMANTIC only)
+    ├─ evidence_quality aggregation
+    ├─ CRITICAL/HIGH downgrade if quality < DIRECT (spec §七)
+    ├─ hard-rule whitelist (rule passes even without DIRECT)
+    ├─ CONFLICTING → REVIEW_REQUIRED (spec §七)
+    └─ bind each evidence to the matching AtomicRequirement (spec §六)
+REPORT   →  AuditReport (10 sections, JSON + Markdown)
+```
+
+---
+
+## Rule Engine (spec §5)
+
+| 算子 | 说明 |
+| --- | --- |
+| `equals` / `not_equals` | 字段值相等 / 不等(空值/None → 不定,绝不 PASS) |
+| `contains` / `not_contains` | 文本包含 |
+| `regex` | 正则匹配 |
+| `numeric_gt/gte/lt/lte` | 数值比较(自动处理 万/亿/元/RMB) |
+| `date_before` / `date_after` | 日期比较 |
+| `same_value` | 多字段等价 |
+| `same_model_same_price` | 同型号必须同价(ABC-100 / ABC 100 / ABC-100(含税) / abc-100 一致归一) |
+| `sum_equals` | 小计/合计重算(表抽取失败 → None,非 FAIL) |
+| `count_gte` | 数量阈值 |
+| `required` / `exists` | 必填 / 存在性 |
+| `field_consistency` | 字段一致性 |
+
+---
+
+## 评估
+
+- `evaluation/cases_v3.json` —— 60 cases (15 PASS + 15 FAIL + 10 MISSING_EVIDENCE + 5 EXTRACTION_FAILED + 5 TABLE_EXTRACTION_FAILED + 5 EVIDENCE_CONFLICT + 5 AMBIGUOUS_REQUIREMENT)。
+- 新指标:`decision_accuracy`、`abstention_accuracy`、`category_breakdown`、`false_positive`、`false_negative`、`true_pass`、`true_fail`、`true_review`。
+- 当前跑分:`decision_accuracy = 0.683 (41/60)`,`abstention_accuracy = 0.567 (17/30)`,剩余差距主要为 fixture 精度问题。
+
+---
+
+## 严格遵守的工程原则 (spec §16)
+
+1. Python 3.11+ / Pydantic 2 ✓
+2. Rule Engine 与 LLM 解耦(无 key 也能跑)
+3. **LLM 判断与 Rule 冲突时,Rule Engine 优先** (spec §10)
+4. **CRITICAL / HIGH 缺证据时降级 REVIEW_REQUIRED** (spec §七)
+5. **无证据禁止 FAIL** (spec §七/§八)
+6. 所有结论可追溯到原始 Excel 行 (`source_sheet` + `source_row`)
+7. 单向 Pipeline,无 LLM-to-LLM 自循环 (spec §11)
+8. v0.3 **不**做:自动投标 / 提交 / 登录政府站 / 商业策略 / 外部失信名单 (spec §十七)
+
+---
+
+## 当前已知限制 (P1 / P2 backlog)
+
+1. **P1 retrieval**:当前 keyword + CJK bigram,P1 升级 BM25 / 向量 / rerank。
+2. **P1 事实抽取**:LLM-backed fact extractor 暂未接入(prompts 已就绪)。
+3. **P1 业务语义**:业绩门槛(年限 / 个数 / 金额)阈值需由 LLM 从 CK 文本抽取并注入到 rule。
+4. **P1 CK 表外业务规则**:复杂合同条款(验收 / 付款 / 培训)需要 LLM 抽取。
+5. **P1 大文件性能**:20MB+ PDF 单 chunk,P1 段落级 chunking。
+6. **P1 ablation**:A / B / C ablation (spec §二十) 未实现。
+7. **P2 fixture 完善**:evaluation 中与 fixture 不匹配的负样本需要细化。

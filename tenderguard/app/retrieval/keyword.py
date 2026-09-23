@@ -1,1 +1,131 @@
-IiIiUDAga2V5d29yZCByZXRyaWV2YWwgYmFzZWxpbmUuCgpTY29yZXMgZWFjaCBEb2N1bWVudENodW5rIGJ5OgogIC0gdG9rZW4gb3ZlcmxhcCB3aXRoIHRoZSBxdWVyeSAoQk0yNS1saXRlIElERiB3ZWlnaHRpbmcpCiAgLSBleGFjdCBzdWJzdHJpbmcgbWF0Y2ggYm9udXMKICAtIHNob3J0ZXItZG9jdW1lbnQgbGVuZ3RoIG5vcm1hbGl6YXRpb24KClBoYXNlIDQ6IGVhY2ggcmV0dXJuZWQgRXZpZGVuY2UgaXMgdGFnZ2VkIHdpdGggb25lIG9mOgogIERJUkVDVCAvIElORElSRUNUIC8gV0VBSyAvIENPTkZMSUNUSU5HIC8gTUlTU0lORwpiYXNlZCBvbiB0aGUgcmVsZXZhbmNlIHNjb3JlIGFuZCB3aGV0aGVyIHRoZSBxdW90ZSBjb250YWlucyB0aGUgbGl0ZXJhbCBxdWVyeS4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgbWF0aAppbXBvcnQgcmUKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgQ291bnRlcgpmcm9tIHR5cGluZyBpbXBvcnQgSXRlcmFibGUKCmZyb20gdGVuZGVyZ3VhcmQuYXBwLnNjaGVtYXMgaW1wb3J0IERvY3VtZW50Q2h1bmssIEV2aWRlbmNlLCBFdmlkZW5jZVF1YWxpdHkKCgpfVE9LRU5fUkUgPSByZS5jb21waWxlKHIiW1x35LiALem/v10rIiwgcmUuVU5JQ09ERSkKCgpkZWYgX3Rva2VuaXplKHRleHQ6IHN0cikgLT4gbGlzdFtzdHJdOgogICAgcmV0dXJuIFt0Lmxvd2VyKCkgZm9yIHQgaW4gX1RPS0VOX1JFLmZpbmRhbGwodGV4dCBvciAiIildCgoKZGVmIF9iaWdyYW1zKHRleHQ6IHN0cikgLT4gbGlzdFtzdHJdOgogICAgb3V0OiBsaXN0W3N0cl0gPSBbXQogICAgZm9yIGkgaW4gcmFuZ2UobGVuKHRleHQpIC0gMSk6CiAgICAgICAgcGFpciA9IHRleHRbaSA6IGkgKyAyXQogICAgICAgIGlmIHJlLnNlYXJjaChyIlvkuIAt6b+/XSIsIHBhaXIpOgogICAgICAgICAgICBvdXQuYXBwZW5kKHBhaXIubG93ZXIoKSkKICAgIHJldHVybiBvdXQKCgpkZWYgX3Rva2VuaXplX2Nqayh0ZXh0OiBzdHIpIC0+IGxpc3Rbc3RyXToKICAgIHJldHVybiBfdG9rZW5pemUodGV4dCkgKyBfYmlncmFtcyh0ZXh0KQoKCmRlZiBfZG9jX2ZyZXEoY2h1bmtzOiBJdGVyYWJsZVtEb2N1bWVudENodW5rXSkgLT4gQ291bnRlcltzdHJdOgogICAgZGY6IENvdW50ZXJbc3RyXSA9IENvdW50ZXIoKQogICAgZm9yIGMgaW4gY2h1bmtzOgogICAgICAgIGZvciB0ZXJtIGluIHNldChfdG9rZW5pemVfY2prKGMudGV4dCkpOgogICAgICAgICAgICBkZlt0ZXJtXSArPSAxCiAgICByZXR1cm4gZGYKCgpkZWYgX2NsYXNzaWZ5X3F1YWxpdHkocmVsZXZhbmNlOiBmbG9hdCwgaGFzX3BocmFzZTogYm9vbCA9IEZhbHNlKSAtPiBFdmlkZW5jZVF1YWxpdHk6CiAgICBpZiByZWxldmFuY2UgPD0gMDoKICAgICAgICByZXR1cm4gRXZpZGVuY2VRdWFsaXR5Lk1JU1NJTkcKICAgIGlmIGhhc19waHJhc2UgYW5kIHJlbGV2YW5jZSA+PSAwLjU6CiAgICAgICAgcmV0dXJuIEV2aWRlbmNlUXVhbGl0eS5ESVJFQ1QKICAgIGlmIHJlbGV2YW5jZSA+PSAwLjQ6CiAgICAgICAgcmV0dXJuIEV2aWRlbmNlUXVhbGl0eS5JTkRJUkVDVAogICAgcmV0dXJuIEV2aWRlbmNlUXVhbGl0eS5JTkRJUkVDVAoKCmRlZiByZXRyaWV2ZSgKICAgIHF1ZXJ5OiBzdHIsCiAgICBjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10sCiAgICAqLAogICAgdG9wX2s6IGludCA9IDUsCiAgICBkb2NfZmlsdGVyOiBsaXN0W3N0cl0gfCBOb25lID0gTm9uZSwKKSAtPiBsaXN0W0V2aWRlbmNlXToKICAgIGlmIG5vdCBjaHVua3M6CiAgICAgICAgcmV0dXJuIFtdCgogICAgcG9vbCA9IFtjIGZvciBjIGluIGNodW5rcyBpZiBub3QgZG9jX2ZpbHRlciBvciBjLmRvY19pZCBpbiBkb2NfZmlsdGVyXQogICAgaWYgbm90IHBvb2w6CiAgICAgICAgcmV0dXJuIFtdCgogICAgcV90b2tlbnMgPSBfdG9rZW5pemVfY2prKHF1ZXJ5KQogICAgaWYgbm90IHFfdG9rZW5zOgogICAgICAgIHJldHVybiBbXQoKICAgIGRmID0gX2RvY19mcmVxKHBvb2wpCiAgICBuID0gbGVuKHBvb2wpCiAgICBpZGYgPSB7dGVybTogbWF0aC5sb2coMSArIChuIC0gZnJlcSArIDAuNSkgLyAoZnJlcSArIDAuNSkpIGZvciB0ZXJtLCBmcmVxIGluIGRmLml0ZW1zKCl9CgogICAgc2NvcmVkOiBsaXN0W3R1cGxlW2Zsb2F0LCBEb2N1bWVudENodW5rXV0gPSBbXQogICAgcV9jb3VudGVyID0gQ291bnRlcihxX3Rva2VucykKICAgIG5lZWRsZSA9IHF1ZXJ5LnN0cmlwKCkubG93ZXIoKQoKICAgIGZvciBjIGluIHBvb2w6CiAgICAgICAgdG9rcyA9IF90b2tlbml6ZV9jamsoYy50ZXh0KQogICAgICAgIGlmIG5vdCB0b2tzOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRmID0gQ291bnRlcih0b2tzKQogICAgICAgIHNjb3JlID0gMC4wCiAgICAgICAgZm9yIHRlcm0sIHF0ZiBpbiBxX2NvdW50ZXIuaXRlbXMoKToKICAgICAgICAgICAgaWYgdGVybSBub3QgaW4gdGY6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBzY29yZSArPSBpZGYuZ2V0KHRlcm0sIDAuMCkgKiB0Zlt0ZXJtXSAqIChxdGYpIC8gKHRmW3Rlcm1dICsgMS4wKQogICAgICAgIGhhc19waHJhc2UgPSBib29sKG5lZWRsZSkgYW5kIGFueShuZWVkbGUgaW4gdG9rIGZvciB0b2sgaW4gdG9rcykKICAgICAgICBpZiBoYXNfcGhyYXNlOgogICAgICAgICAgICBzY29yZSArPSAxLjUKICAgICAgICBpZiBzY29yZSA8PSAwOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHNjb3JlZC5hcHBlbmQoKHNjb3JlLCBjKSkKCiAgICBzY29yZWQuc29ydChrZXk9bGFtYmRhIHg6IHhbMF0sIHJldmVyc2U9VHJ1ZSkKICAgIGlmIG5vdCBzY29yZWQ6CiAgICAgICAgcmV0dXJuIFtdCgogICAgbWF4X3Njb3JlID0gc2NvcmVkWzBdWzBdIG9yIDEuMAogICAgb3V0OiBsaXN0W0V2aWRlbmNlXSA9IFtdCiAgICBmb3Igc2NvcmUsIGMgaW4gc2NvcmVkWzp0b3Bfa106CiAgICAgICAgc25pcHBldCA9IGMudGV4dC5zdHJpcCgpLnJlcGxhY2UoIlxuIiwgIiAiKQogICAgICAgIGlmIGxlbihzbmlwcGV0KSA+IDI0MDoKICAgICAgICAgICAgc25pcHBldCA9IHNuaXBwZXRbOjI0MF0gKyAi4oCmIgogICAgICAgIHJlbCA9IG1pbigxLjAsIHNjb3JlIC8gbWF4X3Njb3JlKQogICAgICAgIHF1YWxpdHkgPSBfY2xhc3NpZnlfcXVhbGl0eShyZWwsIGhhc19waHJhc2U9Ym9vbChuZWVkbGUpIGFuZCBuZWVkbGUgaW4gYy50ZXh0Lmxvd2VyKCkpCiAgICAgICAgb3V0LmFwcGVuZCgKICAgICAgICAgICAgRXZpZGVuY2UoCiAgICAgICAgICAgICAgICBkb2N1bWVudD1jLmRvY3VtZW50LAogICAgICAgICAgICAgICAgcGFnZT1jLnBhZ2UsCiAgICAgICAgICAgICAgICBjaHVua19pZD1mIntjLmRvY19pZH06cHtjLnBhZ2V9IiwKICAgICAgICAgICAgICAgIHF1b3RlPXNuaXBwZXQsCiAgICAgICAgICAgICAgICBsb2NhdG9yPWYicGFnZTp7Yy5wYWdlfSIsCiAgICAgICAgICAgICAgICByZWxldmFuY2U9cm91bmQocmVsLCAzKSwKICAgICAgICAgICAgICAgIHNjb3JlPXJvdW5kKHNjb3JlLCAzKSwKICAgICAgICAgICAgICAgIGV2aWRlbmNlX3R5cGU9ImRpcmVjdCIgaWYgcXVhbGl0eSA9PSBFdmlkZW5jZVF1YWxpdHkuRElSRUNUIGVsc2UgImluZGlyZWN0IiwKICAgICAgICAgICAgICAgIGRvY19pZD1jLmRvY19pZCwKICAgICAgICAgICAgICAgIHNvdXJjZV90eXBlPSJ0ZW5kZXIiIGlmIGMuZG9jX2lkID09ICJ0ZW5kZXIiIGVsc2UgImJpZCIsCiAgICAgICAgICAgICAgICBxdWFsaXR5PXF1YWxpdHksCiAgICAgICAgICAgICkKICAgICAgICApCiAgICByZXR1cm4gb3V0
+"""P0 keyword retrieval baseline.
+
+Scores each DocumentChunk by:
+  - token overlap with the query (BM25-lite IDF weighting)
+  - exact substring match bonus
+  - shorter-document length normalization
+
+Phase 4: each returned Evidence is tagged with one of:
+  DIRECT / INDIRECT / WEAK / CONFLICTING / MISSING
+based on the relevance score and whether the quote contains the literal query.
+"""
+
+from __future__ import annotations
+
+import math
+import re
+from collections import Counter
+from typing import Iterable
+
+from tenderguard.app.schemas import DocumentChunk, Evidence, EvidenceQuality
+
+
+_TOKEN_RE = re.compile(r"[\w一-鿿]+", re.UNICODE)
+
+
+def _tokenize(text: str) -> list[str]:
+    return [t.lower() for t in _TOKEN_RE.findall(text or "")]
+
+
+def _bigrams(text: str) -> list[str]:
+    out: list[str] = []
+    for i in range(len(text) - 1):
+        pair = text[i : i + 2]
+        if re.search(r"[一-鿿]", pair):
+            out.append(pair.lower())
+    return out
+
+
+def _tokenize_cjk(text: str) -> list[str]:
+    return _tokenize(text) + _bigrams(text)
+
+
+def _doc_freq(chunks: Iterable[DocumentChunk]) -> Counter[str]:
+    df: Counter[str] = Counter()
+    for c in chunks:
+        for term in set(_tokenize_cjk(c.text)):
+            df[term] += 1
+    return df
+
+
+def _classify_quality(relevance: float, has_phrase: bool = False) -> EvidenceQuality:
+    if relevance <= 0:
+        return EvidenceQuality.MISSING
+    if has_phrase and relevance >= 0.5:
+        return EvidenceQuality.DIRECT
+    if relevance >= 0.4:
+        return EvidenceQuality.INDIRECT
+    return EvidenceQuality.INDIRECT
+
+
+def retrieve(
+    query: str,
+    chunks: list[DocumentChunk],
+    *,
+    top_k: int = 5,
+    doc_filter: list[str] | None = None,
+) -> list[Evidence]:
+    if not chunks:
+        return []
+
+    pool = [c for c in chunks if not doc_filter or c.doc_id in doc_filter]
+    if not pool:
+        return []
+
+    q_tokens = _tokenize_cjk(query)
+    if not q_tokens:
+        return []
+
+    df = _doc_freq(pool)
+    n = len(pool)
+    idf = {term: math.log(1 + (n - freq + 0.5) / (freq + 0.5)) for term, freq in df.items()}
+
+    scored: list[tuple[float, DocumentChunk]] = []
+    q_counter = Counter(q_tokens)
+    needle = query.strip().lower()
+
+    for c in pool:
+        toks = _tokenize_cjk(c.text)
+        if not toks:
+            continue
+        tf = Counter(toks)
+        score = 0.0
+        for term, qtf in q_counter.items():
+            if term not in tf:
+                continue
+            score += idf.get(term, 0.0) * tf[term] * (qtf) / (tf[term] + 1.0)
+        has_phrase = bool(needle) and any(needle in tok for tok in toks)
+        if has_phrase:
+            score += 1.5
+        if score <= 0:
+            continue
+        scored.append((score, c))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    if not scored:
+        return []
+
+    max_score = scored[0][0] or 1.0
+    out: list[Evidence] = []
+    for score, c in scored[:top_k]:
+        snippet = c.text.strip().replace("\n", " ")
+        if len(snippet) > 240:
+            snippet = snippet[:240] + "…"
+        rel = min(1.0, score / max_score)
+        quality = _classify_quality(rel, has_phrase=bool(needle) and needle in c.text.lower())
+        out.append(
+            Evidence(
+                document=c.document,
+                page=c.page,
+                chunk_id=f"{c.doc_id}:p{c.page}",
+                quote=snippet,
+                locator=f"page:{c.page}",
+                relevance=round(rel, 3),
+                score=round(score, 3),
+                evidence_type="direct" if quality == EvidenceQuality.DIRECT else "indirect",
+                doc_id=c.doc_id,
+                source_type="tender" if c.doc_id == "tender" else "bid",
+                quality=quality,
+            )
+        )
+    return out

@@ -1,1 +1,1 @@
-IiIiRG9jdW1lbnQgaW5nZXN0aW9uIChQREYgLyBET0NYIC8gVFhUKSAtPiBEb2N1bWVudENodW5rIGxpc3QuIiIi
+"""Document ingestion (PDF / DOCX / TXT) -> DocumentChunk list."""

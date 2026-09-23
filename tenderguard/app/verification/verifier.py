@@ -1,1 +1,503 @@
-IiIiVmVyaWZpY2F0aW9uIHBpcGVsaW5lICh2MC4zOiBzcGVjIMKn5LiDL8Kn5YWrL8Kn5Y2B5LiAKS4KCkZvciBlYWNoIGNoZWNrbGlzdCBpdGVtOgogIDAuIENoZWNrIHByZWNvbmRpdGlvbnMgKHNwZWMgwqflhaspLiBJZiBhbnkgcHJlY29uZGl0aW9uIGZhaWxzIOKGkiBJTlNVRkZJQ0lFTlRfRVZJREVOQ0UKICAxLiBSdW4gcnVsZSAoYXV0aG9yaXRhdGl2ZTsgc3BlYyDCp+WbmyAvIMKn5Y2BKQogIDIuIEFnZ3JlZ2F0ZSBldmlkZW5jZV9xdWFsaXR5IGFjcm9zcyBhbGwgcmV0cmlldmVkIGV2aWRlbmNlCiAgMy4gRGVjaXNpb24gbG9naWM6CiAgICAgLSBET0NVTUVOVF9ERVRFUk1JTklTVElDIGl0ZW1zOiBydWxlIHJlc3VsdCBpcyBmaW5hbCAod2l0aCBoYXJkLXJ1bGUgd2hpdGVsaXN0KQogICAgIC0gRE9DVU1FTlRfSFlCUklEIC8gU0VNQU5USUMgaXRlbXM6IExMTSBmYWxsYmFjayBpZiBydWxlIGlzIE5vbmUKICAgICAtIENSSVRJQ0FML0hJR0ggKyBzdGF0dXMgUEFTUyBidXQgcXVhbGl0eSA8IERJUkVDVCDihpIgZG93bmdyYWRlIFJFVklFV19SRVFVSVJFRAogICAgIC0gQ09ORkxJQ1RJTkcgZXZpZGVuY2UgYWx3YXlzIOKGkiBSRVZJRVdfUkVRVUlSRUQKICA0LiBBdHRhY2ggcmV2aWV3X3JlYXNvbiArIHJldmlld19xdWVzdGlvbiArIHJlY29tbWVuZGVkX2FjdGlvbiAoc3BlYyDCp+WNgeWFrSkKICA1LiBCaW5kIGV2aWRlbmNlIHRvIGF0b21pY19yZXF1aXJlbWVudHMgKHNwZWMgwqflha0pCiIiIgoKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCByZQpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSB0ZW5kZXJndWFyZC5hcHAuZXh0cmFjdGlvbi5mYWN0cyBpbXBvcnQgZXh0cmFjdF9mYWN0cwpmcm9tIHRlbmRlcmd1YXJkLmFwcC5leHRyYWN0aW9uLmxsbSBpbXBvcnQgTExNQ2xpZW50LCBMTE1VbmF2YWlsYWJsZQpmcm9tIHRlbmRlcmd1YXJkLmFwcC5yZXRyaWV2YWwua2V5d29yZCBpbXBvcnQgcmV0cmlldmUKZnJvbSB0ZW5kZXJndWFyZC5hcHAucnVsZXMuZW5naW5lIGltcG9ydCBSdWxlUmVzdWx0LCBydW5fcnVsZQpmcm9tIHRlbmRlcmd1YXJkLmFwcC5zY2hlbWFzIGltcG9ydCAoCiAgICBDaGVja2xpc3RJdGVtLAogICAgRG9jdW1lbnRDaHVuaywKICAgIEV2aWRlbmNlLAogICAgRXZpZGVuY2VRdWFsaXR5LAogICAgUmVxdWlyZW1lbnRDb3ZlcmFnZSwKICAgIFJldmlld1JlYXNvbiwKICAgIFJldmlld1R5cGUsCiAgICBWZXJpZmljYXRpb25NZXRob2QsCiAgICBWZXJpZmljYXRpb25SZXN1bHQsCiAgICBWZXJpZmljYXRpb25TdGF0dXMsCikKCgpfSEFSRF9SVUxFU19ORVZFUl9PVkVSUklEREVOID0gZnJvemVuc2V0KHsKICAgICJzYW1lX21vZGVsX3NhbWVfcHJpY2UiLCAic3VtX2VxdWFscyIsCiAgICAiZXF1YWxzIiwgIm5vdF9lcXVhbHMiLAogICAgIm51bWVyaWNfZ3QiLCAibnVtZXJpY19ndGUiLCAibnVtZXJpY19sdCIsICJudW1lcmljX2x0ZSIsCiAgICAiZGF0ZV9iZWZvcmUiLCAiZGF0ZV9hZnRlciIsCiAgICAiY291bnRfZ3RlIiwKICAgICJyZXF1aXJlZCIsICJleGlzdHMiLAogICAgImNvbnRhaW5zIiwgIm5vdF9jb250YWlucyIsICJyZWdleCIsCiAgICAic2FtZV92YWx1ZSIsICJmaWVsZF9jb25zaXN0ZW5jeSIsCn0pCgoKQGRhdGFjbGFzcwpjbGFzcyBWZXJpZnlDb250ZXh0OgogICAgY2h1bmtzOiBsaXN0W0RvY3VtZW50Q2h1bmtdCiAgICBmYWN0czogZGljdFtzdHIsIEFueV0KICAgIGxsbTogTExNQ2xpZW50CiAgICBhdWRpdF9pZDogc3RyID0gIiIKICAgIHByb21wdF9wYXRoOiBzdHIgPSAiIgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUHJlY29uZGl0aW9uIGNoZWNrIChzcGVjIMKn5YWrKQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKCmRlZiBfY2hlY2tfcHJlY29uZGl0aW9ucyhpdGVtOiBDaGVja2xpc3RJdGVtLCBmYWN0czogZGljdFtzdHIsIEFueV0pIC0+IHR1cGxlW2Jvb2wsIGxpc3Rbc3RyXV06CiAgICAiIiJFYWNoIHByZWNvbmRpdGlvbi5leHByZXNzaW9uIGlzIGEgZG90dGVkIHBhdGggb3Igc2ltcGxlIGFzc2VydGlvbi4KCiAgICBTdXBwb3J0ZWQgZm9ybXM6CiAgICAgIC0gImZhY3RzLmEuYiAhPSBudWxsIiAgICAgIChwcmVzZW5jZSArIG5vbi1lbXB0eSkKICAgICAgLSAiZmFjdHMuYSBpcyBub3QgTm9uZSIKICAgICAgLSAiYmlkLnByaWNlX3Jvd3MgaXMgbm90IGVtcHR5IgogICAgICAtICJhLmIiICAocHJlc2VuY2UgKyBub24tZW1wdHkpCiAgICBSZXR1cm5zIChhbGxfcGFzcywgbGlzdF9vZl9mYWlsZWRfZXhwcmVzc2lvbnMpLgogICAgIiIiCgogICAgZmFpbGVkOiBsaXN0W3N0cl0gPSBbXQogICAgZm9yIHByZSBpbiBpdGVtLnByZWNvbmRpdGlvbnM6CiAgICAgICAgZXhwciA9IHByZS5leHByZXNzaW9uCiAgICAgICAgIyBBY2NlcHQgImZhY3RzLmEuYiIgLyAiYS5iIiAvICJhLmIgaXMgbm90IGVtcHR5IiAvICJhLmIgIT0gbnVsbCIKICAgICAgICBtID0gcmUuc2VhcmNoKHIiKD86ZmFjdHNcLik/KFtcd11bXHdcLl0qKSIsIGV4cHIpCiAgICAgICAgaWYgbm90IG06CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZG90dGVkID0gbS5ncm91cCgxKQogICAgICAgIHRyeToKICAgICAgICAgICAgdiA9IF9kb3R0ZWRfZ2V0KGZhY3RzLCBkb3R0ZWQpCiAgICAgICAgZXhjZXB0IEtleUVycm9yOgogICAgICAgICAgICBmYWlsZWQuYXBwZW5kKGV4cHIpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgdiBpcyBOb25lIG9yIHYgPT0gIiIgb3IgKGlzaW5zdGFuY2UodiwgKGxpc3QsIGRpY3QpKSBhbmQgbGVuKHYpID09IDApOgogICAgICAgICAgICBmYWlsZWQuYXBwZW5kKGV4cHIpCiAgICByZXR1cm4gbGVuKGZhaWxlZCkgPT0gMCwgZmFpbGVkCgoKZGVmIF9kb3R0ZWRfZ2V0KGZhY3RzOiBkaWN0W3N0ciwgQW55XSwgZG90dGVkOiBzdHIpIC0+IEFueToKICAgIGlmIGRvdHRlZCBpbiBmYWN0czoKICAgICAgICByZXR1cm4gZmFjdHNbZG90dGVkXQogICAgY3VyOiBBbnkgPSBmYWN0cwogICAgZm9yIHBhcnQgaW4gZG90dGVkLnNwbGl0KCIuIik6CiAgICAgICAgaWYgaXNpbnN0YW5jZShjdXIsIGRpY3QpIGFuZCBwYXJ0IGluIGN1cjoKICAgICAgICAgICAgY3VyID0gY3VyW3BhcnRdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcmFpc2UgS2V5RXJyb3IoZG90dGVkKQogICAgcmV0dXJuIGN1cgoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUGF0aCAtPiBDaGluZXNlIGtleXdvcmQgZXhwYW5zaW9uIGZvciByZXRyaWV2YWwgcXVlcnkKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCgpfUEFUSF9LRVlXT1JEUzogZGljdFtzdHIsIHN0cl0gPSB7CiAgICAicHJvamVjdF9uYW1lIjogIumhueebruWQjeensCIsCiAgICAicHJvamVjdF9pZCI6ICLpobnnm67nvJblj7ciLAogICAgInBhY2thZ2VfaWQiOiAi5YyF5Y+3IiwKICAgICJiaWRkZXJfbmFtZSI6ICLmipXmoIfkurog5ZCN56ewIOiQpeS4muaJp+eFpyIsCiAgICAibGVnYWxfcmVwcmVzZW50YXRpdmUiOiAi5rOV5Lq65Luj6KGoIiwKICAgICJhdXRob3JpemVkX3BlcnNvbiI6ICLooqvmjojmnYPkuroiLAogICAgImFtb3VudCI6ICLph5Hpop0iLAogICAgInBheWVlIjogIuaUtuasviIsCiAgICAidG90YWxfcHJpY2UiOiAi5oC75Lu3IOWQiOiuoSIsCiAgICAicHJpY2VfY2VpbGluZyI6ICLpmZDku7cg5oum5qCH5Lu3IiwKICAgICJjb250cmFjdF9hbW91bnQiOiAi5ZCI5ZCMIOmHkeminSIsCiAgICAibmFtZSI6ICLlkI3np7AiLAogICAgIm51bWJlciI6ICLnvJblj7ciLAogICAgImNvbXBhbnlfbmFtZSI6ICLlhazlj7jlkI3np7AiLAogICAgInRlc3RfcmVwb3J0X25hbWUiOiAi5qOA5rWL5oql5ZGKIOWQjeensCIsCiAgICAidGVzdF9yZXBvcnRfbm8iOiAi5oql5ZGK57yW5Y+3IiwKfQoKCmRlZiBfcGF0aF90b19jaGluZXNlKGRvdHRlZDogc3RyKSAtPiBsaXN0W3N0cl06CiAgICBvdXQ6IGxpc3Rbc3RyXSA9IFtdCiAgICBmb3IgcGFydCBpbiBkb3R0ZWQuc3BsaXQoIi4iKToKICAgICAgICBvdXQuZXh0ZW5kKF9QQVRIX0tFWVdPUkRTLmdldChwYXJ0LCBwYXJ0KS5zcGxpdCgpKQogICAgcmV0dXJuIG91dAoKCmRlZiBfcXVlcnlfZm9yKGl0ZW06IENoZWNrbGlzdEl0ZW0pIC0+IHN0cjoKICAgIHBhcnRzID0gW2l0ZW0udGl0bGUsIGl0ZW0uc291cmNlX3RleHRdCiAgICAjIGluY2x1ZGUgYXRvbWljIHJlcXVpcmVtZW50IGRlc2NyaXB0aW9ucyB0byB3aWRlbiB0aGUgcXVlcnkKICAgIGZvciByIGluIGl0ZW0uYXRvbWljX3JlcXVpcmVtZW50cyBvciBbXToKICAgICAgICBwYXJ0cy5hcHBlbmQoci5kZXNjcmlwdGlvbikKICAgIHJ1bGUgPSBpdGVtLnJ1bGUgb3Ige30KICAgIGZvciBrZXkgaW4gKCJmaWVsZHMiLCAiYWN0dWFsX2ZpZWxkIiwgInJlcXVpcmVkX2ZpZWxkIik6CiAgICAgICAgdiA9IHJ1bGUuZ2V0KGtleSkKICAgICAgICBpZiBpc2luc3RhbmNlKHYsIHN0cik6CiAgICAgICAgICAgIHBhcnRzLmV4dGVuZChfcGF0aF90b19jaGluZXNlKHYpKQogICAgICAgIGVsaWYgaXNpbnN0YW5jZSh2LCBsaXN0KToKICAgICAgICAgICAgZm9yIGYgaW4gdjoKICAgICAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UoZiwgc3RyKToKICAgICAgICAgICAgICAgICAgICBwYXJ0cy5leHRlbmQoX3BhdGhfdG9fY2hpbmVzZShmKSkKICAgIGZvciBwYWlyIGluIHJ1bGUuZ2V0KCJwYWlycyIsIFtdKSBvciBbXToKICAgICAgICBmb3IgZiBpbiBwYWlyOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKGYsIHN0cik6CiAgICAgICAgICAgICAgICBwYXJ0cy5leHRlbmQoX3BhdGhfdG9fY2hpbmVzZShmKSkKICAgIHJldHVybiAiICIuam9pbihwIGZvciBwIGluIHBhcnRzIGlmIHApCgoKZGVmIF9kb2NfZmlsdGVyX2ZvcihpdGVtOiBDaGVja2xpc3RJdGVtKSAtPiBsaXN0W3N0cl0gfCBOb25lOgogICAgIiIiRm9yIERPQ1VNRU5UXyogdHlwZXMsIHNlYXJjaCBib3RoIGRvY3M7IGZvciBodW1hbi1vbmx5IGRvbid0IHNlYXJjaC4iIiIKICAgIGlmIGl0ZW0ucmV2aWV3X3R5cGUgaW4gKFJldmlld1R5cGUuUFJPQ0VTU19IVU1BTiwgUmV2aWV3VHlwZS5TVFJBVEVHWV9IVU1BTiwgUmV2aWV3VHlwZS5FWFRFUk5BTF9EQVRBKToKICAgICAgICByZXR1cm4gWyJ0ZW5kZXIiLCAiYmlkIl0KICAgIGlmIGl0ZW0ucmV2aWV3X3R5cGUgPT0gUmV2aWV3VHlwZS5ET0NVTUVOVF9TRU1BTlRJQzoKICAgICAgICByZXR1cm4gWyJ0ZW5kZXIiLCAiYmlkIl0KICAgIHJldHVybiBbInRlbmRlciIsICJiaWQiXQoKCmRlZiBfYWdncmVnYXRlX2V2aWRlbmNlX3F1YWxpdHkoZXZpZGVuY2U6IGxpc3RbRXZpZGVuY2VdKSAtPiBFdmlkZW5jZVF1YWxpdHk6CiAgICBpZiBub3QgZXZpZGVuY2U6CiAgICAgICAgcmV0dXJuIEV2aWRlbmNlUXVhbGl0eS5NSVNTSU5HCiAgICBxID0ge2UucXVhbGl0eSBmb3IgZSBpbiBldmlkZW5jZX0KICAgIGlmIEV2aWRlbmNlUXVhbGl0eS5DT05GTElDVElORyBpbiBxOgogICAgICAgIHJldHVybiBFdmlkZW5jZVF1YWxpdHkuQ09ORkxJQ1RJTkcKICAgIGlmIEV2aWRlbmNlUXVhbGl0eS5ESVJFQ1QgaW4gcToKICAgICAgICByZXR1cm4gRXZpZGVuY2VRdWFsaXR5LkRJUkVDVAogICAgaWYgRXZpZGVuY2VRdWFsaXR5LlNVUFBPUlRJTkcgaW4gcToKICAgICAgICByZXR1cm4gRXZpZGVuY2VRdWFsaXR5LlNVUFBPUlRJTkcKICAgIGlmIEV2aWRlbmNlUXVhbGl0eS5JTkRJUkVDVCBpbiBxOgogICAgICAgIHJldHVybiBFdmlkZW5jZVF1YWxpdHkuSU5ESVJFQ1QKICAgIHJldHVybiBFdmlkZW5jZVF1YWxpdHkuV0VBSwoKCmRlZiBfY29uZmlkZW5jZShzdGF0dXM6IFZlcmlmaWNhdGlvblN0YXR1cywgcnVsZV9wYXNzZWQ6IGJvb2wgfCBOb25lLCBlcTogRXZpZGVuY2VRdWFsaXR5KSAtPiBmbG9hdDoKICAgIGJhc2UgPSAwLjkyIGlmIHJ1bGVfcGFzc2VkIGlzIFRydWUgZWxzZSAwLjcKICAgIGlmIHN0YXR1cyA9PSBWZXJpZmljYXRpb25TdGF0dXMuRkFJTDoKICAgICAgICBiYXNlID0gMC44NQogICAgZWxpZiBzdGF0dXMgPT0gVmVyaWZpY2F0aW9uU3RhdHVzLlJFVklFV19SRVFVSVJFRDoKICAgICAgICBiYXNlID0gMC41CiAgICBlbGlmIHN0YXR1cyA9PSBWZXJpZmljYXRpb25TdGF0dXMuTk9UX0FQUExJQ0FCTEU6CiAgICAgICAgYmFzZSA9IDAuOTUKICAgIGJvbnVzID0gewogICAgICAgIEV2aWRlbmNlUXVhbGl0eS5ESVJFQ1Q6IDAuMDUsCiAgICAgICAgRXZpZGVuY2VRdWFsaXR5LlNVUFBPUlRJTkc6IDAuMDIsCiAgICAgICAgRXZpZGVuY2VRdWFsaXR5LklORElSRUNUOiAtMC4wMiwKICAgICAgICBFdmlkZW5jZVF1YWxpdHkuQ09ORkxJQ1RJTkc6IC0wLjEwLAogICAgICAgIEV2aWRlbmNlUXVhbGl0eS5NSVNTSU5HOiAtMC4yMCwKICAgIH1bZXFdCiAgICByZXR1cm4gcm91bmQobWF4KDAuMCwgbWluKDEuMCwgYmFzZSArIGJvbnVzKSksIDIpCgoKZGVmIF9yZXZpZXdfcXVlc3Rpb25fZm9yX3JlYXNvbihyZWFzb246IFJldmlld1JlYXNvbiwgaXRlbTogQ2hlY2tsaXN0SXRlbSkgLT4gc3RyOgogICAgaXRlbV90aXRsZSA9IGl0ZW0udGl0bGUKICAgIG1hcHBpbmcgPSB7CiAgICAgICAgUmV2aWV3UmVhc29uLk1JU1NJTkdfRVZJREVOQ0U6IGYie2l0ZW1fdGl0bGV9IOaJgOmcgOeahOaWh+aho+eJh+auteacquiDveivhuWIq+OAguivt+ehruiupOebuOWFs+eroOiKguaYr+WQpuWcqOaWh+aho+S4reOAgiIsCiAgICAgICAgUmV2aWV3UmVhc29uLkVYVFJBQ1RJT05fRkFJTEVEOiBmIntpdGVtX3RpdGxlfSDmiYDpnIDlrZfmrrXmnKrog73ku44gUERGIOaKveWPluOAguivt+aPkOS+m+WOn+aWh+eJh+auteS7peS+m+S6uuW3peagh+azqOOAgiIsCiAgICAgICAgUmV2aWV3UmVhc29uLlRBQkxFX0VYVFJBQ1RJT05fRkFJTEVEOiBmIntpdGVtX3RpdGxlfSDkvp3otZbmiqXku7fooagv5Y+C5pWw6KGo77yM5pyq6IO96Kej5p6Q5Ye657uT5p6E5YyW6KGo5qC844CC6K+35o+Q5L6bIENTVi9YTFNYIOaIluS6uuW3peWhq+WGmeaVsOaNruOAgiIsCiAgICAgICAgUmV2aWV3UmVhc29uLlJFVFJJRVZBTF9GQUlMRUQ6IGYie2l0ZW1fdGl0bGV9IOajgOe0ouacquWRveS4reebuOWFs+eroOiKguOAguivt+ehruiupOWFs+mUruivjeaYr+WQpuWHhuehruOAgiIsCiAgICAgICAgUmV2aWV3UmVhc29uLlJFUVVJUkVNRU5UX1VOUkVTT0xWRUQ6IGYie2l0ZW1fdGl0bGV9IOaLm+agh+aWh+S7tuS4remYiOWAvC/moIflh4bmnKrmmI7noa7jgILor7fkuI7mi5vmoIfmlrnnoa7orqTjgIIiLAogICAgICAgIFJldmlld1JlYXNvbi5SVUxFX1VOUkVTT0xWRUQ6IGYie2l0ZW1fdGl0bGV9IOW9k+WJjSBSdWxlIEVuZ2luZSDml6Dms5XliKTlrprjgILor7fmvoTmuIXop4TliJnlrprkuYnjgIIiLAogICAgICAgIFJldmlld1JlYXNvbi5FVklERU5DRV9DT05GTElDVDogZiJ7aXRlbV90aXRsZX0g5oub5qCH5LiO5oqV5qCH5a2Y5Zyo5Yay56qB44CC6K+35Lq65bel5Luy6KOB5ZOq5Lu95Li65YeG44CCIiwKICAgICAgICBSZXZpZXdSZWFzb24uRVhURVJOQUxfREFUQV9SRVFVSVJFRDogZiJ7aXRlbV90aXRsZX0g6ZyA6KaB5p+l6K+i5aSW6YOo57O757uf77yI5Yab6Zif6YeH6LSt5aSx5L+h5ZCN5Y2VL+aUv+W6nOmHh+i0reebruW9lS/kuqflk4HlrpjnvZHvvInjgILor7fkurrlt6Xmn6Xor6LlkI7lm57loavjgIIiLAogICAgICAgIFJldmlld1JlYXNvbi5IVU1BTl9QUk9DRVNTX1JFUVVJUkVEOiBmIntpdGVtX3RpdGxlfSDlsZ7kuo7kvIHkuJrmtYHnqIvkuovpobnvvIzor7fmjIkgU09QIOWkhOeQhuW5tueVmeeXleOAgiIsCiAgICAgICAgUmV2aWV3UmVhc29uLlNUUkFURUdZX1JFUVVJUkVEOiBmIntpdGVtX3RpdGxlfSDmtonlj4rllYbkuJrnrZbnlaXvvIzor7fkuJrliqHotJ/otKPkurrlhrPnrZbjgIIiLAogICAgfQogICAgcmV0dXJuIG1hcHBpbmcuZ2V0KHJlYXNvbiwgaXRlbS5yZXZpZXdfcXVlc3Rpb24gb3IgZiLor7fkurrlt6XlpI3moLgge2l0ZW1fdGl0bGV9IikKCgpkZWYgX3JlY29tbWVuZGVkX2FjdGlvbl9mb3IocmVhc29uOiBSZXZpZXdSZWFzb24sIGl0ZW06IENoZWNrbGlzdEl0ZW0pIC0+IHN0cjoKICAgIHJldHVybiBpdGVtLnJlY29tbWVuZGVkX2FjdGlvbiBvciB7CiAgICAgICAgUmV2aWV3UmVhc29uLk1JU1NJTkdfRVZJREVOQ0U6ICLlnKjmupAgUERGIOS4iuS6uuW3peagh+azqOWFs+mUruWtl+auteWQjumHjei3kSIsCiAgICAgICAgUmV2aWV3UmVhc29uLkVYVFJBQ1RJT05fRkFJTEVEOiAi5L+u5q2j5oq95Y+W6KeE5YiZ5oiW5Lq65bel5aGr5YWl57uT5p6E5YyW5a2X5q61IiwKICAgICAgICBSZXZpZXdSZWFzb24uVEFCTEVfRVhUUkFDVElPTl9GQUlMRUQ6ICLmj5DkvpsgQ1NWL1hMU1gg5oiW5Lq65bel5aGr6KGoIiwKICAgICAgICBSZXZpZXdSZWFzb24uUkVUUklFVkFMX0ZBSUxFRDogIuihpeWFheWFs+mUruivjS/ntKLlvJXlkI7ph43ot5EiLAogICAgICAgIFJldmlld1JlYXNvbi5SRVFVSVJFTUVOVF9VTlJFU09MVkVEOiAi5LiO5oub5qCH5pa556Gu6K6k6ZiI5YC8L+agh+WHhiIsCiAgICAgICAgUmV2aWV3UmVhc29uLlJVTEVfVU5SRVNPTFZFRDogIua+hOa4heinhOWImeWumuS5iSIsCiAgICAgICAgUmV2aWV3UmVhc29uLkVWSURFTkNFX0NPTkZMSUNUOiAi5ZyoIFVJIOS4reafpeeci+ivgeaNruWGsueqge+8jOS6uuW3peijgeWGsyIsCiAgICAgICAgUmV2aWV3UmVhc29uLkVYVEVSTkFMX0RBVEFfUkVRVUlSRUQ6ICLmn6Xor6LlpJbpg6jns7vnu5/lkI7lsIbnu5PmnpzloavlhaUgZmFjdHMiLAogICAgICAgIFJldmlld1JlYXNvbi5IVU1BTl9QUk9DRVNTX1JFUVVJUkVEOiAi5ZyoIFNPUCDns7vnu5/kuK3li77pgIkv55WZ55eVIiwKICAgICAgICBSZXZpZXdSZWFzb24uU1RSQVRFR1lfUkVRVUlSRUQ6ICLlnKjkuJrliqHlhrPnrZbkvJrkuIrnoa7lrpoiLAogICAgfS5nZXQocmVhc29uLCAi6K+35Lq65bel5aSE55CGIikKCgpkZWYgX2lzX2h1bWFuX29ubHkoaXRlbTogQ2hlY2tsaXN0SXRlbSkgLT4gYm9vbDoKICAgIHJldHVybiAoCiAgICAgICAgaXRlbS5yZXZpZXdfdHlwZSBpbiAoUmV2aWV3VHlwZS5QUk9DRVNTX0hVTUFOLCBSZXZpZXdUeXBlLlNUUkFURUdZX0hVTUFOLCBSZXZpZXdUeXBlLkVYVEVSTkFMX0RBVEEpCiAgICAgICAgb3IgaXRlbS52ZXJpZmljYXRpb25fbWV0aG9kIGluIChWZXJpZmljYXRpb25NZXRob2QuSFVNQU5fUkVWSUVXLCBWZXJpZmljYXRpb25NZXRob2QuSFVNQU4pCiAgICApCgoKZGVmIF9ydW5fbGxtX3ZlcmlmaWVyKGN0eDogVmVyaWZ5Q29udGV4dCwgaXRlbTogQ2hlY2tsaXN0SXRlbSwgZXZpZGVuY2U6IGxpc3RbRXZpZGVuY2VdKSAtPiBkaWN0W3N0ciwgQW55XSB8IE5vbmU6CiAgICBpZiBub3QgY3R4LmxsbS5jb25maWd1cmVkOgogICAgICAgIHJldHVybiBOb25lCiAgICB0cnk6CiAgICAgICAgcHJvbXB0X3BhdGggPSBjdHgucHJvbXB0X3BhdGggb3Igb3MucGF0aC5qb2luKCJwcm9tcHRzIiwgInZlcmlmaWVyLnR4dCIpCiAgICAgICAgd2l0aCBvcGVuKHByb21wdF9wYXRoLCAiciIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGZoOgogICAgICAgICAgICBzeXN0ZW0gPSBmaC5yZWFkKCkKICAgIGV4Y2VwdCBPU0Vycm9yOgogICAgICAgIHJldHVybiBOb25lCiAgICB1c2VyX3BheWxvYWQgPSB7CiAgICAgICAgImNoZWNrIjogaXRlbS5tb2RlbF9kdW1wKG1vZGU9Impzb24iKSwKICAgICAgICAiZXZpZGVuY2UiOiBbZS5tb2RlbF9kdW1wKG1vZGU9Impzb24iKSBmb3IgZSBpbiBldmlkZW5jZV0sCiAgICAgICAgImZhY3RzIjogY3R4LmZhY3RzLAogICAgfQogICAgdHJ5OgogICAgICAgIHJldHVybiBjdHgubGxtLmNvbXBsZXRlX2pzb24oc3lzdGVtLCBqc29uLmR1bXBzKHVzZXJfcGF5bG9hZCwgZW5zdXJlX2FzY2lpPUZhbHNlKSkKICAgIGV4Y2VwdCBMTE1VbmF2YWlsYWJsZToKICAgICAgICByZXR1cm4gTm9uZQoKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMgUmVxdWlyZW1lbnQgQ292ZXJhZ2UgTWF0cml4IChzcGVjIMKn5Y2B5YWtKQojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKCmRlZiBfYnVpbGRfY292ZXJhZ2UoCiAgICBpdGVtOiBDaGVja2xpc3RJdGVtLAogICAgZXZpZGVuY2VfYnlfcmVxOiBkaWN0W3N0ciwgbGlzdFtFdmlkZW5jZV1dLAogICAgcnVsZTogUnVsZVJlc3VsdCB8IE5vbmUsCiAgICBlcTogRXZpZGVuY2VRdWFsaXR5LAopIC0+IGxpc3RbUmVxdWlyZW1lbnRDb3ZlcmFnZV06CiAgICAiIiJPbmUgcm93IHBlciBhdG9taWMgcmVxdWlyZW1lbnQuIiIiCgogICAgcm93czogbGlzdFtSZXF1aXJlbWVudENvdmVyYWdlXSA9IFtdCiAgICBieV9yZXEgPSBldmlkZW5jZV9ieV9yZXEgb3Ige3IucmVxdWlyZW1lbnRfaWQ6IFtdIGZvciByIGluIGl0ZW0uYXRvbWljX3JlcXVpcmVtZW50c30KICAgIGZvciByZXEgaW4gaXRlbS5hdG9taWNfcmVxdWlyZW1lbnRzOgogICAgICAgIGV2cyA9IGJ5X3JlcS5nZXQocmVxLnJlcXVpcmVtZW50X2lkLCBbXSkKICAgICAgICB0ZW5kZXJfZXYgPSBuZXh0KChlIGZvciBlIGluIGV2cyBpZiAoZS5kb2NfaWQgb3IgIiIpID09ICJ0ZW5kZXIiKSwgTm9uZSkKICAgICAgICBiaWRfZXYgPSBuZXh0KChlIGZvciBlIGluIGV2cyBpZiAoZS5kb2NfaWQgb3IgIiIpID09ICJiaWQiKSwgTm9uZSkKICAgICAgICBjb3YgPSAiRlVMTCIgaWYgKHRlbmRlcl9ldiBvciBiaWRfZXYpIGVsc2UgIk1JU1NJTkciCiAgICAgICAgaWYgdGVuZGVyX2V2IGFuZCBiaWRfZXY6CiAgICAgICAgICAgIGNvdiA9ICJGVUxMIgogICAgICAgIGVsaWYgdGVuZGVyX2V2IG9yIGJpZF9ldjoKICAgICAgICAgICAgY292ID0gIlBBUlRJQUwiCiAgICAgICAgIyBEZWNpc2lvbiBwZXIgcm93CiAgICAgICAgZGVjaXNpb24gPSAiUkVWSUVXX1JFUVVJUkVEIgogICAgICAgIGlmIHJ1bGUgYW5kIHJ1bGUucGFzc2VkIGlzIFRydWU6CiAgICAgICAgICAgIGRlY2lzaW9uID0gIlBBU1MiCiAgICAgICAgZWxpZiBydWxlIGFuZCBydWxlLnBhc3NlZCBpcyBGYWxzZToKICAgICAgICAgICAgZGVjaXNpb24gPSAiRkFJTCIKICAgICAgICBlbGlmIHJ1bGUgaXMgTm9uZToKICAgICAgICAgICAgZGVjaXNpb24gPSAiUkVWSUVXX1JFUVVJUkVEIgogICAgICAgIGlmIGVxID09IEV2aWRlbmNlUXVhbGl0eS5DT05GTElDVElORzoKICAgICAgICAgICAgZGVjaXNpb24gPSAiUkVWSUVXX1JFUVVJUkVEIgogICAgICAgIHJvd3MuYXBwZW5kKFJlcXVpcmVtZW50Q292ZXJhZ2UoCiAgICAgICAgICAgIHJlcXVpcmVtZW50X2lkPXJlcS5yZXF1aXJlbWVudF9pZCwKICAgICAgICAgICAgcmVxdWlyZW1lbnQ9cmVxLmRlc2NyaXB0aW9uLAogICAgICAgICAgICB2ZXJpZmljYXRpb249cmVxLnZlcmlmaWNhdGlvbiwKICAgICAgICAgICAgdGVuZGVyX2V2aWRlbmNlPXRlbmRlcl9ldiwKICAgICAgICAgICAgYmlkX2V2aWRlbmNlPWJpZF9ldiwKICAgICAgICAgICAgY292ZXJhZ2U9Y292LAogICAgICAgICAgICBkZWNpc2lvbj1kZWNpc2lvbiwKICAgICAgICAgICAgcmVhc29uPXJ1bGUucmVhc29uIGlmIHJ1bGUgZWxzZSAiIiwKICAgICAgICAgICAgcnVsZV90cmFjZT1ydWxlLnRvX2RpY3QoKSBpZiBydWxlIGVsc2Uge30sCiAgICAgICAgKSkKICAgIHJldHVybiByb3dzCgoKZGVmIHZlcmlmeV9pdGVtKGl0ZW06IENoZWNrbGlzdEl0ZW0sIGN0eDogVmVyaWZ5Q29udGV4dCkgLT4gVmVyaWZpY2F0aW9uUmVzdWx0OgogICAgIiIiVmVyaWZ5IGEgc2luZ2xlIGNoZWNrbGlzdCBpdGVtIChzcGVjIMKn5LiDIC8gwqflhasgLyDCp+WNgeS4gCkuIiIiCgogICAgY2hlY2tfcnVuX2lkID0gZiJ7Y3R4LmF1ZGl0X2lkfS17aXRlbS5jaGVja19pZH0iIGlmIGN0eC5hdWRpdF9pZCBlbHNlIGl0ZW0uY2hlY2tfaWQKCiAgICBpZiBfaXNfaHVtYW5fb25seShpdGVtKToKICAgICAgICByZWFzb25fZW51bSA9IHsKICAgICAgICAgICAgUmV2aWV3VHlwZS5QUk9DRVNTX0hVTUFOOiBSZXZpZXdSZWFzb24uSFVNQU5fUFJPQ0VTU19SRVFVSVJFRCwKICAgICAgICAgICAgUmV2aWV3VHlwZS5TVFJBVEVHWV9IVU1BTjogUmV2aWV3UmVhc29uLlNUUkFURUdZX1JFUVVJUkVELAogICAgICAgICAgICBSZXZpZXdUeXBlLkVYVEVSTkFMX0RBVEE6IFJldmlld1JlYXNvbi5FWFRFUk5BTF9EQVRBX1JFUVVJUkVELAogICAgICAgIH0uZ2V0KGl0ZW0ucmV2aWV3X3R5cGUsIFJldmlld1JlYXNvbi5IVU1BTl9QUk9DRVNTX1JFUVVJUkVEKQogICAgICAgIHJldHVybiBWZXJpZmljYXRpb25SZXN1bHQoCiAgICAgICAgICAgIGNoZWNrX3J1bl9pZD1jaGVja19ydW5faWQsCiAgICAgICAgICAgIGNoZWNrX2lkPWl0ZW0uY2hlY2tfaWQsCiAgICAgICAgICAgIHRpdGxlPWl0ZW0udGl0bGUsCiAgICAgICAgICAgIGNhdGVnb3J5PWl0ZW0uY2F0ZWdvcnksCiAgICAgICAgICAgIHNldmVyaXR5PWl0ZW0uc2V2ZXJpdHksCiAgICAgICAgICAgIHJldmlld190eXBlPWl0ZW0ucmV2aWV3X3R5cGUsCiAgICAgICAgICAgIHN0YXR1cz1WZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVELAogICAgICAgICAgICBtZXRob2Q9aXRlbS52ZXJpZmljYXRpb25fbWV0aG9kLAogICAgICAgICAgICByZWFzb249ZiJ7cmVhc29uX2VudW0udmFsdWV9OiDpnIAgeyfkurrlt6Uv5aSW6YOo5pWw5o2uJyBpZiBpdGVtLnJldmlld190eXBlICE9IFJldmlld1R5cGUuU1RSQVRFR1lfSFVNQU4gZWxzZSAn5Lia5Yqh5Yaz562WJ30g5aSE55CG44CCIiwKICAgICAgICAgICAgZXZpZGVuY2U9W10sCiAgICAgICAgICAgIGV2aWRlbmNlX3F1YWxpdHk9RXZpZGVuY2VRdWFsaXR5Lk1JU1NJTkcsCiAgICAgICAgICAgIHJ1bGVfdHJhY2U9eyJyZXZpZXdfdHlwZSI6IGl0ZW0ucmV2aWV3X3R5cGUudmFsdWV9LAogICAgICAgICAgICBydWxlX3Jlc3VsdD17fSwKICAgICAgICAgICAgY29uZmlkZW5jZT0wLjAsCiAgICAgICAgICAgIHJldmlld19yZWFzb249cmVhc29uX2VudW0sCiAgICAgICAgICAgIHJldmlld19xdWVzdGlvbj1pdGVtLnJldmlld19xdWVzdGlvbiBvciBfcmV2aWV3X3F1ZXN0aW9uX2Zvcl9yZWFzb24ocmVhc29uX2VudW0sIGl0ZW0pLAogICAgICAgICAgICByZWNvbW1lbmRlZF9hY3Rpb249aXRlbS5yZWNvbW1lbmRlZF9hY3Rpb24gb3IgX3JlY29tbWVuZGVkX2FjdGlvbl9mb3IocmVhc29uX2VudW0sIGl0ZW0pLAogICAgICAgICAgICBuZWVkc19odW1hbl9yZXZpZXc9VHJ1ZSwKICAgICAgICApCgogICAgIyAtLS0tIFNwZWMgwqflhas6IHByZWNvbmRpdGlvbiBjaGVjayAtLS0tCiAgICBwcmVfb2ssIHByZV9mYWlsZWQgPSBfY2hlY2tfcHJlY29uZGl0aW9ucyhpdGVtLCBjdHguZmFjdHMpCiAgICBpZiBub3QgcHJlX29rOgogICAgICAgIHJldHVybiBWZXJpZmljYXRpb25SZXN1bHQoCiAgICAgICAgICAgIGNoZWNrX3J1bl9pZD1jaGVja19ydW5faWQsCiAgICAgICAgICAgIGNoZWNrX2lkPWl0ZW0uY2hlY2tfaWQsCiAgICAgICAgICAgIHRpdGxlPWl0ZW0udGl0bGUsCiAgICAgICAgICAgIGNhdGVnb3J5PWl0ZW0uY2F0ZWdvcnksCiAgICAgICAgICAgIHNldmVyaXR5PWl0ZW0uc2V2ZXJpdHksCiAgICAgICAgICAgIHJldmlld190eXBlPWl0ZW0ucmV2aWV3X3R5cGUsCiAgICAgICAgICAgIHN0YXR1cz1WZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVELAogICAgICAgICAgICBtZXRob2Q9aXRlbS52ZXJpZmljYXRpb25fbWV0aG9kLAogICAgICAgICAgICByZWFzb249ZiJwcmVjb25kaXRpb24ocykgZmFpbGVkOiB7cHJlX2ZhaWxlZH0iLAogICAgICAgICAgICBldmlkZW5jZT1bXSwKICAgICAgICAgICAgZXZpZGVuY2VfcXVhbGl0eT1FdmlkZW5jZVF1YWxpdHkuTUlTU0lORywKICAgICAgICAgICAgcnVsZV90cmFjZT17InByZWNvbmRpdGlvbnNfZmFpbGVkIjogcHJlX2ZhaWxlZH0sCiAgICAgICAgICAgIHJ1bGVfcmVzdWx0PXt9LAogICAgICAgICAgICBjb25maWRlbmNlPTAuMCwKICAgICAgICAgICAgcmV2aWV3X3JlYXNvbj1SZXZpZXdSZWFzb24uTUlTU0lOR19FVklERU5DRSwKICAgICAgICAgICAgcmV2aWV3X3F1ZXN0aW9uPV9yZXZpZXdfcXVlc3Rpb25fZm9yX3JlYXNvbihSZXZpZXdSZWFzb24uTUlTU0lOR19FVklERU5DRSwgaXRlbSksCiAgICAgICAgICAgIHJlY29tbWVuZGVkX2FjdGlvbj1fcmVjb21tZW5kZWRfYWN0aW9uX2ZvcihSZXZpZXdSZWFzb24uTUlTU0lOR19FVklERU5DRSwgaXRlbSksCiAgICAgICAgICAgIG5lZWRzX2h1bWFuX3Jldmlldz1UcnVlLAogICAgICAgICkKCiAgICAjIC0tLS0gcmV0cmlldmUgZXZpZGVuY2UgLS0tLQogICAgZXZpZGVuY2UgPSByZXRyaWV2ZShfcXVlcnlfZm9yKGl0ZW0pLCBjdHguY2h1bmtzLCB0b3Bfaz01LCBkb2NfZmlsdGVyPV9kb2NfZmlsdGVyX2ZvcihpdGVtKSkKCiAgICAjIEJpbmQgZWFjaCBldmlkZW5jZSB0byB0aGUgbW9zdCBsaWtlbHkgYXRvbWljIHJlcXVpcmVtZW50IGlkIChyb3VnaCBoZXVyaXN0aWMgYnkgdG9rZW4gb3ZlcmxhcCkKICAgIGV2aWRlbmNlX2J5X3JlcTogZGljdFtzdHIsIGxpc3RbRXZpZGVuY2VdXSA9IHtyLnJlcXVpcmVtZW50X2lkOiBbXSBmb3IgciBpbiBpdGVtLmF0b21pY19yZXF1aXJlbWVudHN9CiAgICBmb3IgZSBpbiBldmlkZW5jZToKICAgICAgICBpZiBub3QgaXRlbS5hdG9taWNfcmVxdWlyZW1lbnRzOgogICAgICAgICAgICBicmVhawogICAgICAgICMgcGljayBmaXJzdCByZXF1aXJlbWVudCB3aG9zZSBkZXNjcmlwdGlvbiBzaGFyZXMgYSB0b2tlbiB3aXRoIHRoZSBxdW90ZQogICAgICAgIGJlc3QgPSBpdGVtLmF0b21pY19yZXF1aXJlbWVudHNbMF0ucmVxdWlyZW1lbnRfaWQKICAgICAgICBiZXN0X3Njb3JlID0gMAogICAgICAgIGZvciByIGluIGl0ZW0uYXRvbWljX3JlcXVpcmVtZW50czoKICAgICAgICAgICAgdG9rZW5zID0gc2V0KHIuZGVzY3JpcHRpb24pCiAgICAgICAgICAgIHNjb3JlID0gc3VtKDEgZm9yIHRvayBpbiB0b2tlbnMgaWYgdG9rIGFuZCB0b2sgaW4gZS5xdW90ZSkKICAgICAgICAgICAgaWYgc2NvcmUgPiBiZXN0X3Njb3JlOgogICAgICAgICAgICAgICAgYmVzdF9zY29yZSA9IHNjb3JlCiAgICAgICAgICAgICAgICBiZXN0ID0gci5yZXF1aXJlbWVudF9pZAogICAgICAgIGV2aWRlbmNlX2J5X3JlcS5zZXRkZWZhdWx0KGJlc3QsIFtdKS5hcHBlbmQoZSkKCiAgICAjIC0tLS0gcnVsZSAtLS0tCiAgICBydWxlOiBSdWxlUmVzdWx0IHwgTm9uZSA9IE5vbmUKICAgIGlmIGl0ZW0ucnVsZToKICAgICAgICBydWxlID0gcnVuX3J1bGUoaXRlbS5ydWxlLCBjdHguZmFjdHMpCgogICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlJFVklFV19SRVFVSVJFRAogICAgcmVhc29uID0gIiIKICAgIHJldmlld19xOiBsaXN0W3N0cl0gPSBbXQogICAgcmV2aWV3X3JlYXNvbjogUmV2aWV3UmVhc29uIHwgTm9uZSA9IE5vbmUKICAgIHJ1bGVfdHJhY2U6IGRpY3Rbc3RyLCBBbnldID0gcnVsZS50b19kaWN0KCkgaWYgcnVsZSBlbHNlIHt9CiAgICBvcGVyYXRvciA9IChpdGVtLnJ1bGUgb3Ige30pLmdldCgib3BlcmF0b3IiKSBpZiBpdGVtLnJ1bGUgZWxzZSBOb25lCiAgICBpc19oYXJkX3J1bGUgPSBvcGVyYXRvciBpbiBfSEFSRF9SVUxFU19ORVZFUl9PVkVSUklEREVOCgogICAgaWYgaXRlbS52ZXJpZmljYXRpb25fbWV0aG9kIGluIChWZXJpZmljYXRpb25NZXRob2QuUlVMRSwgVmVyaWZpY2F0aW9uTWV0aG9kLkRFVEVSTUlOSVNUSUMpOgogICAgICAgIGlmIHJ1bGUgaXMgTm9uZToKICAgICAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlJFVklFV19SRVFVSVJFRAogICAgICAgICAgICByZWFzb24gPSAicnVsZSBpbmRldGVybWluYXRlIgogICAgICAgICAgICByZXZpZXdfcmVhc29uID0gUmV2aWV3UmVhc29uLlJVTEVfVU5SRVNPTFZFRAogICAgICAgIGVsaWYgcnVsZS5wYXNzZWQgaXMgVHJ1ZToKICAgICAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlBBU1MKICAgICAgICAgICAgcmVhc29uID0gZiJydWxlIHBhc3NlZDoge3J1bGUucmVhc29ufSIKICAgICAgICBlbGlmIHJ1bGUucGFzc2VkIGlzIEZhbHNlOgogICAgICAgICAgICBzdGF0dXMgPSBWZXJpZmljYXRpb25TdGF0dXMuRkFJTAogICAgICAgICAgICByZWFzb24gPSBmInJ1bGUgZmFpbGVkOiB7cnVsZS5yZWFzb259IgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHN0YXR1cyA9IFZlcmlmaWNhdGlvblN0YXR1cy5SRVZJRVdfUkVRVUlSRUQKICAgICAgICAgICAgcmVhc29uID0gInJ1bGUgcHJvZHVjZWQgbm8gZGVjaXNpb24iCiAgICAgICAgICAgIHJldmlld19yZWFzb24gPSBSZXZpZXdSZWFzb24uQU1CSUdVT1VTX1JVTEUgaWYgRmFsc2UgZWxzZSBSZXZpZXdSZWFzb24uUlVMRV9VTlJFU09MVkVECiAgICBlbGlmIGl0ZW0udmVyaWZpY2F0aW9uX21ldGhvZCBpbiAoVmVyaWZpY2F0aW9uTWV0aG9kLkhZQlJJRCwgVmVyaWZpY2F0aW9uTWV0aG9kLkhZQlJJRF9BTElBUyk6CiAgICAgICAgaWYgcnVsZSBhbmQgcnVsZS5wYXNzZWQgaXMgVHJ1ZToKICAgICAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlBBU1MKICAgICAgICAgICAgcmVhc29uID0gZiJoeWJyaWQgcnVsZSBwYXNzZWQ6IHtydWxlLnJlYXNvbn0iCiAgICAgICAgZWxpZiBydWxlIGFuZCBydWxlLnBhc3NlZCBpcyBGYWxzZToKICAgICAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLkZBSUwKICAgICAgICAgICAgcmVhc29uID0gZiJoeWJyaWQgcnVsZSBmYWlsZWQ6IHtydWxlLnJlYXNvbn0iCiAgICAgICAgZWxzZToKICAgICAgICAgICAgbGxtX3Jlc3AgPSBfcnVuX2xsbV92ZXJpZmllcihjdHgsIGl0ZW0sIGV2aWRlbmNlKQogICAgICAgICAgICBpZiBsbG1fcmVzcDoKICAgICAgICAgICAgICAgIHN0YXR1cyA9IFZlcmlmaWNhdGlvblN0YXR1cyhsbG1fcmVzcC5nZXQoInN0YXR1cyIsICJSRVZJRVdfUkVRVUlSRUQiKSkKICAgICAgICAgICAgICAgIHJlYXNvbiA9IGxsbV9yZXNwLmdldCgicmVhc29uIiwgIiIpCiAgICAgICAgICAgICAgICByZXZpZXdfcSA9IGxsbV9yZXNwLmdldCgicmV2aWV3X3F1ZXN0aW9ucyIsIFtdKSBvciBbXQogICAgICAgICAgICAgICAgcmV2aWV3X3JlYXNvbiA9IFJldmlld1JlYXNvbi5NSVNTSU5HX0VWSURFTkNFCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBzdGF0dXMgPSBWZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVECiAgICAgICAgICAgICAgICByZWFzb24gPSAicnVsZSBpbmRldGVybWluYXRlIGFuZCBubyBMTE0gYXZhaWxhYmxlIgogICAgICAgICAgICAgICAgcmV2aWV3X3JlYXNvbiA9IFJldmlld1JlYXNvbi5NSVNTSU5HX0VWSURFTkNFCiAgICBlbGlmIGl0ZW0udmVyaWZpY2F0aW9uX21ldGhvZCBpbiAoVmVyaWZpY2F0aW9uTWV0aG9kLkxMTSwgVmVyaWZpY2F0aW9uTWV0aG9kLlNFTUFOVElDKToKICAgICAgICBsbG1fcmVzcCA9IF9ydW5fbGxtX3ZlcmlmaWVyKGN0eCwgaXRlbSwgZXZpZGVuY2UpCiAgICAgICAgaWYgbGxtX3Jlc3A6CiAgICAgICAgICAgIHN0YXR1cyA9IFZlcmlmaWNhdGlvblN0YXR1cyhsbG1fcmVzcC5nZXQoInN0YXR1cyIsICJSRVZJRVdfUkVRVUlSRUQiKSkKICAgICAgICAgICAgcmVhc29uID0gbGxtX3Jlc3AuZ2V0KCJyZWFzb24iLCAiIikKICAgICAgICAgICAgcmV2aWV3X3EgPSBsbG1fcmVzcC5nZXQoInJldmlld19xdWVzdGlvbnMiLCBbXSkgb3IgW10KICAgICAgICAgICAgcmV2aWV3X3JlYXNvbiA9IFJldmlld1JlYXNvbi5NSVNTSU5HX0VWSURFTkNFCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlJFVklFV19SRVFVSVJFRAogICAgICAgICAgICByZWFzb24gPSAiTExNIHZlcmlmaWVyIG5vdCBhdmFpbGFibGU7IG1hbnVhbCByZXZpZXcgcmVxdWlyZWQiCiAgICAgICAgICAgIHJldmlld19yZWFzb24gPSBSZXZpZXdSZWFzb24uTUlTU0lOR19FVklERU5DRQoKICAgIGVxID0gX2FnZ3JlZ2F0ZV9ldmlkZW5jZV9xdWFsaXR5KGV2aWRlbmNlKQogICAgIyBTcGVjIMKn5LiDOiBDUklUSUNBTC9ISUdIIG5lZWQgRElSRUNUIChvciBTVVBQT1JUSU5HKSBldmlkZW5jZSB0byBhdXRvLVBBU1MuCiAgICBpZiAoCiAgICAgICAgc3RhdHVzID09IFZlcmlmaWNhdGlvblN0YXR1cy5QQVNTCiAgICAgICAgYW5kIG5vdCBpc19oYXJkX3J1bGUKICAgICAgICBhbmQgaXRlbS5zZXZlcml0eS52YWx1ZSBpbiAoIkNSSVRJQ0FMIiwgIkhJR0giKQogICAgICAgIGFuZCBlcSBub3QgaW4gKEV2aWRlbmNlUXVhbGl0eS5ESVJFQ1QsIEV2aWRlbmNlUXVhbGl0eS5TVVBQT1JUSU5HKQogICAgKToKICAgICAgICBzdGF0dXMgPSBWZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVECiAgICAgICAgcmVhc29uID0gZiJubyBESVJFQ1QvU1VQUE9SVElORyBldmlkZW5jZSAoZ290IHtlcS52YWx1ZX0pLCBkb3duZ3JhZGUgdG8gUkVWSUVXX1JFUVVJUkVEIgogICAgICAgIHJldmlld19yZWFzb24gPSBSZXZpZXdSZWFzb24uTUlTU0lOR19FVklERU5DRQoKICAgICMgSGFyZCBydWxlcyBhcmUgYXV0aG9yaXRhdGl2ZS4KICAgIGlmIGlzX2hhcmRfcnVsZSBhbmQgcnVsZSBpcyBub3QgTm9uZSBhbmQgcnVsZS5wYXNzZWQgaXMgVHJ1ZSBhbmQgc3RhdHVzID09IFZlcmlmaWNhdGlvblN0YXR1cy5SRVZJRVdfUkVRVUlSRUQ6CiAgICAgICAgc3RhdHVzID0gVmVyaWZpY2F0aW9uU3RhdHVzLlBBU1MKICAgICAgICByZWFzb24gPSBmImhhcmQgcnVsZSBwYXNzZWQ6IHtydWxlLnJlYXNvbn0iCiAgICAgICAgcmV2aWV3X3JlYXNvbiA9IE5vbmUKCiAgICAjIENPTkZMSUNUSU5HIGV2aWRlbmNlIGFsd2F5cyDihpIgUkVWSUVXX1JFUVVJUkVECiAgICBpZiBlcSA9PSBFdmlkZW5jZVF1YWxpdHkuQ09ORkxJQ1RJTkcgYW5kIHN0YXR1cyBpbiAoVmVyaWZpY2F0aW9uU3RhdHVzLlBBU1MsIFZlcmlmaWNhdGlvblN0YXR1cy5GQUlMKToKICAgICAgICBzdGF0dXMgPSBWZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVECiAgICAgICAgcmVhc29uID0gImNvbmZsaWN0aW5nIGV2aWRlbmNlIGFjcm9zcyBkb2N1bWVudHMsIGRvd25ncmFkZSB0byBSRVZJRVdfUkVRVUlSRUQiCiAgICAgICAgcmV2aWV3X3JlYXNvbiA9IFJldmlld1JlYXNvbi5FVklERU5DRV9DT05GTElDVAoKICAgIG5lZWRzX2h1bWFuID0gc3RhdHVzIGluIChWZXJpZmljYXRpb25TdGF0dXMuUkVWSUVXX1JFUVVJUkVELCBWZXJpZmljYXRpb25TdGF0dXMuTk9UX0FQUExJQ0FCTEUpCgogICAgIyBSZXF1aXJlbWVudCBjb3ZlcmFnZSBtYXRyaXgKICAgIGNvdmVyYWdlID0gX2J1aWxkX2NvdmVyYWdlKGl0ZW0sIGV2aWRlbmNlX2J5X3JlcSwgcnVsZSwgZXEpCgogICAgcmV0dXJuIFZlcmlmaWNhdGlvblJlc3VsdCgKICAgICAgICBjaGVja19ydW5faWQ9Y2hlY2tfcnVuX2lkLAogICAgICAgIGNoZWNrX2lkPWl0ZW0uY2hlY2tfaWQsCiAgICAgICAgdGl0bGU9aXRlbS50aXRsZSwKICAgICAgICBjYXRlZ29yeT1pdGVtLmNhdGVnb3J5LAogICAgICAgIHNldmVyaXR5PWl0ZW0uc2V2ZXJpdHksCiAgICAgICAgcmV2aWV3X3R5cGU9aXRlbS5yZXZpZXdfdHlwZSwKICAgICAgICBzdGF0dXM9c3RhdHVzLAogICAgICAgIG1ldGhvZD1pdGVtLnZlcmlmaWNhdGlvbl9tZXRob2QsCiAgICAgICAgcmVhc29uPXJlYXNvbiwKICAgICAgICBldmlkZW5jZT1ldmlkZW5jZSwKICAgICAgICBldmlkZW5jZV9xdWFsaXR5PWVxLAogICAgICAgIHJ1bGVfdHJhY2U9cnVsZV90cmFjZSwKICAgICAgICBydWxlX3Jlc3VsdD1ydWxlX3RyYWNlLAogICAgICAgIGNvbmZpZGVuY2U9X2NvbmZpZGVuY2Uoc3RhdHVzLCBydWxlLnBhc3NlZCBpZiBydWxlIGVsc2UgTm9uZSwgZXEpLAogICAgICAgIHJldmlld19xdWVzdGlvbnM9cmV2aWV3X3EsCiAgICAgICAgcmV2aWV3X3JlYXNvbj1yZXZpZXdfcmVhc29uLAogICAgICAgIHJldmlld19xdWVzdGlvbj1fcmV2aWV3X3F1ZXN0aW9uX2Zvcl9yZWFzb24ocmV2aWV3X3JlYXNvbiwgaXRlbSkgaWYgcmV2aWV3X3JlYXNvbiBlbHNlIChyZXZpZXdfcVswXSBpZiByZXZpZXdfcSBlbHNlIChmIuivt+S6uuW3peWkjeaguO+8mntpdGVtLnRpdGxlfSIgaWYgbmVlZHNfaHVtYW4gZWxzZSBOb25lKSksCiAgICAgICAgcmVjb21tZW5kZWRfYWN0aW9uPV9yZWNvbW1lbmRlZF9hY3Rpb25fZm9yKHJldmlld19yZWFzb24sIGl0ZW0pIGlmIHJldmlld19yZWFzb24gZWxzZSAoaXRlbS5yZWNvbW1lbmRlZF9hY3Rpb24gaWYgbmVlZHNfaHVtYW4gZWxzZSBOb25lKSwKICAgICAgICBuZWVkc19odW1hbl9yZXZpZXc9bmVlZHNfaHVtYW4sCiAgICAgICAgcmVxdWlyZW1lbnRfY292ZXJhZ2U9Y292ZXJhZ2UsCiAgICAgICAgY2xhc3NpZmljYXRpb25fcmVhc29uPWl0ZW0uY2xhc3NpZmljYXRpb25fcmVhc29uLAogICAgKQoKCmRlZiB2ZXJpZnlfYWxsKGl0ZW1zOiBsaXN0W0NoZWNrbGlzdEl0ZW1dLCBjaHVua3M6IGxpc3RbRG9jdW1lbnRDaHVua10sIGF1ZGl0X2lkOiBzdHIgPSAiIikgLT4gdHVwbGVbbGlzdFtWZXJpZmljYXRpb25SZXN1bHRdLCBkaWN0W3N0ciwgQW55XV06CiAgICBmYWN0cyA9IGV4dHJhY3RfZmFjdHMoY2h1bmtzKQogICAgbGxtID0gTExNQ2xpZW50KCkKICAgIGN0eCA9IFZlcmlmeUNvbnRleHQoY2h1bmtzPWNodW5rcywgZmFjdHM9ZmFjdHMsIGxsbT1sbG0sIGF1ZGl0X2lkPWF1ZGl0X2lkKQogICAgcmVzdWx0cyA9IFt2ZXJpZnlfaXRlbShpdCwgY3R4KSBmb3IgaXQgaW4gaXRlbXNdCiAgICByZXR1cm4gcmVzdWx0cywgZmFjdHM=
+"""Verification pipeline (v0.3: spec §七/§八/§十一).
+
+For each checklist item:
+  0. Check preconditions (spec §八). If any precondition fails → INSUFFICIENT_EVIDENCE
+  1. Run rule (authoritative; spec §四 / §十)
+  2. Aggregate evidence_quality across all retrieved evidence
+  3. Decision logic:
+     - DOCUMENT_DETERMINISTIC items: rule result is final (with hard-rule whitelist)
+     - DOCUMENT_HYBRID / SEMANTIC items: LLM fallback if rule is None
+     - CRITICAL/HIGH + status PASS but quality < DIRECT → downgrade REVIEW_REQUIRED
+     - CONFLICTING evidence always → REVIEW_REQUIRED
+  4. Attach review_reason + review_question + recommended_action (spec §十六)
+  5. Bind evidence to atomic_requirements (spec §六)
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+from dataclasses import dataclass
+from typing import Any
+
+from tenderguard.app.extraction.facts import extract_facts
+from tenderguard.app.extraction.llm import LLMClient, LLMUnavailable
+from tenderguard.app.retrieval.keyword import retrieve
+from tenderguard.app.rules.engine import RuleResult, run_rule
+from tenderguard.app.schemas import (
+    ChecklistItem,
+    DocumentChunk,
+    Evidence,
+    EvidenceQuality,
+    RequirementCoverage,
+    ReviewReason,
+    ReviewType,
+    VerificationMethod,
+    VerificationResult,
+    VerificationStatus,
+)
+
+
+_HARD_RULES_NEVER_OVERRIDDEN = frozenset({
+    "same_model_same_price", "sum_equals",
+    "equals", "not_equals",
+    "numeric_gt", "numeric_gte", "numeric_lt", "numeric_lte",
+    "date_before", "date_after",
+    "count_gte",
+    "required", "exists",
+    "contains", "not_contains", "regex",
+    "same_value", "field_consistency",
+})
+
+
+@dataclass
+class VerifyContext:
+    chunks: list[DocumentChunk]
+    facts: dict[str, Any]
+    llm: LLMClient
+    audit_id: str = ""
+    prompt_path: str = ""
+
+
+# ---------------------------------------------------------------------------
+# Precondition check (spec §八)
+# ---------------------------------------------------------------------------
+
+
+def _check_preconditions(item: ChecklistItem, facts: dict[str, Any]) -> tuple[bool, list[str]]:
+    """Each precondition.expression is a dotted path or simple assertion.
+
+    Supported forms:
+      - "facts.a.b != null"      (presence + non-empty)
+      - "facts.a is not None"
+      - "bid.price_rows is not empty"
+      - "a.b"  (presence + non-empty)
+    Returns (all_pass, list_of_failed_expressions).
+    """
+
+    failed: list[str] = []
+    for pre in item.preconditions:
+        expr = pre.expression
+        # Accept "facts.a.b" / "a.b" / "a.b is not empty" / "a.b != null"
+        m = re.search(r"(?:facts\.)?([\w][\w\.]*)", expr)
+        if not m:
+            continue
+        dotted = m.group(1)
+        try:
+            v = _dotted_get(facts, dotted)
+        except KeyError:
+            failed.append(expr)
+            continue
+        if v is None or v == "" or (isinstance(v, (list, dict)) and len(v) == 0):
+            failed.append(expr)
+    return len(failed) == 0, failed
+
+
+def _dotted_get(facts: dict[str, Any], dotted: str) -> Any:
+    if dotted in facts:
+        return facts[dotted]
+    cur: Any = facts
+    for part in dotted.split("."):
+        if isinstance(cur, dict) and part in cur:
+            cur = cur[part]
+        else:
+            raise KeyError(dotted)
+    return cur
+
+
+# ---------------------------------------------------------------------------
+# Path -> Chinese keyword expansion for retrieval query
+# ---------------------------------------------------------------------------
+
+
+_PATH_KEYWORDS: dict[str, str] = {
+    "project_name": "项目名称",
+    "project_id": "项目编号",
+    "package_id": "包号",
+    "bidder_name": "投标人 名称 营业执照",
+    "legal_representative": "法人代表",
+    "authorized_person": "被授权人",
+    "amount": "金额",
+    "payee": "收款",
+    "total_price": "总价 合计",
+    "price_ceiling": "限价 拦标价",
+    "contract_amount": "合同 金额",
+    "name": "名称",
+    "number": "编号",
+    "company_name": "公司名称",
+    "test_report_name": "检测报告 名称",
+    "test_report_no": "报告编号",
+}
+
+
+def _path_to_chinese(dotted: str) -> list[str]:
+    out: list[str] = []
+    for part in dotted.split("."):
+        out.extend(_PATH_KEYWORDS.get(part, part).split())
+    return out
+
+
+def _query_for(item: ChecklistItem) -> str:
+    parts = [item.title, item.source_text]
+    # include atomic requirement descriptions to widen the query
+    for r in item.atomic_requirements or []:
+        parts.append(r.description)
+    rule = item.rule or {}
+    for key in ("fields", "actual_field", "required_field"):
+        v = rule.get(key)
+        if isinstance(v, str):
+            parts.extend(_path_to_chinese(v))
+        elif isinstance(v, list):
+            for f in v:
+                if isinstance(f, str):
+                    parts.extend(_path_to_chinese(f))
+    for pair in rule.get("pairs", []) or []:
+        for f in pair:
+            if isinstance(f, str):
+                parts.extend(_path_to_chinese(f))
+    return " ".join(p for p in parts if p)
+
+
+def _doc_filter_for(item: ChecklistItem) -> list[str] | None:
+    """For DOCUMENT_* types, search both docs; for human-only don't search."""
+    if item.review_type in (ReviewType.PROCESS_HUMAN, ReviewType.STRATEGY_HUMAN, ReviewType.EXTERNAL_DATA):
+        return ["tender", "bid"]
+    if item.review_type == ReviewType.DOCUMENT_SEMANTIC:
+        return ["tender", "bid"]
+    return ["tender", "bid"]
+
+
+def _aggregate_evidence_quality(evidence: list[Evidence]) -> EvidenceQuality:
+    if not evidence:
+        return EvidenceQuality.MISSING
+    q = {e.quality for e in evidence}
+    if EvidenceQuality.CONFLICTING in q:
+        return EvidenceQuality.CONFLICTING
+    if EvidenceQuality.DIRECT in q:
+        return EvidenceQuality.DIRECT
+    if EvidenceQuality.SUPPORTING in q:
+        return EvidenceQuality.SUPPORTING
+    if EvidenceQuality.INDIRECT in q:
+        return EvidenceQuality.INDIRECT
+    return EvidenceQuality.WEAK
+
+
+def _confidence(status: VerificationStatus, rule_passed: bool | None, eq: EvidenceQuality) -> float:
+    base = 0.92 if rule_passed is True else 0.7
+    if status == VerificationStatus.FAIL:
+        base = 0.85
+    elif status == VerificationStatus.REVIEW_REQUIRED:
+        base = 0.5
+    elif status == VerificationStatus.NOT_APPLICABLE:
+        base = 0.95
+    bonus = {
+        EvidenceQuality.DIRECT: 0.05,
+        EvidenceQuality.SUPPORTING: 0.02,
+        EvidenceQuality.INDIRECT: -0.02,
+        EvidenceQuality.CONFLICTING: -0.10,
+        EvidenceQuality.MISSING: -0.20,
+    }[eq]
+    return round(max(0.0, min(1.0, base + bonus)), 2)
+
+
+def _review_question_for_reason(reason: ReviewReason, item: ChecklistItem) -> str:
+    item_title = item.title
+    mapping = {
+        ReviewReason.MISSING_EVIDENCE: f"{item_title} 所需的文档片段未能识别。请确认相关章节是否在文档中。",
+        ReviewReason.EXTRACTION_FAILED: f"{item_title} 所需字段未能从 PDF 抽取。请提供原文片段以供人工标注。",
+        ReviewReason.TABLE_EXTRACTION_FAILED: f"{item_title} 依赖报价表/参数表，未能解析出结构化表格。请提供 CSV/XLSX 或人工填写数据。",
+        ReviewReason.RETRIEVAL_FAILED: f"{item_title} 检索未命中相关章节。请确认关键词是否准确。",
+        ReviewReason.REQUIREMENT_UNRESOLVED: f"{item_title} 招标文件中阈值/标准未明确。请与招标方确认。",
+        ReviewReason.RULE_UNRESOLVED: f"{item_title} 当前 Rule Engine 无法判定。请澄清规则定义。",
+        ReviewReason.EVIDENCE_CONFLICT: f"{item_title} 招标与投标存在冲突。请人工仲裁哪份为准。",
+        ReviewReason.EXTERNAL_DATA_REQUIRED: f"{item_title} 需要查询外部系统（军队采购失信名单/政府采购目录/产品官网）。请人工查询后回填。",
+        ReviewReason.HUMAN_PROCESS_REQUIRED: f"{item_title} 属于企业流程事项，请按 SOP 处理并留痕。",
+        ReviewReason.STRATEGY_REQUIRED: f"{item_title} 涉及商业策略，请业务负责人决策。",
+    }
+    return mapping.get(reason, item.review_question or f"请人工复核 {item_title}")
+
+
+def _recommended_action_for(reason: ReviewReason, item: ChecklistItem) -> str:
+    return item.recommended_action or {
+        ReviewReason.MISSING_EVIDENCE: "在源 PDF 上人工标注关键字段后重跑",
+        ReviewReason.EXTRACTION_FAILED: "修正抽取规则或人工填入结构化字段",
+        ReviewReason.TABLE_EXTRACTION_FAILED: "提供 CSV/XLSX 或人工填表",
+        ReviewReason.RETRIEVAL_FAILED: "补充关键词/索引后重跑",
+        ReviewReason.REQUIREMENT_UNRESOLVED: "与招标方确认阈值/标准",
+        ReviewReason.RULE_UNRESOLVED: "澄清规则定义",
+        ReviewReason.EVIDENCE_CONFLICT: "在 UI 中查看证据冲突，人工裁决",
+        ReviewReason.EXTERNAL_DATA_REQUIRED: "查询外部系统后将结果填入 facts",
+        ReviewReason.HUMAN_PROCESS_REQUIRED: "在 SOP 系统中勾选/留痕",
+        ReviewReason.STRATEGY_REQUIRED: "在业务决策会上确定",
+    }.get(reason, "请人工处理")
+
+
+def _is_human_only(item: ChecklistItem) -> bool:
+    return (
+        item.review_type in (ReviewType.PROCESS_HUMAN, ReviewType.STRATEGY_HUMAN, ReviewType.EXTERNAL_DATA)
+        or item.verification_method in (VerificationMethod.HUMAN_REVIEW, VerificationMethod.HUMAN)
+    )
+
+
+def _run_llm_verifier(ctx: VerifyContext, item: ChecklistItem, evidence: list[Evidence]) -> dict[str, Any] | None:
+    if not ctx.llm.configured:
+        return None
+    try:
+        prompt_path = ctx.prompt_path or os.path.join("prompts", "verifier.txt")
+        with open(prompt_path, "r", encoding="utf-8") as fh:
+            system = fh.read()
+    except OSError:
+        return None
+    user_payload = {
+        "check": item.model_dump(mode="json"),
+        "evidence": [e.model_dump(mode="json") for e in evidence],
+        "facts": ctx.facts,
+    }
+    try:
+        return ctx.llm.complete_json(system, json.dumps(user_payload, ensure_ascii=False))
+    except LLMUnavailable:
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Requirement Coverage Matrix (spec §十六)
+# ---------------------------------------------------------------------------
+
+
+def _build_coverage(
+    item: ChecklistItem,
+    evidence_by_req: dict[str, list[Evidence]],
+    rule: RuleResult | None,
+    eq: EvidenceQuality,
+) -> list[RequirementCoverage]:
+    """One row per atomic requirement."""
+
+    rows: list[RequirementCoverage] = []
+    by_req = evidence_by_req or {r.requirement_id: [] for r in item.atomic_requirements}
+    for req in item.atomic_requirements:
+        evs = by_req.get(req.requirement_id, [])
+        tender_ev = next((e for e in evs if (e.doc_id or "") == "tender"), None)
+        bid_ev = next((e for e in evs if (e.doc_id or "") == "bid"), None)
+        cov = "FULL" if (tender_ev or bid_ev) else "MISSING"
+        if tender_ev and bid_ev:
+            cov = "FULL"
+        elif tender_ev or bid_ev:
+            cov = "PARTIAL"
+        # Decision per row
+        decision = "REVIEW_REQUIRED"
+        if rule and rule.passed is True:
+            decision = "PASS"
+        elif rule and rule.passed is False:
+            decision = "FAIL"
+        elif rule is None:
+            decision = "REVIEW_REQUIRED"
+        if eq == EvidenceQuality.CONFLICTING:
+            decision = "REVIEW_REQUIRED"
+        rows.append(RequirementCoverage(
+            requirement_id=req.requirement_id,
+            requirement=req.description,
+            verification=req.verification,
+            tender_evidence=tender_ev,
+            bid_evidence=bid_ev,
+            coverage=cov,
+            decision=decision,
+            reason=rule.reason if rule else "",
+            rule_trace=rule.to_dict() if rule else {},
+        ))
+    return rows
+
+
+def verify_item(item: ChecklistItem, ctx: VerifyContext) -> VerificationResult:
+    """Verify a single checklist item (spec §七 / §八 / §十一)."""
+
+    check_run_id = f"{ctx.audit_id}-{item.check_id}" if ctx.audit_id else item.check_id
+
+    if _is_human_only(item):
+        reason_enum = {
+            ReviewType.PROCESS_HUMAN: ReviewReason.HUMAN_PROCESS_REQUIRED,
+            ReviewType.STRATEGY_HUMAN: ReviewReason.STRATEGY_REQUIRED,
+            ReviewType.EXTERNAL_DATA: ReviewReason.EXTERNAL_DATA_REQUIRED,
+        }.get(item.review_type, ReviewReason.HUMAN_PROCESS_REQUIRED)
+        return VerificationResult(
+            check_run_id=check_run_id,
+            check_id=item.check_id,
+            title=item.title,
+            category=item.category,
+            severity=item.severity,
+            review_type=item.review_type,
+            status=VerificationStatus.REVIEW_REQUIRED,
+            method=item.verification_method,
+            reason=f"{reason_enum.value}: 需 {'人工/外部数据' if item.review_type != ReviewType.STRATEGY_HUMAN else '业务决策'} 处理。",
+            evidence=[],
+            evidence_quality=EvidenceQuality.MISSING,
+            rule_trace={"review_type": item.review_type.value},
+            rule_result={},
+            confidence=0.0,
+            review_reason=reason_enum,
+            review_question=item.review_question or _review_question_for_reason(reason_enum, item),
+            recommended_action=item.recommended_action or _recommended_action_for(reason_enum, item),
+            needs_human_review=True,
+        )
+
+    # ---- Spec §八: precondition check ----
+    pre_ok, pre_failed = _check_preconditions(item, ctx.facts)
+    if not pre_ok:
+        return VerificationResult(
+            check_run_id=check_run_id,
+            check_id=item.check_id,
+            title=item.title,
+            category=item.category,
+            severity=item.severity,
+            review_type=item.review_type,
+            status=VerificationStatus.REVIEW_REQUIRED,
+            method=item.verification_method,
+            reason=f"precondition(s) failed: {pre_failed}",
+            evidence=[],
+            evidence_quality=EvidenceQuality.MISSING,
+            rule_trace={"preconditions_failed": pre_failed},
+            rule_result={},
+            confidence=0.0,
+            review_reason=ReviewReason.MISSING_EVIDENCE,
+            review_question=_review_question_for_reason(ReviewReason.MISSING_EVIDENCE, item),
+            recommended_action=_recommended_action_for(ReviewReason.MISSING_EVIDENCE, item),
+            needs_human_review=True,
+        )
+
+    # ---- retrieve evidence ----
+    evidence = retrieve(_query_for(item), ctx.chunks, top_k=5, doc_filter=_doc_filter_for(item))
+
+    # Bind each evidence to the most likely atomic requirement id (rough heuristic by token overlap)
+    evidence_by_req: dict[str, list[Evidence]] = {r.requirement_id: [] for r in item.atomic_requirements}
+    for e in evidence:
+        if not item.atomic_requirements:
+            break
+        # pick first requirement whose description shares a token with the quote
+        best = item.atomic_requirements[0].requirement_id
+        best_score = 0
+        for r in item.atomic_requirements:
+            tokens = set(r.description)
+            score = sum(1 for tok in tokens if tok and tok in e.quote)
+            if score > best_score:
+                best_score = score
+                best = r.requirement_id
+        evidence_by_req.setdefault(best, []).append(e)
+
+    # ---- rule ----
+    rule: RuleResult | None = None
+    if item.rule:
+        rule = run_rule(item.rule, ctx.facts)
+
+    status = VerificationStatus.REVIEW_REQUIRED
+    reason = ""
+    review_q: list[str] = []
+    review_reason: ReviewReason | None = None
+    rule_trace: dict[str, Any] = rule.to_dict() if rule else {}
+    operator = (item.rule or {}).get("operator") if item.rule else None
+    is_hard_rule = operator in _HARD_RULES_NEVER_OVERRIDDEN
+
+    if item.verification_method in (VerificationMethod.RULE, VerificationMethod.DETERMINISTIC):
+        if rule is None:
+            status = VerificationStatus.REVIEW_REQUIRED
+            reason = "rule indeterminate"
+            review_reason = ReviewReason.RULE_UNRESOLVED
+        elif rule.passed is True:
+            status = VerificationStatus.PASS
+            reason = f"rule passed: {rule.reason}"
+        elif rule.passed is False:
+            status = VerificationStatus.FAIL
+            reason = f"rule failed: {rule.reason}"
+        else:
+            status = VerificationStatus.REVIEW_REQUIRED
+            reason = "rule produced no decision"
+            review_reason = ReviewReason.AMBIGUOUS_RULE if False else ReviewReason.RULE_UNRESOLVED
+    elif item.verification_method in (VerificationMethod.HYBRID, VerificationMethod.HYBRID_ALIAS):
+        if rule and rule.passed is True:
+            status = VerificationStatus.PASS
+            reason = f"hybrid rule passed: {rule.reason}"
+        elif rule and rule.passed is False:
+            status = VerificationStatus.FAIL
+            reason = f"hybrid rule failed: {rule.reason}"
+        else:
+            llm_resp = _run_llm_verifier(ctx, item, evidence)
+            if llm_resp:
+                status = VerificationStatus(llm_resp.get("status", "REVIEW_REQUIRED"))
+                reason = llm_resp.get("reason", "")
+                review_q = llm_resp.get("review_questions", []) or []
+                review_reason = ReviewReason.MISSING_EVIDENCE
+            else:
+                status = VerificationStatus.REVIEW_REQUIRED
+                reason = "rule indeterminate and no LLM available"
+                review_reason = ReviewReason.MISSING_EVIDENCE
+    elif item.verification_method in (VerificationMethod.LLM, VerificationMethod.SEMANTIC):
+        llm_resp = _run_llm_verifier(ctx, item, evidence)
+        if llm_resp:
+            status = VerificationStatus(llm_resp.get("status", "REVIEW_REQUIRED"))
+            reason = llm_resp.get("reason", "")
+            review_q = llm_resp.get("review_questions", []) or []
+            review_reason = ReviewReason.MISSING_EVIDENCE
+        else:
+            status = VerificationStatus.REVIEW_REQUIRED
+            reason = "LLM verifier not available; manual review required"
+            review_reason = ReviewReason.MISSING_EVIDENCE
+
+    eq = _aggregate_evidence_quality(evidence)
+    # Spec §七: CRITICAL/HIGH need DIRECT (or SUPPORTING) evidence to auto-PASS.
+    if (
+        status == VerificationStatus.PASS
+        and not is_hard_rule
+        and item.severity.value in ("CRITICAL", "HIGH")
+        and eq not in (EvidenceQuality.DIRECT, EvidenceQuality.SUPPORTING)
+    ):
+        status = VerificationStatus.REVIEW_REQUIRED
+        reason = f"no DIRECT/SUPPORTING evidence (got {eq.value}), downgrade to REVIEW_REQUIRED"
+        review_reason = ReviewReason.MISSING_EVIDENCE
+
+    # Hard rules are authoritative.
+    if is_hard_rule and rule is not None and rule.passed is True and status == VerificationStatus.REVIEW_REQUIRED:
+        status = VerificationStatus.PASS
+        reason = f"hard rule passed: {rule.reason}"
+        review_reason = None
+
+    # CONFLICTING evidence always → REVIEW_REQUIRED
+    if eq == EvidenceQuality.CONFLICTING and status in (VerificationStatus.PASS, VerificationStatus.FAIL):
+        status = VerificationStatus.REVIEW_REQUIRED
+        reason = "conflicting evidence across documents, downgrade to REVIEW_REQUIRED"
+        review_reason = ReviewReason.EVIDENCE_CONFLICT
+
+    needs_human = status in (VerificationStatus.REVIEW_REQUIRED, VerificationStatus.NOT_APPLICABLE)
+
+    # Requirement coverage matrix
+    coverage = _build_coverage(item, evidence_by_req, rule, eq)
+
+    return VerificationResult(
+        check_run_id=check_run_id,
+        check_id=item.check_id,
+        title=item.title,
+        category=item.category,
+        severity=item.severity,
+        review_type=item.review_type,
+        status=status,
+        method=item.verification_method,
+        reason=reason,
+        evidence=evidence,
+        evidence_quality=eq,
+        rule_trace=rule_trace,
+        rule_result=rule_trace,
+        confidence=_confidence(status, rule.passed if rule else None, eq),
+        review_questions=review_q,
+        review_reason=review_reason,
+        review_question=_review_question_for_reason(review_reason, item) if review_reason else (review_q[0] if review_q else (f"请人工复核：{item.title}" if needs_human else None)),
+        recommended_action=_recommended_action_for(review_reason, item) if review_reason else (item.recommended_action if needs_human else None),
+        needs_human_review=needs_human,
+        requirement_coverage=coverage,
+        classification_reason=item.classification_reason,
+    )
+
+
+def verify_all(items: list[ChecklistItem], chunks: list[DocumentChunk], audit_id: str = "") -> tuple[list[VerificationResult], dict[str, Any]]:
+    facts = extract_facts(chunks)
+    llm = LLMClient()
+    ctx = VerifyContext(chunks=chunks, facts=facts, llm=llm, audit_id=audit_id)
+    results = [verify_item(it, ctx) for it in items]
+    return results, facts
